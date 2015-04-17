@@ -46,7 +46,7 @@ Design Comps:
 * Artist.html
 
 Developed Page:
-* Single artist detailed page. --I will ask about having this dynamic inside the artist list and how that will affect this part of the assesment(we can trash the idea if it is not suitable).
+* Single artist detailed page. --I will ask about having this dynamic inside the artist list !! update !! lindsay has ok'ed this we just need to supply artists list page with only 1 artist expanded(no dynamic code needed).
 
 
 
