@@ -34,9 +34,9 @@ Week 8
 **CP1406**
 
 Complete Project Plan:
-* Mission Statement.
-* Success Evaluation.
-* Target Audience.
+* Mission Statement.    //**Done** Kurt - feel free to edit/touchup any work I have done if you think it needs it.
+* Success Evaluation.   //**Done** Kurt
+* Target Audience.      //**Done** Kurt
 * Content.
 * Flowchart.
 
