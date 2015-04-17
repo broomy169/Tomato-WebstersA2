@@ -26,11 +26,11 @@ Week 8
 
 **CP2010**
 
-* illustrate database structure //**done** Graeme/kurt
+* illustrate database structure //needs touchup see below
 * implement database structure.
 * test database structure.
 * Complete todo list for this week (base it on the assessment due in week 9)
-* need to add band category's(each category a seperate field in the band table - see assignment worksheet for details.
+* need to add band category's(each category a separate field in the band table - see assignment worksheet for details.
 
 **CP1406**
 
