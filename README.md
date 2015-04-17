@@ -18,7 +18,7 @@ To me it doesnt seem to follow the exact syntax on github as stated on wikipedia
 
 # TODO area
 
-Please add a //done yourname tag to the end of the line if it is completed.
+Please add a //**done** yourname tag to the end of the line if it is completed.
 If there is a problem add a // !!! Issues !!! yourname issuesDescription nameOfIssueInIssueTracker
 
 Week 8
@@ -26,14 +26,14 @@ Week 8
 
 **CP2010**
 
-* illistrate database structure //done Graeme/kurt
+* illistrate database structure //**done** Graeme/kurt
 * implement database structure.
 * test database structure.
 * Complete todo list for this week (base it on the assesment due in week 9)
 
 **CP1406**
 
-Compete Project Plan:
+Complete Project Plan:
 * Mission Statement.
 * Succes Evaluation.
 * Target Audience.
