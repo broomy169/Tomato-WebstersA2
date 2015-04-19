@@ -1,0 +1,10 @@
+h1 {color: #00c5e8}
+h2 {color: #c6645b}
+redcolor {color: red}
+#bandBlock {border: groove #81cee3 10px; margin: 5px 0 10px 0;}
+#photoBlock {text-align: center; float: right; width: 60%; padding: 5px;}
+#infoBlock {text-align: right; float: left; width: 38%; padding: 10px;}
+#morephotoBlock {display: none;}
+#moreinfoBlock {display: none; }
+#clearBlock {clear: both;}
+#moreinfo {width: 100%; margin-bottom: 1px; text-align: center;}
