@@ -96,9 +96,9 @@
 
           \n";
                 ?>
-                <input type="submit" name="submit" value="Update Information" />
-                <input type="submit" name="submit" value="Delete Entry" class="deleteButton"/>
-                <input type="submit" name="submit" value="X" class="deleteButton"/>
+                <input type="submit" id="submit" name="submit" value="Update Information" />
+                <input type="submit" name="submit" value="Delete Record" class="deleteButton">
+                <input type="submit" name="submit" id="xButton" value="X" class="deleteButton">
             </form>
         <?php
         }

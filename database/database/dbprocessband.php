@@ -4,9 +4,9 @@ $debugOn = true;
 
 if ($_REQUEST['submit'] == "X")
 {
-    $sql = "DELETE FROM Band WHERE band_id = '$_REQUEST[band_id]'";
+    $sql = "DELETE FROM Band WHERE id = '$_REQUEST[band_id]'";
     if ($dbh->exec($sql))
-        header("Location: manageband.php");
+        header("Location: band.php");
 }
 ?>
 
@@ -22,8 +22,7 @@ if ($_REQUEST['submit'] == "X")
 echo "<h2>Data</h2>";
 
 // execute the appropriate query based on which submit button (insert, delete or update) was clicked
-if ($_REQUEST['submit'] == "Add Entry") 
-{
+if ($_REQUEST['submit'] == "Add Entry") {
     $sql = "INSERT INTO Band (band_name, band_email, band_phone, band_website, band_shortbio, band_longbio, band_promopic,
 band_pomoicon) VALUES ('$_REQUEST[band_name]', '$_REQUEST[band_email]','$_REQUEST[band_phone]',
 '$_REQUEST[band_website]', '$_REQUEST[band_shortbio]', '$_REQUEST[band_longbio]',
