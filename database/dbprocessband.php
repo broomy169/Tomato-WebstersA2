@@ -4,7 +4,7 @@ $debugOn = true;
 
 if ($_REQUEST['submit'] == "X")
 {
-    $sql = "DELETE FROM band WHERE id = '$_REQUEST[band_id]'";
+    $sql = "DELETE FROM Band WHERE id = '$_REQUEST[band_id]'";
     if ($dbh->exec($sql))
         header("Location: band.php");
 }
@@ -22,8 +22,8 @@ if ($_REQUEST['submit'] == "X")
 echo "<h2>Data</h2>";
 
 // execute the appropriate query based on which submit button (insert, delete or update) was clicked
-if ($_REQUEST['submit'] == "Add Record") {
-    $sql = "INSERT INTO band (band_name, band_email, band_phone, band_website, band_shortbio, band_longbio, band_promopic,
+if ($_REQUEST['submit'] == "Add Entry") {
+    $sql = "INSERT INTO Band (band_name, band_email, band_phone, band_website, band_shortbio, band_longbio, band_promopic,
 band_pomoicon) VALUES ('$_REQUEST[band_name]', '$_REQUEST[band_email]','$_REQUEST[band_phone]',
 '$_REQUEST[band_website]', '$_REQUEST[band_shortbio]', '$_REQUEST[band_longbio]',
 '$_REQUEST[band_promopic]','$_REQUEST[band_promoicon]')";
@@ -35,7 +35,7 @@ band_pomoicon) VALUES ('$_REQUEST[band_name]', '$_REQUEST[band_email]','$_REQUES
 }
 else if ($_REQUEST['submit'] == "Delete Entry")
 {
-    $sql = "DELETE FROM band WHERE id = '$_REQUEST[band_id]'";
+    $sql = "DELETE FROM Band WHERE band_id = '$_REQUEST[band_id]'";
     echo "<p>Query: " . $sql . "</p>\n<p><strong>";
     if ($dbh->exec($sql))
         echo "Deleted $_REQUEST[band_name]";
@@ -44,9 +44,7 @@ else if ($_REQUEST['submit'] == "Delete Entry")
 }
 else if ($_REQUEST['submit'] == "Update Information")
 {
-    $sql = "UPDATE band SET name = '$_REQUEST[band_name]', '$_REQUEST[band_email]','$_REQUEST[band_phone]',
-'$_REQUEST[band_website]' '$_REQUEST[band_shortbio]', '$_REQUEST[band_longbio]' WHERE
- id = '$_REQUEST[band_id]'";
+    $sql = "UPDATE Band SET band_name = '$_REQUEST[band_name]', band_email = '$_REQUEST[band_email]', band_phone = '$_REQUEST[band_phone]', band_website = '$_REQUEST[band_website]', band_shortbio = '$_REQUEST[band_shortbio]', band_longbio = '$_REQUEST[band_longbio]', band_promoicon = '$_REQUEST[band_promoicon]', band_promopic = '$_REQUEST[band_promopic]'  WHERE band_id = '$_REQUEST[band_id]'";
     echo "<p>Query: " . $sql . "</p>\n<p><strong>";
     if ($dbh->exec($sql))
         echo "Updated $_REQUEST[band_name]";
@@ -61,7 +59,7 @@ echo "</strong></p>\n";
 // Basic select and display all contents from table
 
 echo "<h2>Phone Records in Database Now</h2>\n";
-$sql = "SELECT * FROM band";
+$sql = "SELECT * FROM Band";
 $result = $dbh->query($sql);
 $resultCopy = $result;
 

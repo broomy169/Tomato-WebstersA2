@@ -40,36 +40,36 @@
     <fieldset>
         <h2>Insert/Add new band/Artist record:</h2>
             <p>
-                <label for="name">Band/Artist Name:- </label>
-                <input type="text" name="name" id="name">
+                <label for="band_name">Band/Artist Name:- </label>
+                <input type="text" name="band_name" id="band_name">
             </p>
             <p>
-                <label for="phone">Phone:- </label>
-                <input type="text" name="phone" id="phone">
+                <label for="band_phone">Phone:- </label>
+                <input type="text" name="band_phone" id="band_phone">
             </p>
             <p>
-                <label for="email">Email:- </label>
-                <input type="text" name="email" id="email">
+                <label for="band_email">Email:- </label>
+                <input type="text" name="band_email" id="band_email">
             </p>
             <p>
-                <label for="website">Website:- </label>
-                <input type="text" name="website" id="website">
+                <label for="band_website">Website:- </label>
+                <input type="text" name="band_website" id="band_website">
             </p>
             <p>
-                <label for="shortbio">Short Bio:- </label>
-                <textarea type="text" name="shortbio" id="shortbio"></textarea>
+                <label for="band_shortbio">Short Bio:- </label>
+                <textarea type="text" name="band_shortbio" id="band_shortbio"></textarea>
             </p>
             <p>
-                <label for="longbio">Long Bio:- </label>
-                <textarea type="text" name="longbio" id="longbio"></textarea>
+                <label for="band_longbio">Long Bio:- </label>
+                <textarea type="text" name="band_longbio" id="band_longbio"></textarea>
             </p>
             <p>
-                <label for="logophoto">Upload logo/Icon/small photo:- </label>
-                <input type="file" name="logophoto" id="logophoto" >
+                <label for="band_promoicon">Upload logo/Icon/small photo:- </label>
+                <input type="file" name="band_promoicon" id="band_promoicon" >
             </p>
             <p>
-                <label for="photos">Upload photo:- </label>
-                <input type="file" name="photos" id="photos">
+                <label for="band_promoicon">Upload photo:- </label>
+                <input type="file" name="band_promopic" id="band_promopic">
             </p>
             <p><input type="submit" name="submit" id="submit" value="Add Entry"></p>
     </fieldset>
@@ -79,24 +79,24 @@
         <h2>Current Band/Artists data/Information:</h2>
         <?php
         // Displaying database
-        $sql = "SELECT * FROM band";
+        $sql = "SELECT * FROM Band";
         foreach ($dbh->query($sql) as $row){
             ?>
             <form id="editRecord" name="editRecord" method="post" action="dbprocessband.php">
                 <?php
-                echo "<input type='hidden' name='id' value='$row[band_id]' />";
-                echo "<label>Band/Artist Name: </label><input type='text' name='name' value='$row[band_name]' />
-          <label>Phone: </label><input type='text' name='phone' value='$row[band_phone]' />
-          <label>Email: </label><input type='text' name='email' value='$row[band_email]' />
-          <label>Website: </label><input type='text' name='website' value='$row[band_website]' />
-          <label>Short Bio: </label><input type='text' name='shortbio' value='$row[band_shortbio]' />
-          <label>Long Bio: </label><input type='text' name='longbio' value='$row[band_longbio]' />
-          <label>Upload logo/Icon/small photo: </label><input type='file' name='logophoto' value='$row[band_promo]' />
-          <label>Upload Photo: </label><input type='file' name='photos' value='$row[band_promopic]' />
+                echo "<input type='hidden' name='band_id' value='$row[band_id]' />";
+                echo "<label>Band/Artist Name: </label><input type='text' name='band_name' value='$row[band_name]' />
+          <label>Phone: </label><input type='text' name='band_phone' value='$row[band_phone]' />
+          <label>Email: </label><input type='text' name='band_email' value='$row[band_email]' />
+          <label>Website: </label><input type='text' name='band_website' value='$row[band_website]' />
+          <label>Short Bio: </label><input type='text' name='band_shortbio' value='$row[band_shortbio]' />
+          <label>Long Bio: </label><input type='text' name='band_longbio' value='$row[band_longbio]' />
+          <label>Upload Promo Icon: </label><input type='file' name='band_logophoto' value='$row[band_promoicon]' />
+          <label>Upload Promo Pic: </label><input type='file' name='band_photos' value='$row[band_promopic]' />
 
           \n";
                 ?>
-                <input type="submit" id="updateButton" name="submit" value="Update Information" />
+                <input type="submit" id="submit" name="submit" value="Update Information" />
                 <input type="submit" name="submit" value="Delete Record" class="deleteButton">
                 <input type="submit" name="submit" id="xButton" value="X" class="deleteButton">
             </form>
