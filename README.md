@@ -38,7 +38,7 @@ Complete Project Plan:
 * Mission Statement.    //**Done** Kurt - feel free to edit/touchup any work I have done if you think it needs it.
 * Success Evaluation.   //**Done** Kurt
 * Target Audience.      //**Done** Kurt
-* Content.
+* Content.              //**Done** Kurt
 * Flowchart.
 
 Design Comps:
