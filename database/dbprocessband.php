@@ -25,9 +25,10 @@ echo "<h2>Data</h2>";
 if ($_REQUEST['submit'] == "Add Entry") 
 {
     $sql = "INSERT INTO Band (band_name, band_email, band_phone, band_website, band_shortbio, band_longbio, band_promopic,
-band_pomoicon) VALUES ('$_REQUEST[band_name]', '$_REQUEST[band_email]','$_REQUEST[band_phone]',
+band_promoicon) VALUES ('$_REQUEST[band_name]', '$_REQUEST[band_email]', '$_REQUEST[band_phone]',
 '$_REQUEST[band_website]', '$_REQUEST[band_shortbio]', '$_REQUEST[band_longbio]',
-'$_REQUEST[band_promopic]','$_REQUEST[band_promoicon]')";
+'$_REQUEST[band_promopic]', '$_REQUEST[band_promoicon]')";
+
     echo "<p>Query: " . $sql . "</p>\n<p><strong>";
     if ($dbh->exec($sql))
         echo "Inserted $_REQUEST[band_name]";
@@ -59,7 +60,7 @@ echo "</strong></p>\n";
 
 // Basic select and display all contents from table
 
-echo "<h2>Phone Records in Database Now</h2>\n";
+echo "<h2>Band Records in Database Currently</h2>\n";
 $sql = "SELECT * FROM Band";
 $result = $dbh->query($sql);
 $resultCopy = $result;
