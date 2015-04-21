@@ -69,7 +69,8 @@ text
 }
 
 .intro-text {
-    font-size: 1.22222em
+    font-size: 1.22222em;
+    margin: 1em 1em;
 }
 
 .navigation li a,
@@ -109,7 +110,7 @@ row and text medium
     .row-padding {
         padding: 2.5em 0;
     }
-    .row-padding {
+    .row-padding-large {
         padding: 3.33333em 0;
     }
     .banner-text,
@@ -143,7 +144,7 @@ row and text wide
     .row-padding {
         padding: 3em 0;
     }
-    .row-padding {
+    .row-padding-large {
         padding: 4em 0;
     }
     .banner-text {
@@ -151,6 +152,7 @@ row and text wide
     }
     .intro-text {
         font-size: 1.5em;
+        margin: 1em 3em;
     }
     .navigation li a,
     .navigation li span {
