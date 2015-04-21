@@ -4,8 +4,8 @@ containers
 
 .container .container-narrow {
     overflow: hidden;
-    margin: 0 auto;
-    padding: 0 1.33333em;
+    margin: 0em auto;
+    padding: 0em 1.33333em;
     border-radius: 8px;
 }
 
@@ -22,7 +22,7 @@ rows
 /* row-padding */
 
 .row-padding-small {
-    padding 1em 0;
+    padding 1em 0em;
 }
 
 .row-padding,

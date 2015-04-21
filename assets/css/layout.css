@@ -34,14 +34,17 @@ rows
 ----------------------------------- */
 
 .row {
-    margin: 0 auto;
+    margin: 1em auto;
     clear: both;
     overflow: hidden;
     text-align: center;
+    border-radius: 8px;
+    max-width: 75em;
 }
 
 .row-right {
     text-align: right;
+    margin-right: 1em;
 }
 /* -----------------------------------
 cols
