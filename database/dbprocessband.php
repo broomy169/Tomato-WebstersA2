@@ -24,10 +24,11 @@ echo "<h2>Data</h2>";
 // execute the appropriate query based on which submit button (insert, delete or update) was clicked
 if ($_REQUEST['submit'] == "Add Entry") 
 {
-    $sql = "INSERT INTO Band (band_name, band_email, band_phone, band_website, band_shortbio, band_longbio, band_promopic,
-band_promoicon) VALUES ('$_REQUEST[band_name]', '$_REQUEST[band_email]', '$_REQUEST[band_phone]',
+    $bandgenre=$_POST['band_genre'];
+    
+    $sql = "INSERT INTO Band (band_name, band_email, band_phone, band_website, band_shortbio, band_longbio, band_promopic,band_promoicon, band_genre) VALUES ('$_REQUEST[band_name]', '$_REQUEST[band_email]', '$_REQUEST[band_phone]',
 '$_REQUEST[band_website]', '$_REQUEST[band_shortbio]', '$_REQUEST[band_longbio]',
-'$_REQUEST[band_promopic]', '$_REQUEST[band_promoicon]')";
+'$_REQUEST[band_promopic]', '$_REQUEST[band_promoicon]','$bandgenre')";
 
     echo "<p>Query: " . $sql . "</p>\n<p><strong>";
     if ($dbh->exec($sql))

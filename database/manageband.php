@@ -71,6 +71,20 @@
                 <label for="band_promoicon">Upload photo:- </label>
                 <input type="file" name="band_promopic" id="band_promopic">
             </p>
+            <p>
+                <label for="band_genre">Genre:- </label>
+                <select name="band_genre" id="band_genre">
+                    <option value="emptygenre">Please choose genre...</option>
+                    <option value="Rock">Rock</option>
+                    <option value="Pop">Pop</option>
+                    <option value="Metal">Metal</option>
+                    <option value="Jazz">Jazz</option>
+                    <option value="Classical">Classical</option>
+                    <option value="Country">Country</option>
+                    <option value="Hiphop">Hip Hop</option>
+                    <option value="Rap">Rap</option>
+                </select>
+            </p>
             <p><input type="submit" name="submit" id="submit" value="Add Entry"></p>
     </fieldset>
 </form>
