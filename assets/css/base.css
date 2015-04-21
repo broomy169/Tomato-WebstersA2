@@ -46,3 +46,7 @@ img {
     vertical-align: middle;
     border: 0;
 }
+
+li {
+    list-style-type: none;
+}

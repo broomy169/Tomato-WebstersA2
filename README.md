@@ -44,10 +44,10 @@ Complete Project Plan:
 Design Comps:
 * Index.html
 * AboutUs.html
-* Artist.html
+* Artist.html   //**Done** see below
 
 Developed Page:
-* Single artist detailed page. --I will ask about having this dynamic inside the artist list !! update !! lindsay has ok'ed this we just need to supply artists list page with only 1 artist expanded(no dynamic code needed).
+* Single artist detailed page. --Dynamic is ok  //**done 90%** - maybe? good enough for milestone.
 
 
 
