@@ -24,11 +24,12 @@ echo "<h2>Data</h2>";
 // execute the appropriate query based on which submit button (insert, delete or update) was clicked
 if ($_REQUEST['submit'] == "Add Entry") 
 {
-    $bandgenre=$_POST['band_genre'];
+    //$_REQUEST[band_genre]=$_POST['band_genre'];
     
-    $sql = "INSERT INTO Band (band_name, band_email, band_phone, band_website, band_shortbio, band_longbio, band_promopic,band_promoicon, band_genre) VALUES ('$_REQUEST[band_name]', '$_REQUEST[band_email]', '$_REQUEST[band_phone]',
+    $sql = "INSERT INTO Band (band_name, band_email, band_phone, band_website, band_shortbio, band_longbio, band_promopic,
+band_promoicon, band_genre) VALUES ('$_REQUEST[band_name]','$_REQUEST[band_email]', '$_REQUEST[band_phone]',
 '$_REQUEST[band_website]', '$_REQUEST[band_shortbio]', '$_REQUEST[band_longbio]',
-'$_REQUEST[band_promopic]', '$_REQUEST[band_promoicon]','$bandgenre')";
+'$_REQUEST[band_promopic]', '$_REQUEST[band_promoicon]', '$_REQUEST[band_genre]')";
 
     echo "<p>Query: " . $sql . "</p>\n<p><strong>";
     if ($dbh->exec($sql))
@@ -47,7 +48,11 @@ else if ($_REQUEST['submit'] == "Delete Entry")
 }
 else if ($_REQUEST['submit'] == "Update Information")
 {
-    $sql = "UPDATE Band SET band_name = '$_REQUEST[band_name]', band_email = '$_REQUEST[band_email]', band_phone = '$_REQUEST[band_phone]', band_website = '$_REQUEST[band_website]', band_shortbio = '$_REQUEST[band_shortbio]', band_longbio = '$_REQUEST[band_longbio]', band_promoicon = '$_REQUEST[band_promoicon]', band_promopic = '$_REQUEST[band_promopic]'  WHERE band_id = '$_REQUEST[band_id]'";
+    $sql = "UPDATE Band SET band_name = '$_REQUEST[band_name]', band_email = '$_REQUEST[band_email]', band_phone =
+'$_REQUEST[band_phone]', band_website = '$_REQUEST[band_website]', band_shortbio =
+'$_REQUEST[band_shortbio]', band_longbio = '$_REQUEST[band_longbio]', band_promoicon =
+'$_REQUEST[band_promoicon]', band_promopic = '$_REQUEST[band_promopic]', band_genre = '$_REQUEST[band_genre]'   WHERE
+band_id = '$_REQUEST[band_id]'";
     echo "<p>Query: " . $sql . "</p>\n<p><strong>";
     if ($dbh->exec($sql))
         echo "Updated $_REQUEST[band_name]";

@@ -44,6 +44,21 @@
                 <input type="text" name="band_name" id="band_name">
             </p>
             <p>
+                <label for="band_genre">Genre:- </label>
+                <select name="band_genre" id="band_genre">
+                    <option value="emptygenre">Please choose genre...</option>
+                    <option value="Rock">Rock</option>
+                    <option value="Pop">Pop</option>
+                    <option value="Metal">Metal</option>
+                    <option value="Jazz">Jazz</option>
+                    <option value="Classical">Classical</option>
+                    <option value="Country">Country</option>
+                    <option value="Hip Hop">Hip Hop</option>
+                    <option value="Rap">Rap</option>
+                </select>
+            </p>
+
+            <p>
                 <label for="band_phone">Phone:- </label>
                 <input type="text" name="band_phone" id="band_phone">
             </p>
@@ -71,20 +86,7 @@
                 <label for="band_promoicon">Upload photo:- </label>
                 <input type="file" name="band_promopic" id="band_promopic">
             </p>
-            <p>
-                <label for="band_genre">Genre:- </label>
-                <select name="band_genre" id="band_genre">
-                    <option value="emptygenre">Please choose genre...</option>
-                    <option value="Rock">Rock</option>
-                    <option value="Pop">Pop</option>
-                    <option value="Metal">Metal</option>
-                    <option value="Jazz">Jazz</option>
-                    <option value="Classical">Classical</option>
-                    <option value="Country">Country</option>
-                    <option value="Hiphop">Hip Hop</option>
-                    <option value="Rap">Rap</option>
-                </select>
-            </p>
+
             <p><input type="submit" name="submit" id="submit" value="Add Entry"></p>
     </fieldset>
 </form>
@@ -100,6 +102,19 @@
                 <?php
                 echo "<input type='hidden' name='band_id' value='$row[band_id]' />";
                 echo "<label>Band/Artist Name: </label><input type='text' name='band_name' value='$row[band_name]' />
+                <label for='band_genre'>Genre: </label>
+                <select name='band_genre' id='band_genre'>
+                    <option>$row[band_genre]</option>
+                    <option value='Rock'>Rock</option>
+                    <option value='Pop'>Pop</option>
+                    <option value='Metal'>Metal</option>
+                    <option value='Jazz'>Jazz</option>
+                    <option value='Classical'>Classical</option>
+                    <option value='Country'>Country</option>
+                    <option value='Hip Hop'>Hip Hop</option>
+                    <option value='Rap'>Rap</option>
+                 </select>
+
           <label>Phone: </label><input type='text' name='band_phone' value='$row[band_phone]' />
           <label>Email: </label><input type='text' name='band_email' value='$row[band_email]' />
           <label>Website: </label><input type='text' name='band_website' value='$row[band_website]' />
