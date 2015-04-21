@@ -1,0 +1,166 @@
+/* -----------------------------------
+containers
+----------------------------------- */
+
+.container .container-narrow {
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0 1.33333em;
+    border-radius: 8px;
+}
+
+.container {
+    max-width: 75em;
+}
+
+.container-narrow {
+    max-width: 33em;
+}
+/* -----------------------------------
+rows
+----------------------------------- */
+/* row-padding */
+
+.row-padding-small {
+    padding 1em 0;
+}
+
+.row-padding,
+.row-padding-large {
+    padding 2em 0;
+}
+/* row-colors */
+
+.row-white {
+    background: #fff;
+}
+
+.row-gray {
+    background: #dedede;
+}
+
+.row-black {
+    background: #1e1e1e;
+    color: #ddd;
+}
+/* row-banner */
+
+.row-banner {
+    background-color: #003a83;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* -----------------------------------
+text
+----------------------------------- */
+
+.banner-text,
+.intro-text,
+.footer-text {
+    margin: 0 auto;
+    font-weight: normal;
+}
+
+.banner-text {
+    color: #fff;
+    font-size: 2em;
+}
+
+.intro-text {
+    font-size: 1.22222em
+}
+
+.navigation li a,
+.navigation li span {
+    padding: .1em .5em;
+    margin 0em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.5em;
+    letter-spacing: 1px;
+    color: #FFF;
+}
+
+.navigation li:hover a,
+.navigation li.active a,
+.navigation li.active span {
+    background: #dc572e;
+    border-radius: 7px;
+    color: #FFF;
+}
+
+.bands .bands-expanded {
+    text-align: center;
+}
+
+.bands {}
+
+.bands-expanded img {
+    width: 100%;
+    float: right;
+}
+/* -----------------------------------
+row and text medium
+----------------------------------- */
+
+@media (min-width: 30em) {
+    .row-padding {
+        padding: 2.5em 0;
+    }
+    .row-padding {
+        padding: 3.33333em 0;
+    }
+    .banner-text,
+    .intro-text,
+    .footer-text {
+        text-align: center;
+    }
+    .banner-text {
+        font-size: 2.44444em;
+    }
+    .intro-text {
+        font-size: 1.33333em;
+    }
+    .navigation li a,
+    .navigation li span {
+        font-size: .7em;
+    }
+    .bands .bands-expanded {
+        text-align: left;
+    }
+    .bands-expanded img {
+        width: 70%;
+        float: right;
+    }
+}
+/* -----------------------------------
+row and text wide
+----------------------------------- */
+
+@media (min-width: 50em) {
+    .row-padding {
+        padding: 3em 0;
+    }
+    .row-padding {
+        padding: 4em 0;
+    }
+    .banner-text {
+        font-size: 3em;
+    }
+    .intro-text {
+        font-size: 1.5em;
+    }
+    .navigation li a,
+    .navigation li span {
+        font-size: 1em;
+    }
+    .bands .bands-expanded {
+        text-align: left;
+    }
+    .bands-expanded img {
+        width: 40%;
+        float: right;
+    }
+}
