@@ -1,12 +1,60 @@
-h1 {}
-h2 {}
-ul {display: inline-block}
-p{font-family: Comic Sans, Tahoma, Geneva, sans-serif; font-size: 110%;}
-#band {border: groove #81cee3 10px; margin: 5px 0 10px 0;}
-#photo {display: block; text-align: center; float: right; width: 65%; padding: 5px;}
-#info {display: block; text-align: center; float: left; width: 30%; padding: 10px;}
-#clearBlock {clear: both;}
-.photo {display: none;}
-.moreInfo {display: none;}
-.expandButton {width: 100%; margin-bottom: 1px; text-align: center;}
+ul {
+    display: block;
+}
 
+#photo {
+    display: block;
+    text-align: center;
+    float: right;
+    width: 60%;
+    padding: 5px;
+}
+
+#info {
+    display: block;
+    text-align: left;
+    float: left;
+    width: 40%;
+    padding: 10px;
+}
+
+#clearBlock {
+    clear: both;
+}
+
+.photo {
+    display: none;
+}
+
+.moreInfo {
+    display: none;
+}
+
+.expandButton {
+    width: 97%;
+    height: 30px;
+    margin: 3px;
+    text-align: center;
+    align-content: center;
+    letter-spacing: 5px;
+    font-size: 60%;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color:
+    #dc572e;
+    box-shadow: none;
+}
+.expandButton:hover {
+    cursor: hand;
+    cursor: pointer;
+    letter-spacing: 10px;
+    font-size: 100%;
+}
+
+.bandClass {
+    width: 100%;
+    border-bottom: solid #878787 3px;
+    border-top: solid #878787 3px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}

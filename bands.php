@@ -19,9 +19,9 @@
     <div class="header">
         <div class="navigation">
             <ul>
-                <li><a href="index.html">Home</a>
+                <li><a href="index.php">Home</a>
                 </li>
-                <li class="active"><a href="bands.html">bands</a>
+                <li class="active"><a href="bands.php">bands</a>
                 </li>
                 <li><a href="events.html">Events</a>
                 </li>
@@ -70,31 +70,7 @@
     <div class="row row-padding-large row-gray">
         <div class="container bands">
             <ul>
-                <li class="box">small artist
-                </li>
-                <li class="box bands-expanded">
-
-                    <!-- Large image -->
-                    <img src="database/images/musos/Celtic-Fyre-Wall-with-Fire8.jpg">
-
-                    <!-- BandName -->
-                    <h2>Celtic Fire</h2>
-
-                    <!-- short bio -->
-                    <h3>The alternative celtic rock band from North Queensland</h3>
-
-                    <!--- Long Bio -->
-                    <p>Typical audience response: - <em>"<strong>WOW - I wasn't prepared for that!</strong> Racing around the stage in kilts, blowing bagpipes, jumping from one instrument to the next, these guys know how to entertain!"</em>
-                    </p>
-                    <p>They will break your heart with the mournful and eerie sounds of the Great Highland Bagpipe and then crank it up real hard and rock you 'til you drop. This 11 piece band is a fun-loving kick-em-in-the-pants band that just wants to rock - celtic style!
-                    </p>
-                    <!-- phone -->
-                    <!-- Email -->
-                    <!-- website -->
-                    <a href="https:\\www.celticfyre.com"> www.celticfyre.com</a>
-                </li>
-                <li class="box">small artist
-                </li>
+                <?php include('database/band.php'); //included file to pull and displays all artists/band information from sqlite?>
             </ul>
 
         </div>
