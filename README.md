@@ -49,7 +49,9 @@ Design Comps:
 Developed Page:
 * Single artist detailed page. --Dynamic is ok  //**done 90%** - maybe? good enough for milestone.
 
-
+WISHLIST 
+--------
+* Make fields in forms to be required where needed
 
 
 
