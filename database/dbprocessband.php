@@ -32,10 +32,12 @@ band_promoicon, band_genre) VALUES ('$_REQUEST[band_name]','$_REQUEST[band_email
 '$_REQUEST[band_promopic]', '$_REQUEST[band_promoicon]', '$_REQUEST[band_genre]')";
 
     echo "<p>Query: " . $sql . "</p>\n<p><strong>";
-    if ($dbh->exec($sql))
+	if ($_POST['band_genre'] == 'emptygenre') 
+		echo "must choose genre";
+    elseif ($dbh->exec($sql))
         echo "Inserted $_REQUEST[band_name]";
     else
-        echo "Not inserted"; // in case it didn't work - e.g. if database is not writeable
+        echo "Not inserted";
 }
 else if ($_REQUEST['submit'] == "Delete Entry")
 {

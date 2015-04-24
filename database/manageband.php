@@ -28,11 +28,7 @@
     #editRecord{border: #09ceff outset 10px; margin: 5px; padding: 10px;}
 </style>
 <script>
-
-
 </script>
-
-
 <body>
 <div id="pageWrapper">
 <h1>Manage (Add/remove/update) Band and Artists</h1>
