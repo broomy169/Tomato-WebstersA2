@@ -70,11 +70,14 @@
     <div class="row row-padding-large row-gray">
         <div class="container bands">
             <ul>
-                <?php include('database/band.php'); //included file to pull and displays all artists/band information from sqlite?>
+                <?php
+                $urlVar = 'database/';
+                include($urlVar.'band.php'); //included file to pull and displays all artists/band information from sqlite
+                ?>
             </ul>
 
         </div>
-    </div>
+    ?></div>
     <!--- END of artists list ---->
     <!--- START guilt trip -->
     <div class="row row-padding row-black">
@@ -84,8 +87,6 @@
                 Not a single gig would ever get off the ground without the tireless efforts of volunteers.<br></h2>
                 <h2>Help us and have fun!!
                 </h2>
-
-
             </div>
         </a>
     </div>

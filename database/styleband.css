@@ -1,5 +1,9 @@
 ul {
     display: block;
+    margin: 0 auto;
+}
+#icon {
+    padding-top: 15px;
 }
 
 #photo {
@@ -22,33 +26,8 @@ ul {
     clear: both;
 }
 
-.photo {
+.photo, .moreInfo {
     display: none;
-}
-
-.moreInfo {
-    display: none;
-}
-
-.expandButton {
-    width: 97%;
-    height: 30px;
-    margin: 3px;
-    text-align: center;
-    align-content: center;
-    letter-spacing: 5px;
-    font-size: 60%;
-    border-radius: 10px;
-    color: #ffffff;
-    background-color:
-    #dc572e;
-    box-shadow: none;
-}
-.expandButton:hover {
-    cursor: hand;
-    cursor: pointer;
-    letter-spacing: 10px;
-    font-size: 100%;
 }
 
 .bandClass {
@@ -57,4 +36,14 @@ ul {
     border-top: solid #878787 3px;
     border-radius: 10px;
     margin-bottom: 40px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.bandClass:hover {
+    cursor: hand;
+    cursor: pointer;
 }

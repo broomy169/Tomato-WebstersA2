@@ -1,5 +1,8 @@
 <?php
-include("inc_dbconnect.php");
+
+isset($urlVar) || $urlVar = "";
+include($urlVar."inc_dbconnect.php");
+
 $debugOn = true;
 
 if ($_REQUEST['submit'] == "X")
@@ -17,27 +20,36 @@ if ($_REQUEST['submit'] == "X")
     <title>Band/Artists editing - TCMC</title>
 </head>
 <body>
+<p><a href="manageband.php">Return to band database</a></p>
 <h1>Results</h1>
+
 <?php
 echo "<h2>Data</h2>";
 
 // execute the appropriate query based on which submit button (insert, delete or update) was clicked
 if ($_REQUEST['submit'] == "Add Entry") 
 {
-    //$_REQUEST[band_genre]=$_POST['band_genre'];
-    
-    $sql = "INSERT INTO Band (band_name, band_email, band_phone, band_website, band_shortbio, band_longbio, band_promopic,
-band_promoicon, band_genre) VALUES ('$_REQUEST[band_name]','$_REQUEST[band_email]', '$_REQUEST[band_phone]',
-'$_REQUEST[band_website]', '$_REQUEST[band_shortbio]', '$_REQUEST[band_longbio]',
-'$_REQUEST[band_promopic]', '$_REQUEST[band_promoicon]', '$_REQUEST[band_genre]')";
+    include_once("upload_icon.php");
+    include_once("upload_image.php");
+    $iconUrl = (string)$thumbFullName;
+    $imgUrl = (string)$newFullName;
+
+    // uploadIcon's $thumbFullName === image url that will be saved as string to the database server
+
+    $sql = "INSERT INTO Band (band_name, band_email, band_phone, band_website, band_shortBio, band_longBio, band_genre, band_promoIcon, band_promoPic) VALUES ('$_REQUEST[band_name]', '$_REQUEST[band_email]', '$_REQUEST[band_phone]', '$_REQUEST[band_website]', '$_REQUEST[band_shortBio]', '$_REQUEST[band_longBio]', '$_REQUEST[band_genre]', '$iconUrl', '$imgUrl')";
+
+    /*
+     * attempting to include upload_file.php so every time add entery is clicked file is upload on same time. this will save user time by one click add information
+     *
+     */
+
+
 
     echo "<p>Query: " . $sql . "</p>\n<p><strong>";
-	if ($_POST['band_genre'] == 'emptygenre') 
-		echo "must choose genre";
-    elseif ($dbh->exec($sql))
+    if ($dbh->exec($sql))
         echo "Inserted $_REQUEST[band_name]";
     else
-        echo "Not inserted";
+        echo "Not inserted"; // in case it didn't work - e.g. if database is not writeable
 }
 else if ($_REQUEST['submit'] == "Delete Entry")
 {
@@ -50,11 +62,13 @@ else if ($_REQUEST['submit'] == "Delete Entry")
 }
 else if ($_REQUEST['submit'] == "Update Information")
 {
+
     $sql = "UPDATE Band SET band_name = '$_REQUEST[band_name]', band_email = '$_REQUEST[band_email]', band_phone =
-'$_REQUEST[band_phone]', band_website = '$_REQUEST[band_website]', band_shortbio =
-'$_REQUEST[band_shortbio]', band_longbio = '$_REQUEST[band_longbio]', band_promoicon =
-'$_REQUEST[band_promoicon]', band_promopic = '$_REQUEST[band_promopic]', band_genre = '$_REQUEST[band_genre]'   WHERE
+'$_REQUEST[band_phone]', band_website = '$_REQUEST[band_website]', band_shortBio =
+'$_REQUEST[band_shortBio]', band_longBio = '$_REQUEST[band_longBio]', band_genre = '$_REQUEST[band_genre]' WHERE
 band_id = '$_REQUEST[band_id]'";
+
+
     echo "<p>Query: " . $sql . "</p>\n<p><strong>";
     if ($dbh->exec($sql))
         echo "Updated $_REQUEST[band_name]";
