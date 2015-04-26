@@ -15,13 +15,17 @@ $blockTally = 1;
 foreach($dbh->query($sql) as $row){
 
     // setting up and storing url links for icon and image
-    $iconUrl = $urlVar . $row[band_promoIcon];
-    $imgUrl = $urlVar . $row[band_promoPic];
+    $iconUrl = $urlVar . $row['band_promoIcon'];
+    $imgUrl = $urlVar . $row['band_promoPic'];
 
-    echo "<div id='band$blockTally' class='bandClass' onclick='expand($blockTally);' title='click expand for more information' value='hide'>\n";
+    echo "<div id='band$blockTally' class='bandClass' onclick='expand($blockTally);' title='click here for more information' value='hide'>\n";
     echo "<div id='info'>\n<h2>$row[band_name]</h2>\n<h3>$row[band_shortBio]</h3>\n";
-    echo "<div id='moreInfo$blockTally' class='moreInfo'>\n<h3>$row[band_longBio]</h3>\n<ul>\n<li><p>Phone: ($row[band_phone])</p></li>\n<li><p>Email: $row[band_email]
-</p></li>\n<li><p>Website: <a href=$row[band_website]>$row[band_website]</a></p></li>\n";
+    echo "<div id='moreInfo$blockTally' class='moreInfo'>\n<p>$row[band_longBio]</p>\n<ul>\n<li><p
+title='contact us on this phone number'>Phone: $row[band_phone]</p></li>\n
+<li><p title='click here to email us'>Email: <a href='mailto:$row[band_email]'>$row[band_email]</a></p></li>\n
+<li><p title='click here to go to our website'>Website: <a target='_blank'
+href=$row[band_website]>
+$row[band_website]</a></p></li>\n";
     echo "</div>\n";
     echo "</div>\n";
     echo "<div id='icon'>\n<h2><img src='$iconUrl'></h2>\n";

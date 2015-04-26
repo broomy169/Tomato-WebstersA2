@@ -7,11 +7,13 @@ function expand(tally){
 
     if (click.value === "show"){
         click.value = "hide";
+        click.title = "click here for more information";
         moreInfo.style.display = "none";
         photo.style.display = "none";
 
     } else {
         click.value = "show";
+        click.title = "click here for less information";
         moreInfo.style.display = "block";
         photo.style.display = "block";
     }
