@@ -37,17 +37,18 @@ if ($_REQUEST['submit'] == "Add Entry")
     // uploadIcon's $thumbFullName === image url that will be saved as string to the database server
 
     //converting special characters to html code for storing in database correctly.
-    //$shortBio = htmlspecialchars($_REQUEST[band_shortBio]);
-    //$longBio = htmlspecialchars($_REQUEST[band_longBio]);
+    $phone = htmlspecialchars($_REQUEST[band_phone]);
+    $email = htmlspecialchars($_REQUEST[band_email]);
+    $website = htmlspecialchars($_REQUEST[band_website]);
+    $shortBio = htmlspecialchars($_REQUEST[band_shortBio]);
+    $longBio = htmlspecialchars($_REQUEST[band_longBio]);
 
-    $sql = "INSERT INTO Band (band_name, band_email, band_phone, band_website, band_shortBio, band_longBio, band_genre, band_promoIcon, band_promoPic) VALUES ('$_REQUEST[band_name]', '$_REQUEST[band_email]', '$_REQUEST[band_phone]', '$_REQUEST[band_website]', '$_REQUEST[band_shortBio]', '$_REQUEST[band_longBio]', '$_REQUEST[band_genre]', '$iconUrl', '$imageUrl')";
+    $sql = "INSERT INTO Band (band_name, band_email, band_phone, band_website, band_shortBio, band_longBio, band_genre, band_promoIcon, band_promoPic) VALUES ('$_REQUEST[band_name]', '$email', '$phone', '$website', '$shortBio', '$longBio', '$_REQUEST[band_genre]', '$iconUrl', '$imageUrl')";
 
     /*
      * attempting to include upload_file.php so every time add entery is clicked file is upload on same time. this will save user time by one click add information
      *
      */
-
-
 
     echo "<p>Query: " . $sql . "</p>\n<p><strong>";
     if ($dbh->exec($sql))
@@ -55,6 +56,7 @@ if ($_REQUEST['submit'] == "Add Entry")
     else
         echo "Not inserted"; // in case it didn't work - e.g. if database is not writeable
 }
+
 else if ($_REQUEST['submit'] == "Delete Entry")
 {
     $sql = "DELETE FROM Band WHERE band_id = '$_REQUEST[band_id]'";
@@ -66,16 +68,21 @@ else if ($_REQUEST['submit'] == "Delete Entry")
 }
 else if ($_REQUEST['submit'] == "Update Information")
 {
-    include_once("upload_icon.php");
+
+    include_once("update_icon.php");
     include_once("update_image.php");
     $iconUrl = (string)$thumbFullName;
     $imageUrl = (string)$newFullName;
-    //converting special characters to html code for storing in database correctly.
-    //$shortBio = htmlspecialchars($_REQUEST[band_shortBio]);
-    //$longBio = htmlspecialchars($_REQUEST[band_longBio]);
 
-    $sql = "UPDATE Band SET band_name = '$_REQUEST[band_name]', band_email = '$_REQUEST[band_email]', band_phone =
-'$_REQUEST[band_phone]', band_website = '$_REQUEST[band_website]', band_shortBio = '$_REQUEST[band_shortBio]', band_longBio = '$_REQUEST[band_longBio]', band_genre = '$_REQUEST[band_genre]', band_promoIcon = '$iconUrl', band_promoPic = '$imageUrl'  WHERE
+    //converting special characters to html code for storing in database correctly.
+    $phone = htmlspecialchars($_REQUEST[band_phone]);
+    $email = htmlspecialchars($_REQUEST[band_email]);
+    $website = htmlspecialchars($_REQUEST[band_website]);
+    $shortBio = htmlspecialchars($_REQUEST[band_shortBio]);
+    $longBio = htmlspecialchars($_REQUEST[band_longBio]);
+
+    $sql = "UPDATE Band SET band_name = '$_REQUEST[band_name]', band_email = '$email', band_phone =
+'$phone', band_website = '$website', band_shortBio = '$shortBio', band_longBio = '$longBio', band_genre = '$_REQUEST[band_genre]', band_promoIcon = '$iconUrl', band_promoPic = '$imageUrl'  WHERE
 band_id = '$_REQUEST[band_id]'";
 
 

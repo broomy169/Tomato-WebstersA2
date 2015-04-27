@@ -23,24 +23,23 @@ foreach($dbh->query($sql) as $row){
     echo "<div id='moreInfo$blockTally' class='moreInfo'>\n<p>$row[band_longBio]</p>\n<ul>\n<li><p
 title='contact us on this phone number'>Phone: $row[band_phone]</p></li>\n
 <li><p title='click here to email us'>Email: <a href='mailto:$row[band_email]'>$row[band_email]</a></p></li>\n
-<li><p title='click here to go to our website'>Website: <a target='_blank'
-href=$row[band_website]>
-$row[band_website]</a></p></li>\n";
+<li><p title='click here to go to our website'>Website: <a target='_blank' href=$row[band_website]>$row[band_website]</a></p></li>\n";
     echo "</div>\n";
     echo "</div>\n";
 
-    //checking and showing if icon image already added by user otherwise displaying default image
+    //checking and showing if image already added by user otherwise displaying default image
     if (file_exists($iconUrl)){
         echo "<div id='icon'>\n<h2><img src='$iconUrl'></h2>\n";
     } else {
-        echo "<div id='icon'>\n<h2><img src='database/images/defaultIcon.jpg'></h2>\n";
+        echo "<div id='icon'>\n<h2><img src=$urlVar . 'images/defaultTomato.jpg'></h2>\n";
     }
+    //echo "<div id='icon'>\n<h2><img src='$iconUrl'></h2>\n";
 
     //checking and showing if image already added by user otherwise displaying default image
-    if (file_exists($imgUrl)){
+    if (file_exists($imageUrl)){
         echo "<div id='photo$blockTally' class='photo'>\n<li><h2><img src='$imageUrl'></h2>\n";
     } else {
-        echo "<div id='photo$blockTally' class='photo'>\n<li><h2><img src='database/images/defaultTomato.jpg'></h2>\n";
+        echo "<div id='photo$blockTally' class='photo'>\n<li><h2><img src=$urlVar . 'images/defaultTomatoLight.jpg'></h2>\n";
     }
 
     echo "</div>\n";

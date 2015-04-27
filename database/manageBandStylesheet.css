@@ -99,6 +99,17 @@ h2 {
     text-align: left;
 }
 
+h4 {
+    font-style: italic;
+    color: #ff7d7d;
+}
+
 body {
     background-color: rgba(46, 5, 5, 0.32)
+}
+
+#box {
+    border: thick solid #ff0006;
+    width: 95%;
+    padding: 5px;
 }

@@ -26,13 +26,14 @@ if ((($_FILES["imagefile"]["type"] == "image/gif")
 		} else {
             //creating file name, resizing image and saving to images directory
 			$newName = time() . $_FILES["imagefile"]["name"];
-            $newFullName = "images/pic{$newName}";
+            $newFullName = "images/{$newName}";
 			// move the temporary file to the destination directory (images) and give it its new name
 			move_uploaded_file($_FILES["imagefile"]["tmp_name"], $newFullName);
 
 			//resizing image
             $bigImage = WideImage::load($newFullName);
             $resizeImage = $bigImage->resize(800, 800);
+            $newFullName = "images/pic{$newName}";
             $resizeImage->saveToFile($newFullName);
 
 			// setting permission on the file
@@ -51,7 +52,7 @@ if ((($_FILES["imagefile"]["type"] == "image/gif")
                 $thumbnailImage->saveToFile($thumbFullName);
                 echo "Stored thumnail as: $thumbFullName<br />\n";
                 $size = getimagesize($thumbFullName);
-                echo "<img src=\"$thumbFullName\" " . $size[3] . " /><br />\n";
+                echo "<img src='$thumbFullName' " . $size[3] . " /><br />\n";
             }
 		}
 	}

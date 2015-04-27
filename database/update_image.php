@@ -1,4 +1,15 @@
 <?php
+/*
+PHP File uploading example for CP2010
+Lindsay Ward, 2014 (from various iterations over the years)
+
+Note: with image resizing using WideImage library (requires GD): http://wideimage.sourceforge.net/
+
+This script receives input from a form - with enctype="multipart/form-data" - 
+and a form element: <input type="file" name="imagefile" id="imagefile" />  
+
+As usual, this is a basic demonstration that you can customise to suit your design needs.
+*/
 
 // include the image library for resizing
 require_once("wideimage/WideImage.php");
@@ -26,13 +37,14 @@ if ((($_FILES["imagefile"]["type"] == "image/gif")
 		} else {
             //creating file name, resizing image and saving to images directory
 			$newName = time() . $_FILES["imagefile"]["name"];
-            $newFullName = "images/pic{$newName}";
+            $newFullName = "images/{$newName}";
 			// move the temporary file to the destination directory (images) and give it its new name
 			move_uploaded_file($_FILES["imagefile"]["tmp_name"], $newFullName);
 
 			//resizing image
             $bigImage = WideImage::load($newFullName);
             $resizeImage = $bigImage->resize(800, 800);
+            $newFullName = "images/pic{$newName}";
             $resizeImage->saveToFile($newFullName);
 
 			// setting permission on the file
@@ -40,19 +52,8 @@ if ((($_FILES["imagefile"]["type"] == "image/gif")
 			echo "Stored original as: $newFullName<br />\n";
 			// at this point, we could save the filename to a database if we wanted to...
             $size = getimagesize($newFullName);
-            echo "<img src=\"$newFullName\" " . $size[3] . " /><br />\n";
+            echo "<img src='$newFullName' " . $size[3] . " /><br />\n";
 
-            // if user already chosen image then following code won't run
-            // otherwise code will run and create icon/thumbnail image out of actual added image
-            if (!file_exists($thumbFullName)) {
-                $image = WideImage::load($newFullName);
-                $thumbnailImage = $image->resize(400, 300);
-                $thumbFullName = "images/icon{$newName}";
-                $thumbnailImage->saveToFile($thumbFullName);
-                echo "Stored thumnail as: $thumbFullName<br />\n";
-                $size = getimagesize($thumbFullName);
-                echo "<img src=\"$thumbFullName\" " . $size[3] . " /><br />\n";
-            }
 		}
 	}
 } else {

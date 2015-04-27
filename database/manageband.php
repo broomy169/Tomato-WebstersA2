@@ -40,10 +40,18 @@ include($urlVar."inc_dbconnect.php");
         <!--  <form action="upload_file.php" method="post" enctype="multipart/form-data"> -->
         <p><label for="file">Upload Icon/Logo:</label><input type="file" name="iconfile" id="iconfile"/></p>
         <p><label for="file">Upload Image:</label><input type="file" name="imagefile" id="imagefile"/></p>
+
         <!-- </form> -->
 
         <input type="submit" name="submit" id="submit" value="Add Entry" >
 
+        <label><br/></label>
+        <div id="box" title="Things to note">
+        <label><p>Note:</p> </label>
+        <p> - It is recommended to upload both icon and Image on same time when adding or updating record.</p>
+        <p> - Uploading image only will automatically generate smaller version of image and use it as icon or logo.</p>
+        <p> - Uploading icon/logo only means you allowing tomato websters to use their logo or image.</p>
+        </div>
     </fieldset>
 </form>
     <fieldset>
@@ -80,10 +88,17 @@ include($urlVar."inc_dbconnect.php");
                 <label>Website: </label><input type='text' name='band_website' value='$row[band_website]' />
                 <label>Short Bio: </label><textarea type='text' name='band_shortBio' value='$row[band_shortBio]'>$row[band_shortBio]</textarea>
                 <label>Long Bio: </label><textarea type='text' name='band_longBio' value='$row[band_longBio]'>$row[band_longBio]</textarea>
+                <p>
                 <label for='file'>Upload Icon/Logo:</label>
-                <input type='file' name='iconfile' id='iconfile' value='$row[band_promoIcon]' /><img src='$row[band_promoIcon]' width='100px'>
+                <input type='file' name='iconfile'/>
+                <img src='$row[band_promoIcon]' width='100px'>
+                </p>
+                <p>
                 <label for='file'>Upload Image:</label>
-                <input type='file' name='imagefile' id='imagefile'/><img src='$row[band_promoPic]' width='100px'>
+                <input type='file' name='imagefile' />
+                <img src='$row[band_promoPic]' width='100px'>
+                </p>
+
                 \n";?>
                 <input type="submit" name="submit" value="Update Information" class="updateButton"/>
                 <input type="submit" name="submit" value="Delete Entry" class="deleteButton"/>
