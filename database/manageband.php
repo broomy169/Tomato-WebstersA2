@@ -49,12 +49,18 @@ include($urlVar."inc_dbconnect.php");
     <fieldset>
         <h1>Current Band/Artists data/Information:</h1>
         <?php
-        // Displaying database
+        $record = 0;
+        // Displaying database information
         $sql = "SELECT * FROM Band";
+        $result = $dbh->query($sql);
+        $rows = $result->fetchall(PDO::FETCH_ASSOC);
+        echo "<h3>" . 'There are total ' . count($rows) . ' records in Database.</h3>';
+
         foreach ($dbh->query($sql) as $row){
             ?>
             <form id="editRecord" name="editRecord" method="post" enctype="multipart/form-data" action="dbprocessband.php">
                 <?php
+                echo "<h4><label>Record ID: $row[band_id]</label></h4>\n";
                 echo "<input type='hidden' name='band_id' value='$row[band_id]' />";
                 echo "<label>Band/Artist Name: </label><input type='text' name='band_name' value='$row[band_name]' />
                 <label for='band_genre'>Genre: </label>
@@ -69,21 +75,16 @@ include($urlVar."inc_dbconnect.php");
                     <option value='Hip Hop'>Hip Hop</option>
                     <option value='Rap'>Rap</option>
                  </select>
-
                 <label>Phone: </label><input type='text' name='band_phone' value='$row[band_phone]' />
                 <label>Email: </label><input type='text' name='band_email' value='$row[band_email]' />
                 <label>Website: </label><input type='text' name='band_website' value='$row[band_website]' />
                 <label>Short Bio: </label><textarea type='text' name='band_shortBio' value='$row[band_shortBio]'>$row[band_shortBio]</textarea>
                 <label>Long Bio: </label><textarea type='text' name='band_longBio' value='$row[band_longBio]'>$row[band_longBio]</textarea>
-
                 <label for='file'>Upload Icon/Logo:</label>
-                <input type='file' name='iconfile' id='iconfile'/>
-
+                <input type='file' name='iconfile' id='iconfile' value='$row[band_promoIcon]' /><img src='$row[band_promoIcon]' width='100px'>
                 <label for='file'>Upload Image:</label>
-                <input type='file' name='imagefile' id='imagefile'/>
-
+                <input type='file' name='imagefile' id='imagefile'/><img src='$row[band_promoPic]' width='100px'>
                 \n";?>
-
                 <input type="submit" name="submit" value="Update Information" class="updateButton"/>
                 <input type="submit" name="submit" value="Delete Entry" class="deleteButton"/>
                 <input type="submit" name="submit" value="X" class="deleteButton"/>

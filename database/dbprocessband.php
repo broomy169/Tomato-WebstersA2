@@ -32,11 +32,15 @@ if ($_REQUEST['submit'] == "Add Entry")
     include_once("upload_icon.php");
     include_once("upload_image.php");
     $iconUrl = (string)$thumbFullName;
-    $imgUrl = (string)$newFullName;
+    $imageUrl = (string)$newFullName;
 
     // uploadIcon's $thumbFullName === image url that will be saved as string to the database server
 
-    $sql = "INSERT INTO Band (band_name, band_email, band_phone, band_website, band_shortBio, band_longBio, band_genre, band_promoIcon, band_promoPic) VALUES ('$_REQUEST[band_name]', '$_REQUEST[band_email]', '$_REQUEST[band_phone]', '$_REQUEST[band_website]', '$_REQUEST[band_shortBio]', '$_REQUEST[band_longBio]', '$_REQUEST[band_genre]', '$iconUrl', '$imgUrl')";
+    //converting special characters to html code for storing in database correctly.
+    //$shortBio = htmlspecialchars($_REQUEST[band_shortBio]);
+    //$longBio = htmlspecialchars($_REQUEST[band_longBio]);
+
+    $sql = "INSERT INTO Band (band_name, band_email, band_phone, band_website, band_shortBio, band_longBio, band_genre, band_promoIcon, band_promoPic) VALUES ('$_REQUEST[band_name]', '$_REQUEST[band_email]', '$_REQUEST[band_phone]', '$_REQUEST[band_website]', '$_REQUEST[band_shortBio]', '$_REQUEST[band_longBio]', '$_REQUEST[band_genre]', '$iconUrl', '$imageUrl')";
 
     /*
      * attempting to include upload_file.php so every time add entery is clicked file is upload on same time. this will save user time by one click add information
@@ -62,10 +66,16 @@ else if ($_REQUEST['submit'] == "Delete Entry")
 }
 else if ($_REQUEST['submit'] == "Update Information")
 {
+    include_once("upload_icon.php");
+    include_once("update_image.php");
+    $iconUrl = (string)$thumbFullName;
+    $imageUrl = (string)$newFullName;
+    //converting special characters to html code for storing in database correctly.
+    //$shortBio = htmlspecialchars($_REQUEST[band_shortBio]);
+    //$longBio = htmlspecialchars($_REQUEST[band_longBio]);
 
     $sql = "UPDATE Band SET band_name = '$_REQUEST[band_name]', band_email = '$_REQUEST[band_email]', band_phone =
-'$_REQUEST[band_phone]', band_website = '$_REQUEST[band_website]', band_shortBio =
-'$_REQUEST[band_shortBio]', band_longBio = '$_REQUEST[band_longBio]', band_genre = '$_REQUEST[band_genre]' WHERE
+'$_REQUEST[band_phone]', band_website = '$_REQUEST[band_website]', band_shortBio = '$_REQUEST[band_shortBio]', band_longBio = '$_REQUEST[band_longBio]', band_genre = '$_REQUEST[band_genre]', band_promoIcon = '$iconUrl', band_promoPic = '$imageUrl'  WHERE
 band_id = '$_REQUEST[band_id]'";
 
 
@@ -88,7 +98,7 @@ $result = $dbh->query($sql);
 $resultCopy = $result;
 
 if ($debugOn) {
-    echo "<pre>";
+    //echo "<pre>";
 // one row at a time:
     /*	$row = $result->fetch(PDO::FETCH_ASSOC);
         print_r($row);
@@ -98,14 +108,27 @@ if ($debugOn) {
     */
 // all rows in one associative array
     $rows = $result->fetchall(PDO::FETCH_ASSOC);
-    echo count($rows) . " records in table<br />\n";
-    print_r($rows);
-    echo "</pre>";
-    echo "<br />\n";
+    echo "<h3>There are total " . count($rows) . " records in Database." . "</h3><br />\n\n";
+    //print_r($rows);
+    //echo "</pre>";
+    //echo "<br />\n";
 }
+$record = 1;
 foreach ($dbh->query($sql) as $row)
 {
-    print $row[band_name] .' - '. $row[band_phone] . ' - ' . $row[band_email] . "<br />\n";
+    print "<b>Record $record" . '<br />' . "</b>";
+    print "\tRecord ID: " . '<b>' . $row[band_id] . '</b>' . "<br />";
+    print "\tName: " . '<b>' . $row[band_name] . '</b>' . '</b>' . "<br />";
+    print "\tEmail: " . '<b>' . $row[band_email] . '</b>' . "<br />";
+    print "\tPhone: " . '<b>' . $row[band_phone] . '</b>' . "<br />";
+    print "\tWebsite: " . '<b>' . $row[band_website] . '</b>' . "<br />";
+    print "\tShort Bio: " . '<b>' . $row[band_shortBio] . '</b>' . "<br />";
+    print "\tlong Bio: " . '<b>' . $row[band_longBio] . '</b>' . "<br />";
+    print "\tIcon path: " . '<b>' . $row[band_promoIcon] . '</b>' . "<br />";
+    print "\tPicture path: " . '<b>' . $row[band_promoPic] . '</b>' . "<br />";
+    print "\tGenre: " . '<b>' . $row[band_genre] . '</b>' . "<br /><br />\n";
+    $record++;
+    echo "</pre>";
 }
 
 // close the database connection

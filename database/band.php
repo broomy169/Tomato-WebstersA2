@@ -16,7 +16,7 @@ foreach($dbh->query($sql) as $row){
 
     // setting up and storing url links for icon and image
     $iconUrl = $urlVar . $row['band_promoIcon'];
-    $imgUrl = $urlVar . $row['band_promoPic'];
+    $imageUrl = $urlVar . $row['band_promoPic'];
 
     echo "<div id='band$blockTally' class='bandClass' onclick='expand($blockTally);' title='click here for more information' value='hide'>\n";
     echo "<div id='info'>\n<h2>$row[band_name]</h2>\n<h3>$row[band_shortBio]</h3>\n";
@@ -28,11 +28,17 @@ href=$row[band_website]>
 $row[band_website]</a></p></li>\n";
     echo "</div>\n";
     echo "</div>\n";
-    echo "<div id='icon'>\n<h2><img src='$iconUrl'></h2>\n";
+
+    //checking and showing if icon image already added by user otherwise displaying default image
+    if (file_exists($iconUrl)){
+        echo "<div id='icon'>\n<h2><img src='$iconUrl'></h2>\n";
+    } else {
+        echo "<div id='icon'>\n<h2><img src='database/images/defaultIcon.jpg'></h2>\n";
+    }
 
     //checking and showing if image already added by user otherwise displaying default image
     if (file_exists($imgUrl)){
-        echo "<div id='photo$blockTally' class='photo'>\n<li><h2><img src='$imgUrl'></h2>\n";
+        echo "<div id='photo$blockTally' class='photo'>\n<li><h2><img src='$imageUrl'></h2>\n";
     } else {
         echo "<div id='photo$blockTally' class='photo'>\n<li><h2><img src='database/images/defaultTomato.jpg'></h2>\n";
     }

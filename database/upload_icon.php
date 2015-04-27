@@ -26,11 +26,11 @@ if ((($_FILES["iconfile"]["type"] == "image/gif")
 
 		} else {
             //creating file name, resizing image for icon/logo use and saving to images directory
-			$newName = $_FILES["iconfile"]["name"];
+			$newName = time() . $_FILES["iconfile"]["name"];
             $newFullName = "images/{$newName}";
             $file = $_FILES["iconfile"]["tmp_name"];
             $image = WideImage::load($file);
-            $thumbnailImage = $image->resize(200, 300);
+            $thumbnailImage = $image->resize(400, 300);
             $thumbFullName = "images/icon{$newName}";
             $thumbnailImage->saveToFile($thumbFullName);
             //setting permissions to image
