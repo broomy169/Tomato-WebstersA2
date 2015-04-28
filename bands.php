@@ -77,7 +77,7 @@
             </ul>
 
         </div>
-    ?></div>
+    </div>
     <!--- END of artists list ---->
     <!--- START guilt trip -->
     <div class="row row-padding row-black">

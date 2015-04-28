@@ -52,6 +52,9 @@ fieldset {
     margin: 5px;
     padding: 10px;
 }
+.error {
+    color:#FF0004;
+}
 
 #editRecord {
     border: #ff7d7d ridge 15px;

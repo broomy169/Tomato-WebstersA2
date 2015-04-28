@@ -8,31 +8,18 @@ include($urlVar."inc_dbconnect.php");
     <meta charset="UTF-8">
     <title>Manage Band/Artists - TCMC</title>
     <link rel='stylesheet' href= 'manageBandStylesheet.css' type='text/css'>
-    <style>.error {color:#FF0004;}</style>
+    <script src= 'validateAddForm.js' type='text/javascript'></script>";
+    <script src= 'validateEditForm.js' type='text/javascript'></script>";
 </head>
 <body>
 
-<script language="JavaScript">
-<!--
-function isValid() {
-	var genre = document.addRecord.band_genre.value;
-	
-	if (genre != "emptygenre") {
-			return true;
-	} else {
-		alert ('Please choose genre.')
-		return false;
-	}	
-}
-//-->
-</script>
 <div id="pageWrapper">
 <h1>Manage (Add/remove/update) Band and Artists</h1>
 <form id="addRecord" name="addRecord" method="post" enctype="multipart/form-data" action="dbprocessband.php">
     <fieldset>
         <h2>Insert/Add new band/Artist record:</h2>
         <p><span class="error">* required field</span></p>
-        <p><label for="band_name">Band/Artist Name:- </label><input type="text" name="band_name" id="band_name">
+        <p><label for="band_name">Band/Artist Name:- </label><input type="text" name="band_name" id="band_name" value="">
         <span class="error">*</span></p>
         <p>
             <label for="band_genre">Genre:- </label>
@@ -49,21 +36,21 @@ function isValid() {
             </select>
             <span class="error">*</span>
         </p>
-        <p><label for="band_phone">Phone:- </label><input type="text" name="band_phone" id="band_phone">
+        <p><label for="band_phone">Phone:- </label><input type="text" name="band_phone" id="band_phone" value="">
         <span class="error">*</span></p>
-        <p><label for="band_email">Email:- </label><input type="text" name="band_email" id="band_email">
+        <p><label for="band_email">Email:- </label><input type="text" name="band_email" id="band_email" value="">
         <span class="error">*</span></p>
         <p><label for="band_website">Website:- </label><input type="text" name="band_website" id="band_website"></p>
         <p><label for="band_shortBio">Short Bio:- </label><textarea type="text" name="band_shortBio" id="band_shortBio"></textarea></p>
         <p><label for="band_longBio">Long Bio:- </label><textarea type="text" name="band_longBio" id="band_longBio"></textarea></p>
 
         <!--  <form action="upload_file.php" method="post" enctype="multipart/form-data"> -->
-        <p><label for="file">Upload Icon/Logo:</label><input type="file" name="iconfile" id="iconfile"/></p>
-        <p><label for="file">Upload Image:</label><input type="file" name="imagefile" id="imagefile"/></p>
+        <p><label for="file">Upload Icon/Logo:</label><input type="file" name="iconfile" id="iconfile" value=""/><span class="error">*</span></p></p>
 
+        <p><label for="file">Upload Image:</label><input type="file" name="imagefile" id="imagefile" value=""/><span class="error">*</span></p></p>
         <!-- </form> -->
 
-        <input type="submit" name="submit" id="submit" value="Add Entry" onClick="return isValid()">
+        <input type="submit" name="submit" id="submit" value="Add Entry" onClick="return validateAddForm();">
 
         <label><br/></label>
         <div id="box" title="Things to note">
@@ -120,8 +107,8 @@ function isValid() {
                 </p>
 
                 \n";?>
-                <input type="submit" name="submit" value="Update Information" class="updateButton"/>
-                <input type="submit" name="submit" value="Delete Entry" class="deleteButton"/>
+                <input type="submit" name="submit" value="Update Information" class="updateButton" onClick="return validateEditForm();"/>
+                <input type="submit" name="submit" value="Delete Entry" class="deleteButton" />
                 <input type="submit" name="submit" value="X" class="deleteButton"/>
             </form>
         <?php
