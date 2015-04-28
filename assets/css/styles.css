@@ -34,24 +34,33 @@ rows
 .row-white {
     background: #fff;
 }
+.row-white a{
+    color: red
+}
 
 .row-gray {
     background: #dedede;
 }
+.row-gray a{
+    color: red;
+}
+
+.row-dgray {
+    background: #7b7b7b;
+}
+
+.row-redBlack {
+    background: #3e0000;
+    color: #ddd;
+}
+
 
 .row-black {
     background: #1e1e1e;
     color: #ddd;
 }
-/* row-banner */
 
-.row-banner {
-    background-color: #003a83;
-    background-image: url(../img/bg.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
+
 /* -----------------------------------
 text
 ----------------------------------- */
@@ -87,7 +96,7 @@ text
 .navigation li:hover a,
 .navigation li.active a,
 .navigation li.active span {
-    background: #dc572e;
+    background: #cc0000;
     border-radius: 7px;
     color: #FFF;
 }
@@ -156,7 +165,7 @@ row and text wide
     }
     .navigation li a,
     .navigation li span {
-        font-size: 1em;
+        font-size: 1.4em;
     }
     .bands .bands-expanded {
         text-align: left;

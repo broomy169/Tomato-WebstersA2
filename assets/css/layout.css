@@ -52,7 +52,7 @@ cols
 
 .col {
     overflow: hidden;
-    margin-bottom: 1em;
+    margin-bottom: 0em;
 }
 
 .col p {
@@ -114,4 +114,17 @@ cols-wide
     .navigation {
         top: .6em;
     }
+}
+
+/*-----------------specific styling ------------------------*/
+
+.cta {
+    background: black;
+    margin: 1em;
+    padding: 1em;
+}
+
+
+.cta p {
+    color: white;
 }
