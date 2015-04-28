@@ -31,7 +31,7 @@ title='contact us on this phone number'>Phone: $row[band_phone]</p></li>\n
     if (file_exists($iconUrl)){
         echo "<div id='icon'>\n<h2><img src='$iconUrl'></h2>\n";
     } else {
-        echo "<div id='icon'>\n<h2><img src=$urlVar . 'images/defaultTomato.jpg'></h2>\n";
+        echo "<div id='icon'>\n<h2><img src='database/images/defaultTomato.jpg'></h2>\n";
     }
     //echo "<div id='icon'>\n<h2><img src='$iconUrl'></h2>\n";
 
@@ -39,7 +39,7 @@ title='contact us on this phone number'>Phone: $row[band_phone]</p></li>\n
     if (file_exists($imageUrl)){
         echo "<div id='photo$blockTally' class='photo'>\n<li><h2><img src='$imageUrl'></h2>\n";
     } else {
-        echo "<div id='photo$blockTally' class='photo'>\n<li><h2><img src=$urlVar . 'images/defaultTomatoLight.jpg'></h2>\n";
+        echo "<div id='photo$blockTally' class='photo'>\n<li><h2><img src='database/images/defaultTomatoLight.jpg'></h2>\n";
     }
 
     echo "</div>\n";
