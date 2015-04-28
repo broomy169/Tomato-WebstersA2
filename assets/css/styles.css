@@ -16,10 +16,6 @@ containers
 .container-narrow {
     max-width: 33em;
 }
-
-.container li {
-    margin: 1em 0em 2em;
-}
 /* -----------------------------------
 rows
 ----------------------------------- */
@@ -178,7 +174,7 @@ row and text wide
 
 .About-HistoryList ul {
     text-align: left;
-    text-align: left;
+    margin: 1em auto 2em;
 }
 
 .About-HistoryList ul h2 {
@@ -192,5 +188,4 @@ row and text wide
 .About-HistoryBrief h1,
 .About-HistoryBrief h2 {
     text-align: center;
-}
 }
