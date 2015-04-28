@@ -8,15 +8,32 @@ include($urlVar."inc_dbconnect.php");
     <meta charset="UTF-8">
     <title>Manage Band/Artists - TCMC</title>
     <link rel='stylesheet' href= 'manageBandStylesheet.css' type='text/css'>
+    <style>.error {color:#FF0004;}</style>
 </head>
-
 <body>
+
+<script language="JavaScript">
+<!--
+function isValid() {
+	var genre = document.addRecord.band_genre.value;
+	
+	if (genre != "emptygenre") {
+			return true;
+	} else {
+		alert ('Please choose genre.')
+		return false;
+	}	
+}
+//-->
+</script>
 <div id="pageWrapper">
 <h1>Manage (Add/remove/update) Band and Artists</h1>
 <form id="addRecord" name="addRecord" method="post" enctype="multipart/form-data" action="dbprocessband.php">
     <fieldset>
         <h2>Insert/Add new band/Artist record:</h2>
-        <p><label for="band_name">Band/Artist Name:- </label><input type="text" name="band_name" id="band_name"></p>
+        <p><span class="error">* required field</span></p>
+        <p><label for="band_name">Band/Artist Name:- </label><input type="text" name="band_name" id="band_name">
+        <span class="error">*</span></p>
         <p>
             <label for="band_genre">Genre:- </label>
             <select name="band_genre" id="band_genre">
@@ -30,9 +47,12 @@ include($urlVar."inc_dbconnect.php");
                 <option value="Hip Hop">Hip Hop</option>
                 <option value="Rap">Rap</option>
             </select>
+            <span class="error">*</span>
         </p>
-        <p><label for="band_phone">Phone:- </label><input type="text" name="band_phone" id="band_phone"></p>
-        <p><label for="band_email">Email:- </label><input type="text" name="band_email" id="band_email"></p>
+        <p><label for="band_phone">Phone:- </label><input type="text" name="band_phone" id="band_phone">
+        <span class="error">*</span></p>
+        <p><label for="band_email">Email:- </label><input type="text" name="band_email" id="band_email">
+        <span class="error">*</span></p>
         <p><label for="band_website">Website:- </label><input type="text" name="band_website" id="band_website"></p>
         <p><label for="band_shortBio">Short Bio:- </label><textarea type="text" name="band_shortBio" id="band_shortBio"></textarea></p>
         <p><label for="band_longBio">Long Bio:- </label><textarea type="text" name="band_longBio" id="band_longBio"></textarea></p>
@@ -43,7 +63,7 @@ include($urlVar."inc_dbconnect.php");
 
         <!-- </form> -->
 
-        <input type="submit" name="submit" id="submit" value="Add Entry" >
+        <input type="submit" name="submit" id="submit" value="Add Entry" onClick="return isValid()">
 
         <label><br/></label>
         <div id="box" title="Things to note">
