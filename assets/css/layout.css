@@ -18,6 +18,11 @@
     margin: 0;
 }
 
+.sponsor ul {
+    display: inline-block;
+    margin: 0;
+}
+
 .navigation li {
     display: block;
     float: left;
@@ -94,7 +99,7 @@ cols-wide
 @media (min-width: 45em) {
     .col {
         float: left;
-        margin-right: 4%;
+        margin-right: 0;
     }
     .w-4col {
         width: 100%;
@@ -103,7 +108,7 @@ cols-wide
         width: 74%;
     }
     .w-2col {
-        width: 48%;
+        width: 50%;
     }
     .w-1col {
         width: 22%;

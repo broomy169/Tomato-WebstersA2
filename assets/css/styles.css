@@ -119,6 +119,9 @@ row and text medium
     .row-padding {
         padding: 2.5em 0;
     }
+    .row-padding-small {
+        padding: 1em 0em;
+    }
     .row-padding-large {
         padding: 3.33333em 0;
     }
@@ -183,7 +186,12 @@ row and text wide
 
 .About-HistoryList ul {
     text-align: left;
-    margin: 1em auto 2em;
+    margin: 2em 2em 1em;
+}
+
+.About-HistoryList li {
+    text-align: left;
+    margin: 2em 2em 0em;
 }
 
 .About-HistoryList ul h2 {
