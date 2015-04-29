@@ -200,9 +200,18 @@ row and text wide
 
 .About-HistoryBrief {
     text-align: left;
+
+}
+
+.About-HistoryBrief p{
+    margin: 1em
 }
 
 .About-HistoryBrief h1,
 .About-HistoryBrief h2 {
     text-align: center;
+}
+
+.float-Left{
+    float: left;
 }

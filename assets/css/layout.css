@@ -2,7 +2,7 @@
 
 .header {
     position: relative;
-    padding: .0em 0;
+    padding: 1.4em 2em;
     margin: 1.5em 0 0em;
 }
 /*-----------------Navigation-------------------*/
@@ -11,6 +11,7 @@
     position: fixed;
     top: 0em;
     right: 0em;
+    margin-top: 1em;
 }
 
 .navigation ul {
@@ -18,15 +19,26 @@
     margin: 0;
 }
 
-.sponsor ul {
-    display: inline-block;
-    margin: 0;
-}
+
 
 .navigation li {
     display: block;
     float: left;
 }
+
+/*--------sponsors-----------------*/
+
+
+.sponsors li {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.sponsors li:first-child {
+ 
+}
+
+
 /*------------box ---------------------*/
 
 .box {
@@ -46,6 +58,8 @@ rows
     border-radius: 8px;
     max-width: 75em;
 }
+
+
 
 .row-right {
     text-align: right;
@@ -74,13 +88,12 @@ cols-medium
 @media (min-width: 30em) and (max-width: 45em) {
     .col {
         float: left;
-        margin-right: 8%;
     }
     .m-2col {
         width: 100%;
     }
     .m-1col {
-        width: 46%;
+        width: 50%;
     }
     .col:nth-child(2) {
         margin-right: 0;
@@ -99,19 +112,18 @@ cols-wide
 @media (min-width: 45em) {
     .col {
         float: left;
-        margin-right: 0;
     }
     .w-4col {
         width: 100%;
     }
     .w-3col {
-        width: 74%;
+        width: 75%;
     }
     .w-2col {
         width: 50%;
     }
     .w-1col {
-        width: 22%;
+        width: 25%;
     }
     .header {
         margin: 2.5em auto 0em;
@@ -132,4 +144,14 @@ cols-wide
 
 .cta p {
     color: white;
+}
+
+.cta-4x h3 {
+    color: black;
+    font-size: 2em;
+}
+
+.cta-4x a{
+    color: white;
+    font-weight: 100;
 }
