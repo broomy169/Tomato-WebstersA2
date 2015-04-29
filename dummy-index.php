@@ -14,7 +14,7 @@
 <header><h1>Heading goes here</h1></header>
 <nav><h3>Nav Goes here</h3></nav>
 <?php
-include("band.php");
+include("bandList.php");
 ?>
 <footer><h1>footer goes here</h1></footer>
 </div>

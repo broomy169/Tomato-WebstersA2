@@ -13,7 +13,7 @@ function validateEditForm(tally) {
         alert("Please choose genre.");
         return false;
     } else if (phoneE === "" || isNaN(phoneE)) {
-        alert("Please enter valid phone number.");
+        alert("Please enter valid phone number. Numbers only without spaces");
         return false;
 
     } else if (emailE === "") {

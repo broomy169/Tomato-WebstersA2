@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d8ba6e04-6691-4b87-96e0-73def7afc76d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/dbm1/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/dbm1/manageBandList.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db milestone 1/navigation.php" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/band.php" afterPath="$PROJECT_DIR$/database/dbm1/bandList.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/band.php" afterPath="$PROJECT_DIR$/database/bandList.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/database.sqlite" afterPath="$PROJECT_DIR$/database/dbm1/database.sqlite" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/dbprocessband.php" afterPath="$PROJECT_DIR$/database/dbm1/dbProcessBand.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/expandband.js" afterPath="$PROJECT_DIR$/database/dbm1/expandBand.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/Celtic-Fyre-Wall-with-Fire8.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/Celtic-Fyre-Wall-with-Fire8.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/Rosewood01.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/Rosewood01.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/30anniversary02300.png" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/30anniversary02300.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/30yearslogo336.png" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/30yearslogo336.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/CIVIC C2 LOGO copy.gif" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/CIVIC C2 LOGO copy.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/CIVIC C2 LOGO trans.gif" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/CIVIC C2 LOGO trans.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/CIVIC C2 LOGO.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/CIVIC C2 LOGO.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/CIVIC C2 LOGO.png" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/CIVIC C2 LOGO.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/CIVIC C2 LOGO.psd" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/CIVIC C2 LOGO.psd" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/CivicFront200.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/CivicFront200.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/CivicFront300.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/CivicFront300.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/CivicFront500.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/CivicFront500.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/CivicFront600.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/CivicFront600.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/FBimages.psd" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/FBimages.psd" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/GCBF15091 (1).png" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/GCBF15091 (1).png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/GCBF15091.gif" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/GCBF15091.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/GCBF15091.png" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/GCBF15091.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/GCBF15091opaque.png" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/GCBF15091opaque.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/OLDGCBF15091.gif" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/OLDGCBF15091.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/Parchment.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/Parchment.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/QG.gif" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/QG.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/QN136100.gif" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/QN136100.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/Qldlogo150169 (1).png" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/Qldlogo150169 (1).png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/Qldlogo150169.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/Qldlogo150169.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/Qldlogo150169.png" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/Qldlogo150169.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/Qldlogo150169.psd" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/Qldlogo150169.psd" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/Qldlogo150169white.png" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/Qldlogo150169white.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/Qldlogo150200.png" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/Qldlogo150200.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/TCC83100.png" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/TCC83100.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/TCCcolour150193.gif" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/TCCcolour150193.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/TCCgcbfQN100px.png" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/TCCgcbfQN100px.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/TCMC10067.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/TCMC10067.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/TCMC150100.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/TCMC150100.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/TCMC98Neg.gif" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/TCMC98Neg.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/TCMC98Neg.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/TCMC98Neg.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/TCMCbanner.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/TCMCbanner.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/TCMCbanner01.png" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/TCMCbanner01.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/TCMCbannerExtract350100.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/TCMCbannerExtract350100.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/TCMCbannerExtract3501002.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/TCMCbannerExtract3501002.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/TCMCtrans10067.gif" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/TCMCtrans10067.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/art-Qld_Logo_crest-620x349.png" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/art-Qld_Logo_crest-620x349.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/greybrick.gif" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/greybrick.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/rosewoodgrain.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/rosewoodgrain.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/woodgrain.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/woodgrain.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/woodgrain.psd" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/woodgrain.psd" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/woodgrain13P01.gif" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/woodgrain13P01.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/woodgrain13P02.gif" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/woodgrain13P02.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/woodgrainOLD.gif" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/woodgrainOLD.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/SiteImages/woodgrainlight.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/SiteImages/woodgrainlight.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/apple.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/apple.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/banana.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/banana.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/bulletin/ACVCnewlogotrans.gif" afterPath="$PROJECT_DIR$/database/dbm1/images/bulletin/ACVCnewlogotrans.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/bulletin/Chord Organ.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/bulletin/Chord Organ.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/bulletin/EffortlessTechnique.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/bulletin/EffortlessTechnique.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/bulletin/Eistlogosmall.gif" afterPath="$PROJECT_DIR$/database/dbm1/images/bulletin/Eistlogosmall.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/bulletin/Fanfare01.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/bulletin/Fanfare01.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/bulletin/FionaBlakely.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/bulletin/FionaBlakely.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/bulletin/JohnRouvas01.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/bulletin/JohnRouvas01.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/bulletin/MonM01.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/bulletin/MonM01.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/bulletin/MonM03.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/bulletin/MonM03.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/bulletin/StJosephs.png" afterPath="$PROJECT_DIR$/database/dbm1/images/bulletin/StJosephs.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/bulletin/TCBlogo160160.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/bulletin/TCBlogo160160.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/bulletin/TCBshirt (1).gif" afterPath="$PROJECT_DIR$/database/dbm1/images/bulletin/TCBshirt (1).gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/bulletin/TCBshirt.gif" afterPath="$PROJECT_DIR$/database/dbm1/images/bulletin/TCBshirt.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/bulletin/TCBshirt.png" afterPath="$PROJECT_DIR$/database/dbm1/images/bulletin/TCBshirt.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/bulletin/ZieglerSax.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/bulletin/ZieglerSax.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/bulletin/aa-sml-grey.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/bulletin/aa-sml-grey.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/bulletin/jean01.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/bulletin/jean01.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/bulletin/jean188.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/bulletin/jean188.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/bulletin/old-music.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/bulletin/old-music.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/bulletin/tyto.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/bulletin/tyto.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/defaultTomato.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/defaultTomato.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/defaultTomatoLight.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/defaultTomatoLight.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/docs/Concert Information.pdf" afterPath="$PROJECT_DIR$/database/dbm1/images/docs/Concert Information.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/docs/GenInfo.txt" afterPath="$PROJECT_DIR$/database/dbm1/images/docs/GenInfo.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/docs/Membership applic form 2015.doc" afterPath="$PROJECT_DIR$/database/dbm1/images/docs/Membership applic form 2015.doc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/docs/Membership applic form2014.pdf" afterPath="$PROJECT_DIR$/database/dbm1/images/docs/Membership applic form2014.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/docs/Membership payment.pdf" afterPath="$PROJECT_DIR$/database/dbm1/images/docs/Membership payment.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/ACVCnewlogo.gif" afterPath="$PROJECT_DIR$/database/dbm1/images/events/ACVCnewlogo.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/AVIVA-GROUND300.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/AVIVA-GROUND300.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/AVIVA-GROUP216.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/AVIVA-GROUP216.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/AVIVA-GROUP300.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/AVIVA-GROUP300.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/AVIVA-LANE300.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/AVIVA-LANE300.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/AVIVA-LANE500.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/musos/AVIVA-LANE500.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/AVIVA-TREE300.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/AVIVA-TREE300.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/AVIVA-TREEcrop400.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/musos/AVIVA-TREEcrop400.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/AYO-Flora-Wong.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/AYO-Flora-Wong.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/AYO150.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/AYO150.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/AYOStQt300.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/AYOStQt300.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/Allegro600.png" afterPath="$PROJECT_DIR$/database/dbm1/images/events/Allegro600.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/Allegro600BB.png" afterPath="$PROJECT_DIR$/database/dbm1/images/events/Allegro600BB.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/Alyssa150200.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/Alyssa150200.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/AndrewVeivers01.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/AndrewVeivers01.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/AndrewVeivers02.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/AndrewVeivers02.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/Aquapella360.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/Aquapella360.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/Attori-duo300168.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/Attori-duo300168.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/Attori-image-4.gif" afterPath="$PROJECT_DIR$/database/dbm1/images/events/Attori-image-4.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/Attori4w300.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/Attori4w300.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/AttoriDuo01.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/AttoriDuo01.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/AttoriKim+300.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/AttoriKim+300.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/AttoriKim01.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/AttoriKim01.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/AvivaTheatre600.png" afterPath="$PROJECT_DIR$/database/dbm1/images/events/AvivaTheatre600.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/BlackCurtain.gif" afterPath="$PROJECT_DIR$/database/dbm1/images/events/BlackCurtain.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/CamerataSingers600400.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/CamerataSingers600400.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/Celtic-Fyre-Poster-300.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/Celtic-Fyre-Poster-300.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/Celtic-Fyre-Wall400354.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/Celtic-Fyre-Wall400354.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/CelticFyre2014300.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/CelticFyre2014300.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/CelticFyre300.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/CelticFyre300.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/CelticFyreLogo.gif" afterPath="$PROJECT_DIR$/database/dbm1/images/events/CelticFyreLogo.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/Clapper55.gif" afterPath="$PROJECT_DIR$/database/dbm1/images/events/Clapper55.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/DD600400.png" afterPath="$PROJECT_DIR$/database/dbm1/images/musos/DD600400.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/DDmic200.png" afterPath="$PROJECT_DIR$/database/dbm1/images/events/DDmic200.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/DreamSerenade01.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/DreamSerenade01.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/Email300350.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/Email300350.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/FOTT.gif" afterPath="$PROJECT_DIR$/database/dbm1/images/events/FOTT.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/FOTT.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/FOTT.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/FOTT.png" afterPath="$PROJECT_DIR$/database/dbm1/images/events/FOTT.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/Garcia250.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/Garcia250.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/GreyBar.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/GreyBar.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/Harbourside01.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/Harbourside01.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/Harbourside300.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/Harbourside300.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/Harmonious-LR.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/Harmonious-LR.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/Harmonious250.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/Harmonious250.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/Harmonious400.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/Harmonious400.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/IngridJames01.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/IngridJames01.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/IngridJames02.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/IngridJames02.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/JCUlogo200.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/JCUlogo200.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/KMEIAlogo.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/KMEIAlogo.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/Kim150200.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/Kim150200.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/Latin-Fiesta-W.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/Latin-Fiesta-W.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/MIFNQ.png" afterPath="$PROJECT_DIR$/database/dbm1/images/events/MIFNQ.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/MIFNQlogo150.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/MIFNQlogo150.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/MIFNQlogo300.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/MIFNQlogo300.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/MoMconcert.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/MoMconcert.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/Moriya-Didjeridoo2W.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/Moriya-Didjeridoo2W.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/Moriya01.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/Moriya01.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/Pimlico-Symphony324.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/Pimlico-Symphony324.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/PimlicoTitle.png" afterPath="$PROJECT_DIR$/database/dbm1/images/events/PimlicoTitle.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/Pimlicobadgesm.png" afterPath="$PROJECT_DIR$/database/dbm1/images/events/Pimlicobadgesm.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/Pinks01.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/Pinks01.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/Pinks02.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/Pinks02.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/SilverBar.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/SilverBar.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/Siobhan01.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/Siobhan01.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/Siobhan02.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/Siobhan02.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/Siobhan03.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/Siobhan03.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/Siobhan04.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/Siobhan04.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/SkySea.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/SkySea.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/SoulofTango300.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/SoulofTango300.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/Stokes.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/musos/Stokes.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/Swing300300.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/Swing300300.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/SwingSerenade300350.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/SwingSerenade300350.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/SwingSerenadeFB.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/SwingSerenadeFB.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/TCBlogo200.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/TCBlogo200.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/TCBnotes460200.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/TCBnotes460200.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/TGO1114600.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/TGO1114600.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/TGOlogo300.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/TGOlogo300.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/TGOorch300.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/TGOorch300.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/TJCLogo200.gif" afterPath="$PROJECT_DIR$/database/dbm1/images/events/TJCLogo200.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/TShop300web.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/TShop300web.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/TShop_full size.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/TShop_full size.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/TicketShop.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/TicketShop.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/TomsTavern200.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/TomsTavern200.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/Townsville jazzclub logo.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/Townsville jazzclub logo.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/UOCcast.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/UOCcast.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/Website01.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/Website01.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/YABHiRes.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/YABHiRes.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/YABweb2013-02.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/YABweb2013-02.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/YABweb50002.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/YABweb50002.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/aviva01300300.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/aviva01300300.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/ebony01.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/ebony01.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/flamenco.png" afterPath="$PROJECT_DIR$/database/dbm1/images/randomImages/flamenco.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/greybrick.gif" afterPath="$PROJECT_DIR$/database/dbm1/images/events/greybrick.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/movie-strip150.gif" afterPath="$PROJECT_DIR$/database/dbm1/images/events/movie-strip150.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/movies.gif" afterPath="$PROJECT_DIR$/database/dbm1/images/events/movies.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/movietexture.gif" afterPath="$PROJECT_DIR$/database/dbm1/images/events/movietexture.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/projector.png" afterPath="$PROJECT_DIR$/database/dbm1/images/events/projector.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/tcbsax200.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/tcbsax200.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/tgotrio300.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/tgotrio300.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/vegas 1.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/vegas 1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/events/vegas 2.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/vegas 2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/iconCelticFyre800.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/iconCelticFyre800.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/iconRosewood01.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/iconRosewood01.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/musos/AVIVA-LANE500.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/AVIVA-LANE500.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/musos/AVIVA-TREEcrop400.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/AVIVA-TREEcrop400.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/musos/Aquapella01.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/musos/Aquapella01.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/musos/Camerata.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/musos/Camerata.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/musos/Celtic-Fyre-Wall-with-Fire8.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/musos/Celtic-Fyre-Wall-with-Fire8.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/musos/CelticFyre800.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/musos/CelticFyre800.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/musos/DD600400.png" afterPath="$PROJECT_DIR$/database/dbm1/images/events/DD600400.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/musos/Harbourside.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/musos/Harbourside.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/musos/Poms.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/musos/Poms.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/musos/Rosewood01.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/musos/Rosewood01.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/musos/SNBB1.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/musos/SNBB1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/musos/Stokes.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/events/Stokes.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/musos/TCBSaxLogo800.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/musos/TCBSaxLogo800.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/musos/Wassa01.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/musos/Wassa01.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/randomImages/Avivarandom1.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/randomImages/Avivarandom1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/randomImages/Avivarandom2 (1).jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/randomImages/Avivarandom2 (1).jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/randomImages/Avivarandom2.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/randomImages/Avivarandom2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/randomImages/Avivarandom3 (1).jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/randomImages/Avivarandom3 (1).jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/randomImages/Avivarandom3.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/randomImages/Avivarandom3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/randomImages/Avivarandom4.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/randomImages/Avivarandom4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/randomImages/accordion.png" afterPath="$PROJECT_DIR$/database/dbm1/images/randomImages/accordion.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/randomImages/bass.png" afterPath="$PROJECT_DIR$/database/dbm1/images/randomImages/bass.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/randomImages/cello (1).png" afterPath="$PROJECT_DIR$/database/dbm1/images/randomImages/cello (1).png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/randomImages/cello.png" afterPath="$PROJECT_DIR$/database/dbm1/images/randomImages/cello.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/randomImages/congas.png" afterPath="$PROJECT_DIR$/database/dbm1/images/randomImages/congas.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/randomImages/drums01 (1).png" afterPath="$PROJECT_DIR$/database/dbm1/images/randomImages/drums01 (1).png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/randomImages/drums01.png" afterPath="$PROJECT_DIR$/database/dbm1/images/randomImages/drums01.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/randomImages/electric.png" afterPath="$PROJECT_DIR$/database/dbm1/images/randomImages/electric.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/randomImages/flamenco.png" afterPath="$PROJECT_DIR$/database/dbm1/images/events/flamenco.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/randomImages/guitar (1).png" afterPath="$PROJECT_DIR$/database/dbm1/images/randomImages/guitar (1).png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/randomImages/guitar.png" afterPath="$PROJECT_DIR$/database/dbm1/images/randomImages/guitar.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/randomImages/harmonica.png" afterPath="$PROJECT_DIR$/database/dbm1/images/randomImages/harmonica.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/randomImages/harp.png" afterPath="$PROJECT_DIR$/database/dbm1/images/randomImages/harp.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/randomImages/horn.png" afterPath="$PROJECT_DIR$/database/dbm1/images/randomImages/horn.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/randomImages/piano.png" afterPath="$PROJECT_DIR$/database/dbm1/images/randomImages/piano.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/randomImages/random1 (1).jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/randomImages/random1 (1).jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/randomImages/random1.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/randomImages/random1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/randomImages/random2.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/randomImages/random2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/randomImages/random3.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/randomImages/random3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/randomImages/random4 (1).jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/randomImages/random4 (1).jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/randomImages/random4.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/randomImages/random4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/randomImages/random5.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/randomImages/random5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/randomImages/random6 (1).jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/randomImages/random6 (1).jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/randomImages/random6.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/randomImages/random6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/randomImages/recorder.png" afterPath="$PROJECT_DIR$/database/dbm1/images/randomImages/recorder.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/randomImages/saxophone.png" afterPath="$PROJECT_DIR$/database/dbm1/images/randomImages/saxophone.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/randomImages/trumpet.png" afterPath="$PROJECT_DIR$/database/dbm1/images/randomImages/trumpet.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/randomImages/uke.png" afterPath="$PROJECT_DIR$/database/dbm1/images/randomImages/uke.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/randomImages/violin.png" afterPath="$PROJECT_DIR$/database/dbm1/images/randomImages/violin.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/images/tomato.jpg" afterPath="$PROJECT_DIR$/database/dbm1/images/tomato.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/inc_dbconnect.php" afterPath="$PROJECT_DIR$/database/dbm1/inc_dbConnect.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/manageBandStylesheet.css" afterPath="$PROJECT_DIR$/database/manageBandListStylesheet.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/manageband.php" afterPath="$PROJECT_DIR$/database/manageBandList.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/styleband.css" afterPath="$PROJECT_DIR$/database/styleBandList.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/update_icon.php" afterPath="$PROJECT_DIR$/database/updateIcon.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/update_image.php" afterPath="$PROJECT_DIR$/database/updateImage.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/upload_icon.php" afterPath="$PROJECT_DIR$/database/uploadIcon.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/upload_image.php" afterPath="$PROJECT_DIR$/database/uploadImage.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/validateAddForm.js" afterPath="$PROJECT_DIR$/database/dbm1/validateAddForm.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/validateEditForm.js" afterPath="$PROJECT_DIR$/database/dbm1/validateEditForm.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/wideimage/Canvas.php" afterPath="$PROJECT_DIR$/database/dbm1/wideimage/Canvas.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/wideimage/Coordinate.php" afterPath="$PROJECT_DIR$/database/dbm1/wideimage/Coordinate.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/wideimage/Exception.php" afterPath="$PROJECT_DIR$/database/dbm1/wideimage/Exception.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/wideimage/Font/GDF.php" afterPath="$PROJECT_DIR$/database/dbm1/wideimage/Font/GDF.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/wideimage/Font/PS.php" afterPath="$PROJECT_DIR$/database/dbm1/wideimage/Font/PS.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/wideimage/Font/TTF.php" afterPath="$PROJECT_DIR$/database/dbm1/wideimage/Font/TTF.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/wideimage/Image.php" afterPath="$PROJECT_DIR$/database/dbm1/wideimage/Image.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/wideimage/Mapper/BMP.php" afterPath="$PROJECT_DIR$/database/dbm1/wideimage/Mapper/BMP.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/wideimage/Mapper/GD.php" afterPath="$PROJECT_DIR$/database/dbm1/wideimage/Mapper/GD.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/wideimage/Mapper/GD2.php" afterPath="$PROJECT_DIR$/database/dbm1/wideimage/Mapper/GD2.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/wideimage/Mapper/GIF.php" afterPath="$PROJECT_DIR$/database/dbm1/wideimage/Mapper/GIF.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/wideimage/Mapper/JPEG.php" afterPath="$PROJECT_DIR$/database/dbm1/wideimage/Mapper/JPEG.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/wideimage/Mapper/PNG.php" afterPath="$PROJECT_DIR$/database/dbm1/wideimage/Mapper/PNG.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/wideimage/Mapper/TGA.php" afterPath="$PROJECT_DIR$/database/dbm1/wideimage/Mapper/TGA.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/wideimage/MapperFactory.php" afterPath="$PROJECT_DIR$/database/dbm1/wideimage/MapperFactory.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/wideimage/Operation/AddNoise.php" afterPath="$PROJECT_DIR$/database/dbm1/wideimage/Operation/AddNoise.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/wideimage/Operation/ApplyConvolution.php" afterPath="$PROJECT_DIR$/database/dbm1/wideimage/Operation/ApplyConvolution.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/wideimage/Operation/ApplyFilter.php" afterPath="$PROJECT_DIR$/database/dbm1/wideimage/Operation/ApplyFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/wideimage/Operation/ApplyMask.php" afterPath="$PROJECT_DIR$/database/dbm1/wideimage/Operation/ApplyMask.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/wideimage/Operation/AsGrayscale.php" afterPath="$PROJECT_DIR$/database/dbm1/wideimage/Operation/AsGrayscale.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/wideimage/Operation/AsNegative.php" afterPath="$PROJECT_DIR$/database/dbm1/wideimage/Operation/AsNegative.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/wideimage/Operation/AutoCrop.php" afterPath="$PROJECT_DIR$/database/dbm1/wideimage/Operation/AutoCrop.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/wideimage/Operation/CopyChannelsPalette.php" afterPath="$PROJECT_DIR$/database/dbm1/wideimage/Operation/CopyChannelsPalette.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/wideimage/Operation/CopyChannelsTrueColor.php" afterPath="$PROJECT_DIR$/database/dbm1/wideimage/Operation/CopyChannelsTrueColor.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/wideimage/Operation/CorrectGamma.php" afterPath="$PROJECT_DIR$/database/dbm1/wideimage/Operation/CorrectGamma.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/wideimage/Operation/Crop.php" afterPath="$PROJECT_DIR$/database/dbm1/wideimage/Operation/Crop.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/wideimage/Operation/Flip.php" afterPath="$PROJECT_DIR$/database/dbm1/wideimage/Operation/Flip.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/wideimage/Operation/GetMask.php" afterPath="$PROJECT_DIR$/database/dbm1/wideimage/Operation/GetMask.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/wideimage/Operation/Merge.php" afterPath="$PROJECT_DIR$/database/dbm1/wideimage/Operation/Merge.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/wideimage/Operation/Mirror.php" afterPath="$PROJECT_DIR$/database/dbm1/wideimage/Operation/Mirror.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/wideimage/Operation/Resize.php" afterPath="$PROJECT_DIR$/database/dbm1/wideimage/Operation/Resize.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/wideimage/Operation/ResizeCanvas.php" afterPath="$PROJECT_DIR$/database/dbm1/wideimage/Operation/ResizeCanvas.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/wideimage/Operation/Rotate.php" afterPath="$PROJECT_DIR$/database/dbm1/wideimage/Operation/Rotate.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/wideimage/Operation/RoundCorners.php" afterPath="$PROJECT_DIR$/database/dbm1/wideimage/Operation/RoundCorners.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/wideimage/Operation/Unsharp.php" afterPath="$PROJECT_DIR$/database/dbm1/wideimage/Operation/Unsharp.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/wideimage/OperationFactory.php" afterPath="$PROJECT_DIR$/database/dbm1/wideimage/OperationFactory.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/wideimage/PaletteImage.php" afterPath="$PROJECT_DIR$/database/dbm1/wideimage/PaletteImage.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/wideimage/TrueColorImage.php" afterPath="$PROJECT_DIR$/database/dbm1/wideimage/TrueColorImage.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/wideimage/WideImage.php" afterPath="$PROJECT_DIR$/database/dbm1/wideimage/WideImage.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/wideimage/vendor/de77/BMP.php" afterPath="$PROJECT_DIR$/database/dbm1/wideimage/vendor/de77/BMP.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/db milestone 1/wideimage/vendor/de77/TGA.php" afterPath="$PROJECT_DIR$/database/dbm1/wideimage/vendor/de77/TGA.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/dbprocessband.php" afterPath="$PROJECT_DIR$/database/dbProcessBand.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/manageBandStylesheet.css" afterPath="$PROJECT_DIR$/database/dbm1/manageBandListStylesheet.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/manageband.php" afterPath="$PROJECT_DIR$/database/manageBandList.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/styleband.css" afterPath="$PROJECT_DIR$/database/dbm1/styleBandList.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/update_icon.php" afterPath="$PROJECT_DIR$/database/dbm1/updateIcon.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/update_image.php" afterPath="$PROJECT_DIR$/database/dbm1/updateImage.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/upload_icon.php" afterPath="$PROJECT_DIR$/database/dbm1/uploadIcon.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/upload_image.php" afterPath="$PROJECT_DIR$/database/dbm1/uploadImage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bands.php" afterPath="$PROJECT_DIR$/bands.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dummy-index.php" afterPath="$PROJECT_DIR$/dummy-index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/navigation.php" afterPath="$PROJECT_DIR$/navigation.php" />
+    </list>
+    <ignored path="Tomato-WebstersA2.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Tomato-WebstersA2" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="488" />
+    <option name="y" value="23" />
+    <option name="width" value="666" />
+    <option name="height" value="773" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tomato-WebstersA2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tomato-WebstersA2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tomato-WebstersA2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tomato-WebstersA2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tomato-WebstersA2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tomato-WebstersA2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tomato-WebstersA2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dbm1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d8ba6e04-6691-4b87-96e0-73def7afc76d" name="Default" comment="" />
+      <created>1430294281620</created>
+      <option name="number" value="Default" />
+      <updated>1430294281620</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="488" y="23" width="666" height="773" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.6561562" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+</project>

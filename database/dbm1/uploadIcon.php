@@ -15,7 +15,7 @@ if ((($_FILES["iconfile"]["type"] == "image/gif")
 
     } else {
         // displaying image information
-		echo "File Name: " . $_FILES["iconfile"]["name"] . "<br />\n";
+		echo "Upload File Name: " . $_FILES["iconfile"]["name"] . "<br />\n";
 		echo "MIME Type: " . $_FILES["iconfile"]["type"] . "<br />\n";
 		echo "Size: " . round($_FILES["iconfile"]["size"] / 1024, 1) . " KB<br />\n";
 		echo "Temp file location: " . $_FILES["iconfile"]["tmp_name"] . "</p>\n";
@@ -35,9 +35,9 @@ if ((($_FILES["iconfile"]["type"] == "image/gif")
             $thumbnailImage->saveToFile($thumbFullName);
             //setting permissions to image
             chmod($thumbFullName, 0644);
-            echo "Stored icon or logo as: $thumbFullName<br />\n";
+            echo "Stored Icon as: $thumbFullName<br />\n";
             $size = getimagesize($thumbFullName);
-            echo "<img src='$thumbFullName' " . $size[3] . " /><br />\n";
+            echo "<img src=\"$thumbFullName\" " . $size[3] . " /><br />\n";
 		}
 	}
 } else {

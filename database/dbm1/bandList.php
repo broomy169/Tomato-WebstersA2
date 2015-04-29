@@ -1,11 +1,11 @@
 <?php
 //including connection code for database
-//following code will make this file accessible from other directories well
+//following code will make this file accessible from other directories as well
 isset($urlVar) || $urlVar = "";
-include($urlVar."inc_dbconnect.php");
+include($urlVar . "inc_dbConnect.php");
 
-echo "<link rel='stylesheet' href= 'database/styleband.css' type='text/css'>";
-echo "<script src= 'database/expandband.js' type='text/javascript'></script>";
+echo "<link rel='stylesheet' href= 'database/styleBandList.css' type='text/css'>";
+echo "<script src= 'database/expandBand.js' type='text/javascript'></script>";
 
 $sql = "SELECT * FROM band";
 // counter or tally that helps to distinguish between each record's tags/click/input in JavaScript

@@ -1,7 +1,7 @@
 <?php
 
 isset($urlVar) || $urlVar = "";
-include($urlVar."inc_dbconnect.php");
+include($urlVar . "inc_dbConnect.php");
 
 $debugOn = true;
 
@@ -9,7 +9,7 @@ if ($_REQUEST['submit'] == "X")
 {
     $sql = "DELETE FROM Band WHERE band_id = '$_REQUEST[band_id]'";
     if ($dbh->exec($sql))
-        header("Location: manageband.php");
+        header("Location: manageBandList.php");
 }
 ?>
 
@@ -19,8 +19,15 @@ if ($_REQUEST['submit'] == "X")
     <meta charset="UTF-8">
     <title>Band/Artists editing - TCMC</title>
 </head>
+<style>
+    #update {color: #cc0000}
+    #info {margin: 5px; border: solid black; padding-left: 10px; padding-top: 10px;}
+    a {background-color: #b5ffb0; text-decoration: none; border: double #000000; padding: 4px;}
+    a:hover {background-color: #0eff39; border: solid #000000; }
+</style>
+
 <body>
-<p><a href="manageband.php">Return to band database</a></p>
+<h3><a href="manageBandList.php">Return to Manage band database</a></h3>
 <h1>Results</h1>
 
 <?php
@@ -29,8 +36,9 @@ echo "<h2>Data</h2>";
 // execute the appropriate query based on which submit button (insert, delete or update) was clicked
 if ($_REQUEST['submit'] == "Add Entry") 
 {
-    include_once("upload_icon.php");
-    include_once("upload_image.php");
+    include_once("uploadIcon.php");
+    echo "<br><br>";
+    include_once("uploadImage.php");
     $iconUrl = (string)$thumbFullName;
     $imageUrl = (string)$newFullName;
 
@@ -44,33 +52,28 @@ if ($_REQUEST['submit'] == "Add Entry")
     $longBio = htmlspecialchars($_REQUEST['band_longBio']);
 
     $sql = "INSERT INTO Band (band_name, band_email, band_phone, band_website, band_shortBio, band_longBio, band_genre, band_promoIcon, band_promoPic) VALUES ('$_REQUEST[band_name]', '$email', '$phone', '$website', '$shortBio', '$longBio', '$_REQUEST[band_genre]', '$iconUrl', '$imageUrl')";
+    //echo "<p>Query: " . $sql . "</p>\n<p><strong>";
 
-    /*
-     * attempting to include upload_file.php so every time add entery is clicked file is upload on same time. this will save user time by one click add information
-     *
-     */
-
-    echo "<p>Query: " . $sql . "</p>\n<p><strong>";
     if ($dbh->exec($sql))
-        echo "Inserted $_REQUEST[band_name]";
+        echo "<div id='update'><h2>Inserted new record: $_REQUEST[band_name]</h2></div>";
     else
-        echo "Not inserted"; // in case it didn't work - e.g. if database is not writeable
+        echo "<div id='update'><h2>Not inserted</h2></div>";
 }
 
 else if ($_REQUEST['submit'] == "Delete Entry")
 {
     $sql = "DELETE FROM Band WHERE band_id = '$_REQUEST[band_id]'";
-    echo "<p>Query: " . $sql . "</p>\n<p><strong>";
+    //echo "<p>Query: " . $sql . "</p>\n<p><strong>";
     if ($dbh->exec($sql))
-        echo "Deleted $_REQUEST[band_name]";
+        echo "<div id='update'><h2>Deleted: $_REQUEST[band_name]</h2></div>";
     else
-        echo "Not deleted";
+        echo "<div id='update'><h2>Not deleted</h2></div>";
 }
 else if ($_REQUEST['submit'] == "Update Information")
 {
 
-    include_once("update_icon.php");
-    include_once("update_image.php");
+    include_once("updateIcon.php");
+    include_once("updateImage.php");
     $iconUrl = (string)$thumbFullName;
     $imageUrl = (string)$newFullName;
 
@@ -84,13 +87,12 @@ else if ($_REQUEST['submit'] == "Update Information")
     $sql = "UPDATE Band SET band_name = '$_REQUEST[band_name]', band_email = '$email', band_phone =
 '$phone', band_website = '$website', band_shortBio = '$shortBio', band_longBio = '$longBio', band_genre = '$_REQUEST[band_genre]', band_promoIcon = '$iconUrl', band_promoPic = '$imageUrl'  WHERE
 band_id = '$_REQUEST[band_id]'";
+    //echo "<p>Query: " . $sql . "</p>\n<p><strong>";
 
-
-    echo "<p>Query: " . $sql . "</p>\n<p><strong>";
     if ($dbh->exec($sql))
-        echo "Updated $_REQUEST[band_name]";
+        echo "<div id='update'><h2>Updated $_REQUEST[band_name] $record</h2></div>";
     else
-        echo "Not updated";
+        echo "<div id='update'><h2>Not updated</h2></div>";
 }
 else {
     echo "This page did not come from a valid form submission.<br />\n";
@@ -98,24 +100,14 @@ else {
 echo "</strong></p>\n";
 
 // Basic select and display all contents from table
-
 echo "<h2>Band Records in Database Currently</h2>\n";
 $sql = "SELECT * FROM Band";
 $result = $dbh->query($sql);
 $resultCopy = $result;
 
 if ($debugOn) {
-    //echo "<pre>";
-// one row at a time:
-    /*	$row = $result->fetch(PDO::FETCH_ASSOC);
-        print_r($row);
-        echo "<br />\n";
-        $row = $result->fetch(PDO::FETCH_ASSOC);
-        print_r($row);
-    */
-// all rows in one associative array
     $rows = $result->fetchall(PDO::FETCH_ASSOC);
-    echo "<h3>There are total " . count($rows) . " records in Database." . "</h3><br />\n\n";
+    echo "<h3>" . count($rows) . " records in Database." . "</h3><br />\n\n";
     //print_r($rows);
     //echo "</pre>";
     //echo "<br />\n";
@@ -123,9 +115,10 @@ if ($debugOn) {
 $record = 1;
 foreach ($dbh->query($sql) as $row)
 {
+    echo "<div id='info'>";
     print "<b>Record $record" . '<br />' . "</b>";
     print "\tRecord ID: " . '<b>' . $row['band_id'] . '</b>' . "<br />";
-    print "\tName: " . '<b>' . $row['band_name'] . '</b>' . '</b>' . "<br />";
+    print "\tName: " . '<b>' . $row['band_name'] . '</b>' . "<br />";
     print "\tEmail: " . '<b>' . $row['band_email'] . '</b>' . "<br />";
     print "\tPhone: " . '<b>' . $row['band_phone'] . '</b>' . "<br />";
     print "\tWebsite: " . '<b>' . $row['band_website'] . '</b>' . "<br />";
@@ -135,12 +128,12 @@ foreach ($dbh->query($sql) as $row)
     print "\tPicture path: " . '<b>' . $row['band_promoPic'] . '</b>' . "<br />";
     print "\tGenre: " . '<b>' . $row['band_genre'] . '</b>' . "<br /><br />\n";
     $record++;
-    echo "</pre>";
+    echo "\n</div>";
 }
 
 // close the database connection
 $dbh = null;
 ?>
-<p><a href="manageband.php">Return to band database</a></p>
+<h3><a href="manageBandList.php">Return to Manage band database</a></h3>
 </body>
 </html>
