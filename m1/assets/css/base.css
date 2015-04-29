@@ -6,7 +6,7 @@ html,
 body {
     color: #000;
     background-color: #222222;
-    background: url("/database/images/bg-tcmc.png") no-repeat center top fixed; 
+    background: url("database/images/bg-tcmc.png") no-repeat center top fixed; 
     /*background-image: url(/database/images/bg-tcmc.png) no-repeat center top fixed;*/
     background-size:cover;
 }
