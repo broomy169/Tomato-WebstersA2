@@ -1,7 +1,7 @@
 <?php
 
 isset($urlVar) || $urlVar = "";
-include($urlVar . "inc_dbConnect.php");
+include($urlVar . "database_connect.php");
 
 $debugOn = true;
 
@@ -9,7 +9,7 @@ if ($_REQUEST['submit'] == "X")
 {
     $sql = "DELETE FROM Band WHERE band_id = '$_REQUEST[band_id]'";
     if ($dbh->exec($sql))
-        header("Location: manageBandList.php");
+        header("Location: band_manageList.php");
 }
 ?>
 
@@ -27,7 +27,7 @@ if ($_REQUEST['submit'] == "X")
 </style>
 
 <body>
-<h3><a href="manageBandList.php">Return to Manage band database</a></h3>
+<h3><a href="band_manageList.php">Return to Manage band database</a></h3>
 <h1>Results</h1>
 
 <?php
@@ -36,9 +36,9 @@ echo "<h2>Data</h2>";
 // execute the appropriate query based on which submit button (insert, delete or update) was clicked
 if ($_REQUEST['submit'] == "Add Entry") 
 {
-    include_once("uploadIcon.php");
+    include_once("band_uploadIcon.php");
     echo "<br><br>";
-    include_once("uploadImage.php");
+    include_once("band_uploadImage.php");
     $iconUrl = (string)$thumbFullName;
     $imageUrl = (string)$newFullName;
 
@@ -72,8 +72,8 @@ else if ($_REQUEST['submit'] == "Delete Entry")
 else if ($_REQUEST['submit'] == "Update Information")
 {
 
-    include_once("updateIcon.php");
-    include_once("updateImage.php");
+    include_once("band_updateIcon.php");
+    include_once("band_updateImage.php");
     $iconUrl = (string)$thumbFullName;
     $imageUrl = (string)$newFullName;
 
@@ -134,6 +134,6 @@ foreach ($dbh->query($sql) as $row)
 // close the database connection
 $dbh = null;
 ?>
-<h3><a href="manageBandList.php">Return to Manage band database</a></h3>
+<h3><a href="band_manageList.php">Return to Manage band database</a></h3>
 </body>
 </html>

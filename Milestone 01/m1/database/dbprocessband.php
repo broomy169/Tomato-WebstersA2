@@ -9,7 +9,7 @@ if ($_REQUEST['submit'] == "X")
 {
     $sql = "DELETE FROM Band WHERE band_id = '$_REQUEST[band_id]'";
     if ($dbh->exec($sql))
-        header("Location: manageBandList.php");
+        header("Location: band_manageList.php");
 }
 ?>
 

@@ -2,10 +2,10 @@
 //including connection code for database
 //following code will make this file accessible from other directories as well
 isset($urlVar) || $urlVar = "";
-include($urlVar . "inc_dbConnect.php");
+include($urlVar . "database_connect.php");
 
-echo "<link rel='stylesheet' href= 'database/styleBandList.css' type='text/css'>";
-echo "<script src= 'database/expandBand.js' type='text/javascript'></script>";
+echo "<link rel='stylesheet' href= 'database/band_listStyle.css' type='text/css'>";
+echo "<script src= 'database/band_expandInfo.js' type='text/javascript'></script>";
 
 $sql = "SELECT * FROM band";
 // counter or tally that helps to distinguish between each record's tags/click/input in JavaScript

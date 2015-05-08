@@ -72,7 +72,7 @@
             <ul>
                 <?php
                 $urlVar = 'database/';
-                include($urlVar . 'bandList.php'); //included file to pull and displays all artists/band information from sqlite
+                include($urlVar . 'band_list.php'); //included file to pull and displays all artists/band information from sqlite
                 ?>
             </ul>
 
