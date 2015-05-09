@@ -21,6 +21,10 @@ containers
     float: left;
 }
 
+.float-Right{
+    float: right;
+}
+
 /* -----------------------------------
 rows
 ----------------------------------- */
@@ -262,35 +266,7 @@ row and text wide
 }
 
 /*---------------Bands --------------------*/
-/*
-ul {
-    display: block;
-    margin: 0 auto;
-}
 
-
-#icon {
-    padding-top: 15px;
-}
-
-#photo {
-    display: block;
-    text-align: center;
-    float: right;
-    width: 60%;
-    padding: 5px;
-}
-
-#info {
-    display: block;
-    text-align: left;
-    float: left;
-    width: 40%;
-    padding: 10px;
-}
-
-
-*/
 
 #clearBlock {
     clear: both;
@@ -305,13 +281,6 @@ ul {
 
 .bandClass {
     
-/*  
-    width: 100%;
-    border-bottom: solid #878787 3px;
-    border-top: solid #878787 3px;
-    border-radius: 10px;
-    margin-bottom: 40px;
-*/
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -moz-user-select: none;

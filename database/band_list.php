@@ -30,7 +30,7 @@
                         //checking if image exists and display
         if (file_exists($iconUrl)){
             echo "
-                        <div class='col w-1col m-1col '>
+                        <div class='col w-1col m-1col float-Left'>
                             <div class='imgBox100'>
                                 <div class='row-fixedHeight'>
                                     <img id='icon$blockTally'src='$iconUrl' alt='$row[band_name]'>
@@ -46,8 +46,26 @@
 
         }
         echo" 
-                        <h2>$row[band_name]</h2>
-                        <h3>$row[band_shortBio]</h3>
+
+                        
+                        <div class='col w-1col m-1col float-Right'>
+                            <h3>Members</h3>";
+        //need to pull band members from database and into an array and foreach into a list
+        echo"
+                            <ul>
+                                <li>member1</li>
+                                <li>member2</li>
+                                <li>member3</li>
+                            </ul>";
+        
+                            
+       echo"            </div>
+                        <!--<div class='col w-2col m-2col '>-->
+                            <h2>$row[band_name]</h2>
+                            <h4>$row[band_shortBio]</h4>
+                        <!--</div>-->
+                        
+                        
                     </div>
                     
                     <!-- End of always show -->
