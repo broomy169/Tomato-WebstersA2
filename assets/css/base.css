@@ -5,7 +5,10 @@ base styles
 html,
 body {
     color: #000;
-    background: url(/database/images/bg-tcmc.png) no-repeat center top fixed;
+    background-color: #220000;
+    /*
+    background: url(database/images/bg-tcmc.png) no-repeat center top fixed;
+    */
     background-size:cover;
 }
 

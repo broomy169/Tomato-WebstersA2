@@ -21,33 +21,39 @@
         echo" 
             <!-- Start of single band List item-->
             <li>
-                <div id='band$blockTally' class='bandClass' onclick='expand($blockTally);' title='click here for more information' value='hide'>
+                <div id='band$blockTally' class='bandClass box' onclick='expand($blockTally);' title='click here for more information' value='hide'>
                 
                     <!-- Start of always show -->
                     
-                    <div id='info'>
-                        <h2>$row[band_name]</h2>
-                        <h3>$row[band_shortBio]</h3>";
+                    <div id='info-small$blockTally'>";
                         
                         //checking if image exists and display
         if (file_exists($iconUrl)){
-            echo "      <div id='icon'>
-                            <img src='$iconUrl'>
+            echo "
+                        <div class='col w-1col m-1col '>
+                            <div class='imgBox100'>
+                                <div class='row-fixedHeight'>
+                                    <img id='icon$blockTally'src='$iconUrl' alt='$row[band_name]'>
+                                </div>
+                            </div>
                         </div>";
         } 
         else {
-            echo "      <div id='icon'>
+            echo "
+                        <div id='icon'>
                             <img src='database/images/defaultTomato.jpg'>
                         </div>";
 
         }
-         echo"           
+        echo" 
+                        <h2>$row[band_name]</h2>
+                        <h3>$row[band_shortBio]</h3>
                     </div>
                     
                     <!-- End of always show -->
                     <!-- Start of expanded view -->
                     
-                    <div id='moreInfo$blockTally' class='moreInfo'>
+                    <div id='info-more$blockTally' class='info-more'>
                         <p>$row[band_longBio]</p>
                         <ul>
                             <li><p>'contact us on this phone number'>Phone: $row[band_phone]</p></li>
@@ -69,7 +75,7 @@
         }
 
         echo "      </div>
-                    <div id='clearBlock'><li>
+                    <div id='clearBlock'>
                     </div>
                     
                     <!-- End of expanded view -->

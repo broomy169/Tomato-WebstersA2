@@ -41,31 +41,6 @@
     </div>
     <!-- end div #header-->
 
-    <!--- START of call to actions  -->
-    <div class="row row-padding-small row-white">
-        <div class="container">
-            <div class="col w-2col m-2col">
-                <a href="signUpIn.html">
-                    <div class="cta-signUpIn">
-                        <h1>SignIn or SignUp</h1>
-                        <img src="database/images/musos/CelticFyre800.jpg" width="90%">
-                        <p>kaejdkjsdhgsadjkgsdljghsldg</p>
-                    </div>
-                </a>
-
-            </div>
-            <div class="col w-2col m-2col">
-                <a href="Events.html">
-                    <div class="cta-events">
-                        <h1>Events</h1>
-                        <img src="database/images/musos/CelticFyre800.jpg" width="90%">
-                        <p>kaejdkjsdhgsadjkgsdljghsldg</p>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-    <!--- END of call to actions  -->
     <!--- START of artists list ---->
     <div class="row row-padding-large row-gray">
         <div class="container bands">
@@ -91,6 +66,63 @@
         </a>
     </div>
     <!--- END guilt trip -->
+     <!--- START of call to actions  -->
+    <div class="row row-padding-small row-dgray">
+        <div class="container">
+            <div class="col w-2col m-2col">
+                <a href="signUpIn.html">
+                    <div class="cta">
+                        <div class="txtBox100x20">
+                            <div class="row-fixedHeight">
+                                <h1>SignIn</h1>
+                            </div>
+                        </div>
+                        <div class="imgBox90">
+                            <img src="/database/images/musos/Celtic-Fyre-Wall-with-Fire8.jpg" width="100%">
+                        </div>
+                        <div class="txtBox100x30">
+                            <div class="row-fixedHeight">
+                                <h2>Members benefit!</h2>
+                                <p><strong>Enjoy</strong> the benefits of becoming a member.</p>
+
+                                <ul>
+                                    <li>Massive discounts on Tickets
+                                    </li>
+                                    <li>Keep up to date with gigs.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+            <div class="col w-2col m-2col">
+                <a href="Events.html">
+                    <div class="cta">
+                        <div class="txtBox100x20">
+                            <div class="row-fixedHeight">
+                                <h1>Events</h1>
+                            </div>
+                        </div>
+                        <div class="imgBox90">
+                            <img  src="/database/images/events/AVIVA-LANE500.jpg" width="100%">
+                        </div>
+                        <div class="txtBox100x30">
+                            <div class="row-fixedHeight">
+                                <h2>Friday 26 May</h2>
+                                <p>Aviva Lane - Get your tickets NOW</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--- END of call to actions  -->
+    
+    
+    
     <!-- START minor call to action -->
     <div class="row row-padding row-white">
         <div class="container cta-4x">
