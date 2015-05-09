@@ -10,6 +10,14 @@
     $sql = "SELECT * FROM band";
     // counter or tally that helps to distinguish between each record's tags/click/input in JavaScript
     $blockTally = 1;
+    
+    $blockTallySum = 1;
+
+    // gets length of list
+    foreach($dbh->query($sql) as $row){
+        $blockTallySum++;
+        
+    }
 
     //loop going through each band record and displays its info
     foreach($dbh->query($sql) as $row){
@@ -21,7 +29,7 @@
         echo" 
             <!-- Start of single band List item-->
             <li>
-                <div id='band$blockTally' class='bandClass box' onclick='expand($blockTally);' title='click here for more information' value='hide'>
+                <div id='band$blockTally' class='bandClass box' onclick='expand($blockTally,$blockTallySum);' title='click here for more information' value='hide'>
                 
                     <!-- Start of always show -->
                     
@@ -112,5 +120,6 @@
             
             <!-- End of single band List item-->";
         $blockTally++;
-}?>
+}
+?>
 
