@@ -16,6 +16,11 @@ containers
 .container-narrow {
     max-width: 33em;
 }
+
+.float-Left{
+    float: left;
+}
+
 /* -----------------------------------
 rows
 ----------------------------------- */
@@ -59,6 +64,7 @@ rows
     background: #1e1e1e;
     color: #ddd;
 }
+
 
 
 /* -----------------------------------
@@ -184,6 +190,8 @@ row and text wide
 /*----------------specific styling below-------------------------*/
 /*----------------specific styling below-------------------------*/
 
+/*-------- About-HistoryList ----------------*/
+
 .About-HistoryList ul {
     text-align: left;
     margin: 2em 2em 1em;
@@ -198,13 +206,19 @@ row and text wide
     text-align: Center;
 }
 
+.About-HistoryList p{
+    margin: .5em;
+}
+
+/*-------- About-HistoryBrief----------------*/
+
 .About-HistoryBrief {
     text-align: left;
 
 }
 
 .About-HistoryBrief p{
-    margin: 1em
+    margin: 1em;
 }
 
 .About-HistoryBrief h1,
@@ -212,6 +226,37 @@ row and text wide
     text-align: center;
 }
 
-.float-Left{
-    float: left;
+/*-------- CTA----------------*/
+
+.cta img{
+    position: absolute;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+   
+}
+
+
+.cta {
+    background: black;
+    margin: 1em;
+    padding: 1em;
+}
+
+
+.cta p {
+    color: white;
+}
+
+.cta-4x h3 {
+    color: black;
+    font-size: 2em;
+}
+
+.cta-4x a{
+    color: white;
+    font-weight: 100;
 }

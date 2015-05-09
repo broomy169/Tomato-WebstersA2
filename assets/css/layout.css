@@ -48,6 +48,44 @@
     border: 1px solid rgba(0, 0, 0, 0.4);
     border-radius: 8px;
 }
+
+.imgBox90,
+.imgBox100,
+.txtBox100x40,
+.txtBox100x30,
+.txtBox100x20,
+.txtBox100x10{
+    width: 90%;
+    position: relative;
+    padding: 56.25% 0 0 0;
+    overflow: hidden;
+    margin: auto;
+}
+
+.imgBox100,
+.txtBox100x40,
+.txtBox100x30,
+.txtBox100x20,
+.txtBox100x10 {
+    width: 100%;
+}
+
+.txtBox100x40 {
+    padding: 40% 0 0 0;
+}
+
+.txtBox100x30{
+    padding: 30% 0 0 0;
+}
+
+.txtBox100x20{
+    padding: 20% 0 0 0;
+}
+
+.txtBox100x10{
+    padding: 10% 0 0 0;
+}
+
 /* -----------------------------------
 rows
 ----------------------------------- */
@@ -62,6 +100,13 @@ rows
 }
 
 
+.row-fixedHeight {
+    position: absolute;
+    left: 1%;
+    right: 1%;
+    top: 10%;
+    bottom: auto;
+}
 
 .row-right {
     text-align: right;
@@ -137,23 +182,3 @@ cols-wide
 
 /*-----------------specific styling ------------------------*/
 
-.cta {
-    background: black;
-    margin: 1em;
-    padding: 1em;
-}
-
-
-.cta p {
-    color: white;
-}
-
-.cta-4x h3 {
-    color: black;
-    font-size: 2em;
-}
-
-.cta-4x a{
-    color: white;
-    font-weight: 100;
-}
