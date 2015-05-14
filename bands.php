@@ -27,7 +27,7 @@
                 </li>
                 <li><a href="message.html">Messages</a>
                 </li>
-                <li><a href="About.html">About</a>
+                <li><a href="about.html">About</a>
                 </li>
                 <li><a href="sponsors.html">Sponsors</a>
                 </li>
