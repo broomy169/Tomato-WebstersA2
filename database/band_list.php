@@ -75,22 +75,10 @@
                     
                     <!-- Start of expanded view -->
                     
-                    <div id='info-more$blockTally' class='info-more'>
-                        <div class='col w-2col m-2col '>
-                            <h2>$row[band_name]</h2>
-                            <h3>$row[band_shortBio]</h3>
-                            <p>$row[band_longBio]</p>
-                            <ul>
-                                <li><p>'contact us on this phone number'>Phone: $row[band_phone]</p></li>
-                                <li><p>'click here to email us'>Email: <a href='mailto:$row[band_email]'>$row[band_email]</a></p></li>
-                                <li><p>'click here to go to our website'>Website: <a target='_blank' href=$row[band_website]>$row[band_website]</a></p></li>
-                            </ul>
-                        </div>";
-
-
-        //checking and showing if image already added by user otherwise displaying default image
+                    <div id='info-more$blockTally' class='info-more'>";
+                //checking and showing if image already added by user otherwise displaying default image
         if (file_exists($imageUrl)){
-            echo "      <div class='col w-2col m-2col '>
+            echo "      <div class='col w-2col m-2col float-Right'>
                             <div class='imgBox100'>
                                 <div class='row-fixedHeight'>
                                     <img id='photo$blockTally' src='$imageUrl'>
@@ -103,6 +91,21 @@
                             <img id='photo$blockTally' src='database/images/defaultTomatoLight.jpg'>
                         </div>";
         }
+                    
+        echo "
+                        <!--<div class='col w-2col m-2col '>-->
+                            <h2>$row[band_name]</h2>
+                            <h3>$row[band_shortBio]</h3>
+                            <p>$row[band_longBio]</p>
+                            <ul>
+                                <li><p>You can contact us on this phone number $row[band_phone]</p></li>
+                                <li><p>or try email <a href='mailto:$row[band_email]'>$row[band_email]</a></p></li>
+                                <li><p>while your at it you may as well checkout our Website <a target='_blank' href=$row[band_website]>$row[band_website]</a></p></li>
+                            </ul>
+                        <!--</div>-->";
+
+
+
 
         echo "      </div>
                     <div id='clearBlock'>

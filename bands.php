@@ -44,6 +44,7 @@
     <!--- START of artists list ---->
     <div class="row row-padding-large row-gray">
         <div class="container bands">
+            <h1>Bands / Artists</h1>
             <ul>
                 <?php
                 $urlVar = 'database/';
@@ -124,14 +125,16 @@
     
     
     <!-- START minor call to action -->
-    <div class="row row-padding row-white">
+    <div class="row row-padding-small row-gray">
         <div class="container cta-4x">
             <!-- May not need this class??-->
 
             <div class="col w-1col m-1col">
-                <a href="aboutUs.html">
+                <a href="http://localhost/Tomato/aboutUs.html">
                     <h3>Contacts</h3>
-                    <ul>
+                </a>
+                <ul>
+                    <a href="http://localhost/Tomato/aboutUs.html">
                         <li>Phone:
                         </li>
                         <li>07 4724 2086
@@ -140,15 +143,17 @@
                         </li>
                         <li>0402 255 182
                         </li>
-                        <li><a href="mailto:admin@townsvillemusic.org">Email Us:</a>
-                        </li>
-                    </ul>
-                </a>
+                    </a>
+                    <li>
+                        <a href="http://localhost/Tomato/aboutUs.html"></a><a href="mailto:admin@townsvillemusic.org">Email Us:</a>
+                    </li>
+                </ul>
+
             </div>
 
 
             <div class="col w-1col m-1col">
-                <a href="signUp.html">
+                <a href="http://localhost/Tomato/signUp.html">
                     <h3>Sign Up</h3>
                     <p>Become a member Instantly!!
                     </p>
@@ -160,7 +165,7 @@
 
 
             <div class="col w-1col m-1col">
-                <a href="upcomingEvents.html">
+                <a href="http://localhost/Tomato/upcomingEvents.html">
                     <h3>Events</h3>
                     <p>View all upcoming events.
                     </p>
@@ -172,7 +177,7 @@
 
 
             <div class="col w-1col m-1col">
-                <a href="sponsors.html">
+                <a href="http://localhost/Tomato/sponsors.html">
                     <h3>Sponsors</h3>
                     <p>We love our sponsors.
                     </p>
@@ -185,12 +190,38 @@
         </div>
     </div>
     <!-- END minor calls to action -->
+    
+    <!--Start sponsors list-->
+
+    <div class="row row-white">
+
+        <div class="sponsors">
+            <div class="col">
+                <ul>
+                    <li><img src="database/images/SiteImages/30anniversary02300.png" width="296" height="297" alt="TCMC 30 years logo"/>
+                    </li>
+                    <li><img src="database/images/SiteImages/TCCcolour150193.gif" width="150" height="193" alt="city of Townsville logo"/>
+                    </li>
+                    <li><img src="database/images/SiteImages/Qldlogo150169.jpg" width="150" height="169" alt="Queensland Government logo"/>
+                    </li>
+                    <li><img src="database/images/events/JCUlogo200.jpg" width="200" height="88" alt="James Cook University logo"/>
+                    </li>
+                    <li><img src="database/images/events/TGOlogo300.jpg" width="300" height="84" alt="Townsville Guitar Ochestra"/>
+                    </li>
+                    <li><img src="database/images/events/KMEIAlogo.jpg" width="160" height="160" alt="Music Education Institute Of Australia"/>
+                    </li>
+                </ul> 
+            </div>      
+        </div>   
+    </div>
+
+    <!--End sponsors list-->
     <!-- START Copyright -->
     <div class="row row-padding row-black">
         <div class="container">
             <p class="footer-text">
 
-                <br> Copyright &copy; Tomato Websters 2015
+                <br> Copyright © Tomato Websters 2015
             </p>
         </div>
     </div>
