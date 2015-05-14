@@ -13,6 +13,20 @@ include($urlVar . "database_connect.php");
 </head>
 <body>
 <div id="pageWrapper">
+<h1>Sort by Genre</h1>
+    <form id="band_sortGenre" name="band_sortGenre" method="post" action="band_sortGenre.php">
+    <center><select name="band_sortGenre" id="band_sortGenre">
+        <option value="Rock">Rock</option>
+        <option value="Pop">Pop</option>
+        <option value="Metal">Metal</option>
+        <option value="Jazz">Jazz</option>
+        <option value="Classical">Classical</option>
+        <option value="Country">Country</option>
+        <option value="Hip Hop">Hip Hop</option>
+        <option value="Rap">Rap</option>
+        </select></center>
+        <center><input type="submit" name="submit" id="submit" value="Sort Genre"></center>
+</form>
 <h1>Manage (Add/remove/update) Band and Artists</h1>
 <form id="addRecord" name="addRecord" method="post" enctype="multipart/form-data" action="band_databaseProcess.php">
     <fieldset>
@@ -77,14 +91,14 @@ include($urlVar . "database_connect.php");
             <label for='band_genre'>Genre: </label>
             <select name='band_genre' id='band_genre'>
                 <option>$row[band_genre]</option>
-                <option value='Rock'>Rock</option>
-                <option value='Pop'>Pop</option>
-                <option value='Metal'>Metal</option>
-                <option value='Jazz'>Jazz</option>
-                <option value='Classical'>Classical</option>
-                <option value='Country'>Country</option>
-                <option value='Hip Hop'>Hip Hop</option>
-                <option value='Rap'>Rap</option>
+                <option>Rock</option>
+                <option>Pop</option>
+                <option>Metal</option>
+                <option>Jazz</option>
+                <option>Classical</option>
+                <option>Country</option>
+                <option>Hip Hop</option>
+                <option>Rap</option>
             </select>
             <label>Phone: </label><input type='text' name='band_phone' value='$row[band_phone]' />
             <label>Email: </label><input type='text' name='band_email' value='$row[band_email]' />
