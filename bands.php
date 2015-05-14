@@ -41,34 +41,10 @@
     </div>
     <!-- end div #header-->
 
-    <!--- START of call to actions  -->
-    <div class="row row-padding-small row-white">
-        <div class="container">
-            <div class="col w-2col m-2col">
-                <a href="signUpIn.html">
-                    <div class="cta-signUpIn">
-                        <h1>SignIn or SignUp</h1>
-                        <img src="database/images/musos/CelticFyre800.jpg" width="90%">
-                        <p>kaejdkjsdhgsadjkgsdljghsldg</p>
-                    </div>
-                </a>
-
-            </div>
-            <div class="col w-2col m-2col">
-                <a href="Events.html">
-                    <div class="cta-events">
-                        <h1>Events</h1>
-                        <img src="database/images/musos/CelticFyre800.jpg" width="90%">
-                        <p>kaejdkjsdhgsadjkgsdljghsldg</p>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-    <!--- END of call to actions  -->
     <!--- START of artists list ---->
     <div class="row row-padding-large row-gray">
         <div class="container bands">
+            <h1>Bands / Artists</h1>
             <ul>
                 <?php
                 $urlVar = 'database/';
@@ -91,15 +67,74 @@
         </a>
     </div>
     <!--- END guilt trip -->
+     <!--- START of call to actions  -->
+    <div class="row row-padding-small row-dgray">
+        <div class="container">
+            <div class="col w-2col m-2col">
+                <a href="signUpIn.html">
+                    <div class="cta">
+                        <div class="txtBox100x20">
+                            <div class="row-fixedHeight">
+                                <h1>SignIn</h1>
+                            </div>
+                        </div>
+                        <div class="imgBox90">
+                            <img src="database/images/musos/Celtic-Fyre-Wall-with-Fire8.jpg" width="100%">
+                        </div>
+                        <div class="txtBox100x30">
+                            <div class="row-fixedHeight">
+                                <h2>Members benefit!</h2>
+                                <p><strong>Enjoy</strong> the benefits of becoming a member.</p>
+
+                                <ul>
+                                    <li>Massive discounts on Tickets
+                                    </li>
+                                    <li>Keep up to date with gigs.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+            <div class="col w-2col m-2col">
+                <a href="Events.html">
+                    <div class="cta">
+                        <div class="txtBox100x20">
+                            <div class="row-fixedHeight">
+                                <h1>Events</h1>
+                            </div>
+                        </div>
+                        <div class="imgBox90">
+                            <img  src="database/images/events/AVIVA-LANE500.jpg" width="100%">
+                        </div>
+                        <div class="txtBox100x30">
+                            <div class="row-fixedHeight">
+                                <h2>Friday 26 May</h2>
+                                <p>Aviva Lane - Get your tickets NOW</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--- END of call to actions  -->
+    
+    
+    
     <!-- START minor call to action -->
-    <div class="row row-padding row-white">
+    <div class="row row-padding-small row-gray">
         <div class="container cta-4x">
             <!-- May not need this class??-->
 
             <div class="col w-1col m-1col">
-                <a href="aboutUs.html">
+                <a href="about.html">
                     <h3>Contacts</h3>
-                    <ul>
+                </a>
+                <ul>
+                    <a href="about.html">
                         <li>Phone:
                         </li>
                         <li>07 4724 2086
@@ -108,10 +143,12 @@
                         </li>
                         <li>0402 255 182
                         </li>
-                        <li><a href="mailto:admin@townsvillemusic.org">Email Us:</a>
-                        </li>
-                    </ul>
-                </a>
+                    </a>
+                    <li>
+                        <a href="mailto:admin@townsvillemusic.org">Email Us:</a>
+                    </li>
+                </ul>
+
             </div>
 
 
@@ -128,7 +165,7 @@
 
 
             <div class="col w-1col m-1col">
-                <a href="upcomingEvents.html">
+                <a href="Events.html">
                     <h3>Events</h3>
                     <p>View all upcoming events.
                     </p>
@@ -153,12 +190,38 @@
         </div>
     </div>
     <!-- END minor calls to action -->
+    
+    <!--Start sponsors list-->
+
+    <div class="row row-white">
+
+        <div class="sponsors">
+            <div class="col">
+                <ul>
+                    <li><img src="database/images/SiteImages/30anniversary02300.png" width="296" height="297" alt="TCMC 30 years logo"/>
+                    </li>
+                    <li><img src="database/images/SiteImages/TCCcolour150193.gif" width="150" height="193" alt="city of Townsville logo"/>
+                    </li>
+                    <li><img src="database/images/SiteImages/Qldlogo150169.jpg" width="150" height="169" alt="Queensland Government logo"/>
+                    </li>
+                    <li><img src="database/images/events/JCUlogo200.jpg" width="200" height="88" alt="James Cook University logo"/>
+                    </li>
+                    <li><img src="database/images/events/TGOlogo300.jpg" width="300" height="84" alt="Townsville Guitar Ochestra"/>
+                    </li>
+                    <li><img src="database/images/events/KMEIAlogo.jpg" width="160" height="160" alt="Music Education Institute Of Australia"/>
+                    </li>
+                </ul> 
+            </div>      
+        </div>   
+    </div>
+
+    <!--End sponsors list-->
     <!-- START Copyright -->
     <div class="row row-padding row-black">
         <div class="container">
             <p class="footer-text">
 
-                <br> Copyright &copy; Tomato Websters 2015
+                <br> Copyright © Tomato Websters 2015
             </p>
         </div>
     </div>
