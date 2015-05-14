@@ -18,6 +18,9 @@
 <body>
     <div class="header">
         <div class="navigation">
+            <div class="float-Left">
+                <img src="database/images/SiteImages/TCMC98Neg.gif" >
+            </div>
             <ul>
                 <li><a href="index.html">Home</a>
                 </li>
@@ -32,12 +35,12 @@
                 <li><a href="sponsors.html">Sponsors</a>
                 </li>
             </ul>
+            <div class="row-right">
+                <a href="signInUp.html">Sign Up - Sign In</a>
+            </div>
         </div>
         <!-- end div #menu -->
-        <div class="row-right">
-            <a href="signInUp.html">Sign Up - Sign In</a>
 
-        </div>
     </div>
     <!-- end div #header-->
 

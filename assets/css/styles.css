@@ -130,7 +130,7 @@ text
 row and text medium
 ----------------------------------- */
 
-@media (min-width: 30em) {
+@media (min-width: 38em) {
     .row-padding {
         padding: 2.5em 0;
     }
@@ -167,7 +167,7 @@ row and text medium
 row and text wide
 ----------------------------------- */
 
-@media (min-width: 55em) {
+@media (min-width: 62em) {
     .row-padding {
         padding: 3em 0;
     }
