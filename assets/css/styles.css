@@ -42,6 +42,7 @@ rows
 
 .row-white {
     background: #fff;
+    
 }
 .row-white a{
     color: red
@@ -49,8 +50,12 @@ rows
 
 .row-gray {
     background: #dedede;
+    color: blue;
 }
-.row-gray a{
+.row-gray * h3{
+    color: black;
+}
+.row-gray * a{
     color: red;
 }
 
@@ -256,12 +261,10 @@ row and text wide
 }
 
 .cta-4x h3 {
-    color: black;
     font-size: 2em;
 }
 
 .cta-4x a{
-    color: white;
     font-weight: 100;
 }
 
