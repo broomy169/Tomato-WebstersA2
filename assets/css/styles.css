@@ -53,7 +53,7 @@ rows
     color: black;
 }
 .row-gray * h3{
-    color: black;
+    color: #2e2e2e;
 }
 .row-gray * a{
     color: red;
