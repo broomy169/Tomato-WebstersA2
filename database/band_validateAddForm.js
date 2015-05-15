@@ -15,7 +15,6 @@ function validateAddForm() {
     } else if (phone === "" || isNaN(phone)) {
         alert("Please enter valid phone number.");
         return false;
-
     } else if (email === "") {
         alert("Please enter email address.");
         return false;
