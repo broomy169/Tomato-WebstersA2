@@ -98,13 +98,13 @@
                             <h3>$row[band_shortBio]</h3><br>
                             <p>$row[band_longBio]</p>
                             <ul>";
-        if(!((empty($row[band_phone])) or ($row[band_phone] == "none"))){
+        if(!((empty($row['band_phone'])) or ($row['band_phone'] == "none"))){
             echo"              <li><p>You can contact us on this phone number: $row[band_phone]</p></li>";
         }
-        if(!((empty($row[band_email]))or ($row[band_email] == "none"))){
+        if(!((empty($row['band_email']))or ($row['band_email'] == "none"))){
             echo"              <li><p>or try email: <a href='mailto:$row[band_email]'>$row[band_email]</a></p></li>";
         }
-        if(!((empty($row[band_website]))or ($row[band_website] == "none"))){
+        if(!((empty($row['band_website']))or ($row['band_website'] == "none"))){
             echo"              <li><p>while your at it you may as well checkout our Website: <a target='_blank' href=$row[band_website]>$row[band_website]</a></p></li>";
         }
         
