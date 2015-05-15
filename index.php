@@ -34,7 +34,7 @@
                 </li>
                 <li><a href="message.html">Messages</a>
                 </li>
-                <li><a href="about.html">About</a>
+                <li><a href="about.php">About</a>
                 </li>
                 <li><a href="sponsors.html">Sponsors</a>
                 </li>
@@ -45,7 +45,7 @@
         </div>
         <!-- end div #menu -->
         <?php
-        include("database/inc_userLoggedIn.php");
+            include("database/inc_userLoggedIn.php");
         ?>
     </div>
     <!-- end div #header-->
@@ -151,11 +151,11 @@
             <!-- May not need this class??-->
 
             <div class="col w-1col m-1col">
-                <a href="about.html">
+                <a href="about.php">
                     <h3>Contacts</h3>
                 </a>
                 <ul>
-                    <a href="about.html">
+                    <a href="about.php">
                         <li>Phone:
                         </li>
                         <li>07 4724 2086

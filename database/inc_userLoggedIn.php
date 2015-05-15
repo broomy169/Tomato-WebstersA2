@@ -15,6 +15,5 @@ if (!isset($_SESSION['user_email'])){
 
 <?php } else {
     echo " <div class='row-right'>";
-    echo "Welcome " . $_SESSION['user_firstName'] . " - " ."<a href='database/logout.php' title=' log out'>Log
-            Out</a></div>";
+    echo "Welcome " . $_SESSION['user_firstName'] . " - Log Out" . "<a href='database/logout.php' title=' log out'></a></div>";
 }?>
