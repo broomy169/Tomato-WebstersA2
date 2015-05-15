@@ -35,11 +35,11 @@
                 <li><a href="sponsors.html">Sponsors</a>
                 </li>
             </ul>
+            <?php
+                include("database/inc_userLoggedIn.php");
+            ?>
         </div>
         <!-- end div #menu -->
-        <?php
-            include("database/inc_userLoggedIn.php");
-        ?>
     </div>
     <!-- end div #header-->
 
