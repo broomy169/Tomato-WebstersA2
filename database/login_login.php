@@ -1,7 +1,10 @@
 <?php
 session_start();
-//PHP errors check code
 error_reporting(E_ALL);
+
+isset($urlVar) || $urlVar = "";
+include($urlVar . "database_connect.php");
+
 ?>
 <!doctype html>
 <html>
@@ -10,9 +13,9 @@ error_reporting(E_ALL);
     <title>Sign Up - </title>
 </head>
 <body>
-<form>
-    <input type="text" name="userName" id="userName" placeholder="Email">
-    <input type="text" name="password" id="password" placeholder="Password">
+<form method="post" action="login_databaseProcess.php" id="Log In">
+    <input type="text" name="user_email" id="user_email" placeholder="Email">
+    <input type="text" name="user_password" id="user_password" placeholder="Password">
     <input type="submit" name="signIn" id="signIn" value="Log In">
 </form>
 

@@ -1,3 +1,7 @@
+<?php
+session_start();
+error_reporting(E_ALL);
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -19,7 +23,7 @@
     <div class="header">
         <div class="navigation">
             <ul>
-                <li class="active"><a href="index.html">Home</a>
+                <li class="active"><a href="index.php">Home</a>
                 </li>
                 <li><a href="bands.php">bands</a>
                 </li>
@@ -34,10 +38,20 @@
             </ul>
         </div>
         <!-- end div #menu -->
-        <div class="row-right">
-            <a href="database/signup_form.php">Sign Up - </a>
-            <a href="database/login_login.php">Log In</a>
-        </div>
+        <?php
+        if (!isset($_SESSION['user_email'])) {
+        ?>
+        echo " <div class='row-right'>
+            <a href='database/signup_form.php'>Sign Up - </a>
+            <a href='database/login_login.php'>Log In</a>
+        </div>"
+
+        <?php } else {
+            echo " <div class='row-right'>
+            <a href='database/signup_form.php'>" . 'Hi ' . $_SESSION['user_email'] . "- </a>
+        </div>";
+        }?>
+
     </div>
     <!-- end div #header-->
 

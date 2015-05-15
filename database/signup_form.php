@@ -6,46 +6,47 @@
 </head>
 <body>
 <h1>Membership Registration Form</h1>
-<form id="signUp" action="" method="post">
+<form id="signUp" action="signup_databaseProccess.php" method="post">
     <h3>Personal Details: </h3>
     <p>
-        <label for="fName">First Name: </label>
-        <input type="text" id="fName" name="fName">
+        <label for="user_firstName">First Name: </label>
+        <input type="text" id="user_firstName" name="user_firstName">
     </p>
     <p>
-        <label for="lName">Last Name: </label>
-        <input type="text" id="lName" name="lName">
+        <label for="user_lastName">Last Name: </label>
+        <input type="text" id="user_lastName" name="user_lastName">
     </p>
     <p>
-        <label for="dayPhone">Day Phone: </label>
-        <input type="text" id="dayPhone" name="dayPhone">
+        <label for="user_phone">Day Phone: </label>
+        <input type="text" id="user_phone" name="user_phone">
     </p>
     <p>
-        <label for="afterHoursPhone">After hours Phone: </label>
-        <input type="text" id="afterHoursPhone" name="afterHoursPhone">
+        <label for="user_phoneAfterHours">After hours Phone: </label>
+        <input type="text" id="user_phoneAfterHours" name="user_phoneAfterHours">
     </p>
     <p>
-        <label for="mobile">Mobile: </label>
-        <input type="text" id="mobile" name="mobile">
+        <label for="user_mobile">Mobile: </label>
+        <input type="text" id="user_mobile" name="user_mobile">
     </p>
     <p>
-        <label for="email">Email: </label>
-        <input type="text" id="email" name="email">
+        <input type="hidden" id="user_accessLevel" name="user_accessLevel" value="free">
     </p>
     <p>
-        <label for="address">Postal Address: </label>
-        <textarea id="address" name="address"></textarea>
+        <label for="user_address">Postal Address: </label>
+        <textarea id="user_address" name="user_address"></textarea>
     </p>
     <h3>Create Account</h3>
     <p>
-        <label for="userName">User Name: </label>
-        <input type="text" id="userName" name="userName" placeholder="Email address only">
+        <label for="user_email">Email: </label>
+        <input type="text" id="user_email" name="user_email" placeholder="Email address">
     </p>
     <p>
-        <label for="password">Password: </label>
-        <input type="text" id="password" name="password">
+        <label for="user_password">Password: </label>
+        <input type="text" id="user_password" name="user_password" placeholder="Enter password">
     </p>
-    <input type="submit" name="submit" id="signUp" value="Sign Up">
+    <input type="submit" name="submit" id="submit" value="Sign Up">
 </form>
+<h3><a href="../index.php">Go to home page</a></h3>
+
 </body>
 </html>
