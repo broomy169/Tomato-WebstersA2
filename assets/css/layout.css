@@ -96,6 +96,7 @@ rows
     overflow: hidden;
     text-align: center;
     border-radius: 8px;
+    width: 90%;
     max-width: 75em;
 }
 

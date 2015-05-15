@@ -97,6 +97,10 @@ text
     margin: 1em 1em;
 }
 
+.navigation img{
+    width: 50%;
+}
+
 .navigation li a,
 .navigation li span {
     padding: .1em .5em;
@@ -162,6 +166,9 @@ row and text medium
         width: 70%;
         float: right;
     }
+    .navigation img{
+    width: 80%;
+    }
 }
 /* -----------------------------------
 row and text wide
@@ -192,6 +199,9 @@ row and text wide
         width: 40%;
         float: right;
     }
+    .navigation img{
+    width: 100%;
+}
 }
 /*----------------specific styling below-------------------------*/
 /*----------------specific styling below-------------------------*/
