@@ -305,3 +305,8 @@ row and text wide
     cursor: hand;
     cursor: pointer;
 }
+
+/*---------------Feeder----------------------*/
+.rssItem{
+    margin: 2em;
+}
