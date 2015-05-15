@@ -19,6 +19,7 @@ echo "user name and password passing for process is: ";
 echo "<p>UserName :" . " " .$username . "</p>";
 
 $sql = "SELECT * FROM Users WHERE user_email = '$username'";
+
 $result = $dbh->query($sql);
 foreach ($result as $rowArray){
     $row = $rowArray;

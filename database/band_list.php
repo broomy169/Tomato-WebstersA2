@@ -1,13 +1,17 @@
 <?php
+session_start();
 //including connection code for database
 //following code will make this file accessible from other directories as well
 isset($urlVar) || $urlVar = "";
 include($urlVar . "database_connect.php");
 
-echo "<link rel='stylesheet' href= 'database/band_listStyle.css' type='text/css'>";
-echo "<script src= 'database/band_expandInfo.js' type='text/javascript'></script>";
+?>
+<link rel='stylesheet' href= 'database/band_listStyle.css' type='text/css'>
+<script src= 'database/band_expandInfo.js' type='text/javascript'></script>
+<?php
 
 $sql = "SELECT * FROM band";
+
 // counter or tally that helps to distinguish between each record's tags/click/input in JavaScript
 $blockTally = 1;
 
@@ -49,4 +53,3 @@ title='contact us on this phone number'>Phone: $row[band_phone]</p></li>\n
     echo "</div>\n";
     $blockTally++;
 }?>
-

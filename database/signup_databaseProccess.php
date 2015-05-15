@@ -1,4 +1,5 @@
 <?php
+session_start();
 isset($urlVar) || $urlVar = "";
 include($urlVar . "database_connect.php");
 

@@ -34,10 +34,9 @@
             </ul>
         </div>
         <!-- end div #menu -->
-        <div class="row-right">
-            <a href="signInUp.html">Sign Up - Sign In</a>
-
-        </div>
+        <?php
+        include("database/inc_userLoggedIn.php");
+        ?>
     </div>
     <!-- end div #header-->
 

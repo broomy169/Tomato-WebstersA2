@@ -1,7 +1,3 @@
-<?php
-session_start();
-error_reporting(E_ALL);
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,7 +11,7 @@ error_reporting(E_ALL);
     <link rel="stylesheet" href="assets/css/styles.css">
     <link href='http://fonts.googleapis.com/css?family=Kameron:400,700' rel='stylesheet' type='text/css'>
     <!--[if lt IE 9]>
-<script src="assets/js/respond.min.js"></script>
+    <script src="assets/js/respond.min.js"></script>
 <![endif]-->
 </head>
 
@@ -39,19 +35,8 @@ error_reporting(E_ALL);
         </div>
         <!-- end div #menu -->
         <?php
-        if (!isset($_SESSION['user_email'])) {
+        include("database/inc_userLoggedIn.php");
         ?>
-        echo " <div class='row-right'>
-            <a href='database/signup_form.php'>Sign Up - </a>
-            <a href='database/login_login.php'>Log In</a>
-        </div>"
-
-        <?php } else {
-            echo " <div class='row-right'>
-            <a href='database/signup_form.php'>" . 'Hi ' . $_SESSION['user_email'] . "- </a>
-        </div>";
-        }?>
-
     </div>
     <!-- end div #header-->
 
