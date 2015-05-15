@@ -125,6 +125,4 @@
             
             <!-- End of single band List item-->";
         $blockTally++;
-}
-?>
-
+}?>
