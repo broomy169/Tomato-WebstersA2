@@ -11,15 +11,22 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <link href='http://fonts.googleapis.com/css?family=Kameron:400,700' rel='stylesheet' type='text/css'>
     <!--[if lt IE 9]>
-<script src="assets/js/respond.min.js"></script>
+    <script src="assets/js/respond.min.js"></script>
 <![endif]-->
 </head>
 
 <body>
     <div class="header">
+        
+        
+        <!-- start div navigation-->
+        
         <div class="navigation">
+            <div class="float-Left">
+                <img src="database/images/SiteImages/TCMC98Neg.gif" >
+            </div>
             <ul>
-                <li class="active"><a href="index.html">Home</a>
+                <li class="active"><a href="index.php">Home</a>
                 </li>
                 <li><a href="bands.php">bands</a>
                 </li>
@@ -27,21 +34,21 @@
                 </li>
                 <li><a href="message.html">Messages</a>
                 </li>
-                <li><a href="About.html">About</a>
+                <li><a href="about.php">About</a>
                 </li>
                 <li><a href="sponsors.html">Sponsors</a>
                 </li>
             </ul>
+            <?php
+                include("database/inc_userLoggedIn.php");
+            ?>
         </div>
         <!-- end div #menu -->
-        <div class="row-right">
-            <a href="signInUp.html">Sign Up - Sign In</a>
 
-        </div>
     </div>
     <!-- end div #header-->
 
-    <!--- START of call to actions  -->
+     <!--- START of call to actions  -->
     <div class="row row-padding-small row-dgray">
         <div class="container">
             <div class="col w-2col m-2col">
@@ -53,7 +60,7 @@
                             </div>
                         </div>
                         <div class="imgBox90">
-                            <img src="/database/images/musos/Celtic-Fyre-Wall-with-Fire8.jpg" width="100%">
+                            <img src="database/images/musos/Celtic-Fyre-Wall-with-Fire8.jpg" width="100%">
                         </div>
                         <div class="txtBox100x30">
                             <div class="row-fixedHeight">
@@ -81,7 +88,7 @@
                             </div>
                         </div>
                         <div class="imgBox90">
-                            <img  src="/database/images/events/AVIVA-LANE500.jpg" width="100%">
+                            <img  src="database/images/events/AVIVA-LANE500.jpg" width="100%">
                         </div>
                         <div class="txtBox100x30">
                             <div class="row-fixedHeight">
@@ -142,11 +149,11 @@
             <!-- May not need this class??-->
 
             <div class="col w-1col m-1col">
-                <a href="http://localhost/Tomato/aboutUs.html">
+                <a href="about.php">
                     <h3>Contacts</h3>
                 </a>
                 <ul>
-                    <a href="http://localhost/Tomato/aboutUs.html">
+                    <a href="about.php">
                         <li>Phone:
                         </li>
                         <li>07 4724 2086
@@ -157,7 +164,7 @@
                         </li>
                     </a>
                     <li>
-                        <a href="http://localhost/Tomato/aboutUs.html"></a><a href="mailto:admin@townsvillemusic.org">Email Us:</a>
+                        <a href="mailto:admin@townsvillemusic.org">Email Us:</a>
                     </li>
                 </ul>
 
@@ -165,7 +172,7 @@
 
 
             <div class="col w-1col m-1col">
-                <a href="http://localhost/Tomato/signUp.html">
+                <a href="signUp.html">
                     <h3>Sign Up</h3>
                     <p>Become a member Instantly!!
                     </p>
@@ -177,7 +184,7 @@
 
 
             <div class="col w-1col m-1col">
-                <a href="http://localhost/Tomato/upcomingEvents.html">
+                <a href="upcomingEvents.html">
                     <h3>Events</h3>
                     <p>View all upcoming events.
                     </p>
@@ -189,7 +196,7 @@
 
 
             <div class="col w-1col m-1col">
-                <a href="http://localhost/Tomato/sponsors.html">
+                <a href="sponsors.html">
                     <h3>Sponsors</h3>
                     <p>We love our sponsors.
                     </p>

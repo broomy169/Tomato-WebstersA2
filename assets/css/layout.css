@@ -2,8 +2,8 @@
 
 .header {
     position: relative;
-    padding: 1.4em 2em;
-    margin: 1.5em 0 0em;
+    padding: 2em 2em;
+    margin: 1.5em 0 1em;
 }
 /*-----------------Navigation-------------------*/
 
@@ -96,6 +96,7 @@ rows
     overflow: hidden;
     text-align: center;
     border-radius: 8px;
+    width: 90%;
     max-width: 75em;
 }
 

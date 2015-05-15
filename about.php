@@ -18,8 +18,11 @@
 <body>
     <div class="header">
         <div class="navigation">
+            <div class="float-Left">
+                <img src="database/images/SiteImages/TCMC98Neg.gif" >
+            </div>
             <ul>
-                <li><a href="index.html">Home</a>
+                <li><a href="index.php">Home</a>
                 </li>
                 <li><a href="bands.php">bands</a>
                 </li>
@@ -27,56 +30,18 @@
                 </li>
                 <li><a href="message.html">Messages</a>
                 </li>
-                <li class="active"><a href="About.html">About</a>
+                <li class="active"><a href="about.php">About</a>
                 </li>
                 <li><a href="sponsors.html">Sponsors</a>
                 </li>
             </ul>
+            <?php
+                include("database/inc_userLoggedIn.php");
+            ?>
         </div>
         <!-- end div #menu -->
-        <div class="row-right">
-            <a href="signInUp.html">Sign Up - Sign In</a>
-
-        </div>
     </div>
     <!-- end div #header-->
-
-    <!--- START of call to actions  -->
-    <div class="row row-padding-small row-dgray">
-        <div class="container">
-            <div class="col w-2col m-2col">
-                <a href="http://localhost/Tomato/signUpIn.html">
-                    <div class="cta">
-                        <h1>SignIn or SignUp</h1>
-                        <img src="/database/images/musos/Celtic-Fyre-Wall-with-Fire8.jpg" width="90%">
-                        
-                        <h2>Members benefit!</h2>
-                        <p><strong>Enjoy</strong> the benefits of becoming a member.</p>
-                        
-                        <ul>
-                            <li>Massive discounts on Tickets
-                            </li>
-                            <li>Keep up to date with gigs.
-                            </li>
-                        </ul>
-                    </div>
-                </a>
-
-            </div>
-            <div class="col w-2col m-2col">
-                <a href="http://localhost/Tomato/Events.html">
-                    <div class="cta">
-                        <h1>Events</h1>
-                        <img src="/database/images/events/AVIVA-LANE500.jpg" width="90%">
-                        <h2>Friday 26 May</h2>
-                        <p>Aviva Lane - Get your tickets NOW</p>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-    <!--- END of call to actions  -->
-
 
 
     <!--- START of  History brief ---->
@@ -93,39 +58,26 @@
             <div class="col w-1col m-1col">
                 <p>It has been constantly changing over the years to keep up to date with the musical tastes and needs of the Townsville community.</p>
                 <p>As part of the relocation of the Music Centre to the Civic Theatre, Bronia Renison and Jean Dartnall, both librarians, have assessed the old collection of sheet music, books and recorded music which the centre has been storing, unused, for many years.</p>
-
             </div>
             <div class="col w-1col m-1col">
                 <p>Sometimes older things have to be discarded to make way for the new, but the Music Centre is aware that older material may still have value.</p>
                 <p>The National Library of Australia has an online catalogue (TROVE) that lists not only its own holdings but also information about items held by many other libraries around Australia.</p>
                 <p>Using this catalogue Bronia and Jean have identified at least 150 items of music that are not held by any of the country's major libraries.</p>
-
             </div>
             <div class="col w-1col m-1col">
                 <p>These items have been donated to the National Library to include in their collection and thus made available to all historians and musicians.</p>
                 <p>Also discovered in the old collection were some pieces relevant to North Queensland.</p>
                 <p>Local musicians performed these at a musical social afternoon on Sunday April 21st in C2 at the Civic Theatre.</p>
                 <p>The remaining sheet music, books and CDs were put on display and distributed free of charge to the local music community.</p>
-
             </div>
         </div>
     </div>
-
-
-
     <div class="row row-padding-large row-gray">
         <div class="container About-HistoryList">
             <h1>A Brief History</h1>
             <h2>by Jean Dartnall</h2>
             <div class="col w-2col">
-
-
-
-
-
                 <img src="assets/img/about-us/old-music.jpg" width="500" height="237" alt="old music books" />
-
-
                 <ul>
                     <li>
                         <h2>1983</h2>
@@ -230,17 +182,73 @@
         </a>
     </div>
     <!--- END guilt trip -->
+    
+    <!--- START of call to actions  -->
+    <div class="row row-padding-small row-dgray">
+        <div class="container">
+            <div class="col w-2col m-2col">
+                <a href="signUpIn.html">
+                    <div class="cta">
+                        <div class="txtBox100x20">
+                            <div class="row-fixedHeight">
+                                <h1>SignIn</h1>
+                            </div>
+                        </div>
+                        <div class="imgBox90">
+                            <img src="database/images/musos/Celtic-Fyre-Wall-with-Fire8.jpg" width="100%">
+                        </div>
+                        <div class="txtBox100x30">
+                            <div class="row-fixedHeight">
+                                <h2>Members benefit!</h2>
+                                <p><strong>Enjoy</strong> the benefits of becoming a member.</p>
+
+                                <ul>
+                                    <li>Massive discounts on Tickets
+                                    </li>
+                                    <li>Keep up to date with gigs.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+            <div class="col w-2col m-2col">
+                <a href="Events.html">
+                    <div class="cta">
+                        <div class="txtBox100x20">
+                            <div class="row-fixedHeight">
+                                <h1>Events</h1>
+                            </div>
+                        </div>
+                        <div class="imgBox90">
+                            <img  src="database/images/events/AVIVA-LANE500.jpg" width="100%">
+                        </div>
+                        <div class="txtBox100x30">
+                            <div class="row-fixedHeight">
+                                <h2>Friday 26 May</h2>
+                                <p>Aviva Lane - Get your tickets NOW</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--- END of call to actions  -->
+    
     <!-- START minor call to action -->
     <div class="row row-padding-small row-gray">
         <div class="container cta-4x">
             <!-- May not need this class??-->
 
             <div class="col w-1col m-1col">
-                <a href="http://localhost/Tomato/aboutUs.html">
+                <a href="about.php">
                     <h3>Contacts</h3>
                 </a>
                 <ul>
-                    <a href="http://localhost/Tomato/aboutUs.html">
+                    <a href="about.php">
                         <li>Phone:
                         </li>
                         <li>07 4724 2086
@@ -251,7 +259,7 @@
                         </li>
                     </a>
                     <li>
-                        <a href="http://localhost/Tomato/aboutUs.html"></a><a href="mailto:admin@townsvillemusic.org">Email Us:</a>
+                        <a href="mailto:admin@townsvillemusic.org">Email Us:</a>
                     </li>
                 </ul>
 
@@ -259,7 +267,7 @@
 
 
             <div class="col w-1col m-1col">
-                <a href="http://localhost/Tomato/signUp.html">
+                <a href="signUp.html">
                     <h3>Sign Up</h3>
                     <p>Become a member Instantly!!
                     </p>
@@ -271,7 +279,7 @@
 
 
             <div class="col w-1col m-1col">
-                <a href="http://localhost/Tomato/upcomingEvents.html">
+                <a href="Events.html">
                     <h3>Events</h3>
                     <p>View all upcoming events.
                     </p>
@@ -283,7 +291,7 @@
 
 
             <div class="col w-1col m-1col">
-                <a href="http://localhost/Tomato/sponsors.html">
+                <a href="sponsors.html">
                     <h3>Sponsors</h3>
                     <p>We love our sponsors.
                     </p>

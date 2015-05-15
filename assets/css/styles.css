@@ -21,6 +21,10 @@ containers
     float: left;
 }
 
+.float-Right{
+    float: right;
+}
+
 /* -----------------------------------
 rows
 ----------------------------------- */
@@ -38,6 +42,7 @@ rows
 
 .row-white {
     background: #fff;
+    
 }
 .row-white a{
     color: red
@@ -45,8 +50,12 @@ rows
 
 .row-gray {
     background: #dedede;
+    color: black;
 }
-.row-gray a{
+.row-gray * h3{
+    color: #2e2e2e;
+}
+.row-gray * a{
     color: red;
 }
 
@@ -88,6 +97,10 @@ text
     margin: 1em 1em;
 }
 
+.navigation img{
+    width: 50%;
+}
+
 .navigation li a,
 .navigation li span {
     padding: .1em .5em;
@@ -121,7 +134,7 @@ text
 row and text medium
 ----------------------------------- */
 
-@media (min-width: 30em) {
+@media (min-width: 38em) {
     .row-padding {
         padding: 2.5em 0;
     }
@@ -153,12 +166,15 @@ row and text medium
         width: 70%;
         float: right;
     }
+    .navigation img{
+    width: 80%;
+    }
 }
 /* -----------------------------------
 row and text wide
 ----------------------------------- */
 
-@media (min-width: 50em) {
+@media (min-width: 62em) {
     .row-padding {
         padding: 3em 0;
     }
@@ -183,6 +199,9 @@ row and text wide
         width: 40%;
         float: right;
     }
+    .navigation img{
+    width: 100%;
+}
 }
 /*----------------specific styling below-------------------------*/
 /*----------------specific styling below-------------------------*/
@@ -252,11 +271,37 @@ row and text wide
 }
 
 .cta-4x h3 {
-    color: black;
     font-size: 2em;
 }
 
 .cta-4x a{
-    color: white;
     font-weight: 100;
+}
+
+/*---------------Bands --------------------*/
+
+
+#clearBlock {
+    clear: both;
+}
+
+.photo, 
+.info-more {
+    display: none;
+}
+
+
+
+.bandClass {
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.bandClass:hover {
+    cursor: hand;
+    cursor: pointer;
 }

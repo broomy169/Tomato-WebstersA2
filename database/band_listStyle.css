@@ -26,16 +26,20 @@ ul {
     clear: both;
 }
 
-.photo, .moreInfo {
+.photo, 
+.info-more {
     display: none;
 }
 
 .bandClass {
+    
+/*  
     width: 100%;
     border-bottom: solid #878787 3px;
     border-top: solid #878787 3px;
     border-radius: 10px;
     margin-bottom: 40px;
+*/
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -moz-user-select: none;
