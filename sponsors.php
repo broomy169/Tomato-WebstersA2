@@ -103,36 +103,49 @@
         </div>
     </div>
     <!--- END of call to actions  -->
-    <!--- START of  About-Intro ---->
+    <!--- START of  Sponsors ---->
     <div class="row row-padding-large row-gray">
-        <div class="container About-Inro">
-            <div class="col w-2col m-2col">
-
-                <h2>About Us</h2>
-                <p>The Music Centre based in Townsville, North Qld, presents concerts and workshops throughout the year with a diverse range of genres including classical, jazz, folk, blues, world and contemporary music, featuring touring artists, locally-based professionals and emerging artists.</p>
-                <br>
-                <img src="assets/img/about-us/CivicFront300.jpg" width="300" height="170" alt="modernday music center building" />
-
+        <div class="container sponsors">
+            <div class="col w-4col m-2col">
+                <div class="box">
+                    <h1>Thanks for your sponsorship.</h1>
+                    <h2>The Music Centre receives vital support from the sponsors featured on this page</h2>
+                    <p>
+                        Our music concerts are well-publicised and well-attended and sponsors enjoy brand exposure throughout the Arts community. 
+                    </p>
+                    <br>
+                    <p>
+                        We welcome sponsorship or assistance in any form.
+                    </p>
+                </div>
             </div>
             <div class="col w-2col m-2col">
 
-                <ul>
-                    <li>
+                <h1>Townsville City Council</h1>
+                <img src="database/images/SiteImages/TCCcolour150193.gif">
+                
+                <p>
+                    <strong>The Council's Partnerships and Sponsorships scheme provides vital core funding</strong> which enables us to maintain the administrative base for all our other activities, and also provides the premises which house our office space. 
+                </p>
+                <br>
+                <p>
+                    The Council also assists with the performance venues for our concerts and workshops. 
+                </p>
 
-                        <h2>Contact Details</h2>
-                        <p>Phone: 07 4724 2086</p>
-                        <p>Mobile: 0402 255 182</p>
-                        <p>Postal Address:</p>
-                        <p>PO Box 1006, Townsville, Qld 4810.</p>
-                        <p>Townsville Civic Theatre:</p>
-                        <p>41 Boundary Street, Townsville, Qld 4810.</p>
+            </div>
+            <div class="col w-2col m-2col">
+                
+                <h1>Queensland Government</h1>
+                <img src="database/images/SiteImages/GCBF15091.png">
+                <p>
+                    The Gambling Community Benefit Fund has assisted us to obtain office equipment and sound and lighting equipment for our productions 
+                </p>
 
-                    </li>
-                </ul>
+
             </div>
         </div>
     </div>
-    <!--- END of  About-Inro ---->
+    <!--- END of  Sopnsors ---->
 
     <!--- START guilt trip -->
     <div class="row row-padding row-black">

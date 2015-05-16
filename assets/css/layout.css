@@ -119,11 +119,12 @@ cols
 
 .col {
     overflow: hidden;
+    margin: 1em;
     margin-bottom: 0em;
 }
 
 .col p {
-    margin: auto;
+    margin: ;
 }
 
 .col:last-child {
