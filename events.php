@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <title>Townville Community Music Centre</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,21 +9,24 @@
     <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/layout.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link href='http://fonts.googleapis.com/css?family=Kameron:400,700' rel='stylesheet' type='text/css'>
     <!--[if lt IE 9]>
-<script src="assets/js/respond.min.js"></script>
-<![endif]-->
-    <style type="text/css"></style>
+        <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
 </head>
 
 <body>
-<div class="header">
+    <div class="header">
         <div class="navigation">
+            <div class="float-Left">
+                <img src="database/images/SiteImages/TCMC98Neg.gif" >
+            </div>
             <ul>
-                <li><a href="?bands.php">Home</a>
+                <li><a href="index.php">Home</a>
                 </li>
-                <li class="active"><a href="bands.php">bands</a>
+                <li><a href="bands.php">bands</a>
                 </li>
-                <li><a href="events.php">Events</a>
+                <li class="active"><a href="events.php">Events</a>
                 </li>
                 <li><a href="message.php">Messages</a>
                 </li>
@@ -33,108 +35,109 @@
                 <li><a href="sponsors.php">Sponsors</a>
                 </li>
             </ul>
+            <?php
+                include("database/inc_userLoggedIn.php");
+            ?>
         </div>
         <!-- end div #menu -->
-        <div class="row-right">
-            <a href="http://localhost/Tomato/signInUp.html">Sign Up - Sign In</a>
 
-        </div>
     </div>
     <!-- end div #header-->
 
-    <!--- START of call to actions  -->
-    <div class="row row-padding-small row-dgray">
-        <div class="container">
-            <div class="col w-2col m-2col">
-                <a href="http://localhost/Tomato/signUpIn.html">
-                    <div class="cta">
-                        <h1>SignIn or SignUp</h1>
-                        <img src="/database/images/musos/Celtic-Fyre-Wall-with-Fire8.jpg" width="90%">
-                        
-                        <h2>Members benefit!</h2>
-                        <p><strong>Enjoy</strong> the benefits of becoming a member.</p>
-                        
-                        <ul>
-                            <li>Massive discounts on Tickets
-                            </li>
-                            <li>Keep up to date with gigs.
-                            </li>
-                        </ul>
-                    </div>
-                </a>
-
-            </div>
-            <div class="col w-2col m-2col">
-                <a href="http://localhost/Tomato/events.php">
-                    <div class="cta">
-                        <h1>Events</h1>
-                        <img src="/database/images/events/AVIVA-LANE500.jpg" width="90%">
-                        <h2>Friday 26 May</h2>
-                        <p>Aviva Lane - Get your tickets NOW</p>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-    <!--- END of call to actions  -->
     <!--- START of artists list ---->
     <div class="row row-padding-large row-gray">
-        <div class="container bands">
+        <div class="container events">
+            <h1>Upcoming Events.</h1>
             <ul>
-                <li class="box">small artist
-                </li>
-                <li class="box bands-expanded">
-
-                    <!-- Large image -->
-                    <img src="/database/images/musos/Celtic-Fyre-Wall-with-Fire8.jpg">
-
-                    <!-- BandName -->
-                    <h2>Celtic Fire</h2>
-
-                    <!-- short bio -->
-                    <h3>The alternative celtic rock band from North Queensland</h3>
-
-                    <!--- Long Bio -->
-                    <p>Typical audience response: - <em>"<strong>WOW - I wasn't prepared for that!</strong> Racing around the stage in kilts, blowing bagpipes, jumping from one instrument to the next, these guys know how to entertain!"</em>
-                    </p>
-                    <p>They will break your heart with the mournful and eerie sounds of the Great Highland Bagpipe and then crank it up real hard and rock you 'til you drop. This 11 piece band is a fun-loving kick-em-in-the-pants band that just wants to rock - celtic style!
-                    </p>
-                    <!-- phone -->
-                    <p>Phone: 00 00 000 000 </p>
-                    <!-- Email -->
-                    <p><a href="mailto:Somewhere@yourband.com">Email Us:</a>
-                    </p>
-                    <!-- website -->
-                    <a href="https://www.celticfyre.com/"> www.celticfyre.com</a>
-                </li>
-                <li class="box">small artist
-                </li>
+                <?php
+                $urlVar = 'database/';
+                include($urlVar . 'events_list.php'); //included file to pull and displays all artists/band information from sqlite
+                ?>
             </ul>
 
         </div>
     </div>
     <!--- END of artists list ---->
     <!--- START guilt trip -->
-    <div class="row row-padding row-redBlack">
-        <a href="http://localhost/Tomato/Volunteer.html">
+    <div class="row row-padding row-black">
+        <a href="Volunteer.html">
             <div class="container">
-                <h2 class="intro-text">"Its so much more fun when you are involved, you get to meet everyone and enjoy the spirit of entertaining" - Nadia first time volunteer.</h2>
-                <h2>Help us and have fun!!</h2>
+                <h2 class="intro-text">
+                Not a single gig would ever get off the ground without the tireless efforts of volunteers.<br></h2>
+                <h2>Help us and have fun!!
+                </h2>
             </div>
         </a>
     </div>
     <!--- END guilt trip -->
+     <!--- START of call to actions  -->
+    <div class="row row-padding-small row-dgray">
+        <div class="container">
+            <div class="col w-2col m-2col">
+                <a href="signUpIn.html">
+                    <div class="cta">
+                        <div class="txtBox100x20">
+                            <div class="row-fixedHeight">
+                                <h1>SignIn</h1>
+                            </div>
+                        </div>
+                        <div class="imgBox90">
+                            <img src="database/images/musos/Celtic-Fyre-Wall-with-Fire8.jpg" width="100%">
+                        </div>
+                        <div class="txtBox100x30">
+                            <div class="row-fixedHeight">
+                                <h2>Members benefit!</h2>
+                                <p><strong>Enjoy</strong> the benefits of becoming a member.</p>
+
+                                <ul>
+                                    <li>Massive discounts on Tickets
+                                    </li>
+                                    <li>Keep up to date with gigs.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+            <div class="col w-2col m-2col">
+                <a href="Events.html">
+                    <div class="cta">
+                        <div class="txtBox100x20">
+                            <div class="row-fixedHeight">
+                                <h1>Events</h1>
+                            </div>
+                        </div>
+                        <div class="imgBox90">
+                            <img  src="database/images/events/AVIVA-LANE500.jpg" width="100%">
+                        </div>
+                        <div class="txtBox100x30">
+                            <div class="row-fixedHeight">
+                                <h2>Friday 26 May</h2>
+                                <p>Aviva Lane - Get your tickets NOW</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--- END of call to actions  -->
+    
+    
+    
     <!-- START minor call to action -->
     <div class="row row-padding-small row-gray">
         <div class="container cta-4x">
             <!-- May not need this class??-->
 
             <div class="col w-1col m-1col">
-                <a href="http://localhost/Tomato/aboutUs.html">
+                <a href="about.php">
                     <h3>Contacts</h3>
                 </a>
                 <ul>
-                    <a href="http://localhost/Tomato/aboutUs.html">
+                    <a href="about.php">
                         <li>Phone:
                         </li>
                         <li>07 4724 2086
@@ -145,7 +148,7 @@
                         </li>
                     </a>
                     <li>
-                        <a href="http://localhost/Tomato/aboutUs.html"></a><a href="mailto:admin@townsvillemusic.org">Email Us:</a>
+                        <a href="mailto:admin@townsvillemusic.org">Email Us:</a>
                     </li>
                 </ul>
 
@@ -153,7 +156,7 @@
 
 
             <div class="col w-1col m-1col">
-                <a href="http://localhost/Tomato/signUp.html">
+                <a href="signUp.html">
                     <h3>Sign Up</h3>
                     <p>Become a member Instantly!!
                     </p>
@@ -165,7 +168,7 @@
 
 
             <div class="col w-1col m-1col">
-                <a href="http://localhost/Tomato/upcomingevents.php">
+                <a href="Events.html">
                     <h3>Events</h3>
                     <p>View all upcoming events.
                     </p>
@@ -177,7 +180,7 @@
 
 
             <div class="col w-1col m-1col">
-                <a href="http://localhost/Tomato/sponsors.php">
+                <a href="sponsors.html">
                     <h3>Sponsors</h3>
                     <p>We love our sponsors.
                     </p>
@@ -226,9 +229,6 @@
         </div>
     </div>
     <!-- End Copyright -->
-
-
-
 </body>
 
 </html>

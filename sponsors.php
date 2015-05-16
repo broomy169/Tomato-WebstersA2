@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <title>Townville Community Music Centre</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,113 +9,133 @@
     <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/layout.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link href='http://fonts.googleapis.com/css?family=Kameron:400,700' rel='stylesheet' type='text/css'>
     <!--[if lt IE 9]>
-<script src="assets/js/respond.min.js"></script>
+    <script src="assets/js/respond.min.js"></script>
 <![endif]-->
-    <style type="text/css"></style>
 </head>
 
 <body>
-<div class="header">
+    <div class="header">
+        
+        
+        <!-- start div navigation-->
+        
         <div class="navigation">
+            <div class="float-Left">
+                <img src="database/images/SiteImages/TCMC98Neg.gif" >
+            </div>
             <ul>
-                <li><a href="?bands.php">Home</a>
+                <li class="active"><a href="index.php">Home</a>
                 </li>
-                <li class="active"><a href="bands.php">bands</a>
+                <li><a href="bands.php">bands</a>
                 </li>
-                <li><a href="events.php">Events</a>
+                <li><a href="events.html">Events</a>
                 </li>
-                <li><a href="message.php">Messages</a>
+                <li><a href="message.html">Messages</a>
                 </li>
                 <li><a href="about.php">About</a>
                 </li>
-                <li><a href="sponsors.php">Sponsors</a>
+                <li><a href="sponsors.html">Sponsors</a>
                 </li>
             </ul>
+            <?php
+                include("database/inc_userLoggedIn.php");
+            ?>
         </div>
         <!-- end div #menu -->
-        <div class="row-right">
-            <a href="http://localhost/Tomato/signInUp.html">Sign Up - Sign In</a>
 
-        </div>
     </div>
     <!-- end div #header-->
 
-    <!--- START of call to actions  -->
+     <!--- START of call to actions  -->
     <div class="row row-padding-small row-dgray">
         <div class="container">
             <div class="col w-2col m-2col">
-                <a href="http://localhost/Tomato/signUpIn.html">
+                <a href="signUpIn.html">
                     <div class="cta">
-                        <h1>SignIn or SignUp</h1>
-                        <img src="/database/images/musos/Celtic-Fyre-Wall-with-Fire8.jpg" width="90%">
-                        
-                        <h2>Members benefit!</h2>
-                        <p><strong>Enjoy</strong> the benefits of becoming a member.</p>
-                        
-                        <ul>
-                            <li>Massive discounts on Tickets
-                            </li>
-                            <li>Keep up to date with gigs.
-                            </li>
-                        </ul>
+                        <div class="txtBox100x20">
+                            <div class="row-fixedHeight">
+                                <h1>SignIn</h1>
+                            </div>
+                        </div>
+                        <div class="imgBox90">
+                            <img src="database/images/musos/Celtic-Fyre-Wall-with-Fire8.jpg" width="100%">
+                        </div>
+                        <div class="txtBox100x30">
+                            <div class="row-fixedHeight">
+                                <h2>Members benefit!</h2>
+                                <p><strong>Enjoy</strong> the benefits of becoming a member.</p>
+
+                                <ul>
+                                    <li>Massive discounts on Tickets
+                                    </li>
+                                    <li>Keep up to date with gigs.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </a>
 
             </div>
             <div class="col w-2col m-2col">
-                <a href="http://localhost/Tomato/events.php">
+                <a href="Events.html">
                     <div class="cta">
-                        <h1>Events</h1>
-                        <img src="/database/images/events/AVIVA-LANE500.jpg" width="90%">
-                        <h2>Friday 26 May</h2>
-                        <p>Aviva Lane - Get your tickets NOW</p>
+                        <div class="txtBox100x20">
+                            <div class="row-fixedHeight">
+                                <h1>Events</h1>
+                            </div>
+                        </div>
+                        <div class="imgBox90">
+                            <img  src="database/images/events/AVIVA-LANE500.jpg" width="100%">
+                        </div>
+                        <div class="txtBox100x30">
+                            <div class="row-fixedHeight">
+                                <h2>Friday 26 May</h2>
+                                <p>Aviva Lane - Get your tickets NOW</p>
+                            </div>
+                        </div>
                     </div>
                 </a>
             </div>
         </div>
     </div>
     <!--- END of call to actions  -->
-    <!--- START of artists list ---->
+    <!--- START of  About-Intro ---->
     <div class="row row-padding-large row-gray">
-        <div class="container bands">
-            <ul>
-                <li class="box">small artist
-                </li>
-                <li class="box bands-expanded">
+        <div class="container About-Inro">
+            <div class="col w-2col m-2col">
 
-                    <!-- Large image -->
-                    <img src="/database/images/musos/Celtic-Fyre-Wall-with-Fire8.jpg">
+                <h2>About Us</h2>
+                <p>The Music Centre based in Townsville, North Qld, presents concerts and workshops throughout the year with a diverse range of genres including classical, jazz, folk, blues, world and contemporary music, featuring touring artists, locally-based professionals and emerging artists.</p>
+                <br>
+                <img src="assets/img/about-us/CivicFront300.jpg" width="300" height="170" alt="modernday music center building" />
 
-                    <!-- BandName -->
-                    <h2>Celtic Fire</h2>
+            </div>
+            <div class="col w-2col m-2col">
 
-                    <!-- short bio -->
-                    <h3>The alternative celtic rock band from North Queensland</h3>
+                <ul>
+                    <li>
 
-                    <!--- Long Bio -->
-                    <p>Typical audience response: - <em>"<strong>WOW - I wasn't prepared for that!</strong> Racing around the stage in kilts, blowing bagpipes, jumping from one instrument to the next, these guys know how to entertain!"</em>
-                    </p>
-                    <p>They will break your heart with the mournful and eerie sounds of the Great Highland Bagpipe and then crank it up real hard and rock you 'til you drop. This 11 piece band is a fun-loving kick-em-in-the-pants band that just wants to rock - celtic style!
-                    </p>
-                    <!-- phone -->
-                    <p>Phone: 00 00 000 000 </p>
-                    <!-- Email -->
-                    <p><a href="mailto:Somewhere@yourband.com">Email Us:</a>
-                    </p>
-                    <!-- website -->
-                    <a href="https://www.celticfyre.com/"> www.celticfyre.com</a>
-                </li>
-                <li class="box">small artist
-                </li>
-            </ul>
+                        <h2>Contact Details</h2>
+                        <p>Phone: 07 4724 2086</p>
+                        <p>Mobile: 0402 255 182</p>
+                        <p>Postal Address:</p>
+                        <p>PO Box 1006, Townsville, Qld 4810.</p>
+                        <p>Townsville Civic Theatre:</p>
+                        <p>41 Boundary Street, Townsville, Qld 4810.</p>
 
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
-    <!--- END of artists list ---->
+    <!--- END of  About-Inro ---->
+
     <!--- START guilt trip -->
-    <div class="row row-padding row-redBlack">
-        <a href="http://localhost/Tomato/Volunteer.html">
+    <div class="row row-padding row-black">
+        <a href="Volunteer.html">
             <div class="container">
                 <h2 class="intro-text">"Its so much more fun when you are involved, you get to meet everyone and enjoy the spirit of entertaining" - Nadia first time volunteer.</h2>
                 <h2>Help us and have fun!!</h2>
@@ -130,11 +149,11 @@
             <!-- May not need this class??-->
 
             <div class="col w-1col m-1col">
-                <a href="http://localhost/Tomato/aboutUs.html">
+                <a href="about.php">
                     <h3>Contacts</h3>
                 </a>
                 <ul>
-                    <a href="http://localhost/Tomato/aboutUs.html">
+                    <a href="about.php">
                         <li>Phone:
                         </li>
                         <li>07 4724 2086
@@ -145,7 +164,7 @@
                         </li>
                     </a>
                     <li>
-                        <a href="http://localhost/Tomato/aboutUs.html"></a><a href="mailto:admin@townsvillemusic.org">Email Us:</a>
+                        <a href="mailto:admin@townsvillemusic.org">Email Us:</a>
                     </li>
                 </ul>
 
@@ -153,7 +172,7 @@
 
 
             <div class="col w-1col m-1col">
-                <a href="http://localhost/Tomato/signUp.html">
+                <a href="signUp.html">
                     <h3>Sign Up</h3>
                     <p>Become a member Instantly!!
                     </p>
@@ -165,7 +184,7 @@
 
 
             <div class="col w-1col m-1col">
-                <a href="http://localhost/Tomato/upcomingevents.php">
+                <a href="upcomingEvents.html">
                     <h3>Events</h3>
                     <p>View all upcoming events.
                     </p>
@@ -177,7 +196,7 @@
 
 
             <div class="col w-1col m-1col">
-                <a href="http://localhost/Tomato/sponsors.php">
+                <a href="sponsors.html">
                     <h3>Sponsors</h3>
                     <p>We love our sponsors.
                     </p>
@@ -226,9 +245,6 @@
         </div>
     </div>
     <!-- End Copyright -->
-
-
-
 </body>
 
 </html>
