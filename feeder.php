@@ -43,17 +43,17 @@ $feed->handle_content_type();
                 <img src="database/images/SiteImages/TCMC98Neg.gif">
             </div>
             <ul>
-                <li><a href="index.html">Home</a>
+                <li><a href="index.php">Home</a>
                 </li>
                 <li><a href="bands.php">bands</a>
                 </li>
-                <li><a href="events.html">Events</a>
+                <li><a href="events.php">Events</a>
                 </li>
-                <li><a href="message.html">Messages</a>
+                <li><a href="message.php">Messages</a>
                 </li>
-                <li><a href="about.html">About</a>
+                <li><a href="about.php">About</a>
                 </li>
-                <li><a href="sponsors.html">Sponsors</a>
+                <li><a href="sponsors.php">Sponsors</a>
                 </li>
             </ul>
             <div class="row-right">
@@ -97,7 +97,7 @@ $feed->handle_content_type();
 
             </div>
             <div class="col w-2col m-2col">
-                <a href="Events.html">
+                <a href="events.php">
                     <div class="cta">
                         <div class="txtBox100x20">
                             <div class="row-fixedHeight">
@@ -204,11 +204,11 @@ $feed->handle_content_type();
             <!-- May not need this class??-->
 
             <div class="col w-1col m-1col">
-                <a href="about.html">
+                <a href="about.php">
                     <h3>Contacts</h3>
                 </a>
                 <ul>
-                    <a href="about.html">
+                    <a href="about.php">
                         <li>Phone:
                         </li>
                         <li>07 4724 2086
@@ -227,7 +227,7 @@ $feed->handle_content_type();
 
 
             <div class="col w-1col m-1col">
-                <a href="signUp.html">
+                <a href="signUp.php">
                     <h3>Sign Up</h3>
                     <p>Become a member Instantly!!
                     </p>
@@ -239,7 +239,7 @@ $feed->handle_content_type();
 
 
             <div class="col w-1col m-1col">
-                <a href="Events.html">
+                <a href="events.php">
                     <h3>Events</h3>
                     <p>View all upcoming events.
                     </p>
@@ -251,7 +251,7 @@ $feed->handle_content_type();
 
 
             <div class="col w-1col m-1col">
-                <a href="sponsors.html">
+                <a href="sponsors.php">
                     <h3>Sponsors</h3>
                     <p>We love our sponsors.
                     </p>

@@ -26,13 +26,13 @@
                 </li>
                 <li class="active"><a href="bands.php">bands</a>
                 </li>
-                <li><a href="events.html">Events</a>
+                <li><a href="events.php">Events</a>
                 </li>
-                <li><a href="message.html">Messages</a>
+                <li><a href="message.php">Messages</a>
                 </li>
                 <li><a href="about.php">About</a>
                 </li>
-                <li><a href="sponsors.html">Sponsors</a>
+                <li><a href="sponsors.php">Sponsors</a>
                 </li>
             </ul>
             <?php
@@ -102,7 +102,7 @@
 
             </div>
             <div class="col w-2col m-2col">
-                <a href="Events.html">
+                <a href="events.php">
                     <div class="cta">
                         <div class="txtBox100x20">
                             <div class="row-fixedHeight">
@@ -156,7 +156,7 @@
 
 
             <div class="col w-1col m-1col">
-                <a href="signUp.html">
+                <a href="signUp.php">
                     <h3>Sign Up</h3>
                     <p>Become a member Instantly!!
                     </p>
@@ -168,7 +168,7 @@
 
 
             <div class="col w-1col m-1col">
-                <a href="Events.html">
+                <a href="events.php">
                     <h3>Events</h3>
                     <p>View all upcoming events.
                     </p>
@@ -180,7 +180,7 @@
 
 
             <div class="col w-1col m-1col">
-                <a href="sponsors.html">
+                <a href="sponsors.php">
                     <h3>Sponsors</h3>
                     <p>We love our sponsors.
                     </p>

@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -6,7 +7,8 @@
 </head>
 <body>
 <h1>Membership Registration Form</h1>
-<form id="signUp" action="signup_databaseProccess.php" method="post">
+
+<form id="signUp" action="database/signup_databaseProccess.php" method="post">
     <h3>Personal Details: </h3>
     <p>
         <label for="user_firstName">First Name: </label>

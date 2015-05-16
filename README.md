@@ -42,7 +42,7 @@ Complete Project Plan:
 * Flowchart.
 
 Design Comps:
-* Index.html
+* index.php
 * AboutUs.html
 * Artist.html   //**Done** see below
 
