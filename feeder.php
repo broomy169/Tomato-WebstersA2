@@ -56,9 +56,10 @@ $feed->handle_content_type();
                 <li><a href="sponsors.php">Sponsors</a>
                 </li>
             </ul>
-            <div class="row-right">
-                <a href="signInUp.html">Sign Up - Sign In</a>
-            </div>
+            <?php
+                $urlVar = 'database/';
+                include($urlVar ."inc_userLoggedIn.php");
+            ?>
         </div>
         <!-- end div #menu -->
 

@@ -40,7 +40,8 @@
                 </li>
             </ul>
             <?php
-                include("database/inc_userLoggedIn.php");
+                $urlVar = 'database/';
+                include($urlVar ."inc_userLoggedIn.php");
             ?>
         </div>
         <!-- end div #menu -->
