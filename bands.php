@@ -83,7 +83,7 @@
                             </div>
                         </div>
                         <div class="imgBox90">
-                            <img src="database/images/musos/Celtic-Fyre-Wall-with-Fire8.jpg" width="100%">
+                            <img src="database/images/musos/Celtic-Fyre-Wall-with-Fire8.jpg" >
                         </div>
                         <div class="txtBox100x30">
                             <div class="row-fixedHeight">

@@ -34,10 +34,8 @@
         if (file_exists($iconUrl)){
             echo "
                         <div class='col w-1col m-1col float-Left'>
-                            <div class='imgBox100'>
-                                <div class='row-fixedHeight'>
-                                    <img id='icon$blockTally'src='$iconUrl' alt='$row[band_name]'>
-                                </div>
+                            <div class='imgBox90'>
+                                <img id='icon$blockTally' src='$iconUrl' alt='$row[band_name]' >
                             </div>
                         </div>";
         } 
@@ -79,10 +77,8 @@
                 //checking and showing if image already added by user otherwise displaying default image
         if (file_exists($imageUrl)){
             echo "      <div class='col w-2col m-2col float-Right'>
-                            <div class='imgBox100'>
-                                <div class='row-fixedHeight'>
-                                    <img id='photo$blockTally' src='$imageUrl'>
-                                </div>
+                            <div class='imgBox90'>
+                                <img id='photo$blockTally' src='$imageUrl' >
                             </div>
                         </div>";
         } 

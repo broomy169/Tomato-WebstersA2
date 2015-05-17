@@ -57,7 +57,7 @@
 .txtBox100x20,
 .txtBox100x10{
     display: block;
-    width: 1000%;
+    width: 100%;
     position: relative;
     padding: 56.25% 0 0 0;
     overflow: hidden;
