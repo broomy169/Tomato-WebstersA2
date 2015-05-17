@@ -24,7 +24,7 @@
         echo" 
             <!-- Start of single band List item-->
             <li>
-                <div id='band$blockTally' class='bandClass box' onclick='expand($blockTally);' title='click here for more information' value='hide'>
+                <div id='list$blockTally' class='bandClass box' onclick='expand($blockTally);' title='click here for more information' value='hide'>
                 
                     <!-- Start of always show -->
                    

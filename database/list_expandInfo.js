@@ -1,6 +1,6 @@
 // script is used to expand band/artist information when clicked on any of it
 function expand(tally) {
-    var click = document.getElementById("band" + tally);
+    var click = document.getElementById("list" + tally);
     var infomore = document.getElementById("info-more" + tally);
     var photo = document.getElementById("photo" + tally);
     var infosmall = document.getElementById("info-small" + tally);

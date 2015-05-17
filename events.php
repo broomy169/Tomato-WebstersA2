@@ -45,7 +45,7 @@
     </div>
     <!-- end div #header-->
 
-    <!--- START of artists list ---->
+    <!--- START of events list ---->
     <div class="row row-padding-large row-gray">
         <div class="container events">
             <h1>Upcoming Events.</h1>
@@ -58,7 +58,7 @@
 
         </div>
     </div>
-    <!--- END of artists list ---->
+    <!--- END of events list ---->
     <!--- START guilt trip -->
     <div class="row row-padding row-black">
         <a href="Volunteer.html">

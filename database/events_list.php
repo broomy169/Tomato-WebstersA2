@@ -5,7 +5,7 @@
     include($urlVar . "database_connect.php");
 
     //echo "<link rel='stylesheet' href= 'database/event_listStyle.css' type='text/css'>"; // now merged with styles.css
-    echo "<script src= 'database/_expandInfo.js' type='text/javascript'></script>";
+    echo "<script src= 'database/list_expandInfo.js' type='text/javascript'></script>";
 
     $sql = "SELECT * FROM events";
     // counter or tally that helps to distinguish between each record's tags/click/input in JavaScript
@@ -24,7 +24,7 @@
         echo" 
             <!-- Start of single event List item-->
             <li>
-                <div id='event$blockTally' class='eventClass box' onclick='expand($blockTally);' title='click here for more information' value='hide'>
+                <div id='list$blockTally' class='eventClass box' onclick='expand($blockTally);' title='click here for more information' value='hide'>
                 
                     <!-- Start of always show -->
                    
