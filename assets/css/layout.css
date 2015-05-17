@@ -4,6 +4,7 @@
     position: relative;
     padding: 2em 2em;
     margin: 1.5em 0 1em;
+    z-index:10;
 }
 /*-----------------Navigation-------------------*/
 
@@ -55,19 +56,16 @@
 .txtBox100x30,
 .txtBox100x20,
 .txtBox100x10{
-    width: 90%;
+    display: block;
+    width: 1000%;
     position: relative;
     padding: 56.25% 0 0 0;
     overflow: hidden;
     margin: auto;
 }
 
-.imgBox100,
-.txtBox100x40,
-.txtBox100x30,
-.txtBox100x20,
-.txtBox100x10 {
-    width: 100%;
+.imgBox90 {
+    width: 90%;
 }
 
 .txtBox100x40 {
@@ -103,10 +101,14 @@ rows
 
 .row-fixedHeight {
     position: absolute;
-    left: 1%;
-    right: 1%;
-    top: 10%;
-    bottom: auto;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    margin: auto;
 }
 
 .row-right {
@@ -119,12 +121,11 @@ cols
 
 .col {
     overflow: hidden;
-    margin: 1em;
     margin-bottom: 0em;
 }
 
 .col p {
-    margin: ;
+    margin: auto;
 }
 
 .col:last-child {
