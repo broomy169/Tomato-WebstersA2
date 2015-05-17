@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Tomato Websters - Navigation</title>
-    <?php echo "<link rel='stylesheet' href= 'database/band_listStyle.css' type='text/css'>"; echo "<script src= 'database/band_expandInfo.js' type='text/javascript'></script>"; ?>
+    <?php echo "<link rel='stylesheet' href= 'database/band_listStyle.css' type='text/css'>"; echo "<script src= 'database/list_expandInfo.js' type='text/javascript'></script>"; ?>
 </head>
 
 <body>
