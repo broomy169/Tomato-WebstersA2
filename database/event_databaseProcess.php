@@ -38,11 +38,16 @@ if ($_REQUEST['submit'] == "Add Event")
     // uploadIcon's $thumbFullName === image url that will be saved as string to the database server
 
     //converting special characters to html code for storing in database correctly.
+
 	$title = htmlspecialchars($_REQUEST['event_title']);
     $phone = htmlspecialchars($_REQUEST['event_phone']);
     $date = htmlspecialchars($_REQUEST['event_date']);
+    $venueName = htmlspecialchars($_REQUEST['event_venueName']);
+    $venueLocation = htmlspecialchars($_REQUEST['event_venueLocation']);
     $shortBio = htmlspecialchars($_REQUEST['event_shortBio']);
     $longBio = htmlspecialchars($_REQUEST['event_longBio']);
+    $priceFull = htmlspecialchars($_REQUEST['event_priceFull']);
+    $priceConc = htmlspecialchars($_REQUEST['event_priceConc']);
 	$getuserID = "SELECT user_id FROM Users WHERE user_firstName = 'Jimmy'";
 	//$userID = $dbh->query($getuserID);
 	
@@ -52,7 +57,7 @@ if ($_REQUEST['submit'] == "Add Event")
 	};
 
 	
-    $sql = "INSERT INTO Events (user_id, event_title, event_phone, event_date, event_shortBio, event_longBio, event_promoIcon, event_promoPic) VALUES ('$userID', '$title', '$phone', '$date', '$shortBio', '$longBio', '$iconUrl', '$imageUrl')";
+    $sql = "INSERT INTO Events (user_id, event_title, event_phone, event_date, event_venueName, event_venueLocation, event_shortBio, event_longBio, event_priceFull, event_priceConc, event_promoIcon, event_promoPic) VALUES ('$userID', '$title', '$phone', '$date', '$venueName', '$venueLocation', '$shortBio', '$longBio', '$priceFull', '$priceConc', '$iconUrl', '$imageUrl')";
     echo "<p>Query: " . $sql . "</p>\n<p><strong>";
 	
     if ($dbh->exec($sql))
@@ -65,7 +70,7 @@ else {
 }
 // Basic select and display all contents from table
 echo "<h2>Event Records in Database Currently</h2>\n";
-$sql = "SELECT * FROM Events";
+$sql = "SELECT * FROM Events ORDER BY event_date desc";
 $result = $dbh->query($sql);
 $resultCopy = $result;
 
@@ -86,8 +91,12 @@ foreach ($dbh->query($sql) as $row)
     print "\tName: " . '<b>' . $row['event_title'] . '</b>' . "<br />";
     print "\tDate: " . '<b>' . $row['event_date'] . '</b>' . "<br />";
     print "\tPhone: " . '<b>' . $row['event_phone'] . '</b>' . "<br />";
+    print "\tVenue Name: " . '<b>' . $row['event_venueName'] . '</b>' . "<br />";
+    print "\tVenue Location: " . '<b>' . $row['event_venueLocation'] . '</b>' . "<br />";
     print "\tShort Bio: " . '<b>' . $row['event_shortBio'] . '</b>' . "<br />";
-    print "\tlong Bio: " . '<b>' . $row['event_longBio'] . '</b>' . "<br />";
+    print "\tLong Bio: " . '<b>' . $row['event_longBio'] . '</b>' . "<br />";
+    print "\tPrice Full: " . '<b>' . $row['event_priceFull'] . '</b>' . "<br />";
+    print "\tPrice Concession: " . '<b>' . $row['event_priceConc'] . '</b>' . "<br />";
     print "\tIcon path: " . '<b>' . $row['event_promoIcon'] . '</b>' . "<br />";
     print "\tPicture path: " . '<b>' . $row['event_promoPic'] . '</b>' . "<br />";
     $record++;
