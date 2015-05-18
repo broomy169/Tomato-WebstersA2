@@ -326,7 +326,9 @@ row and text wide
 
 /*--------------Forms Common-----------------*/
 form label {
-    display: table-cell;
+    /*display: table-cell;*/
+    display:inline-block;
+    width:20%;
     text-align: right;
     margin: 2px;
     padding: 2px;
@@ -360,11 +362,19 @@ form .error {
 }
 
 form input {
-    display: table-cell;
+    /*display: table-cell;*/
     margin: 2px;
     padding: 2px;
-    width: 50%;
+    width: 70%;
     align-content: center;
+}
+
+form textarea {
+    /*display: table-cell;*/
+    margin: 2px;
+    padding: 2px;
+    width: 70%;
+    height: 60px;
 }
 
 
