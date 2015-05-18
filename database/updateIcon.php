@@ -6,7 +6,6 @@ require_once("wideimage/WideImage.php");
 // checking MIME type (GIF or JPEG) and maximum upload size
 if ((($_FILES["iconfile"]["type"] == "image/gif")
      || ($_FILES["iconfile"]["type"] == "image/jpeg")
-     || ($_FILES["iconfile"]["type"] == "image/png")
      || ($_FILES["iconfile"]["type"] == "image/pjpeg"))
     && ($_FILES["iconfile"]["size"] < 2000000))
 {

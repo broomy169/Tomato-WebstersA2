@@ -1,4 +1,8 @@
-
+fieldset {
+    width: 100%;
+    border: none;
+    align-content: center;
+}
 
 .deleteButton {
     color: #000000;
@@ -65,7 +69,12 @@ p {
     padding: 5px;
 }
 
-
+label {
+    display: table-cell;
+    text-align: right;
+    margin: 2px;
+    padding: 2px;
+}
 
 input {
     display: table-cell;

@@ -324,3 +324,47 @@ row and text wide
     margin: 2em;
 }
 
+/*--------------Forms Common-----------------*/
+form label {
+    display: table-cell;
+    text-align: right;
+    margin: 2px;
+    padding: 2px;
+}
+
+form fieldset {
+    width: 100%;
+    border: none;
+    align-content: center;
+}
+
+form #submit, .updateButton {
+    background-color: #28db19;
+    color: #000000;
+    border: double;
+    height: 35px;
+}
+
+form #submit:hover, .updateButton:hover {
+    font-weight: bolder;
+    background-color: #08cf00;
+    color: #fff;
+    border: double thick #1e1e1e;
+    letter-spacing: 2px;
+    cursor: hand;
+    cursor: pointer;
+}
+
+form .error {
+    color:#FF0004;
+}
+
+form input {
+    display: table-cell;
+    margin: 2px;
+    padding: 2px;
+    width: 50%;
+    align-content: center;
+}
+
+

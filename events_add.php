@@ -47,14 +47,14 @@
 
     <!--- START of events list ---->
     <div class="row row-padding-large row-gray">
-        <div class="container events">
+        <div class="container eventAdd">
             <?php
                 $urlVar = 'database/';
                 include($urlVar . 'event_manageList.php'); //included file to pull and displays all artists/band information from sqlite
             ?>
         </div>
     </div>
-    <!--- END of events list ---->
+    <!--- END of eventAdd list ---->
     <!--- START guilt trip -->
     <div class="row row-padding row-black">
         <a href="Volunteer.html">
