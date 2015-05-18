@@ -306,11 +306,6 @@ row and text wide
     cursor: pointer;
 }
 
-/*---------------Feeder----------------------*/
-.rssItem{
-    margin: 2em;
-}
-
 .bands img{
     position: absolute;
     display: block;
@@ -323,3 +318,9 @@ row and text wide
     margin: 0%;
    
 }
+
+/*---------------Feeder----------------------*/
+.rssItem{
+    margin: 2em;
+}
+

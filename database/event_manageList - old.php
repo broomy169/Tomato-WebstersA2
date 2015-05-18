@@ -2,8 +2,15 @@
 isset($urlVar) || $urlVar = "";
 include($urlVar . "database_connect.php");
 ?>
-
-
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Manage Events - TCMC</title>
+    <link rel='stylesheet' href= 'event_manageListStyle.css' type='text/css'>
+    <script src= 'event_validateEventForm.js' type='text/javascript'></script>
+</head>
+<body>
 <div id="pageWrapper">
 <h1>Add Events</h1>
 <form id="addEvent" name="addEvent" method="post" enctype="multipart/form-data" action="event_databaseProcess.php">
@@ -66,3 +73,5 @@ include($urlVar . "database_connect.php");
         $dbh = null;
         ?>
 </div>
+</body>
+</html>
