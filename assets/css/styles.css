@@ -341,6 +341,35 @@ row and text wide
    
 }
 
+/*----------------eventclass-----------------*/
+
+.eventClass {
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.eventClass:hover {
+    cursor: hand;
+    cursor: pointer;
+}
+
+.events img{
+    position: absolute;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    margin: 0%;
+   
+}
+
 /*---------------Feeder----------------------*/
 .rssItem{
     margin: 2rem;
