@@ -209,6 +209,21 @@ row and text wide
 /*----------------specific styling below-------------------------*/
 /*----------------specific styling below-------------------------*/
 
+
+/*-------- About-Inro ----------------*/
+
+.About-Intro p {
+    margin: 1rem 4rem 1rem;
+    
+}
+
+.About-Intro h1 {
+    margin: 1rem 4rem 1rem;
+    
+}
+
+
+
 /*-------- About-HistoryList ----------------*/
 
 .About-HistoryList ul {

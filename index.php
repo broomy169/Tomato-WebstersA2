@@ -105,29 +105,23 @@
     <!--- END of call to actions  -->
     <!--- START of  About-Intro ---->
     <div class="row row-padding-large row-gray">
-        <div class="container About-Inro">
+        <div class="container About-Intro">
             <div class="col w-2col m-2col">
 
                 <h1>About Us</h1>
                 <p>The Music Centre based in Townsville, North Qld, presents concerts and workshops throughout the year with a diverse range of genres including classical, jazz, folk, blues, world and contemporary music, featuring touring artists, locally-based professionals and emerging artists.</p>
-                <br>
                 <img src="assets/img/about-us/CivicFront300.jpg" alt="modernday music center building" />
 
             </div>
             <div class="col w-2col m-2col">
-                 <img src="assets/img/about-us/TCCgcbfQN100px.png" alt="Gambling community benefit fund" />
-
-
-
-                        <h1>Contact Details</h1>
-                        <p>Phone: 07 4724 2086</p>s
-                        <p>Mobile: 0402 255 182</p>
-                        <p>Postal Address:</p>
-                        <p>PO Box 1006, Townsville, Qld 4810.</p>
-                        <p>Townsville Civic Theatre:</p>
-                        <p>41 Boundary Street, Townsville, Qld 4810.</p>
-
-
+                <img src="assets/img/about-us/TCCgcbfQN100px.png" alt="Gambling community benefit fund" />
+                <h1>Contact Details</h1>
+                <p>Phone: 07 4724 2086</p>
+                <p>Mobile: 0402 255 182</p>
+                <p>Postal Address:</p>
+                <p>PO Box 1006, Townsville, Qld 4810.</p>
+                <p>Townsville Civic Theatre:</p>
+                <p>41 Boundary Street, Townsville, Qld 4810.</p>
             </div>
         </div>
     </div>
