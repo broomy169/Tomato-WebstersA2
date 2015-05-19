@@ -2,15 +2,27 @@
     isset($urlVar) || $urlVar = "";
     include($urlVar . "database_connect.php");
 
-    $sql = "SELECT * FROM Events ORDER BY event_date DESC";
+    $sql = "SELECT * FROM Events ORDER BY event_date DESC"; //TODO: need to edit to match userID in the select statement or use "*" if user is admin
     $result = $dbh->query($sql);
     $rows = $result->fetchall();
     $iconUrl = "icon";
     $imageUrl = "image";
 
 
-
-
+   
+     /* need to incase below in an if statement that is either 
+     
+        user has no events;
+            "you have no previous editable events"
+        or
+        user has events
+            "you have X event to edit"
+        or
+        user is admin
+            "welcome admin you have X events to edit" 
+            
+        kurt...*/
+            
     echo "
         <h1>User Events</h1>
         <h2>" . 'There are total of ' . count($rows) . ' Events editable by you' . "</h2>
@@ -54,6 +66,8 @@
         </div>
 
         ";
+        
+        /* Need to add some edit // delete buttons for each event!!! */
 
     }
     // closing database connection here

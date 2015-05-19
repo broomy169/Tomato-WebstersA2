@@ -32,18 +32,18 @@
             </div>
             <div class='col w-2col m-2col'>
                 <div class='addEventHelp'>
-                    <h1>helpfull hints </h1>
+                    <h1>Helpfull hints </h1>
 
-                    <h2>To successfully enter an event you will need to have entered a number of valid fields. </h2>
+                    <h2>To <em>successfully</em> enter an event you will need to have entered a number of valid fields. </h2>
 
                     <p>
                         These fields are required to make it easier for your potential audience to connect with your event
                     </p>
                     <p>
-                        By entering as much info as possible about your event you will attract more punters.
+                        By entering as much info as possible about your event you will <strong>attract more punters</strong>.
                     </p>
                     <p>
-                        Dont forget to include images both a large format and smaller format to promote your event, you will get little attention if you do not include the images.
+                        Dont forget to <em>include,</em> images, <strong>both a large format and smaller format</strong> to promote your event, you will get little attention if you do not include the images.
                     </p>
 
                     <p>

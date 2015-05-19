@@ -378,10 +378,8 @@ form textarea {
 }
 
 
+
 /*------------eventAdd----------------*/
-
-
-
 
 .eventAdd #addRecord {
     border: #26be19 ridge 25px;
@@ -396,6 +394,7 @@ form textarea {
     padding: 10px;
     background-color: #dedede;
 }
+
 
 /*-------------manageUserEvents-------------*/
 
@@ -431,3 +430,18 @@ form textarea {
     padding: 10px;
     background-color: #dedede;
 }
+
+.manageUserEvents p {
+    margin: 2em;
+}
+
+
+/*-------------addEventHelp-------------*/
+.addEventHelp p {
+    margin: 1em 4em 1em;
+}
+
+.addEventHelp h2 {
+    margin: 1em 4em 1em;
+}
+
