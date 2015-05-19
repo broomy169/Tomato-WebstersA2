@@ -10,13 +10,9 @@
     $sql = "SELECT * FROM events";
     // counter or tally that helps to distinguish between each record's tags/click/input in JavaScript
     $blockTally = 1;
-    echo "<p>help</p>";
     
     $dbReturn = $dbh->query($sql);
 
-    $dbSize = sizeof($dbReturn);
-
-    echo"<h1>beer =  $dbSize </h1>";
 
     //loop going through each event record and displays its info
     foreach($dbh->query($sql) as $row){
@@ -175,7 +171,7 @@
         echo" 
         
                         <div class='col w-2col m-2col '>
-                            <h3>$row[event_date]</h3>
+                            <h3>Scheduled event date: $row[event_date]</h3>
         ";
         //need to pull event venue details from database 
         echo"
@@ -214,6 +210,17 @@
                                 <li><p>Full Price: Not Entered</p></li>
             ";
         }
+        if(!(empty($row['event_priceConc']))){
+            echo"              
+                                <li><p>Concession Price: $row[event_priceConc]</p></li>
+            ";
+        }
+        else{
+            echo"              
+                                <li><p>Concession Price: Not Entered</p></li>
+            ";
+        }
+
         echo"               
                             </ul>
                             ";

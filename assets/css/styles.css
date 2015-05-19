@@ -370,6 +370,9 @@ row and text wide
    
 }
 
+.events ul {
+    margin: 1rem;
+
 /*---------------Feeder----------------------*/
 .rssItem{
     margin: 2rem;
