@@ -45,16 +45,28 @@
     </div>
     <!-- end div #header-->
 
-    <!--- START of events list ---->
+    <!--- START of eventAdd list ---->
     <div class="row row-padding-large row-gray">
         <div class="container eventAdd">
+            <?php
+                $urlVar = 'database/';
+                include($urlVar . 'events_add.php'); //included file to pull and displays all artists/band information from sqlite
+            ?>
+        </div>
+    </div>
+    <!--- END of eventAdd list ---->
+    
+    <!--- START of manageUserEvents list ---->
+    <div class="row row-padding-large row-gray">
+        <div class="container manageUserEvents">
             <?php
                 $urlVar = 'database/';
                 include($urlVar . 'event_manageList.php'); //included file to pull and displays all artists/band information from sqlite
             ?>
         </div>
     </div>
-    <!--- END of eventAdd list ---->
+    <!--- END of manageUserEvents list ---->
+    
     <!--- START guilt trip -->
     <div class="row row-padding row-black">
         <a href="Volunteer.html">
