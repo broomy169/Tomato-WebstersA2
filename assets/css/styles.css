@@ -378,3 +378,42 @@ form textarea {
 }
 
 
+/*------------eventAdd----------------*/
+
+.eventAdd .deleteButton {
+    color: #000000;
+    background-color: #ff5b54;
+    text-align: center;
+    border: double;
+    height: 35px;
+}
+
+.eventAdd .deleteButton:hover {
+    background-color: #ff0006;
+    font-weight: bolder;
+    color: #fff;
+    border: double thick #cecece;
+    letter-spacing: 2px;
+    font-size: 100%;
+    cursor: hand;
+    cursor: pointer;
+}
+
+.eventAdd #pageWrapper {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.eventAdd #addRecord {
+    border: #26be19 ridge 25px;
+    background-color: #e2e2e2;
+    margin: 5px;
+    padding: 10px;
+}
+
+.eventAdd #editRecord {
+    border: #ff7d7d ridge 15px;
+    margin: 5px;
+    padding: 10px;
+    background-color: #dedede;
+}
