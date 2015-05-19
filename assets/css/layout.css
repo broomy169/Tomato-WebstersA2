@@ -2,17 +2,17 @@
 
 .header {
     position: relative;
-    padding: 2em 2em;
-    margin: 1.5em 0 1em;
+    padding: 2rem 2rem;
+    margin: 1.5rem 0 1rem;
     z-index:10;
 }
 /*-----------------Navigation-------------------*/
 
 .navigation {
     position: fixed;
-    top: 0em;
-    right: 0em;
-    margin-top: 1em;
+    top: 0rem;
+    right: 0rem;
+    margin-top: 1rem;
     background: rgba(0, 0, 0, 0.32);
     border-radius: 7px;
 }
@@ -45,7 +45,7 @@
 /*------------box ---------------------*/
 
 .box {
-    padding: 1em;
+    padding: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.4);
     border-radius: 8px;
 }
@@ -89,13 +89,13 @@ rows
 ----------------------------------- */
 
 .row {
-    margin: 1em auto;
+    margin: 1rem auto;
     clear: both;
     overflow: hidden;
     text-align: center;
     border-radius: 8px;
     width: 90%;
-    max-width: 75em;
+    max-width: 75rem;
 }
 
 
@@ -113,7 +113,7 @@ rows
 
 .row-right {
     text-align: right;
-    margin-right: 1em;
+    margin-right: 1rem;
 }
 /* -----------------------------------
 cols
@@ -121,7 +121,7 @@ cols
 
 .col {
     overflow: hidden;
-    margin-bottom: 0em;
+    margin-bottom: 0rem;
 }
 
 .col p {
@@ -149,10 +149,10 @@ cols-medium
         margin-right: 0;
     }
     .header {
-        margin: 2em 0 0em;
+        margin: 2rem 0 0rem;
     }
     .navigation {
-        top: .27em;
+        top: .27rem;
     }
 }
 /* -----------------------------------
@@ -176,10 +176,10 @@ cols-wide
         width: 25%;
     }
     .header {
-        margin: 2.5em auto 0em;
+        margin: 2.5rem auto 0rem;
     }
     .navigation {
-        top: .6em;
+        top: .6rem;
     }
 }
 
