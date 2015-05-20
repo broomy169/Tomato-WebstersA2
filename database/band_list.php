@@ -1,5 +1,10 @@
 <?php
-    //including connection code for database
+// checking if session not started then start new session
+if (!isset($_SESSION)){
+    session_start();
+}
+
+    //connecting to database database
     //following code will make this file accessible from other directories as well
     isset($urlVar) || $urlVar = "";
     include($urlVar . "database_connect.php");
@@ -10,9 +15,6 @@
     $sql = "SELECT * FROM band";
     // counter or tally that helps to distinguish between each record's tags/click/input in JavaScript
     $blockTally = 1;
-    
-    
-
 
     //loop going through each band record and displays its info
     foreach($dbh->query($sql) as $row){

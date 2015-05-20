@@ -120,8 +120,20 @@ text
     color: #FFF;
 }
 
+.row-right a:hover {
+    text-decoration: underline;
+}
+
+.row-right span {
+    color: yellow;
+}
+
 .bands .bands-expanded {
     text-align: center;
+}
+
+#login {
+    display: none;
 }
 
 .bands {}

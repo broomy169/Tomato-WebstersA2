@@ -1,8 +1,19 @@
 <?php
+// if user entered a link in browser to get here without logging in then following code prevent access to this page.
+if (!isset($_SESSION['user_email'])){
+    header("Location: ../index.php");
+}
 
+// checking if session not started then start new session
+if (!isset($_SESSION)){
+    session_start();
+}
+
+// connecting to database
 isset($urlVar) || $urlVar = "";
 include($urlVar . "database_connect.php");
 
+//testing purposes
 $debugOn = true;
 
 if ($_REQUEST['submit'] == "X")
