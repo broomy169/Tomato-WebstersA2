@@ -9,17 +9,12 @@ $debugOn = true;
 
 $row = null;
 $rowArray = null;
-
 $username = $_POST['user_email'];
 //$password = md5($_POST['user_password']); will be using encryption later on
 $password = $_POST['user_password'];
 
-//testing here only
-echo "user name and password passing for process is: ";
-echo "<p>UserName :" . " " .$username . "</p>";
-
+//getting info out of database based on email addeess logged in
 $sql = "SELECT * FROM Users WHERE user_email = '$username'";
-
 $result = $dbh->query($sql);
 foreach ($result as $rowArray){
     $row = $rowArray;
@@ -40,18 +35,17 @@ if (empty($username) || empty($password)) {
         if($password == $row["user_password"]) {
             $_SESSION['user_email'] = $username;
             $_SESSION['user_firstName'] = $row['user_firstName'];
-            //echo "<p>Logged in as " . $row['user_firstName'] . "</p>";
+            $_SESSION['user_accessLevel'] = $row['user_accessLevel'];
             header("Location: ../index.php");
             exit();
 
         } else {
-            echo "Entered wrong user name or password ";
+            echo "Entered wrong user name or password";
         }
     } else {
         echo "You can't get here. if can see me that means my code is broken ;)";
     }
 }
-
 ?>
 
 
