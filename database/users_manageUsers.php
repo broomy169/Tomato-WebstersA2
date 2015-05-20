@@ -1,6 +1,5 @@
 <?php
 session_start();
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,9 +12,10 @@ session_start();
     <link rel="stylesheet" href="../assets/css/base.css">
     <link rel="stylesheet" href="../assets/css/layout.css">
     <link rel="stylesheet" href="../assets/css/styles.css">
-    <link href='http://fonts.googleapis.com/css?family=Kameron:400,700' rel='stylesheet' type='text/css'>
+
     <!--[if lt IE 9]>
     <script src="../assets/js/respond.min.js"></script>
+    <link rel='stylesheet' href= 'band_manageListStyle.css' type='text/css'>
     <![endif]-->
 </head>
 
@@ -44,7 +44,7 @@ session_start();
             </li>
         </ul>
         <?php
-        include("inc_userLoggedIn.php");
+        include("login_userAccess.php");
         ?>
     </div>
     <!-- end div #menu -->
@@ -53,17 +53,9 @@ session_start();
 <!-- end div #header-->
 
 <!--- START of  Content ---->
-
-<?php
-if($_SESSION['user_accessLevel'] == "full") {
-    include("inc_adminManageList.php");
-} else if($_SESSION['user_accessLevel'] == "paid") {
-    include("inc_paidManageList.php");
-} else if($_SESSION['user_accessLevel'] == "free") {
-    include("inc_freeManageList.php");
-}
-?>
-
+<div id="pageWrapper">
+    <?php include("users_inc_manageUsers.php"); ?>
+</div>
 <!-- START Copyright -->
 <div class="row row-padding row-black">
     <div class="container">

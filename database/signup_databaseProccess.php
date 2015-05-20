@@ -17,7 +17,7 @@ $debugOn = true;
 </style>
 
 <body>
-<h3><a href="signup_form.php">Return to Sign Up page</a></h3>
+<h3><a href="../signUp.php">Return to Sign Up page</a></h3>
 
 <?php
 if ($_REQUEST['submit'] == "Sign Up"){
@@ -55,6 +55,6 @@ if ($debugOn) {
 $dbh = null;
 ?>
 
-<h3><a href="signup_form.php">Return to Sign Up page</a></h3>
+<h3><a href="../signUp.php">Return to Sign Up page</a></h3>
 </body>
 </html>

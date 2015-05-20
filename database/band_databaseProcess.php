@@ -20,7 +20,7 @@ if ($_REQUEST['submit'] == "X")
 {
     $sql = "DELETE FROM Band WHERE band_id = '$_REQUEST[band_id]'";
     if ($dbh->exec($sql))
-        header("Location: band_manageList.php");
+        header("Location: band_inc_manageList.php");
 }
 ?>
 
@@ -38,7 +38,7 @@ if ($_REQUEST['submit'] == "X")
 </style>
 
 <body>
-<h3><a href="band_manageList.php">Return to Manage band database</a></h3>
+<h3><a href="band_inc_manageList.php">Return to Manage band database</a></h3>
 <h1>Results</h1>
 
 <?php
@@ -145,6 +145,6 @@ foreach ($dbh->query($sql) as $row)
 // close the database connection
 $dbh = null;
 ?>
-<h3><a href="band_manageList.php">Return to Manage band database</a></h3>
+<h3><a href="band_inc_manageList.php">Return to Manage band database</a></h3>
 </body>
 </html>

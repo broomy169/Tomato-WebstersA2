@@ -22,7 +22,7 @@ header("Location: ../index.php");
         a:hover {background-color: #0eff39; border: solid #000000; }
     </style>
 <body>
-<h3><a href="login_login.php">Return to Sign Up page</a></h3>
+<h3><a href="login_form.php">Return to Sign Up page</a></h3>
 
 </body>
 </html>

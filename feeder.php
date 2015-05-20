@@ -58,7 +58,7 @@ $feed->handle_content_type();
             </ul>
             <?php
                 $urlVar = 'database/';
-                include($urlVar ."inc_userLoggedIn.php");
+                include($urlVar . "login_userAccess.php");
             ?>
         </div>
         <!-- end div #menu -->

@@ -38,7 +38,7 @@ if ($_REQUEST['submit'] == "Sort Genre") {
 }
 $dbh = null;
 ?>
-<h3><a href="band_manageList.php">Return to Manage band database</a></h3>
+<h3><a href="band_inc_manageList.php">Return to Manage band database</a></h3>
    
 </body>
 </html>

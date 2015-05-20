@@ -13,7 +13,7 @@ $username = $_POST['user_email'];
 //$password = md5($_POST['user_password']); will be using encryption later on
 $password = $_POST['user_password'];
 
-//getting info out of database based on email addeess logged in
+//getting info out of database based on email address of logged in user
 $sql = "SELECT * FROM Users WHERE user_email = '$username'";
 $result = $dbh->query($sql);
 foreach ($result as $rowArray){
@@ -22,8 +22,8 @@ foreach ($result as $rowArray){
 
 if (empty($username) || empty($password)) {
     if (empty($username) && empty($password)) {
-        $_SESSION['msg'] = "You need to enter email and password for login.";
-        $_SESSION['msgNumber'] = 1;
+        $_SESSION['msg'] = "You need to enter email and password for login."; // validation message
+        $_SESSION['msgNumber'] = 1; // setting msgNumber so if no login details entered then message will appear once
         header("Location: ../index.php");
     } else if (empty($username)) {
         $_SESSION['msg'] = "You did not enter email address. Try again!!";

@@ -18,11 +18,13 @@ if(isset($_SESSION['msg']) && isset($_SESSION['msgNumber'])){
     $msgNumber = $_SESSION['msgNumber'];
 }
 
+// checking is no user logged in then display login and sign up links
 if (!isset($_SESSION['user_email'])){
     ?>
     <div class='row-right'>
         <span>
             <?php
+            //following code displays login errors if user tried and failed to login due to incorrect details entered
             if(isset($_SESSION['msg']) && $msgNumber == 1){
                 echo $msg;
                 echo "<style> #login { display: block;} #loginLink {display: none;} </style>";
@@ -30,12 +32,15 @@ if (!isset($_SESSION['user_email'])){
             }?>
         </span>
         <a href="#" id="loginLink" onclick="run();">Log In</a>
-        <div id="login"> <?php include("login_login.php"); ?></div>
+        <div id="login"> <?php include("login_form.php"); ?></div>
         <?php echo " | "; ?>
         <a href='signUp.php'>Sign Up</a>
     </div>
 
-    <?php } else {
+<?php
+// if user logged in
+} else {
+    // checking user access level and setting up link names
     if ($_SESSION['user_accessLevel'] == "free"){
         $linkName = "Manage Messages";
     } else if ($_SESSION['user_accessLevel'] == "paid") {
@@ -45,12 +50,11 @@ if (!isset($_SESSION['user_email'])){
         $admin = "Admin";
     }
 
+    // setting up and displaying links to access by user according to access level
     echo "<div class='row-right'>";
     echo "<span>Welcome - " . $admin . " " .$_SESSION['user_firstName'] . " !!</span>";
     echo " | ";
-    echo "<a href ='". $urlVar."usersProcess.php' title= '".$linkName ."'>".$linkName."</a>";
+    echo "<a href ='". $urlVar."users_access.php' title= '".$linkName ."'>".$linkName."</a>";
     echo " | ";
     echo "<a href ='". $urlVar."logout.php' title='Log out'> Log Out</a></div>";
-
-
 }?>
