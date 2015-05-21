@@ -31,12 +31,12 @@ rows
 /* row-padding */
 
 .row-padding-small {
-    padding: 1rem 0rem;
+    padding 1rem 0rem;
 }
 
 .row-padding,
 .row-padding-large {
-    padding: 2rem 0;
+    padding 2rem 0;
 }
 /* row-colors */
 
@@ -387,7 +387,7 @@ row and text wide
 }
 
 /*---------------Feeder----------------------*/
-.rssItem{
+.rssItem {
     margin: 2rem;
 }
 
