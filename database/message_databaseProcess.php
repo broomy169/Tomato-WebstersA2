@@ -4,9 +4,9 @@ if (!isset($_SESSION)){
     session_start();
 }
 
-if (!isset($_SESSION['user_email'])){
-    header("Location: ../index.php");
-}
+//if (!isset($_SESSION['user_email'])){
+ //   header("Location: ../index.php");
+//}
 
 isset($urlVar) || $urlVar = "";
 include($urlVar . "database_connect.php");
@@ -74,16 +74,16 @@ else {
 // Basic select and display all contents from table
 echo "<h2>Message Records in Database Currently</h2>\n";
 
-$loggedInUserID = $_SESSION['user_id'];
+//$loggedInUserID = $_SESSION['user_id'];
 
 // checking logged in user's access level and displaying information accordingly
-if ($_SESSION['user_accessLevel'] == "full" || $_SESSION['user_accessLevel'] == "paid"){
+//if ($_SESSION['user_accessLevel'] == "full" || $_SESSION['user_accessLevel'] == "paid"){
     $sql = "SELECT * FROM Message";
 
     // displaying messages that are only created by logged in user
-} else if ($_SESSION['user_accessLevel'] == "free") {
-    $sql = "SELECT * FROM Message WHERE Message.user_id = $loggedInUserID";
-}
+//} else if ($_SESSION['user_accessLevel'] == "free") {
+ //   $sql = "SELECT * FROM Message WHERE Message.user_id = $loggedInUserID";
+//}
 
 
 //$sql = "SELECT * FROM Message";

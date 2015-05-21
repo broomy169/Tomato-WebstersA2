@@ -19,10 +19,14 @@ include($urlVar . "database_connect.php");
 <body>
 <div id="pageWrapper">
 <h1>Manage Messages</h1>
+		<?php
+		date_default_timezone_set('Australia/Brisbane');
+        $date = date('d/m/y', time());
+		?>
 <form id="addMessage" name="addMessage" method="post" enctype="multipart/form-data" action="message_databaseProcess.php">
     <fieldset>
         <h2>Add new Message record:</h2>
-        <input type="hidden" name="message_createDate" id="message_createDate" value="">
+        <input type="hidden" name="message_createDate" id="message_createDate" value="<?php echo"$date";?>">
         <p><label for="message_expDate">Message Expiry Date:- </label><input type="text" name="message_expDate" id="message_expDate" value="">     
         <p><label for="message_title">Title:- </label><input type="text" name="message_title" id="message_title" value="">
         <p><label for="message_content">Message:- </label><textarea type="text" name="message_content" id="message_content" value=""></textarea>
@@ -36,14 +40,14 @@ include($urlVar . "database_connect.php");
     echo "<fieldset>\n";
     echo "<h1>Current Messages:</h1>\n";
 
-    // Displaying database information
+     //Displaying database information
     $loggedInUserID = $_SESSION['user_id'];
 
-    // checking logged in user's access level and displaying information accordingly
+     //checking logged in user's access level and displaying information accordingly
     if ($_SESSION['user_accessLevel'] == "full" || $_SESSION['user_accessLevel'] == "paid"){
         $sql = "SELECT * FROM Message";
 
-    // displaying messages that are only created by logged in user
+     //displaying messages that are only created by logged in user
     } else if ($_SESSION['user_accessLevel'] == "free") {
         $sql = "SELECT * FROM Message WHERE Message.user_id = $loggedInUserID";
     }

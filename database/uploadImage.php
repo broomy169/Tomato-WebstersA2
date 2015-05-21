@@ -47,7 +47,7 @@ if ((($_FILES["imagefile"]["type"] == "image/gif")
             // otherwise code will run and create icon/thumbnail image out of actual added image
             if (!file_exists($thumbFullName)) {
                 $image = WideImage::load($newFullName);
-                $thumbnailImage = $image->resize(400, 300);
+                $thumbnailImage = $image->resize(536, 287);
                 $thumbFullName = "images/icon{$newName}";
                 $thumbnailImage->saveToFile($thumbFullName);
                 echo "Stored Icon as: $thumbFullName<br />\n";

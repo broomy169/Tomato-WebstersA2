@@ -9,8 +9,6 @@ if (!isset($_SESSION['user_email'])){
     header("Location: ../index.php");
 }
 
-
-
 // connecting to database
 isset($urlVar) || $urlVar = "";
 include($urlVar . "database_connect.php");

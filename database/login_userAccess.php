@@ -8,15 +8,13 @@ isset($urlVar) || $urlVar = "";
 include($urlVar."database_connect.php");
 
 echo "<script src='database/login_showLogin.js' type='text/javascript'></script>";
-
 $linkName = "";
 $admin = "";
 $msg = "";
 $msgNumber = 0;
-$noAccessMsg = "";
-if(isset($_SESSION['msg']) && isset($_SESSION['msgNumber'])){
+
+if(isset($_SESSION['msg'])){
     $msg = $_SESSION['msg'];
-    $msgNumber = $_SESSION['msgNumber'];
 }
 
 // checking is no user logged in then display login and sign up links
@@ -57,12 +55,15 @@ if (!isset($_SESSION['user_email'])){
 
     // setting up and displaying links to access by user according to access level
     echo "<div class='row-right'>";
-    echo "<span>" . $noAccessMsg . "</span></br>";
+
+    if (isset($_SESSION['msgNumber'])) {
+        echo "<span>" . $_SESSION['msgNumber'] . "</span></br>";
+        unset($_SESSION['no_access_msg']);
+    }
     echo "<span>Welcome - " . $admin . " " .$_SESSION['user_firstName'] . " !!</span>";
     echo " | ";
     echo "<a href ='". $urlVar."users_access.php' title= '".$linkName ."'>".$linkName."</a>";
     echo " | ";
     echo "<a href ='". $urlVar."logout.php' title='Log out'> Log Out</a></div>";
-
     unset($_SESSION['no_access_msg']);
 }?>

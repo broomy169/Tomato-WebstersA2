@@ -104,7 +104,7 @@ text
 .navigation li a,
 .navigation li span {
     padding: .1rem .5rem;
-    margin 0rem;
+    margin: 0rem;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 0.5rem;
@@ -230,7 +230,7 @@ row and text wide
 }
 
 .About-Intro h1 {
-    margin: 1rem 4rrem 1rem;
+    margin: 1rem 4rem 1rem;
     
 }
 
@@ -385,6 +385,7 @@ row and text wide
 .events ul {
     margin: 1rem;
 }
+
 /*---------------Feeder----------------------*/
 .rssItem {
     margin: 2rem;

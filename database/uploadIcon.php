@@ -30,7 +30,7 @@ if ((($_FILES["iconfile"]["type"] == "image/gif")
             $newFullName = "images/{$newName}";
             $file = $_FILES["iconfile"]["tmp_name"];
             $image = WideImage::load($file);
-            $thumbnailImage = $image->resize(400, 300);
+            $thumbnailImage = $image->resize(268, 144);
             $thumbFullName = "images/icon{$newName}";
             $thumbnailImage->saveToFile($thumbFullName);
             //setting permissions to image
