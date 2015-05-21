@@ -13,6 +13,7 @@ $linkName = "";
 $admin = "";
 $msg = "";
 $msgNumber = 0;
+$noAccessMsg = "";
 if(isset($_SESSION['msg']) && isset($_SESSION['msgNumber'])){
     $msg = $_SESSION['msg'];
     $msgNumber = $_SESSION['msgNumber'];
@@ -50,11 +51,18 @@ if (!isset($_SESSION['user_email'])){
         $admin = "Admin";
     }
 
+    if (isset($_SESSION['no_access_msg'])) {
+        $noAccessMsg = $_SESSION['no_access_msg'];
+    }
+
     // setting up and displaying links to access by user according to access level
     echo "<div class='row-right'>";
+    echo "<span>" . $noAccessMsg . "</span></br>";
     echo "<span>Welcome - " . $admin . " " .$_SESSION['user_firstName'] . " !!</span>";
     echo " | ";
     echo "<a href ='". $urlVar."users_access.php' title= '".$linkName ."'>".$linkName."</a>";
     echo " | ";
     echo "<a href ='". $urlVar."logout.php' title='Log out'> Log Out</a></div>";
+
+    unset($_SESSION['no_access_msg']);
 }?>

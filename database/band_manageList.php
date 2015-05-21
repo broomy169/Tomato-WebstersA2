@@ -53,11 +53,16 @@ session_start();
 <!-- end div #header-->
 
 <!--- START of  Content ---->
-
-<?php
-include("band_inc_manageList.php");
-?>
-
+<div class="row row-padding-large row-gray">
+    <div class="container bands">
+        <h1>Bands / Artists</h1>
+        <ul>
+            <?php
+            include("band_inc_manageList.php");
+            ?>
+        </ul>
+    </div>
+</div>
 <!-- START Copyright -->
 <div class="row row-padding row-black">
     <div class="container">

@@ -53,9 +53,16 @@ session_start();
 <!-- end div #header-->
 
 <!--- START of  Content ---->
-<div id="pageWrapper">
-    <?php include("users_inc_manageUsers.php"); ?>
+
+<div class="row row-padding-large row-gray">
+    <div class="container bands">
+        <ul>
+            <?php include("users_inc_manageUsers.php"); ?>
+        </ul>
+
+    </div>
 </div>
+
 <!-- START Copyright -->
 <div class="row row-padding row-black">
     <div class="container">

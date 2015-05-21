@@ -1,4 +1,10 @@
 <?php
+if (!isset($_SESSION)){
+    session_start();
+}
+if (!isset($_SESSION['user_email'])){
+    header("Location: ../index.php");
+}
 isset($urlVar) || $urlVar = "";
 include($urlVar . "database_connect.php");
 ?>
@@ -30,11 +36,25 @@ include($urlVar . "database_connect.php");
     echo "<fieldset>\n";
     echo "<h1>Current Messages:</h1>\n";
 
-        // Displaying database information
+    // Displaying database information
+    $loggedInUserID = $_SESSION['user_id'];
+
+    // checking logged in user's access level and displaying information accordingly
+    if ($_SESSION['user_accessLevel'] == "full" || $_SESSION['user_accessLevel'] == "paid"){
         $sql = "SELECT * FROM Message";
+
+    // displaying messages that are only created by logged in user
+    } else if ($_SESSION['user_accessLevel'] == "free") {
+        $sql = "SELECT * FROM Message WHERE Message.user_id = $loggedInUserID";
+    }
         $result = $dbh->query($sql);
         $rows = $result->fetchall(PDO::FETCH_ASSOC);
-        echo "<h3>" . 'There are total ' . count($rows) . ' records in Database' . "</h3>\n";
+
+        if (count($rows) == 0) {
+            echo "<h3>You haven't added any message yet.</h3>\n";
+        } else {
+            echo "<h3>" . 'There are total ' . count($rows) . ' records in Database' . "</h3>\n";
+        }
 
         $editTally = 0;
         foreach ($dbh->query($sql) as $row){

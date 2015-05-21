@@ -42,7 +42,7 @@ if ($_REQUEST['submit'] == "X")
 </style>
 
 <body>
-<h3><a href="users_manageUsers.php">Return to Manage band database</a></h3>
+<h3><a href="users_manageUsers.php">Return to Manage Users</a></h3>
 <h1>Results</h1>
 
 <?php
@@ -111,6 +111,6 @@ foreach ($dbh->query($sql) as $row)
 // close the database connection
 $dbh = null;
 ?>
-<h3><a href="users_manageUsers.php">Return to Manage band database</a></h3>
+<h3><a href="users_manageUsers.php">Return to Manage Users</a></h3>
 </body>
 </html>

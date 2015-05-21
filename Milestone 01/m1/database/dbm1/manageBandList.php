@@ -70,7 +70,7 @@ include($urlVar . "inc_dbConnect.php");
 
             //single echo added for all html code
             echo "
-            <form id='editRecord' name='editRecord$editTally' method='post' enctype='multipart/form-data' action='band_databaseProcess.php'>
+            <form id='editRecord' name='editRecord$editTally' method='post' enctype='multipart/form-data' action='band_inc_databaseProcess.php'>
             <h4><label>Record ID: $row[band_id]</label></h4>
             <input type='hidden' name='band_id' value='$row[band_id]' />
             <label>Band/Artist Name: </label><input type='text' name='band_name' value='$row[band_name]' />

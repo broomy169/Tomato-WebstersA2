@@ -37,7 +37,7 @@ include($urlVar . "database_connect.php");
         <center><input type="submit" name="submit" id="submit" value="Sort Genre"></center>
 </form>
 <h1>Manage (Add/remove/update) Band and Artists</h1>
-<form id="addRecord" name="addRecord" method="post" enctype="multipart/form-data" action="band_databaseProcess.php">
+<form id="addRecord" name="addRecord" method="post" enctype="multipart/form-data" action="band_inc_databaseProcess.php">
     <fieldset>
         <h2>Insert/Add new band/Artist record:</h2>
         <p><span class="error">* required field</span></p>
@@ -82,6 +82,7 @@ include($urlVar . "database_connect.php");
     echo "<h1>Current Band/Artists data/Information:</h1>\n";
 
         // Displaying database information
+
         $sql = "SELECT * FROM Band";
         $result = $dbh->query($sql);
         $rows = $result->fetchall(PDO::FETCH_ASSOC);
@@ -93,7 +94,7 @@ include($urlVar . "database_connect.php");
 
             //single echo added for all html code
             echo "
-            <form id='editRecord' name='editRecord$editTally' method='post' enctype='multipart/form-data' action='band_databaseProcess.php'>
+            <form id='editRecord' name='editRecord$editTally' method='post' enctype='multipart/form-data' action='band_inc_databaseProcess.php'>
             <h4><label>Record ID: $row[band_id]</label></h4>
             <input type='hidden' name='band_id' value='$row[band_id]' />
             <label>Band/Artist Name: </label><input type='text' name='band_name' value='$row[band_name]' />

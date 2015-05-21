@@ -48,6 +48,7 @@ if (empty($username) || empty($password)) {
             $_SESSION['user_email'] = $username;
             $_SESSION['user_firstName'] = $row['user_firstName'];
             $_SESSION['user_accessLevel'] = $row['user_accessLevel'];
+            $_SESSION['user_id'] = $row['user_id'];
             $_SESSION['msgNumber'] = 0;
             header("Location: ../index.php");
             exit();
