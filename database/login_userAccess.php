@@ -56,8 +56,8 @@ if (!isset($_SESSION['user_email'])){
     // setting up and displaying links to access by user according to access level
     echo "<div class='row-right'>";
 
-    if (isset($_SESSION['msgNumber'])) {
-        echo "<span>" . $_SESSION['msgNumber'] . "</span></br>";
+    if (isset($_SESSION['no_access_msg'])) {
+        echo "<span>" . $_SESSION['no_access_msg'] . "</span></br>";
         unset($_SESSION['no_access_msg']);
     }
     echo "<span>Welcome - " . $admin . " " .$_SESSION['user_firstName'] . " !!</span>";
