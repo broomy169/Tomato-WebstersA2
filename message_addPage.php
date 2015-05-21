@@ -24,9 +24,9 @@
             <ul>
                 <li><a href="index.php">Home</a>
                 </li>
-                <li class="active"><a href="bands.php">bands</a>
+                <li><a href="bands.php">bands</a>
                 </li>
-                <li><a href="events.php">Events</a>
+                <li class="active"><a href="events.php">Events</a>
                 </li>
                 <li><a href="message.php">Messages</a>
                 </li>
@@ -45,20 +45,29 @@
     </div>
     <!-- end div #header-->
 
-    <!-- START of artists list -->
+    <!-- START of eventAdd list
     <div class="row row-padding-large row-gray">
-        <div class="container bands">
-            <h1>Bands / Artists</h1>
-            <ul>
-                <?php
+        <div class="container eventAdd">
+            <?php/*
                 $urlVar = 'database/';
-                include($urlVar . 'band_list.php'); //included file to pull and displays all artists/band information from sqlite
-                ?>
-            </ul>
-
+                include($urlVar . 'events_add.php'); //included file to pull and displays all artists/band information from sqlite
+                */
+            ?>
         </div>
     </div>
-    <!-- END of artists list -->
+   END of eventAdd list -->
+    
+    <!-- START of manageUserEvents list -->
+    <div class="row row-padding-large row-gray">
+        <div class="container manageUserEvents">
+            <?php
+                $urlVar = 'database/';
+                include($urlVar . 'message_manageList.php'); //included file to pull and displays all artists/band information from sqlite
+            ?>
+        </div>
+    </div>
+    <!-- END of manageUserEvents list -->
+    
     <!-- START guilt trip -->
     <div class="row row-padding row-black">
         <a href="Volunteer.html">
@@ -111,7 +120,7 @@
                             </div>
                         </div>
                         <div class="imgBox90">
-                            <img  src="database/images/events/AVIVA-LANE500.jpg" alt="Dynamic event image">
+                            <img  src="database/images/events/AVIVA-LANE500.jpg" alt="Dynamic event image" >
                         </div>
                         <div class="txtBox100x30">
                             <div class="row-fixedHeight">

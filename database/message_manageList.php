@@ -3,7 +3,7 @@ if (!isset($_SESSION)){
     session_start();
 }
 if (!isset($_SESSION['user_email'])){
-    header("Location: ../index.php");
+    header("Location: index.php");
 }
 isset($urlVar) || $urlVar = "";
 include($urlVar . "database_connect.php");

@@ -30,7 +30,7 @@ session_start();
             <img src="images/SiteImages/TCMC98Neg.gif" >
         </div>
         <ul>
-            <li><a href="../index.php">Home</a>
+            <li><a href="index.php">Home</a>
             </li>
             <li><a href="../bands.php">bands</a>
             </li>

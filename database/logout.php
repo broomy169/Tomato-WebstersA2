@@ -9,7 +9,7 @@ include($urlVar . "database_connect.php");
 $_SESSION = array();
 session_destroy();
 
-header("Location: ../index.php");
+header("Location: index.php");
 
 ?>
 <!doctype html>

@@ -6,7 +6,7 @@ if (!isset($_SESSION)){
 
 // if user entered a link in browser to get here without logging in then following code prevent access to this page.
 if (!isset($_SESSION['user_email'])){
-    header("Location: ../index.php");
+    header("Location: index.php");
 }
 
 // connecting to database

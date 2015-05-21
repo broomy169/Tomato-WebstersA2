@@ -5,7 +5,7 @@ if (!isset($_SESSION)){
 }
 
 //if (!isset($_SESSION['user_email'])){
- //   header("Location: ../index.php");
+ //   header("Location: index.php");
 //}
 
 isset($urlVar) || $urlVar = "";

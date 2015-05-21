@@ -24,15 +24,15 @@ if (empty($username) || empty($password)) {
     if (empty($username) && empty($password)) {
         $_SESSION['msg'] = "You need to enter email and password for login."; // validation message
         $_SESSION['msgNumber'] = 1; // setting msgNumber so if no login details entered then message will appear once
-        header("Location: ../index.php");
+        header("Location: index.php");
     } else if (empty($username)) {
         $_SESSION['msg'] = "You did not enter email address. Try again!!";
         $_SESSION['msgNumber'] = 1;
-        header("Location: ../index.php");
+        header("Location: index.php");
     } else if (empty($password)) {
         $_SESSION['msg'] = "You did not enter password. Try again!!";
         $_SESSION['msgNumber'] = 1;
-        header("Location: ../index.php");
+        header("Location: index.php");
     }
 
 } else if (isset($username) && isset($password)) {
@@ -50,18 +50,18 @@ if (empty($username) || empty($password)) {
             $_SESSION['user_accessLevel'] = $row['user_accessLevel'];
             $_SESSION['user_id'] = $row['user_id'];
             $_SESSION['msgNumber'] = 0;
-            header("Location: ../index.php");
+            header("Location: index.php");
             exit();
         } else {
             $_SESSION['msg'] = "Entered wrong user name or password. Try again with valid login details.";
             $_SESSION['msgNumber'] = 1;
-            header("Location: ../index.php");
+            header("Location: index.php");
         }
     } else {
         //echo "if can read me then probably my code is broken :);)";
         $_SESSION['msg'] = "If can read me then probably my code is broken :)";
         $_SESSION['msgNumber'] = 1;
-        header("Location: ../index.php");
+        header("Location: index.php");
     }
 }
 ?>
