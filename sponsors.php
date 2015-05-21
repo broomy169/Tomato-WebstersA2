@@ -23,7 +23,7 @@
         
         <div class="navigation">
             <div class="float-Left">
-                <img src="database/images/SiteImages/TCMC98Neg.gif" >
+                <img src="database/images/SiteImages/TCMC98Neg.gif" alt="TCMC Logo" >
             </div>
             <ul>
                 <li><a href="index.php">Home</a>
@@ -49,7 +49,7 @@
     </div>
     <!-- end div #header-->
 
-     <!--- START of call to actions  -->
+     <!-- START of call to actions  -->
     <div class="row row-padding-small row-dgray">
         <div class="container">
             <div class="col w-2col m-2col">
@@ -102,8 +102,8 @@
             </div>
         </div>
     </div>
-    <!--- END of call to actions  -->
-    <!--- START of  Sponsors ---->
+    <!-- END of call to actions  -->
+    <!-- START of  Sponsors -->
     <div class="row row-padding-large row-gray">
         <div class="container sponsors">
             <div class="col w-4col m-2col">
@@ -145,9 +145,9 @@
             </div>
         </div>
     </div>
-    <!--- END of  Sopnsors ---->
+    <!-- END of  Sopnsors -->
 
-    <!--- START guilt trip -->
+    <!-- START guilt trip -->
     <div class="row row-padding row-black">
         <a href="Volunteer.html">
             <div class="container">
@@ -156,7 +156,7 @@
             </div>
         </a>
     </div>
-    <!--- END guilt trip -->
+    <!-- END guilt trip -->
     <!-- START minor call to action -->
     <div class="row row-padding-small row-gray">
         <div class="container cta-4x">

@@ -6,11 +6,11 @@ Assignment 2 for CP1406/CP2010
 # Notes
 
 Database Diagram Changes
-------------------------
+-----------
 The database diagram "database diagram V002.png" has the XML embedded in it and is therefore able to be opened and edited in draw.io.
 
 Link for .MD file syntax
-------------------------
+-----------
 A [Wikipedia entry for markdown files.](http://en.wikipedia.org/wiki/Markdown)
 
 To me it doesn't seem to follow the exact syntax on github as stated on wikipedia but its a good start. :/
@@ -22,7 +22,7 @@ Please add a //**done** yourname tag to the end of the line if it is completed.
 If there is a problem add a // !!! Issues !!! yourname issuesDescription nameOfIssueInIssueTracker
 
 Week 8
-------
+---
 
 **CP2010**
 
@@ -50,7 +50,7 @@ Developed Page:
 * Single artist detailed page. --Dynamic is ok  //**done 90%** - maybe? good enough for milestone.
 
 WISHLIST 
---------
+----
 * Make fields in forms to be required where needed
 
 

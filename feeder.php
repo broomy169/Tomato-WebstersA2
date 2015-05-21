@@ -40,7 +40,7 @@ $feed->handle_content_type();
     <div class="header">
         <div class="navigation">
             <div class="float-Left">
-                <img src="database/images/SiteImages/TCMC98Neg.gif">
+                <img src="database/images/SiteImages/TCMC98Neg.gif" alt="TCMC Logo">
             </div>
             <ul>
                 <li><a href="index.php">Home</a>
@@ -65,7 +65,7 @@ $feed->handle_content_type();
 
     </div>
     <!-- end div #header-->
-     <!--- START of call to actions  -->
+     <!-- START of call to actions  -->
     <div class="row row-padding-small row-dgray">
         <div class="container">
             <div class="col w-2col m-2col">
@@ -119,12 +119,12 @@ $feed->handle_content_type();
             </div>
         </div>
     </div>
-    <!--- END of call to actions  -->
+    <!-- END of call to actions  -->
     
     <div class="row row-padding-large row-gray">
         
         <div class="container ">
-            <!--- START of RSS Feed ---->
+            <!-- START of RSS Feed -->
             <div class="col w-2col m-2col">
                 <div class="box">
                     <h1>Gigs in Townsville</h1>
@@ -142,10 +142,10 @@ $feed->handle_content_type();
                     <?php endforeach; ?>
                  </div>
             </div>
-            <!--- END of Rss Feed  ---->
+            <!-- END of Rss Feed  -->
             
             <div class="col w-2col m-2col">
-                <!--- Start of TSV Music -->
+                <!-- Start of TSV Music -->
                 <div class="box">
                     <h1>Music in Townsville</h1>
                     <h2>Townsville has a rich and diverse musical history.</h2>
@@ -167,15 +167,15 @@ $feed->handle_content_type();
                     
                     
                 </div>
-                <!--- End of TSV Music -->
-                <!--- Start of Learn Music -->
+                <!-- End of TSV Music -->
+                <!-- Start of Learn Music -->
                 <div class="box">
                     <h1>Learn music</h1>
                     <h2>Learning music is fun - and good for you.</h2>
                     
                     
                 </div>
-                <!--- End of Learn Music -->
+                <!-- End of Learn Music -->
             </div>
             
             
@@ -183,7 +183,7 @@ $feed->handle_content_type();
         
     </div>
    
-    <!--- START guilt trip -->
+    <!-- START guilt trip -->
     <div class="row row-padding row-black">
         <a href="Volunteer.html">
             <div class="container">
@@ -194,7 +194,7 @@ $feed->handle_content_type();
             </div>
         </a>
     </div>
-    <!--- END guilt trip -->
+    <!-- END guilt trip -->
 
     
     

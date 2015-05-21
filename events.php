@@ -19,7 +19,7 @@
     <div class="header">
         <div class="navigation">
             <div class="float-Left">
-                <img src="database/images/SiteImages/TCMC98Neg.gif" >
+                <img src="database/images/SiteImages/TCMC98Neg.gif" alt="TCMC Logo" >
             </div>
             <ul>
                 <li><a href="index.php">Home</a>
@@ -45,7 +45,7 @@
     </div>
     <!-- end div #header-->
 
-    <!--- START of events list ---->
+    <!-- START of events list -->
     <div class="row row-padding-large row-gray">
         <div class="container events">
             <h1>Upcoming Events.</h1>
@@ -58,8 +58,8 @@
 
         </div>
     </div>
-    <!--- END of events list ---->
-    <!--- START guilt trip -->
+    <!-- END of events list -->
+    <!-- START guilt trip -->
     <div class="row row-padding row-black">
         <a href="Volunteer.html">
             <div class="container">
@@ -70,8 +70,8 @@
             </div>
         </a>
     </div>
-    <!--- END guilt trip -->
-     <!--- START of call to actions  -->
+    <!-- END guilt trip -->
+     <!-- START of call to actions  -->
     <div class="row row-padding-small row-dgray">
         <div class="container">
             <div class="col w-2col m-2col">
@@ -124,7 +124,7 @@
             </div>
         </div>
     </div>
-    <!--- END of call to actions  -->
+    <!-- END of call to actions  -->
     
     
     

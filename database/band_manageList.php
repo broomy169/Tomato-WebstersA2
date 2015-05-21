@@ -52,7 +52,7 @@ session_start();
 </div>
 <!-- end div #header-->
 
-<!--- START of  Content ---->
+<!-- START of  Content -->
 <div class="row row-padding-large row-gray">
     <div class="container bands">
         <h1>Bands / Artists</h1>

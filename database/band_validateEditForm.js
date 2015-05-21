@@ -27,7 +27,7 @@ function validateEditForm(tally) {
 	
 	
 
-	/*		----------OLD codezzz --------------
+	/*		-----OLD codezzz -------
     if (nameE === "") {
         alert ("Please enter band name.");
         return false;

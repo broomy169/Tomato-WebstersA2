@@ -52,7 +52,7 @@ session_start();
 </div>
 <!-- end div #header-->
 
-<!--- START of  Content ---->
+<!-- START of  Content -->
 
 
 <!-- START Copyright -->

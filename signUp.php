@@ -23,7 +23,7 @@
         
         <div class="navigation">
             <div class="float-Left">
-                <img src="database/images/SiteImages/TCMC98Neg.gif" >
+                <img src="database/images/SiteImages/TCMC98Neg.gif" alt="TCMC Logo" >
             </div>
             <ul>
                 <li><a href="index.php">Home</a>
@@ -53,10 +53,11 @@
     <!--TODO: decribe registration benefits, and menbers benefits, paypal link-->
 
     
-    <!--- START of  signup form ---->
+    <!-- START of  signup form -->
     <div class="row row-padding-large row-gray">
         <div class="container signUp">
-            <div class="col w-2col m-2col">    
+            <div class="col w-2col m-2col"> 
+                
                 <h1>Membership Registration Form</h1>
 
                 <form id="signUp" action="database/signup_databaseProccess.php" method="post">
@@ -100,13 +101,13 @@
                     </p>
                     <input type="submit" name="submit" id="submit" value="Sign Up">
                 </form>
-                <h3><a href="../index.php">Go to home page</a></h3>
+                <h3><a href="index.php">Go to home page</a></h3>
             </div>
         </div>
     </div>
-    <!--- END of  signup form ---->
+    <!-- END of  signup form -->
 
-    <!--- START guilt trip -->
+    <!-- START guilt trip -->
     <div class="row row-padding row-black">
         <a href="Volunteer.html">
             <div class="container">
@@ -115,7 +116,7 @@
             </div>
         </a>
     </div>
-    <!--- END guilt trip -->
+    <!-- END guilt trip -->
     <!-- START minor call to action -->
     <div class="row row-padding-small row-gray">
         <div class="container cta-4x">
