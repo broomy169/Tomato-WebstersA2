@@ -30,7 +30,7 @@ if (!isset($_SESSION['user_email'])){
                 unset($_SESSION['msgNumber']);
             }?>
         </span>
-        <a href="#" id="loginLink" onclick="run();">Log In</a>
+        <a href="#" id="loginLink" onclick="run();">logIn</a>
         <div id="login"> <?php include("login_form.php"); ?></div>
         <?php echo " | "; ?>
         <a href='signUp.php'>Sign Up</a>

@@ -52,7 +52,7 @@ session_start();
 </div>
 <!-- end div #header-->
 
-<!--- START of  Content ---->
+<!-- START of  Content -->
 
 <?php
 if($_SESSION['user_accessLevel'] == "full") {
