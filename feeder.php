@@ -78,7 +78,7 @@ $feed->handle_content_type();
                             </div>
                         </div>
                         <div class="imgBox90">
-                            <img src="database/images/musos/Celtic-Fyre-Wall-with-Fire8.jpg" width="100%">
+                            <img src="database/images/musos/Celtic-Fyre-Wall-with-Fire8.jpg" >
                         </div>
                         <div class="txtBox100x30">
                             <div class="row-fixedHeight">
@@ -106,7 +106,7 @@ $feed->handle_content_type();
                             </div>
                         </div>
                         <div class="imgBox90">
-                            <img  src="database/images/events/AVIVA-LANE500.jpg" width="100%">
+                            <img  src="database/images/events/AVIVA-LANE500.jpg" alt="Dynamic event image" >
                         </div>
                         <div class="txtBox100x30">
                             <div class="row-fixedHeight">
@@ -149,7 +149,7 @@ $feed->handle_content_type();
                 <div class="box">
                     <h1>Music in Townsville</h1>
                     <h2>Townsville has a rich and diverse musical history.</h2>
-                    <img src="database/images/SiteImages/30yearslogo336.png" alt="thirty years" width="100%">
+                    <img src="database/images/SiteImages/30yearslogo336.png" alt="thirty years" >
                     <h3>The Townsville community music center celebrated its 30th year in 2013.</h3>
 
                     <p>It has been constantly changing over the years to keep up to date with the musical tastes and needs of the Townsville community.</p>

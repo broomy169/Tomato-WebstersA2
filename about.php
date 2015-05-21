@@ -52,7 +52,7 @@
             <div class="col w-1col m-1col">
 
                 <h2>The Townsville Community Music Centre celebrated its 30th year in 2013</h2>
-                <img src="database/images/SiteImages/30yearslogo336.png" alt="thirty years" width="100%">
+                <img src="database/images/SiteImages/30yearslogo336.png" alt="thirty years" >
                 <!-- change image size-->
 
             </div>
@@ -196,7 +196,7 @@
                             </div>
                         </div>
                         <div class="imgBox90">
-                            <img src="database/images/musos/Celtic-Fyre-Wall-with-Fire8.jpg" width="100%">
+                            <img src="database/images/musos/Celtic-Fyre-Wall-with-Fire8.jpg" >
                         </div>
                         <div class="txtBox100x30">
                             <div class="row-fixedHeight">
@@ -224,7 +224,7 @@
                             </div>
                         </div>
                         <div class="imgBox90">
-                            <img  src="database/images/events/AVIVA-LANE500.jpg" width="100%">
+                            <img  src="database/images/events/AVIVA-LANE500.jpg" alt="Dynamic event image" >
                         </div>
                         <div class="txtBox100x30">
                             <div class="row-fixedHeight">
