@@ -1,7 +1,738 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3335b83b-8347-4055-980b-b7b3a36839f3" name="Default" comment="" />
+    <list default="true" id="3335b83b-8347-4055-980b-b7b3a36839f3" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adminer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/base.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database diagram V002.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database diagram.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database diagram.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database.sqlite" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/CalendarControl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/bandList.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/band_expandInfo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/band_listStyle.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/band_manageListStyle.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/currentDate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/.idea/dbm1.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/.idea/scopes/scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/bandList.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/database.sqlite" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/dbProcessBand.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/1430289133Stokes.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/1430289247Rosewood01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/1430289369AVIVA-LANE500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/1430289488Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/1430289555Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/1430289588Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/1430289635Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/1430289656Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/1430289761Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/1430289856Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/1430289890Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/1430289998Poms.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/1430290118Camerata.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/1430290193Wassa01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/1430290294Celtic-Fyre-Wall-with-Fire8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/1430290949Celtic-Fyre-Wall-with-Fire8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/1430290979Celtic-Fyre-Wall-with-Fire8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/1430291010Celtic-Fyre-Wall-with-Fire8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/1430291136Harbourside.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/1430291274Wassa01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/30anniversary02300.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/30yearslogo336.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/CIVIC C2 LOGO copy.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/CIVIC C2 LOGO trans.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/CIVIC C2 LOGO.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/CIVIC C2 LOGO.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/CIVIC C2 LOGO.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/CivicFront200.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/CivicFront300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/CivicFront500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/CivicFront600.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/FBimages.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/GCBF15091 (1).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/GCBF15091.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/GCBF15091.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/GCBF15091opaque.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/OLDGCBF15091.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/Parchment.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/QG.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/QN136100.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/Qldlogo150169 (1).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/Qldlogo150169.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/Qldlogo150169.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/Qldlogo150169.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/Qldlogo150169white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/Qldlogo150200.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/TCC83100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/TCCcolour150193.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/TCCgcbfQN100px.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/TCMC10067.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/TCMC150100.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/TCMC98Neg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/TCMC98Neg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/TCMCbanner.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/TCMCbanner01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/TCMCbannerExtract350100.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/TCMCbannerExtract3501002.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/TCMCtrans10067.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/art-Qld_Logo_crest-620x349.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/greybrick.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/rosewoodgrain.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/woodgrain.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/woodgrain.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/woodgrain13P01.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/woodgrain13P02.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/woodgrainOLD.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/SiteImages/woodgrainlight.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/bulletin/ACVCnewlogotrans.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/bulletin/Chord Organ.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/bulletin/EffortlessTechnique.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/bulletin/Eistlogosmall.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/bulletin/Fanfare01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/bulletin/FionaBlakely.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/bulletin/JohnRouvas01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/bulletin/MonM01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/bulletin/MonM03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/bulletin/StJosephs.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/bulletin/TCBlogo160160.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/bulletin/TCBshirt (1).gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/bulletin/TCBshirt.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/bulletin/TCBshirt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/bulletin/ZieglerSax.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/bulletin/aa-sml-grey.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/bulletin/jean01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/bulletin/jean188.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/bulletin/old-music.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/bulletin/tyto.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/defaultTomato.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/defaultTomatoLight.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/docs/Concert Information.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/docs/GenInfo.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/docs/Membership applic form 2015.doc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/docs/Membership applic form2014.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/docs/Membership payment.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/ACVCnewlogo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/AVIVA-GROUND300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/AVIVA-GROUP216.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/AVIVA-GROUP300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/AVIVA-LANE300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/AVIVA-LANE500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/AVIVA-TREE300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/AVIVA-TREEcrop400.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/AYO-Flora-Wong.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/AYO150.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/AYOStQt300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/Allegro600.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/Allegro600BB.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/Alyssa150200.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/AndrewVeivers01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/AndrewVeivers02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/Aquapella360.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/Attori-duo300168.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/Attori-image-4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/Attori4w300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/AttoriDuo01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/AttoriKim+300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/AttoriKim01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/AvivaTheatre600.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/BlackCurtain.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/CamerataSingers600400.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/Celtic-Fyre-Poster-300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/Celtic-Fyre-Wall400354.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/CelticFyre2014300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/CelticFyre300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/CelticFyreLogo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/Clapper55.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/DD600400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/DDmic200.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/DreamSerenade01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/Email300350.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/FOTT.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/FOTT.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/FOTT.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/Garcia250.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/GreyBar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/Harbourside01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/Harbourside300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/Harmonious-LR.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/Harmonious250.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/Harmonious400.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/IngridJames01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/IngridJames02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/JCUlogo200.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/KMEIAlogo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/Kim150200.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/Latin-Fiesta-W.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/MIFNQ.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/MIFNQlogo150.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/MIFNQlogo300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/MoMconcert.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/Moriya-Didjeridoo2W.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/Moriya01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/Pimlico-Symphony324.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/PimlicoTitle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/Pimlicobadgesm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/Pinks01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/Pinks02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/SilverBar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/Siobhan01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/Siobhan02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/Siobhan03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/Siobhan04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/SkySea.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/SoulofTango300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/Stokes.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/Swing300300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/SwingSerenade300350.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/SwingSerenadeFB.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/TCBlogo200.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/TCBnotes460200.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/TGO1114600.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/TGOlogo300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/TGOorch300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/TJCLogo200.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/TShop300web.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/TShop_full size.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/TicketShop.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/TomsTavern200.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/Townsville jazzclub logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/UOCcast.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/Website01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/YABHiRes.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/YABweb2013-02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/YABweb50002.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/aviva01300300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/ebony01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/flamenco.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/greybrick.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/movie-strip150.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/movies.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/movietexture.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/projector.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/tcbsax200.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/tgotrio300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/vegas 1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/events/vegas 2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/icon1430289133Stokes.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/icon1430289247Rosewood01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/icon1430289369AVIVA-TREEcrop400.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/icon1430289488Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/icon1430289555Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/icon1430289588Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/icon1430289635Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/icon1430289656Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/icon1430289761Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/icon1430289856Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/icon1430289889Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/icon1430289998Poms.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/icon1430290118Camerata.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/icon1430290193Wassa01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/icon1430290294CelticFyre800.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/icon1430290949CelticFyre800.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/icon1430290979CelticFyre800.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/icon1430291010CelticFyre800.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/icon1430291136Harbourside.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/icon1430291274Wassa01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/iconCelticFyre800.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/iconRosewood01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/musos/AVIVA-LANE500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/musos/AVIVA-TREEcrop400.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/musos/Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/musos/Camerata.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/musos/Celtic-Fyre-Wall-with-Fire8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/musos/CelticFyre800.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/musos/DD600400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/musos/Harbourside.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/musos/Poms.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/musos/Rosewood01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/musos/SNBB1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/musos/Stokes.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/musos/TCBSaxLogo800.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/musos/Wassa01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/pic1430289133Stokes.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/pic1430289247Rosewood01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/pic1430289369AVIVA-LANE500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/pic1430289488Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/pic1430289555Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/pic1430289588Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/pic1430289635Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/pic1430289656Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/pic1430289761Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/pic1430289856Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/pic1430289890Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/pic1430289998Poms.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/pic1430290118Camerata.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/pic1430290193Wassa01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/pic1430290294Celtic-Fyre-Wall-with-Fire8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/pic1430290949Celtic-Fyre-Wall-with-Fire8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/pic1430290979Celtic-Fyre-Wall-with-Fire8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/pic1430291010Celtic-Fyre-Wall-with-Fire8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/pic1430291136Harbourside.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/pic1430291274Wassa01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/randomImages/Avivarandom1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/randomImages/Avivarandom2 (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/randomImages/Avivarandom2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/randomImages/Avivarandom3 (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/randomImages/Avivarandom3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/randomImages/Avivarandom4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/randomImages/accordion.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/randomImages/bass.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/randomImages/cello (1).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/randomImages/cello.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/randomImages/congas.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/randomImages/drums01 (1).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/randomImages/drums01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/randomImages/electric.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/randomImages/flamenco.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/randomImages/guitar (1).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/randomImages/guitar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/randomImages/harmonica.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/randomImages/harp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/randomImages/horn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/randomImages/piano.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/randomImages/random1 (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/randomImages/random1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/randomImages/random2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/randomImages/random3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/randomImages/random4 (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/randomImages/random4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/randomImages/random5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/randomImages/random6 (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/randomImages/random6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/randomImages/recorder.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/randomImages/saxophone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/randomImages/trumpet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/randomImages/uke.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/images/randomImages/violin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/inc_dbConnect.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/manageBandIndex.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/manageBandList.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/manageBandListStylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/styleBandList.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/updateIcon.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/updateImage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/uploadIcon.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/uploadImage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/wideimage/Canvas.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/wideimage/Coordinate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/wideimage/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/wideimage/Font/GDF.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/wideimage/Font/PS.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/wideimage/Font/TTF.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/wideimage/Image.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/wideimage/Mapper/BMP.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/wideimage/Mapper/GD.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/wideimage/Mapper/GD2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/wideimage/Mapper/GIF.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/wideimage/Mapper/JPEG.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/wideimage/Mapper/PNG.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/wideimage/Mapper/TGA.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/wideimage/MapperFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/wideimage/Operation/AddNoise.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/wideimage/Operation/ApplyConvolution.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/wideimage/Operation/ApplyFilter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/wideimage/Operation/ApplyMask.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/wideimage/Operation/AsGrayscale.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/wideimage/Operation/AsNegative.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/wideimage/Operation/AutoCrop.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/wideimage/Operation/CopyChannelsPalette.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/wideimage/Operation/CopyChannelsTrueColor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/wideimage/Operation/CorrectGamma.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/wideimage/Operation/Crop.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/wideimage/Operation/Flip.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/wideimage/Operation/GetMask.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/wideimage/Operation/Merge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/wideimage/Operation/Mirror.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/wideimage/Operation/Resize.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/wideimage/Operation/ResizeCanvas.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/wideimage/Operation/Rotate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/wideimage/Operation/RoundCorners.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/wideimage/Operation/Unsharp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/wideimage/OperationFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/wideimage/PaletteImage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/wideimage/TrueColorImage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/wideimage/WideImage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/wideimage/vendor/de77/BMP.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/db/wideimage/vendor/de77/TGA.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbProcessBand.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbProcessEvent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbProcessEvent.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/bandList.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/database.sqlite" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/dbprocessband.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/1430289133Stokes.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/1430289247Rosewood01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/1430289369AVIVA-LANE500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/1430289488Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/1430289555Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/1430289588Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/1430289635Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/1430289656Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/1430289761Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/1430289856Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/1430289890Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/1430289998Poms.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/1430290118Camerata.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/1430290193Wassa01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/1430290294Celtic-Fyre-Wall-with-Fire8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/1430290949Celtic-Fyre-Wall-with-Fire8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/1430290979Celtic-Fyre-Wall-with-Fire8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/1430291010Celtic-Fyre-Wall-with-Fire8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/1430291136Harbourside.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/1430291274Wassa01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/30anniversary02300.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/30yearslogo336.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/CIVIC C2 LOGO copy.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/CIVIC C2 LOGO trans.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/CIVIC C2 LOGO.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/CIVIC C2 LOGO.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/CIVIC C2 LOGO.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/CivicFront200.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/CivicFront300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/CivicFront500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/CivicFront600.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/FBimages.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/GCBF15091 (1).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/GCBF15091.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/GCBF15091.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/GCBF15091opaque.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/OLDGCBF15091.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/Parchment.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/QG.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/QN136100.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/Qldlogo150169 (1).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/Qldlogo150169.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/Qldlogo150169.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/Qldlogo150169.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/Qldlogo150169white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/Qldlogo150200.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/TCC83100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/TCCcolour150193.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/TCCgcbfQN100px.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/TCMC10067.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/TCMC150100.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/TCMC98Neg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/TCMC98Neg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/TCMCbanner.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/TCMCbanner01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/TCMCbannerExtract350100.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/TCMCbannerExtract3501002.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/TCMCtrans10067.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/art-Qld_Logo_crest-620x349.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/greybrick.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/rosewoodgrain.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/woodgrain.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/woodgrain.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/woodgrain13P01.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/woodgrain13P02.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/woodgrainOLD.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/SiteImages/woodgrainlight.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/bulletin/ACVCnewlogotrans.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/bulletin/Chord Organ.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/bulletin/EffortlessTechnique.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/bulletin/Eistlogosmall.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/bulletin/Fanfare01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/bulletin/FionaBlakely.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/bulletin/JohnRouvas01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/bulletin/MonM01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/bulletin/MonM03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/bulletin/StJosephs.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/bulletin/TCBlogo160160.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/bulletin/TCBshirt (1).gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/bulletin/TCBshirt.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/bulletin/TCBshirt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/bulletin/ZieglerSax.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/bulletin/aa-sml-grey.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/bulletin/jean01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/bulletin/jean188.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/bulletin/old-music.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/bulletin/tyto.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/defaultTomato.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/defaultTomatoLight.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/docs/Concert Information.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/docs/GenInfo.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/docs/Membership applic form 2015.doc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/docs/Membership applic form2014.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/docs/Membership payment.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/ACVCnewlogo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/AVIVA-GROUND300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/AVIVA-GROUP216.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/AVIVA-GROUP300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/AVIVA-LANE300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/AVIVA-LANE500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/AVIVA-TREE300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/AVIVA-TREEcrop400.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/AYO-Flora-Wong.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/AYO150.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/AYOStQt300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/Allegro600.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/Allegro600BB.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/Alyssa150200.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/AndrewVeivers01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/AndrewVeivers02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/Aquapella360.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/Attori-duo300168.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/Attori-image-4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/Attori4w300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/AttoriDuo01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/AttoriKim+300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/AttoriKim01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/AvivaTheatre600.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/BlackCurtain.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/CamerataSingers600400.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/Celtic-Fyre-Poster-300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/Celtic-Fyre-Wall400354.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/CelticFyre2014300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/CelticFyre300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/CelticFyreLogo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/Clapper55.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/DD600400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/DDmic200.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/DreamSerenade01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/Email300350.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/FOTT.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/FOTT.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/FOTT.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/Garcia250.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/GreyBar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/Harbourside01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/Harbourside300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/Harmonious-LR.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/Harmonious250.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/Harmonious400.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/IngridJames01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/IngridJames02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/JCUlogo200.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/KMEIAlogo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/Kim150200.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/Latin-Fiesta-W.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/MIFNQ.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/MIFNQlogo150.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/MIFNQlogo300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/MoMconcert.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/Moriya-Didjeridoo2W.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/Moriya01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/Pimlico-Symphony324.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/PimlicoTitle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/Pimlicobadgesm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/Pinks01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/Pinks02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/SilverBar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/Siobhan01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/Siobhan02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/Siobhan03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/Siobhan04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/SkySea.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/SoulofTango300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/Stokes.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/Swing300300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/SwingSerenade300350.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/SwingSerenadeFB.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/TCBlogo200.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/TCBnotes460200.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/TGO1114600.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/TGOlogo300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/TGOorch300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/TJCLogo200.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/TShop300web.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/TShop_full size.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/TicketShop.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/TomsTavern200.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/Townsville jazzclub logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/UOCcast.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/Website01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/YABHiRes.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/YABweb2013-02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/YABweb50002.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/aviva01300300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/ebony01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/flamenco.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/greybrick.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/movie-strip150.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/movies.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/movietexture.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/projector.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/tcbsax200.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/tgotrio300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/vegas 1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/events/vegas 2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/icon1430289133Stokes.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/icon1430289247Rosewood01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/icon1430289369AVIVA-TREEcrop400.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/icon1430289488Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/icon1430289555Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/icon1430289588Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/icon1430289635Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/icon1430289656Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/icon1430289761Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/icon1430289856Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/icon1430289889Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/icon1430289998Poms.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/icon1430290118Camerata.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/icon1430290193Wassa01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/icon1430290294CelticFyre800.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/icon1430290949CelticFyre800.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/icon1430290979CelticFyre800.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/icon1430291010CelticFyre800.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/icon1430291136Harbourside.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/icon1430291274Wassa01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/iconCelticFyre800.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/iconRosewood01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/musos/AVIVA-LANE500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/musos/AVIVA-TREEcrop400.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/musos/Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/musos/Camerata.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/musos/Celtic-Fyre-Wall-with-Fire8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/musos/CelticFyre800.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/musos/DD600400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/musos/Harbourside.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/musos/Poms.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/musos/Rosewood01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/musos/SNBB1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/musos/Stokes.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/musos/TCBSaxLogo800.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/musos/Wassa01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/pic1430289133Stokes.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/pic1430289247Rosewood01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/pic1430289369AVIVA-LANE500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/pic1430289488Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/pic1430289555Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/pic1430289588Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/pic1430289635Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/pic1430289656Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/pic1430289761Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/pic1430289856Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/pic1430289890Aquapella01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/pic1430289998Poms.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/pic1430290118Camerata.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/pic1430290193Wassa01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/pic1430290294Celtic-Fyre-Wall-with-Fire8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/pic1430290949Celtic-Fyre-Wall-with-Fire8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/pic1430290979Celtic-Fyre-Wall-with-Fire8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/pic1430291010Celtic-Fyre-Wall-with-Fire8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/pic1430291136Harbourside.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/pic1430291274Wassa01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/randomImages/Avivarandom1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/randomImages/Avivarandom2 (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/randomImages/Avivarandom2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/randomImages/Avivarandom3 (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/randomImages/Avivarandom3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/randomImages/Avivarandom4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/randomImages/accordion.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/randomImages/bass.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/randomImages/cello (1).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/randomImages/cello.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/randomImages/congas.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/randomImages/drums01 (1).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/randomImages/drums01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/randomImages/electric.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/randomImages/flamenco.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/randomImages/guitar (1).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/randomImages/guitar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/randomImages/harmonica.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/randomImages/harp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/randomImages/horn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/randomImages/piano.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/randomImages/random1 (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/randomImages/random1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/randomImages/random2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/randomImages/random3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/randomImages/random4 (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/randomImages/random4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/randomImages/random5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/randomImages/random6 (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/randomImages/random6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/randomImages/recorder.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/randomImages/saxophone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/randomImages/trumpet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/randomImages/uke.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/images/randomImages/violin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/inc_dbconnect.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/manageBandIndex.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/manageBandList.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/manageBandListStylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/styleBandList.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/updateIcon.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/updateImage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/uploadIcon.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/uploadImage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/wideimage/Canvas.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/wideimage/Coordinate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/wideimage/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/wideimage/Font/GDF.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/wideimage/Font/PS.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/wideimage/Font/TTF.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/wideimage/Image.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/wideimage/Mapper/BMP.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/wideimage/Mapper/GD.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/wideimage/Mapper/GD2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/wideimage/Mapper/GIF.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/wideimage/Mapper/JPEG.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/wideimage/Mapper/PNG.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/wideimage/Mapper/TGA.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/wideimage/MapperFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/wideimage/Operation/AddNoise.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/wideimage/Operation/ApplyConvolution.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/wideimage/Operation/ApplyFilter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/wideimage/Operation/ApplyMask.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/wideimage/Operation/AsGrayscale.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/wideimage/Operation/AsNegative.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/wideimage/Operation/AutoCrop.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/wideimage/Operation/CopyChannelsPalette.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/wideimage/Operation/CopyChannelsTrueColor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/wideimage/Operation/CorrectGamma.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/wideimage/Operation/Crop.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/wideimage/Operation/Flip.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/wideimage/Operation/GetMask.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/wideimage/Operation/Merge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/wideimage/Operation/Mirror.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/wideimage/Operation/Resize.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/wideimage/Operation/ResizeCanvas.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/wideimage/Operation/Rotate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/wideimage/Operation/RoundCorners.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/wideimage/Operation/Unsharp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/wideimage/OperationFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/wideimage/PaletteImage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/wideimage/TrueColorImage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/wideimage/WideImage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/wideimage/vendor/de77/BMP.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/dbm1/wideimage/vendor/de77/TGA.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/event_manageList - old.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/event_manageListStyle - old.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/event_manageListStyle.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/feeder_rss_class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/inc_dbconnect.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/inc_pageTopTemplate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/manageBandList.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/manageBandListStylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/manageEventList.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/styleBandList.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/updateIcon.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/updateImage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/uploadIcon.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/uploadImage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dummyTestingIndex.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/navigation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rss-test.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/Validation_HelperFunctions.js" afterPath="$PROJECT_DIR$/assets/js/Validation_HelperFunctions.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/addfieldtest.html" afterPath="$PROJECT_DIR$/database/band_addFieldTest.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/validateAddForm.js" afterPath="$PROJECT_DIR$/assets/js/validateAddForm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/band_updateIcon.php" afterPath="$PROJECT_DIR$/database/band_updateIcon.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/band_updateImage.php" afterPath="$PROJECT_DIR$/database/band_updateImage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/band_uploadIcon.php" afterPath="$PROJECT_DIR$/database/band_uploadIcon.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/band_uploadImage.php" afterPath="$PROJECT_DIR$/database/band_uploadImage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Tomato-WebstersA2.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -24,54 +755,7 @@
     <favorites_list name="Tomato-WebstersA2" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="login_showLogin.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/database/login_showLogin.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.06656805" vertical-offset="0" max-vertical-offset="676">
-              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login_form.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/login_form.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="315">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="events_add.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/events_add.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="3720">
-              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="event_manageList.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/event_manageList.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1305">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1432079537000" expanded="true" signature="102:147" placeholder="SELECT * FRO..Events..." />
-                <marker date="1432079537000" expanded="true" signature="1206:1380" placeholder="..." />
-                <marker date="1432079537000" expanded="true" signature="1459:3152" placeholder="..." />
-                <marker date="1432079537000" expanded="true" signature="2841:2972" placeholder="..." />
-                <marker date="1432079537000" expanded="true" signature="2996:3124" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -119,6 +803,10 @@
         <option value="$PROJECT_DIR$/database/band_inc_databaseProcess.php" />
         <option value="$PROJECT_DIR$/database/login_form.php" />
         <option value="$PROJECT_DIR$/database/login_userAccess.php" />
+        <option value="$PROJECT_DIR$/database/band_updateIcon.php" />
+        <option value="$PROJECT_DIR$/database/band_uploadIcon.php" />
+        <option value="$PROJECT_DIR$/database/band_updateImage.php" />
+        <option value="$PROJECT_DIR$/database/band_uploadImage.php" />
       </list>
     </option>
   </component>
@@ -172,52 +860,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tomato-WebstersA2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tomato-WebstersA2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tomato-WebstersA2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tomato-WebstersA2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tomato-WebstersA2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tomato-WebstersA2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -228,9 +870,11 @@
     <property name="options.lastSelected" value="vcs.Git" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/js" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/js" />
       <recent name="$PROJECT_DIR$/database" />
     </key>
   </component>
@@ -275,27 +919,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23046875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23046875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -319,64 +963,16 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/database/uploadIcon.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="113" max-vertical-offset="765">
-          <caret line="32" column="53" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/updateImage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="203" max-vertical-offset="855">
-          <caret line="45" column="45" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/uploadImage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1005">
-          <caret line="49" column="57" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/events_add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3720">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/inc_pageTopTemplate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="825" max-vertical-offset="1125">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/updateIcon.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="765">
-          <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/event_manageList.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1230">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1432079537000" expanded="true" signature="102:147" placeholder="SELECT * FRO..Events..." />
-            <marker date="1432079537000" expanded="true" signature="1206:1380" placeholder="..." />
-            <marker date="1432079537000" expanded="true" signature="1459:3152" placeholder="..." />
-            <marker date="1432079537000" expanded="true" signature="2841:2972" placeholder="..." />
-            <marker date="1432079537000" expanded="true" signature="2996:3124" placeholder="..." />
+            <marker date="1432205276000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Events..." />
+            <marker date="1432205276000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1432205276000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1432205276000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1432205276000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -394,9 +990,9 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1920">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1432196466000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1432196466000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Message..." />
-            <marker date="1432196466000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Message..." />
+            <marker date="1432205276000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1432205276000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Message..." />
+            <marker date="1432205276000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Message..." />
           </folding>
         </state>
       </provider>
@@ -414,9 +1010,9 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1500">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1432196466000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1432196466000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Message..." />
-            <marker date="1432196466000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Message..." />
+            <marker date="1432205276000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1432205276000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Message..." />
+            <marker date="1432205276000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Message..." />
           </folding>
         </state>
       </provider>
@@ -472,48 +1068,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/addfieldtest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="919">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/band_expandInfo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="919">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/list_expandInfo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.023939064" vertical-offset="0" max-vertical-offset="919">
-          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/band_list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17133258" vertical-offset="0" max-vertical-offset="2227">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/bandList.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67637175" vertical-offset="93" max-vertical-offset="986">
-          <caret line="41" column="96" selection-start-line="41" selection-start-column="96" selection-end-line="41" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6069">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/signUp.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37961927" vertical-offset="596" max-vertical-offset="3230">
@@ -535,27 +1089,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/band_databaseProcess.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8701008" vertical-offset="567" max-vertical-offset="1743">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/band_manageList.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8868981" vertical-offset="864" max-vertical-offset="1992">
-          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dummyTestingIndex.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="676">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/message_manageList.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1155" max-vertical-offset="1350">
@@ -569,26 +1102,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="885" max-vertical-offset="1920">
           <caret line="59" column="11" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="11" />
           <folding>
-            <marker date="1432196466000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1432196466000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Message..." />
-            <marker date="1432196466000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Message..." />
+            <marker date="1432205276000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1432205276000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Message..." />
+            <marker date="1432205276000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Message..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/updateIcon.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="765">
-          <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/event_manageList - old.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29577464" vertical-offset="606" max-vertical-offset="1395">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -597,28 +1114,6 @@
         <state vertical-scroll-proportion="2.5739646" vertical-offset="0" max-vertical-offset="2910">
           <caret line="116" column="1" selection-start-line="116" selection-start-column="1" selection-end-line="116" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/inc_pageTopTemplate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2653375" vertical-offset="0" max-vertical-offset="1125">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/band_inc_manageList.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2340">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1432189713000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Band..." />
-            <marker date="1432189713000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1432189713000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1432189713000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1432189713000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -646,66 +1141,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/band_inc_databaseProcess.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.4741783" vertical-offset="1731" max-vertical-offset="2370">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <marker date="1432199304000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1432199304000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1432199304000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1432199304000" expanded="true" signature="-1:-1" placeholder="UPDATE Band ..." />
-            <marker date="1432199304000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Band..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/signup_databaseProccess.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.4033742" vertical-offset="0" max-vertical-offset="1020">
           <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding>
-            <marker date="1432189714000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1432189714000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Users..." />
+            <marker date="1432205276000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1432205276000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Users..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/event_manageList.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1305">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1432079537000" expanded="true" signature="102:147" placeholder="SELECT * FRO..Events..." />
-            <marker date="1432079537000" expanded="true" signature="1206:1380" placeholder="..." />
-            <marker date="1432079537000" expanded="true" signature="1459:3152" placeholder="..." />
-            <marker date="1432079537000" expanded="true" signature="2841:2972" placeholder="..." />
-            <marker date="1432079537000" expanded="true" signature="2996:3124" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/uploadImage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69018406" vertical-offset="285" max-vertical-offset="1005">
-          <caret line="49" column="57" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/events_add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="3795">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/login_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="315">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -722,23 +1165,29 @@
         <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1080">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1432189714000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Users..." />
+            <marker date="1432205276000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Users..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/updateImage.php">
+    <entry file="file://$PROJECT_DIR$/database/event_manageList.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49386504" vertical-offset="203" max-vertical-offset="855">
-          <caret line="45" column="45" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="53" />
-          <folding />
+        <state vertical-scroll-proportion="0.25821596" vertical-offset="0" max-vertical-offset="1230">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <marker date="1432205276000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Events..." />
+            <marker date="1432205276000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1432205276000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1432205276000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1432205276000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/uploadIcon.php">
+    <entry file="file://$PROJECT_DIR$/database/login_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56288344" vertical-offset="113" max-vertical-offset="765">
-          <caret line="32" column="53" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.34509203" vertical-offset="0" max-vertical-offset="652">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -747,6 +1196,161 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.06656805" vertical-offset="0" max-vertical-offset="676">
           <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/band_addFieldTest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="639">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/band_inc_databaseProcess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23006135" vertical-offset="0" max-vertical-offset="2370">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <marker date="1432205275000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1432205275000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1432205275000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1432205275000" expanded="true" signature="-1:-1" placeholder="UPDATE Band ..." />
+            <marker date="1432205275000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Band..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/band_databaseProcess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.4723927" vertical-offset="0" max-vertical-offset="1245">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/band_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5076687" vertical-offset="1118" max-vertical-offset="1995">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding>
+            <marker date="1432205275000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..band..." />
+            <marker date="1432205275000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1432205275000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1432205275000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1432205275000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1432205275000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1432205275000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1432205275000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1432205275000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1432205275000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1432205275000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1432205275000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/band_inc_manageList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3113497" vertical-offset="855" max-vertical-offset="2340">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1432205275000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Band..." />
+            <marker date="1432205275000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1432205275000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1432205275000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1432205275000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/band_manageList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.5874233" vertical-offset="0" max-vertical-offset="1245">
+          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/band_sortGenre.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1432205275000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Band..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/band_uploadImage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57515335" vertical-offset="135" max-vertical-offset="1005">
+          <caret line="34" column="53" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/band_updateImage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49386504" vertical-offset="203" max-vertical-offset="855">
+          <caret line="45" column="53" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/band_uploadIcon.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.73619634" vertical-offset="0" max-vertical-offset="765">
+          <caret line="32" column="53" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/band_updateIcon.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56288344" vertical-offset="113" max-vertical-offset="765">
+          <caret line="32" column="53" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/database_connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="676">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/list_expandInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.022189349" vertical-offset="0" max-vertical-offset="676">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="676">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.7254602" vertical-offset="1125" max-vertical-offset="5730">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rss-test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="676">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

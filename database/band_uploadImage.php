@@ -32,7 +32,7 @@ if ((($_FILES["imagefile"]["type"] == "image/gif")
 
 			//resizing image
             $bigImage = WideImage::load($newFullName);
-            $resizeImage = $bigImage->resize(800, 800);
+            $resizeImage = $bigImage->resize(536, 287);
             $newFullName = "images/pic{$newName}";
             $resizeImage->saveToFile($newFullName);
 
