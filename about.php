@@ -313,17 +313,17 @@
         <div class="sponsors">
             <div class="col">
                 <ul>
-                    <li><img src="database/images/SiteImages/30anniversary02300.png" width="296" height="297" alt="TCMC 30 years logo"/>
+                    <li><img src="database/images/SiteImages/30anniversary02300.png"  alt="TCMC 30 years logo"/>
                     </li>
-                    <li><img src="database/images/SiteImages/TCCcolour150193.gif" width="150" height="193" alt="city of Townsville logo"/>
+                    <li><img src="database/images/SiteImages/TCCcolour150193.gif"  alt="city of Townsville logo"/>
                     </li>
-                    <li><img src="database/images/SiteImages/Qldlogo150169.jpg" width="150" height="169" alt="Queensland Government logo"/>
+                    <li><img src="database/images/SiteImages/Qldlogo150169.jpg" alt="Queensland Government logo"/>
                     </li>
-                    <li><img src="database/images/events/JCUlogo200.jpg" width="200" height="88" alt="James Cook University logo"/>
+                    <li><img src="database/images/events/JCUlogo200.jpg" alt="James Cook University logo"/>
                     </li>
-                    <li><img src="database/images/events/TGOlogo300.jpg" width="300" height="84" alt="Townsville Guitar Ochestra"/>
+                    <li><img src="database/images/events/TGOlogo300.jpg" alt="Townsville Guitar Ochestra"/>
                     </li>
-                    <li><img src="database/images/events/KMEIAlogo.jpg" width="160" height="160" alt="Music Education Institute Of Australia"/>
+                    <li><img src="database/images/events/KMEIAlogo.jpg" alt="Music Education Institute Of Australia"/>
                     </li>
                 </ul> 
             </div>      

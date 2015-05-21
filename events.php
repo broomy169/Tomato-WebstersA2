@@ -135,11 +135,9 @@
 
             <div class="col w-1col m-1col">
                 <a href="about.php">
-                    <h3>Contacts</h3>
-                </a>
-                <a href="about.php">
-                <ul>
-                    
+                    <h3>Contacts</h3>    
+                
+                    <ul>
                         <li>Phone:
                         </li>
                         <li>07 4724 2086
@@ -148,11 +146,11 @@
                         </li>
                         <li>0402 255 182
                         </li>
-                    </a>
-                    <li>
-                        <a href="mailto:admin@townsvillemusic.org">Email Us:</a>
-                    </li>
-                </ul>
+                        <li>
+                            <a href="mailto:admin@townsvillemusic.org">Email Us:</a>
+                        </li>
+                    </ul>
+                </a>
 
             </div>
 
