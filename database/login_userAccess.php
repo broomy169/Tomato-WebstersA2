@@ -13,8 +13,9 @@ $admin = "";
 $msg = "";
 $msgNumber = 0;
 
-if(isset($_SESSION['msg'])){
+if(isset($_SESSION['msg']) && isset($_SESSION['msgNumber'])){
     $msg = $_SESSION['msg'];
+    $msgNumber = $_SESSION['msgNumber'];
 }
 
 // checking is no user logged in then display login and sign up links
