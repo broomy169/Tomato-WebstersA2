@@ -173,6 +173,26 @@ $feed->handle_content_type();
                     <h1>Learn music</h1>
                     <h2>Learning music is fun - and good for you.</h2>
                     
+                    <p> 
+                        There have been many studies done on how leaning music can help exercise your brain and increase your mental abilities.
+                    </p>
+                    <p>
+                        If you would like to <a href="message.php">give it a shot</a> check out our <a href="message.php">message boards.</a>
+                    </p>
+                    
+                </div>
+                <!-- End of Learn Music -->
+                <!-- Start of Learn Music -->
+                <div class="box">
+                    <h1>Townsville Music Events</h1>
+                    <h2>Wondering what music events are on in Townsville?</h2>
+                    
+                    <p> 
+                        Here at the <strong>Townsville Community Music Center</strong> we love music of all shapes and sizes.
+                    </p>
+                    <p>
+                        We even  <a href="events.php">Host our own events</a> from <a href="bands.php">Punks with kilts</a> to <a href="bands.php">Classical guitar</a> we have all genres covered.
+                    </p>
                     
                 </div>
                 <!-- End of Learn Music -->
@@ -185,7 +205,7 @@ $feed->handle_content_type();
    
     <!-- START guilt trip -->
     <div class="row row-padding row-black">
-        <a href="Volunteer.html">
+        <a href="volunteer.php">
             <div class="container">
                 <h2 class="intro-text">
                 Not a single gig would ever get off the ground without the tireless efforts of volunteers.<br></h2>
