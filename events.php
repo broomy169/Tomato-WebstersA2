@@ -48,7 +48,7 @@
     <!-- START of events list -->
     <div class="row row-padding-large row-gray">
         <div class="container events">
-            <h1>Upcoming Events.</h1>
+            <h1>Upcoming Events</h1>
             <ul>
                 <?php
                 $urlVar = 'database/';
