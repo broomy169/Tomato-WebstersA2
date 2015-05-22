@@ -263,10 +263,15 @@ row and text wide
     margin: .5rem;
 }
 
+
 /*---- About-HistoryBrief--------*/
 
 .About-HistoryBrief {
     text-align: left;
+
+}
+.About-HistoryBrief img{
+    width: 100%;
 
 }
 
@@ -311,6 +316,11 @@ row and text wide
 .cta-4x a{
     font-weight: 100;
 }
+
+.cta-4x .col:hover{
+    background: darkgrey;
+}
+
 
 /*-------Bands ----------*/
 
