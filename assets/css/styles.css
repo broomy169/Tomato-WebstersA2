@@ -323,6 +323,10 @@ row and text wide
     font-weight: 100;
 }
 
+.cta-4x:hover{
+    background: darkgrey;
+}
+
 /*-------Bands ----------*/
 
 
