@@ -3,7 +3,11 @@ if (!isset($_SESSION)){
     session_start();
 }
 
-if (!isset($_SESSION['user_email']) || $_SESSION['user_accessLevel'] != "full"){
+if (!isset($_SESSION['user_email'])){
+    header("Location: ../index.php");
+}
+
+if ($_SESSION['user_accessLevel'] != "full"){
     $_SESSION['no_access_msg'] = "You thrown back to home page because you tried to access unauthorised page.";
     header("Location: ../index.php");
 }

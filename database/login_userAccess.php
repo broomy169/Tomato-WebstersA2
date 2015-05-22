@@ -13,26 +13,29 @@ echo "<script src='database/login_showLogin.js' type='text/javascript'></script>
 $msg = "";
 $msgNumber = 0;
 
+//getting current page's url and sending it to logout page. So after logout it can redirect to same page user
+// was on before logout
+$url = $_SERVER["REQUEST_URI"];
+$_SESSION['url'] = $_SERVER["REQUEST_URI"];
+
 if(isset($_SESSION['msg']) && isset($_SESSION['msgNumber'])){
     $msg = $_SESSION['msg'];
     $msgNumber = $_SESSION['msgNumber'];
 }
 
-
-
-// checking is no user logged in then display login and sign up links
-// clicking on login shows login inputs as user fields
+// if user not logged in then displaying login and sign up links
+// clicking on login shows login input fields for login
 if (!isset($_SESSION['user_email'])){
     ?>
     <div class='row-right'>
         <?php
-
         //following code displays invalid login messages
         if(isset($_SESSION['msg']) && $msgNumber == 1) {
             echo "<span>";
             echo $msg;
             echo "<style> #login { display: block;} #loginLink {display: none;} </style>";
             unset($_SESSION['msgNumber']);
+            unset($_SESSION['msg']);
             echo "</span>";
         }
 
@@ -50,7 +53,8 @@ if (!isset($_SESSION['user_email'])){
     </div>
 
 <?php
-// if user logged in
+// if user logged in following code will run and display logout as well as navigation bar depending on user's access
+// level.
 } else {
     $editBands = "<a href='bands_addPage.php' title='edit Messages'>+Bands </a>";
     $editMessages = "<a href='message_addPage.php' title='Add Messages'>+Messages </a>";
@@ -80,12 +84,7 @@ if (!isset($_SESSION['user_email'])){
         echo $editUsers;
     }
 
-    echo "<a href ='".$urlVar."logout.php' title='Log out'>(Log out - " .$_SESSION['user_firstName'] . ")</a>";
+    echo "<a href ='".$urlVar."logout.php?url=$url' title='Log out'>(Log out - ".$_SESSION['user_firstName'].")</a>";
     echo "</div>";
     echo "</div>";
-
-    // un-setting is there is any messages as we only need to display them once
-    if (isset($_SESSION['msg'])){
-        unset($_SESSION['msg']);
-    }
 }?>

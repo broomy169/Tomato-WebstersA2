@@ -13,6 +13,16 @@ $username = $_POST['user_email'];
 //$password = md5($_POST['user_password']); will be using encryption later on
 $password = $_POST['user_password'];
 
+// code to keep user on same page where after login attempt fails
+$url = $_SESSION['url'];
+$check = "/Tomato-WebstersA2/";
+
+if ($url == $check."bands_addPage.php" || $url == $check."events_addPage.php" || $url == $check."message_addPage.php"
+    || $url == $check."users_addPage.php"){
+    $url = "../index.php";
+}
+
+
 //getting info out of database based on email address of logged in user
 $sql = "SELECT * FROM Users WHERE user_email = '$username'";
 $result = $dbh->query($sql);
@@ -24,15 +34,18 @@ if (empty($username) || empty($password)) {
     if (empty($username) && empty($password)) {
         $_SESSION['msg'] = "You need to enter email and password for login."; // validation message
         $_SESSION['msgNumber'] = 1; // setting msgNumber so if no login details entered then message will appear once
-        header("Location: ../index.php");
+        header("Location: $url");
+        exit();
     } else if (empty($username)) {
         $_SESSION['msg'] = "You did not enter email address. Try again!!";
         $_SESSION['msgNumber'] = 1;
-        header("Location: ../index.php");
+        header("Location: $url");
+        exit();
     } else if (empty($password)) {
         $_SESSION['msg'] = "You did not enter password. Try again!!";
         $_SESSION['msgNumber'] = 1;
-        header("Location: ../index.php");
+        header("Location: $url");
+        exit();
     }
 
 } else if (isset($username) && isset($password)) {
@@ -50,18 +63,18 @@ if (empty($username) || empty($password)) {
             $_SESSION['user_accessLevel'] = $row['user_accessLevel'];
             $_SESSION['user_id'] = $row['user_id'];
             $_SESSION['msgNumber'] = 0;
-            header("Location: ../index.php");
+            header("Location: $url");
             exit();
         } else {
             $_SESSION['msg'] = "Entered wrong user name or password. Try again with valid login details.";
             $_SESSION['msgNumber'] = 1;
-            header("Location: ../index.php");
+            header("Location: $url");
         }
     } else {
         //echo "if can read me then probably my code is broken :);)";
         $_SESSION['msg'] = "If can read me then probably my code is broken :)";
         $_SESSION['msgNumber'] = 1;
-        header("Location: ../index.php");
+        header("Location: $url");
     }
 }
 ?>

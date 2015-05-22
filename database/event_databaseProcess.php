@@ -28,9 +28,9 @@ echo "<h2>Data</h2>";
 // execute the appropriate query based on which submit button (insert, delete or update) was clicked
 if ($_REQUEST['submit'] == "Add Event") 
 {    
-	include_once("band_uploadIcon.php");
+	include_once("uploadIcon.php");
     echo "<br><br>";
-    include_once("band_uploadImage.php");
+    include_once("uploadImage.php");
     $iconUrl = (string)$thumbFullName;
     $imageUrl = (string)$newFullName;
 //converting special characters to html code for storing in database correctly.
@@ -66,8 +66,8 @@ if ($_REQUEST['submit'] == "Add Event")
         echo "<div id='update'><h2>Not deleted</h2></div>";
 } else if ($_REQUEST['submit'] == "Update Information") 
 {
-	include_once("band_updateIcon.php");
-    include_once("band_updateImage.php");
+	include_once("updateIcon.php");
+    include_once("updateImage.php");
     $iconUrl = (string)$thumbFullName;
     $imageUrl = (string)$newFullName;
 

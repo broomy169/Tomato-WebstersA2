@@ -62,7 +62,8 @@
         <div class="container manageUserEvents">
             <?php
                 $urlVar = 'database/';
-                include($urlVar . 'message_list.php'); //included file to pull and displays all artists/band information from sqlite
+                include($urlVar . 'message_manageList.php'); //included file to pull and displays all artists/band
+                // information from sqlite
             ?>
         </div>
     </div>

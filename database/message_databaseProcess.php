@@ -71,8 +71,8 @@ if ($_REQUEST['submit'] == "Add Message")
 } else if ($_REQUEST['submit'] == "Update Information") 
 {
 
-    include_once("band_updateIcon.php");
-    include_once("band_updateImage.php");
+    include_once("updateIcon.php");
+    include_once("updateImage.php");
     $iconUrl = (string)$thumbFullName;
     $imageUrl = (string)$newFullName;
 

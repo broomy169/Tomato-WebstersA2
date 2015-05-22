@@ -5,25 +5,16 @@ if (!isset($_SESSION)){
 }
 
 if (!isset($_SESSION['user_email'])){
-    header("Location: index.php");
+    header("Location: ../index.php");
 }
 
 isset($urlVar) || $urlVar = "";
 include($urlVar . "database_connect.php");
 ?>
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Manage Band/Artists - TCMC</title>
-    <link rel='stylesheet' href= 'band_manageListStyle.css' type='text/css'>
-    <script src= 'band_validateAddForm.js' type='text/javascript'></script>
-    <script src= 'band_validateEditForm.js' type='text/javascript'></script>
-</head>
-<body>
-<div id="pageWrapper">
+<script src= 'band_validateAddForm.js' type='text/javascript'></script>
+<script src= 'band_validateEditForm.js' type='text/javascript'></script>
 <h1>Sort by Genre</h1>
-    <form id="band_sortGenre" name="band_sortGenre" method="post" action="band_sortGenre.php">
+    <form id="band_sortGenre" name="band_sortGenre" method="post" action="database/band_sortGenre.php">
     <center><select name="band_sortGenre" id="band_sortGenre">
         <option value="Rock">Rock</option>
         <option value="Pop">Pop</option>
@@ -36,8 +27,9 @@ include($urlVar . "database_connect.php");
         </select></center>
         <center><input type="submit" name="submit" id="submit" value="Sort Genre"></center>
 </form>
+
 <h1>Manage (Add/remove/update) Band and Artists</h1>
-<form id="addRecord" name="addRecord" method="post" enctype="multipart/form-data" action="band_inc_databaseProcess.php">
+<form id="addRecord" name="addRecord" method="post" enctype="multipart/form-data" action="database/band_inc_databaseProcess.php">
     <fieldset>
         <h2>Insert/Add new band/Artist record:</h2>
         <p><span class="error">* required field</span></p>
@@ -65,10 +57,8 @@ include($urlVar . "database_connect.php");
         <p><label for="band_website">Website:- </label><input type="text" name="band_website" id="band_website"></p>
         <p><label for="band_shortBio">Short Bio:- </label><textarea type="text" name="band_shortBio" id="band_shortBio"></textarea></p>
         <p><label for="band_longBio">Long Bio:- </label><textarea type="text" name="band_longBio" id="band_longBio"></textarea></p>
-
         <p><label for="file">Upload Icon/Logo:</label><input type="file" name="iconfile" id="iconfile" value=""/><span class="error">*</span></p></p>
         <p><label for="file">Upload Image:</label><input type="file" name="imagefile" id="imagefile" value=""/><span class="error">*</span></p></p>
-
         <input type="submit" name="submit" id="submit" value="Add Entry" onClick="return validateAddForm();">
         <label><br/></label>
         <div id="box" title="Things to note">
@@ -94,7 +84,9 @@ include($urlVar . "database_connect.php");
 
             //single echo added for all html code
             echo "
-            <form id='editRecord' name='editRecord$editTally' method='post' enctype='multipart/form-data' action='band_inc_databaseProcess.php'>
+            <form id='editRecord' name='editRecord$editTally' method='post' enctype='multipart/form-data'
+            action='database/band_inc_databaseProcess.php'>
+            <fieldset>
             <h4><label>Record ID: $row[band_id]</label></h4>
             <input type='hidden' name='band_id' value='$row[band_id]' />
             <label>Band/Artist Name: </label><input type='text' name='band_name' value='$row[band_name]' />
@@ -118,16 +110,15 @@ include($urlVar . "database_connect.php");
             <p>
             <label for='file'>Upload Icon/Logo:</label>
             <input type='file' name='iconfile' />
-            <img src='$row[band_promoIcon]' width='100px'>
+            <img src='database/$row[band_promoIcon]' width='100px'>
             </p>
             <p>
             <label for='file'>Upload Image:</label>
             <input type='file' name='imagefile'/>
-            <img src='$row[band_promoPic]' width='100px'>
+            <img src='database/$row[band_promoPic]' width='100px'>
             </p>
             <input type='submit' name='submit' value='Update Information' class='updateButton' onClick='return validateEditForm($editTally);'/>
             <input type='submit' name='submit' value='Delete Entry' class='deleteButton' />
-            <input type='submit' name='submit' value='X' class='deleteButton'/>
             </fieldset>
             </form>
             \n"
