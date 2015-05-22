@@ -214,7 +214,7 @@ $feed->handle_content_type();
     </div>
    
     <!-- START guilt trip -->
-    <div class="row row-padding row-Black">
+    <div class="row row-padding row-black">
         <a href="volunteer.php">
             <div class="container">
                 <div class="vollieCTA">
