@@ -11,15 +11,7 @@ if (!isset($_SESSION['user_email']) || $_SESSION['user_accessLevel'] != "full"){
 isset($urlVar) || $urlVar = "";
 include($urlVar . "database_connect.php");
 ?>
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Manage Users or Members - TCMC</title>
-    <link rel='stylesheet' href= 'band_manageListStyle.css' type='text/css'>
-</head>
-<body>
-<div id="pageWrapper">
+
     <h1>Manage Users</h1>
     <?php
     echo "<fieldset>\n";
@@ -63,6 +55,3 @@ include($urlVar . "database_connect.php");
     // closing database connection here
     $dbh = null;
     ?>
-</div>
-</body>
-</html>

@@ -12,6 +12,12 @@ $linkName = "";
 $admin = "";
 $msg = "";
 $msgNumber = 0;
+$manageBand = "";
+$manageEvents = "";
+$manageMessages = "";
+$manageUsers = "";
+
+
 
 if(isset($_SESSION['msg']) && isset($_SESSION['msgNumber'])){
     $msg = $_SESSION['msg'];
@@ -41,30 +47,42 @@ if (!isset($_SESSION['user_email'])){
 // if user logged in
 } else {
     // checking user access level and setting up link names
-    if ($_SESSION['user_accessLevel'] == "free"){
-        $linkName = "Manage Messages";
-    } else if ($_SESSION['user_accessLevel'] == "paid") {
-        $linkName = "Manage Messages and Bands";
-    } else if ($_SESSION['user_accessLevel'] == "full"){
-        $linkName = "Manage";
-        $admin = "Admin";
-    }
-
-    if (isset($_SESSION['no_access_msg'])) {
-        $noAccessMsg = $_SESSION['no_access_msg'];
-    }
-
     // setting up and displaying links to access by user according to access level
     echo "<div class='row-right'>";
+    echo "<div class= 'navLoggedIn'";
 
+    //if there is any message then display it here
     if (isset($_SESSION['no_access_msg'])) {
         echo "<span>" . $_SESSION['no_access_msg'] . "</span></br>";
         unset($_SESSION['no_access_msg']);
     }
-    echo "<span>Welcome - " . $admin . " " .$_SESSION['user_firstName'] . " !!</span>";
+
+    echo "<span>" . "Logged in as: " .$_SESSION['user_firstName'] . " !</span>";
     echo " | ";
-    echo "<a href ='". $urlVar."users_access.php' title= '".$linkName ."'>".$linkName."</a>";
+
+    if ($_SESSION['user_accessLevel'] == "free"){
+        echo "<a href='../message_addPage.php' title='edit Messages'>+Messages</a>";
+        echo " | ";
+
+    } else if ($_SESSION['user_accessLevel'] == "paid") {
+        echo "<a href='../message_addPage.php' title='edit Messages'>+Messages</a>";
+        echo " | ";
+        echo "<a href='../bands_addPage.php' title='edit Messages'>+Bands</a>";
+    } else if ($_SESSION['user_accessLevel'] == "full"){
+        $linkName = "Manage";
+        echo "<a href='../message_addPage.php' title='edit Messages'>+Messages</a>";
+        echo " | ";
+        echo "<a href='../bands_addPage.php' title='edit Messages'>+Bands</a>";
+        echo " | ";
+        echo "<a href='../events_addPage.php' title='edit Messages'>+Events</a>";
+        echo " | ";
+        echo "<a href='../users_addPage.php' title='edit Messages'>+Members</a>";
+
+    }
+
     echo " | ";
     echo "<a href ='". $urlVar."logout.php' title='Log out'> Log Out</a></div>";
+    echo "</div class='row-right'>";
+    echo "</div class= 'navLoggedIn'";
     unset($_SESSION['no_access_msg']);
 }?>
