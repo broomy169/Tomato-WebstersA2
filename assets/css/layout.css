@@ -1,0 +1,188 @@
+/*--------Header-----------*/
+
+.header {
+    position: relative;
+    padding: 2rem 2rem;
+    margin: 1.5rem 0 1rem;
+    z-index:10;
+}
+/*--------Navigation---------*/
+
+.navigation {
+    position: fixed;
+    top: 0rem;
+    right: 0rem;
+    margin-top: 1rem;
+    background: rgba(0, 0, 0, 0.32);
+    border-radius: 7px;
+}
+
+.navigation ul {
+    display: inline-block;
+    margin: 0;
+}
+
+
+
+.navigation li {
+    display: block;
+    float: left;
+}
+
+/*----sponsors--------*/
+
+
+.sponsors li {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.sponsors li:first-child {
+ 
+}
+
+
+/*------box ----------*/
+
+.box {
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+}
+
+.imgBox90,
+.imgBox100,
+.txtBox100x40,
+.txtBox100x30,
+.txtBox100x20,
+.txtBox100x10{
+    display: block;
+    width: 100%;
+    position: relative;
+    padding: 56.25% 0 0 0;
+    overflow: hidden;
+    margin: auto;
+}
+
+.imgBox90 {
+    width: 90%;
+}
+
+.txtBox100x40 {
+    padding: 40% 0 0 0;
+}
+
+.txtBox100x30{
+    padding: 30% 0 0 0;
+}
+
+.txtBox100x20{
+    padding: 20% 0 0 0;
+}
+
+.txtBox100x10{
+    padding: 10% 0 0 0;
+}
+
+/* ----------------
+rows
+---------------- */
+
+.row {
+    margin: 1rem auto;
+    clear: both;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 75rem;
+}
+
+
+.row-fixedHeight {
+    position: absolute;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    margin: auto;
+}
+
+.row-right {
+    text-align: right;
+    margin-right: 1rem;
+}
+
+/* ----------------
+cols
+---------------- */
+
+.col {
+    overflow: hidden;
+    margin-bottom: 0rem;
+}
+
+.col p {
+    margin: auto;
+}
+
+.col:last-child {
+    margin-right: 0;
+}
+/* ----------------
+cols-medium
+---------------- */
+
+@media (min-width: 30em) and (max-width: 45em) {
+    .col {
+        float: left;
+    }
+    .m-2col {
+        width: 100%;
+    }
+    .m-1col {
+        width: 50%;
+    }
+    .col:nth-child(2) {
+        margin-right: 0;
+    }
+    .header {
+        margin: 2rem 0 0rem;
+    }
+    .navigation {
+        top: .27rem;
+    }
+}
+/* ----------------
+cols-wide
+---------------- */
+
+@media (min-width: 45em) {
+    .col {
+        float: left;
+    }
+    .w-4col {
+        width: 100%;
+    }
+    .w-3col {
+        width: 75%;
+    }
+    .w-2col {
+        width: 50%;
+    }
+    .w-1col {
+        width: 25%;
+    }
+    .header {
+        margin: 2.5rem auto 0rem;
+    }
+    .navigation {
+        top: .6rem;
+    }
+}
+
+/*--------specific styling -----------*/
+

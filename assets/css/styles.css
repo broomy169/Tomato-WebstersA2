@@ -1,0 +1,514 @@
+/* ----------------
+containers
+---------------- */
+
+.container .container-narrow {
+    overflow: hidden;
+    margin: 0rem auto;
+    padding: 0rem 1.33333rem;
+    border-radius: 8px;
+}
+
+.container {
+    max-width: 75em;
+}
+
+.container-narrow {
+    max-width: 33em;
+}
+
+.float-Left{
+    float: left;
+}
+
+.float-Right{
+    float: right;
+}
+
+/* ----------------
+rows
+---------------- */
+/* row-padding */
+
+.row-padding-small {
+    padding 1rem 0rem;
+}
+
+.row-padding,
+.row-padding-large {
+    padding 2rem 0;
+}
+/* row-colors */
+
+.row-white {
+    background: #fff;
+    
+}
+.row-white a{
+    color: red
+}
+
+.row-gray {
+    background: #dedede;
+    color: black;
+}
+.row-gray * h3{
+    color: #2e2e2e;
+}
+.row-gray * a{
+    color: red;
+}
+
+.row-dgray {
+    background: #7b7b7b;
+}
+
+.row-redBlack {
+    background: #3e0000;
+    color: #ddd;
+}
+
+
+.row-black {
+    background: #1e1e1e;
+    color: #ddd;
+}
+
+
+
+/* ----------------
+text
+---------------- */
+
+.banner-text,
+.intro-text,
+.footer-text {
+    margin: 0 auto;
+    font-weight: normal;
+}
+
+.banner-text {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.intro-text {
+    font-size: 1.22222rem;
+    margin: 1rem 1rem;
+}
+
+.navigation img{
+    width: 50%;
+}
+
+.navigation li a,
+.navigation li span {
+    padding: .1rem .5rem;
+    margin: 0rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.5rem;
+    letter-spacing: 1px;
+    color: #FFF;
+}
+
+.navigation li:hover a,
+.navigation li.active a,
+.navigation li.active span {
+    background: #cc0000;
+    border-radius: 7px;
+    color: #FFF;
+}
+
+.row-right a:hover {
+    text-decoration: underline;
+}
+
+.row-right span {
+    color: yellow;
+}
+
+.bands .bands-expanded {
+    text-align: center;
+}
+
+#login {
+    display: none;
+}
+
+.bands {}
+
+.bands-expanded img {
+    width: 100%;
+    float: right;
+}
+/* ----------------
+row and text medium
+---------------- */
+
+@media (min-width: 38em) {
+    .row-padding {
+        padding: 2.5rem 0;
+    }
+    .row-padding-small {
+        padding: 1rem 0rem;
+    }
+    .row-padding-large {
+        padding: 3.33333rem 0;
+    }
+    .banner-text,
+    .intro-text,
+    .footer-text {
+        text-align: center;
+    }
+    .banner-text {
+        font-size: 2.44444rem;
+    }
+    .intro-text {
+        font-size: 1.33333rem;
+    }
+    .navigation li a,
+    .navigation li span {
+        font-size: .7rem;
+    }
+    .bands .bands-expanded {
+        text-align: left;
+    }
+    .bands-expanded img {
+        width: 70%;
+        float: right;
+    }
+    .navigation img{
+    width: 80%;
+    }
+}
+/* ----------------
+row and text wide
+---------------- */
+
+@media (min-width: 62em) {
+    .row-padding {
+        padding: 3rem 0;
+    }
+    .row-padding-large {
+        padding: 4rem 0;
+    }
+    .banner-text {
+        font-size: 3rem;
+    }
+    .intro-text {
+        font-size: 1.5rem;
+        margin: 1rem 3rem;
+    }
+    .navigation li a,
+    .navigation li span {
+        font-size: 1.4rem;
+    }
+    .bands .bands-expanded {
+        text-align: left;
+    }
+    .bands-expanded img {
+        width: 40%;
+        float: right;
+    }
+    .navigation img{
+    width: 100%;
+}
+}
+/*--------specific styling below------------*/
+/*--------specific styling below------------*/
+/*--------specific styling below------------*/
+/*--------specific styling below------------*/
+/*--------specific styling below------------*/
+
+
+/*---- About-Inro --------*/
+
+.About-Intro p {
+    margin: 1rem 4rem 1rem;
+    
+}
+
+.About-Intro h1 {
+    margin: 1rem 4rem 1rem;
+    
+}
+
+.About-Intro h1 {
+    margin: 1rem 4rem 1rem;
+    
+}
+
+
+
+
+
+/*---- About-HistoryList --------*/
+
+.About-HistoryList ul {
+    text-align: left;
+    margin: 2rem 2rem 1rem;
+}
+
+.About-HistoryList li {
+    text-align: left;
+    margin: 2rem 2rem 0rem;
+}
+
+.About-HistoryList ul h2 {
+    text-align: Center;
+}
+
+.About-HistoryList p{
+    margin: .5rem;
+}
+
+/*---- About-HistoryBrief--------*/
+
+.About-HistoryBrief {
+    text-align: left;
+
+}
+
+.About-HistoryBrief p{
+    margin: 1rem;
+}
+
+.About-HistoryBrief h1,
+.About-HistoryBrief h2 {
+    text-align: center;
+}
+
+/*---- CTA--------*/
+
+.cta img{
+    position: absolute;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+   
+}
+
+
+.cta {
+    background: black;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+
+.cta p {
+    color: white;
+}
+
+.cta-4x h3 {
+    font-size: 2rem;
+}
+
+.cta-4x a{
+    font-weight: 100;
+}
+
+/*-------Bands ----------*/
+
+
+#clearBlock {
+    clear: both;
+}
+
+.photo, 
+.info-more {
+    display: none;
+}
+
+
+
+.bandClass {
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.bandClass:hover {
+    cursor: hand;
+    cursor: pointer;
+}
+
+.bands img{
+    position: absolute;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    margin: 0%;
+   
+}
+
+/*--------eventclass--------*/
+
+.eventClass {
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.eventClass:hover {
+    cursor: hand;
+    cursor: pointer;
+}
+
+.events img{
+    position: absolute;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    margin: 0%;
+   
+}
+
+.events ul {
+    margin: 1rem;
+}
+
+/*-------Feeder----------*/
+.rssItem {
+    margin: 2rem;
+}
+
+/*-------Forms Common--------*/
+form label {
+    /*display: table-cell;*/
+    display:inline-block;
+    width:20%;
+    text-align: right;
+    margin: 2px;
+    padding: 2px;
+}
+
+form fieldset {
+    width: 100%;
+    border: none;
+    align-content: center;
+}
+
+form #submit, .updateButton {
+    background-color: #28db19;
+    color: #000000;
+    border: double;
+    height: 35px;
+}
+
+form #submit:hover, .updateButton:hover {
+    font-weight: bolder;
+    background-color: #08cf00;
+    color: #fff;
+    border: double thick #1e1e1e;
+    letter-spacing: 2px;
+    cursor: hand;
+    cursor: pointer;
+}
+
+form .error {
+    color:#FF0004;
+}
+
+form input {
+    /*display: table-cell;*/
+    margin: 2px;
+    padding: 2px;
+    width: 70%;
+    align-content: center;
+}
+
+form textarea {
+    /*display: table-cell;*/
+    margin: 2px;
+    padding: 2px;
+    width: 70%;
+    height: 60px;
+}
+
+
+
+/*------eventAdd--------*/
+
+.eventAdd #addRecord {
+    border: #26be19 ridge 25px;
+    background-color: #e2e2e2;
+    margin: 5px;
+    padding: 10px;
+}
+
+.eventAdd #editRecord {
+    border: #ff7d7d ridge 15px;
+    margin: 5px;
+    padding: 10px;
+    background-color: #dedede;
+}
+
+
+/*------manageUserEvents------*/
+
+.manageUserEvents .deleteButton {
+    color: #000000;
+    background-color: #ff5b54;
+    text-align: center;
+    border: double;
+    height: 35px;
+}
+
+.manageUserEvents .deleteButton:hover {
+    background-color: #ff0006;
+    font-weight: bolder;
+    color: #fff;
+    border: double thick #cecece;
+    letter-spacing: 2px;
+    font-size: 100%;
+    cursor: hand;
+    cursor: pointer;
+}
+
+.manageUserEvents #addRecord {
+    border: #26be19 ridge 25px;
+    background-color: #e2e2e2;
+    margin: 5px;
+    padding: 10px;
+}
+
+.manageUserEvents #editRecord {
+    border: #ff7d7d ridge 15px;
+    margin: 5px;
+    padding: 10px;
+    background-color: #dedede;
+}
+
+.manageUserEvents p {
+    margin: 2rem;
+}
+
+
+/*------addEventHelp------*/
+.addEventHelp p {
+    margin: 1rem 4rem 1rem;
+}
+
+.addEventHelp h2 {
+    margin: 1rem 4rem 1rem;
+}
+
