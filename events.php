@@ -75,7 +75,7 @@
     <div class="row row-padding-small row-dgray">
         <div class="container">
             <div class="col w-2col m-2col">
-                <a href="signUpIn.html">
+                <a href="signUp.php.html">
                     <div class="cta">
                         <div class="txtBox100x20">
                             <div class="row-fixedHeight">
@@ -208,8 +208,6 @@
                     <li><img src="database/images/SiteImages/Qldlogo150169.jpg" alt="Queensland Government logo"/>
                     </li>
                     <li><img src="database/images/events/JCUlogo200.jpg" alt="James Cook University logo"/>
-                    </li>
-                    <li><img src="database/images/events/TGOlogo300.jpg" alt="Townsville Guitar Ochestra"/>
                     </li>
                     <li><img src="database/images/events/KMEIAlogo.jpg" alt="Music Education Institute Of Australia"/>
                     </li>
