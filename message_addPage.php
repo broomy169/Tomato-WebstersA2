@@ -62,7 +62,7 @@
         <div class="container manageUserEvents">
             <?php
                 $urlVar = 'database/';
-                include($urlVar . 'message_manageList.php'); //included file to pull and displays all artists/band information from sqlite
+                include($urlVar . 'message_list.php'); //included file to pull and displays all artists/band information from sqlite
             ?>
         </div>
     </div>
@@ -70,12 +70,12 @@
     
     <!-- START guilt trip -->
     <div class="row row-padding row-black">
-        <a href="volunteer.php">
+        <a href="Volunteer.html">
             <div class="container">
-                <div class="vollieCTA">
-                    <h2 class="intro-text">"Its so much more fun when you are involved, you get to meet everyone and enjoy the spirit of entertaining" - Nadia first time volunteer.</h2>
-                    <h2>Help us and have fun!!</h2>
-                </div>
+                <h2 class="intro-text">
+                Not a single gig would ever get off the ground without the tireless efforts of volunteers.<br></h2>
+                <h2>Help us and have fun!!
+                </h2>
             </div>
         </a>
     </div>
@@ -84,7 +84,7 @@
     <div class="row row-padding-small row-dgray">
         <div class="container">
             <div class="col w-2col m-2col">
-                <a href="signUp.php.html">
+                <a href="signUpIn.html">
                     <div class="cta">
                         <div class="txtBox100x20">
                             <div class="row-fixedHeight">
@@ -218,6 +218,8 @@
                     <li><img src="database/images/SiteImages/Qldlogo150169.jpg" alt="Queensland Government logo"/>
                     </li>
                     <li><img src="database/images/events/JCUlogo200.jpg" alt="James Cook University logo"/>
+                    </li>
+                    <li><img src="database/images/events/TGOlogo300.jpg" alt="Townsville Guitar Ochestra"/>
                     </li>
                     <li><img src="database/images/events/KMEIAlogo.jpg" alt="Music Education Institute Of Australia"/>
                     </li>
