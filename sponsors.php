@@ -148,7 +148,7 @@
     </div>
     <!-- END of call to actions  -->
     <!-- START guilt trip -->
-    <div class="row row-padding row-redBlack">
+    <div class="row row-padding row-Black">
         <a href="volunteer.php">
             <div class="container">
                 <div class="vollieCTA">

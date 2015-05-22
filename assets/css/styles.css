@@ -120,6 +120,17 @@ text
     color: #FFF;
 }
 
+.navLoggedIn
+
+.navLoggedIn li:hover a,
+.navLoggedIn li.active a,
+.navLoggedIn li.active span {
+    background: #ebff00;
+    border-radius: 7px;
+    color: #000000;
+}
+
+
 .row-right a:hover {
     text-decoration: underline;
 }
@@ -263,15 +274,10 @@ row and text wide
     margin: .5rem;
 }
 
-
 /*---- About-HistoryBrief--------*/
 
 .About-HistoryBrief {
     text-align: left;
-
-}
-.About-HistoryBrief img{
-    width: 100%;
 
 }
 
@@ -316,11 +322,6 @@ row and text wide
 .cta-4x a{
     font-weight: 100;
 }
-
-.cta-4x .col:hover{
-    background: darkgrey;
-}
-
 
 /*-------Bands ----------*/
 
@@ -559,3 +560,10 @@ form textarea {
     margin: 1rem 4rem 1rem;
 }
 
+/*---------vollieCTA-------------*/
+
+.vollieCTA:hover {
+    
+}
+    
+    
