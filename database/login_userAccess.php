@@ -17,8 +17,6 @@ $manageEvents = "";
 $manageMessages = "";
 $manageUsers = "";
 
-
-
 if(isset($_SESSION['msg']) && isset($_SESSION['msgNumber'])){
     $msg = $_SESSION['msg'];
     $msgNumber = $_SESSION['msgNumber'];
@@ -49,7 +47,7 @@ if (!isset($_SESSION['user_email'])){
     // checking user access level and setting up link names
     // setting up and displaying links to access by user according to access level
     echo "<div class='row-right'>";
-    echo "<div class= 'navLoggedIn'";
+    echo "<div class= 'navLoggedIn'>";
 
     //if there is any message then display it here
     if (isset($_SESSION['no_access_msg'])) {
@@ -69,7 +67,6 @@ if (!isset($_SESSION['user_email'])){
         echo " | ";
         echo "<a href='bands_addPage.php' title='edit Messages'>+Bands</a>";
     } else if ($_SESSION['user_accessLevel'] == "full"){
-        $linkName = "Manage";
         echo "<a href='message_addPage.php' title='edit Messages'>+Messages</a>";
         echo " | ";
         echo "<a href='bands_addPage.php' title='edit Messages'>+Bands</a>";
