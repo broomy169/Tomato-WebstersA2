@@ -152,7 +152,7 @@ $feed->handle_content_type();
                     <img src="database/images/SiteImages/30yearslogo336.png" alt="thirty years" >
                     <h3>The Townsville community music center celebrated its 30th year in 2013.</h3>
 
-                    <p>It has been constantly changing over the years to keep up to date with the musical tastes and needs of the Townsville community.</p>
+                    <p>It has been constantly changing over the years to keep up to date with the <a href="bands.php">musical tastes</a> and needs of the Townsville community.</p>
                     <p>As part of the relocation of the Music Centre to the Civic Theatre, Bronia Renison and Jean Dartnall, both librarians, have assessed the old collection of sheet music, books and recorded music which the centre has been storing, unused, for many years.</p>
                     <br>
                     <p>Sometimes older things have to be discarded to make way for the new, but the Music Centre is aware that older material may still have value.</p>
@@ -167,24 +167,34 @@ $feed->handle_content_type();
                     
                     
                 </div>
+            </div>
                 <!-- End of TSV Music -->
+            <div class="col w-2col m-2col">
                 <!-- Start of Learn Music -->
                 <div class="box">
                     <h1>Learn music</h1>
                     <h2>Learning music is fun - and good for you.</h2>
-                    
+                    <img class="float-Left" src="assets/img/Feeder/LearningMusic.jpg" alt="Learning music">
                     <p> 
                         There have been many studies done on how leaning music can help exercise your brain and increase your mental abilities.
                     </p>
+                    <br>
+                    <p>
+                        Learning or continuing to play music throughout your life can help reduce the mental effects of ageing.
+                    </p>
+                    <br>
                     <p>
                         If you would like to <a href="message.php">give it a shot</a> check out our <a href="message.php">message boards.</a>
                     </p>
                     
                 </div>
                 <!-- End of Learn Music -->
-                <!-- Start of Learn Music -->
+            </div>
+            <div class="col w-2col m-2col">
+                <!-- Start of Music Events-->
                 <div class="box">
                     <h1>Townsville Music Events</h1>
+                    <img class="float-Right" src="assets/img/Feeder/Attori4w300.jpg" alt="Attori on stage">
                     <h2>Wondering what music events are on in Townsville?</h2>
                     
                     <p> 
@@ -195,7 +205,7 @@ $feed->handle_content_type();
                     </p>
                     
                 </div>
-                <!-- End of Learn Music -->
+                <!-- End of Music Events -->
             </div>
             
             

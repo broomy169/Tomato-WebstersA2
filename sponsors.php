@@ -149,7 +149,7 @@
 
     <!-- START guilt trip -->
     <div class="row row-padding row-black">
-        <a href="Volunteer.html">
+        <a href="volunteer.php">
             <div class="container">
                 <h2 class="intro-text">"Its so much more fun when you are involved, you get to meet everyone and enjoy the spirit of entertaining" - Nadia first time volunteer.</h2>
                 <h2>Help us and have fun!!</h2>

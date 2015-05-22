@@ -61,7 +61,7 @@
     <!-- END of events list -->
     <!-- START guilt trip -->
     <div class="row row-padding row-black">
-        <a href="Volunteer.html">
+        <a href="volunteer.php">
             <div class="container">
                 <h2 class="intro-text">
                 Not a single gig would ever get off the ground without the tireless efforts of volunteers.<br></h2>
