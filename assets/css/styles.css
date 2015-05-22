@@ -338,6 +338,7 @@ row and text wide
 .bandClass:hover {
     cursor: hand;
     cursor: pointer;
+    background: darkgrey;
 }
 
 .bands img{
@@ -353,6 +354,7 @@ row and text wide
    
 }
 
+
 /*--------eventclass--------*/
 
 .eventClass {
@@ -367,6 +369,7 @@ row and text wide
 .eventClass:hover {
     cursor: hand;
     cursor: pointer;
+    background: darkgrey;
 }
 
 .events img{
@@ -383,6 +386,40 @@ row and text wide
 }
 
 .events ul {
+    margin: 1rem;
+}
+
+/*--------messageclass--------*/
+
+.messageClass {
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.messageClass:hover {
+    cursor: hand;
+    cursor: pointer;
+    background: darkgrey;
+}
+
+.messages img{
+    position: absolute;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    margin: 0%;
+   
+}
+
+.messages ul {
     margin: 1rem;
 }
 
