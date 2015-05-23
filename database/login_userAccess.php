@@ -29,7 +29,10 @@ if (!isset($_SESSION['user_email'])){
     ?>
     <div class='row-right'>
         <?php
-        //following code displays invalid login messages
+
+        // following if statements only displays messages under menu bar if there is any
+
+        //following code displays invalid input (validation) login messages
         if(isset($_SESSION['msg']) && $msgNumber == 1) {
             echo "<span>";
             echo $msg;
@@ -44,7 +47,16 @@ if (!isset($_SESSION['user_email'])){
             echo "<span>";
             echo "<div>You are successfully logged out.</div>";
             echo "</span>";
+        }
+
+        if (!empty($_SESSION['signUpMsg'])){
+            echo "<span>";
+            echo $_SESSION['signUpMsg'];
+            echo "</span>";
+            unset($_SESSION['signUpMsg']);
         }?>
+
+        <!-- showing login and signup menu links-->
         <a href='#' id='loginLink' onclick='run();'>Log In</a>
         <div id='login'>
             <?php include("login_form.php"); ?>
@@ -57,18 +69,27 @@ if (!isset($_SESSION['user_email'])){
 // level.
 } else {
     $editBands = "<a href='bands_addPage.php' title='edit Messages'>+Bands </a>";
-    $editMessages = "<a href='message_addPage.php' title='Add Messages'>+Messages </a>";
+    $editMessages = "<a href='message_addPage.php' title='Add Messages'>+Messages</a>";
     $editEvents = "<a href='events_addPage.php' title='edit Messages'>+Events </a>";
     $editUsers = "<a href='users_addPage.php' title='edit Messages'>+Members </a>";
 
     echo "<div class='row-right'>";
     echo "<div class= 'navLoggedIn'>";
 
-    //if there is any message then displaying it here
+    //if there is any message then displaying it here (while logged into the system area)
     if (isset($_SESSION['no_access_msg'])) {
-        echo "<span>" . $_SESSION['no_access_msg'] . "</span></br>";
+        echo "<span>" . $_SESSION['no_access_msg'] . "</span>";
         unset($_SESSION['no_access_msg']);
     }
+
+    if (!empty($_SESSION['userEdit'])){
+        echo "<span>";
+        echo $_SESSION['userEdit'];
+        echo "</span>";
+        unset($_SESSION['userEdit']);
+    }
+
+
 
     if ($_SESSION['user_accessLevel'] == "free"){
         echo $editMessages;

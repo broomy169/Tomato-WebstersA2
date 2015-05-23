@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <link href='http://fonts.googleapis.com/css?family=Kameron:400,700' rel='stylesheet' type='text/css'>
     <!--[if lt IE 9]>
-    <script src="assets/js/respond.min.js"></script>
+   <!-- <script src="assets/js/respond.min.js"></script> -->
+    <script src="database/signup_formValidation.js"></script>
 <![endif]-->
 </head>
 
@@ -54,11 +55,11 @@
     <!-- START of  signup form -->
     <div class="row row-padding-large row-gray">
         <div class="container signUp">
-            <div class="col w-2col m-2col"> 
+            <div class="col w-2col m-2col">
                 
                 <h1>Membership Registration Form</h1>
 
-                <form id="signUp" action="database/signup_databaseProccess.php" method="post">
+                <form id="signUp" name="signUp" action="database/signup_databaseProccess.php" method="post">
                     <h3>Personal Details: </h3>
                     <p>
                         <label for="user_firstName">First Name: </label>
@@ -70,15 +71,15 @@
                     </p>
                     <p>
                         <label for="user_phone">Day Phone: </label>
-                        <input type="text" id="user_phone" name="user_phone">
+                        <input type="number" id="user_phone" name="user_phone">
                     </p>
                     <p>
                         <label for="user_phoneAfterHours">After hours Phone: </label>
-                        <input type="text" id="user_phoneAfterHours" name="user_phoneAfterHours">
+                        <input type="number" id="user_phoneAfterHours" name="user_phoneAfterHours">
                     </p>
                     <p>
                         <label for="user_mobile">Mobile: </label>
-                        <input type="text" id="user_mobile" name="user_mobile">
+                        <input type="number" id="user_mobile" name="user_mobile">
                     </p>
                     <p>
                         <input type="hidden" id="user_accessLevel" name="user_accessLevel" value="free">
@@ -95,11 +96,14 @@
                     </p>
                     <p>
                         <label for="user_password">Password: </label>
-                        <input type="text" id="user_password" name="user_password" placeholder="Enter password">
+                        <input type="password" id="user_password" name="user_password" placeholder="Enter password">
                     </p>
-                    <input type="submit" name="submit" id="submit" value="Sign Up">
+                    <p>
+                        <label for="user_password_check">Confirm Password: </label>
+                        <input type="password" id="user_password_check" name="user_password_check" placeholder="Confirm Password">
+                    </p>
+                    <input type="submit" name="submit" id="submit" value="Sign Up" onclick="return validateSignUpForm();">
                 </form>
-                <h3><a href="index.php">Go to home page</a></h3>
             </div>
         </div>
     </div>
