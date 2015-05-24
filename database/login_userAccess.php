@@ -56,10 +56,14 @@ if (!isset($_SESSION['user_email'])){
             unset($_SESSION['signUpMsg']);
         }?>
 
-        <!-- showing login and signup menu links-->
+        <!-- showing login/login form and signup menu links-->
         <a href='#' id='loginLink' onclick='run();'>Log In</a>
         <div id='login'>
-            <?php include("login_form.php"); ?>
+            <form method="post" action="database/login_authenticationProcess.php" id="LogIn">
+                <input type="text" name="user_email" id="user_email" placeholder="Email" autofocus>
+                <input type="password" name="user_password" id="user_password" placeholder="Password">
+                <input type="submit" name="signIn" id="signIn" value="logIn">
+            </form>
         </div>
         <a href='signUp.php'>Sign Up</a>
     </div>
@@ -88,8 +92,6 @@ if (!isset($_SESSION['user_email'])){
         echo "</span>";
         unset($_SESSION['userEdit']);
     }
-
-
 
     if ($_SESSION['user_accessLevel'] == "free"){
         echo $editMessages;

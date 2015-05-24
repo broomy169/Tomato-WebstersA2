@@ -22,7 +22,7 @@ function validateSignUpForm() {
         return false;
 
     } else if (lastName.value === "") {
-        alert("Last name is required. Please enter your first name.");
+        alert("Last name is required. Please enter your last name.");
         styleInvalid(lastName);
         return false;
 
@@ -42,7 +42,7 @@ function validateSignUpForm() {
         return false;
 
     } else if (!emailRegex.test(email.value)) {
-        alert("Invalid email pattern. Please enter corrent email address.");
+        alert("Invalid email pattern. Please enter correct email address.");
         styleInvalid(email);
         return false;
 

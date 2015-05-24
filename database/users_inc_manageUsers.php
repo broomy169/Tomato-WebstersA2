@@ -17,6 +17,7 @@ include($urlVar . "database_connect.php");
 ?>
 
     <h1>Manage Users</h1>
+    <script src= 'database/list_expandInfo.js' type='text/javascript'></script>
     <?php
 
     // Displaying database information
@@ -30,11 +31,13 @@ include($urlVar . "database_connect.php");
         ++$tally;
 
         //single echo added for all html code
-        echo "<form id='editRecord' name='editRecord$tally' method='post' enctype='multipart/form-data' action='database/users_databaseProcess.php'>
+
+        echo "
+        <form id='editRecord$tally' name='editRecord$tally' method='post' enctype='multipart/form-data' action='database/users_databaseProcess.php'>
             <fieldset>
                 <input type='hidden' name='user_id' value='$row[user_id]' />
-                <label>User First Name: </label><input type='text' name='user_firstName' value='$row[user_firstName]'/>
-                <label>User Last Name: </label><input type='text' name='user_lastName' value='$row[user_lastName]'/>
+                <label>User First Name: </label><input id='userFname' type='text' name='user_firstName' value='$row[user_firstName]'/>
+                <label>User Last Name: </label><input id='userLname' type='text' name='user_lastName' value='$row[user_lastName]'/>
                 <label>Phone: </label><input type='text' name='user_phone' value='$row[user_phone]' />
                 <label>After Hours Phone: </label><input type='text' name='user_phoneAfterHours' value='$row[user_phoneAfterHours]' />
                 <label>Mobile: </label><input type='text' name='user_mobile' value='$row[user_mobile]' />

@@ -61,17 +61,18 @@
 
                 <form id="signUp" name="signUp" action="database/signup_databaseProccess.php" method="post">
                     <h3>Personal Details: </h3>
+                    <span class='error'>* required fields</span></p>
                     <p>
                         <label for="user_firstName">First Name: </label>
-                        <input type="text" id="user_firstName" name="user_firstName">
+                        <input type="text" id="user_firstName" name="user_firstName" autofocus><span class='error'>*</span>
                     </p>
                     <p>
                         <label for="user_lastName">Last Name: </label>
-                        <input type="text" id="user_lastName" name="user_lastName">
+                        <input type="text" id="user_lastName" name="user_lastName"><span class='error'>*</span>
                     </p>
                     <p>
                         <label for="user_phone">Day Phone: </label>
-                        <input type="number" id="user_phone" name="user_phone">
+                        <input type="number" id="user_phone" name="user_phone"><span class='error'>*</span>
                     </p>
                     <p>
                         <label for="user_phoneAfterHours">After hours Phone: </label>
@@ -92,15 +93,15 @@
                     <h3>Create Account</h3>
                     <p>
                         <label for="user_email">Email: </label>
-                        <input type="text" id="user_email" name="user_email" placeholder="Email address">
+                        <input type="text" id="user_email" name="user_email" placeholder="Email address"><span class='error'>*</span>
                     </p>
                     <p>
                         <label for="user_password">Password: </label>
-                        <input type="password" id="user_password" name="user_password" placeholder="Enter password">
+                        <input type="password" id="user_password" name="user_password" placeholder="Enter password"><span class='error'>*</span>
                     </p>
                     <p>
                         <label for="user_password_check">Confirm Password: </label>
-                        <input type="password" id="user_password_check" name="user_password_check" placeholder="Confirm Password">
+                        <input type="password" id="user_password_check" name="user_password_check" placeholder="Confirm Password"><span class='error'>*</span>
                     </p>
                     <input type="submit" name="submit" id="submit" value="Sign Up" onclick="return validateSignUpForm();">
                 </form>
