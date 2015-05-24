@@ -1,26 +1,3 @@
-<?php
-if (!isset($_SESSION)){
-    session_start();
-}
-
-unset($_SESSION["'Rock'"]);
-unset($_SESSION["'Pop'"]);
-unset($_SESSION["'Metal'"]);
-unset($_SESSION["'Jazz'"]);
-unset($_SESSION["'Classical'"]);
-unset($_SESSION["'Country'"]);
-unset($_SESSION["'Hip Hop'"]);
-unset($_SESSION["'Rap'"]);
-if (!empty($_POST["genre"])) {
-    // keeping each selected checkbox in session so after refresh checkboxes keep the selection state
-    foreach ($_POST["genre"] as $checked){
-
-        $_SESSION[$checked] = "checked";
-    }
-}
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -72,17 +49,10 @@ if (!empty($_POST["genre"])) {
     <div class="row row-padding-large row-gray">
         <div class="container bands">
             <h1>Bands / Artists</h1>
-            <form method="post" action="bands.php">
-                <label>Rock</label><input type="checkbox" name="genre[]" value="'Rock'" <?php if(isset($_SESSION["'Rock'"])) echo "checked='checked'"; ?>>
-                <label>Pop</label><input type="checkbox" name="genre[]" value="'Pop'" <?php if(isset($_SESSION["'Pop'"])) echo "checked='checked'"; ?>>
-                <label>Metal</label><input type="checkbox" name="genre[]" value="'Metal'" <?php if(isset($_SESSION["'Metal'"])) echo "checked='checked'"; ?>>
-                <label>Jazz</label><input type="checkbox" name="genre[]" value="'Jazz'" <?php if(isset($_SESSION["'Jazz'"])) echo "checked='checked'"; ?>>
-                <label>Classical</label><input type="checkbox" name="genre[]" value="'Classical'" <?php if(isset($_SESSION["'Classical'"])) echo "checked='checked'"; ?>>
-                <label>Country</label><input type="checkbox" name="genre[]" value="'Country'" <?php if(isset($_SESSION["'Country'"])) echo "checked='checked'"; ?>>
-                <label>Hip Hop</label><input type="checkbox" name="genre[]" value="'Hip Hop'" <?php if(isset($_SESSION["'Hip Hop'"])) echo "checked='checked'"; ?>>
-                <label>Rap</label><input type="checkbox" name="genre[]" value="'Rap'" <?php if(isset($_SESSION["'Rap'"])) echo "checked='checked'"; ?>>
-                <input type="submit" name="submit" value="sort">
-            </form>
+                <?php
+                $urlVar = 'database/';
+                include($urlVar . 'genre_list.php'); //displaying current genres is database
+                ?>
 
             <ul>
                 <?php

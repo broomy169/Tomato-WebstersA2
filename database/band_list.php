@@ -16,17 +16,18 @@ if (!isset($_SESSION)){
         $sql = "SELECT * FROM band";
     }
 
+
     if (!empty($_POST["genre"])) {
+        unset($_SESSION['genres']);
         // keeping each selected checkbox in session so after refresh checkboxes keep the selection state
         foreach ($_POST["genre"] as $checked){
-
-                $_SESSION[$checked] = "checked";
-
+                $_SESSION["genres"][$checked] = "checked";
         }
 
         $genres = $_POST["genre"];
         $genres = array_reverse($genres);
         $genresToString = implode(",", $genres);  // converting array tp string seperated by commas
+
         $sql = "SELECT * FROM Band WHERE band_genre IN (".$genresToString.");";
     }
 

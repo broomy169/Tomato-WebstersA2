@@ -73,9 +73,10 @@ if (!isset($_SESSION['user_email'])){
 // level.
 } else {
     $editBands = "<a href='bands_addPage.php' title='edit Messages'>+Bands </a>";
-    $editMessages = "<a href='message_addPage.php' title='Add Messages'>+Messages</a>";
+    $editMessages = "<a href='message_addPage.php' title='Add Messages'>+Messages </a>";
     $editEvents = "<a href='events_addPage.php' title='edit Messages'>+Events </a>";
     $editUsers = "<a href='users_addPage.php' title='edit Messages'>+Members </a>";
+    $editGenre = "<a href='genre_addPage.php' title='edit Messages'>+Genre </a>";
 
     echo "<div class='row-right'>";
     echo "<div class= 'navLoggedIn'>";
@@ -93,6 +94,13 @@ if (!isset($_SESSION['user_email'])){
         unset($_SESSION['userEdit']);
     }
 
+    if (!empty($_SESSION['genreEdit'])){
+        echo "<span>";
+        echo $_SESSION['genreEdit'];
+        echo "</span>";
+        unset($_SESSION['genreEdit']);
+    }
+
     if ($_SESSION['user_accessLevel'] == "free"){
         echo $editMessages;
 
@@ -103,8 +111,10 @@ if (!isset($_SESSION['user_email'])){
     } else if ($_SESSION['user_accessLevel'] == "full"){
         echo $editMessages;
         echo $editBands;
+        echo $editGenre;
         echo $editEvents;
         echo $editUsers;
+
     }
 
     echo "<a href ='".$urlVar."logout.php?url=$url' title='Log out'>(Log out - ".$_SESSION['user_firstName'].")</a>";
