@@ -132,27 +132,26 @@
     <div class="container cta-4x">
         <!-- May not need this class??-->
 
-        <div class="col w-1col m-1col">
-            <a href="about.php">
-                <h3>Contacts</h3>
-            </a>
-            <ul>
+            <div class="col w-1col m-1col">
                 <a href="about.php">
-                    <li>Phone:
-                    </li>
-                    <li>07 4724 2086
-                    </li>
-                    <li>Mobile:
-                    </li>
-                    <li>0402 255 182
-                    </li>
+                    <h3>Contacts</h3>
+    
+                    <ul>
+                        <li>Phone:
+                        </li>
+                        <li>07 4724 2086
+                        </li>
+                        <li>Mobile:
+                        </li>
+                        <li>0402 255 182
+                        </li>
+                        <li>
+                            <a href="mailto:admin@townsvillemusic.org">Email Us:</a>
+                        </li>
+                    </ul>
                 </a>
-                <li>
-                    <a href="mailto:admin@townsvillemusic.org">Email Us:</a>
-                </li>
-            </ul>
 
-        </div>
+            </div>
 
 
         <div class="col w-1col m-1col">

@@ -135,8 +135,8 @@
 
             <div class="col w-1col m-1col">
                 <a href="about.php">
-                    <h3>Contacts</h3>    
-                
+                    <h3>Contacts</h3>
+    
                     <ul>
                         <li>Phone:
                         </li>
