@@ -313,8 +313,6 @@ $feed->handle_content_type();
                     </li>
                     <li><img src="assets/img/JCUlogo200.jpg" alt="James Cook University logo"/>
                     </li>
-                    <li><img src="assets/img/TGOlogo300.jpg" alt="Townsville Guitar Ochestra"/>
-                    </li>
                     <li><img src="assets/img/KMEIAlogo.jpg" alt="Music Education Institute Of Australia"/>
                     </li>
                 </ul> 
