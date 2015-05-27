@@ -26,7 +26,7 @@
                 </li>
                 <li><a href="bands.php">bands</a>
                 </li>
-                <li class="active"><a href="events.php">Events</a>
+                <li><a href="events.php">Events</a>
                 </li>
                 <li><a href="message.php">Messages</a>
                 </li>
