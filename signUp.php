@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <link href='http://fonts.googleapis.com/css?family=Kameron:400,700' rel='stylesheet' type='text/css'>
     <!--[if lt IE 9]>
-    <script src="assets/js/respond.min.js"></script>
+   <!-- <script src="assets/js/respond.min.js"></script> -->
+    <script src="database/signup_formValidation.js"></script>
 <![endif]-->
 </head>
 
@@ -54,31 +55,32 @@
     <!-- START of  signup form -->
     <div class="row row-padding-large row-gray">
         <div class="container signUp">
-            <div class="col w-2col m-2col"> 
+            <div class="col w-2col m-2col">
                 
                 <h1>Membership Registration Form</h1>
 
-                <form id="signUp" action="database/signup_databaseProccess.php" method="post">
+                <form id="signUp" name="signUp" action="database/signup_databaseProccess.php" method="post">
                     <h3>Personal Details: </h3>
+                    <span class='error'>* required fields</span></p>
                     <p>
                         <label for="user_firstName">First Name: </label>
-                        <input type="text" id="user_firstName" name="user_firstName">
+                        <input type="text" id="user_firstName" name="user_firstName" autofocus><span class='error'>*</span>
                     </p>
                     <p>
                         <label for="user_lastName">Last Name: </label>
-                        <input type="text" id="user_lastName" name="user_lastName">
+                        <input type="text" id="user_lastName" name="user_lastName"><span class='error'>*</span>
                     </p>
                     <p>
                         <label for="user_phone">Day Phone: </label>
-                        <input type="text" id="user_phone" name="user_phone">
+                        <input type="number" id="user_phone" name="user_phone"><span class='error'>*</span>
                     </p>
                     <p>
                         <label for="user_phoneAfterHours">After hours Phone: </label>
-                        <input type="text" id="user_phoneAfterHours" name="user_phoneAfterHours">
+                        <input type="number" id="user_phoneAfterHours" name="user_phoneAfterHours">
                     </p>
                     <p>
                         <label for="user_mobile">Mobile: </label>
-                        <input type="text" id="user_mobile" name="user_mobile">
+                        <input type="number" id="user_mobile" name="user_mobile">
                     </p>
                     <p>
                         <input type="hidden" id="user_accessLevel" name="user_accessLevel" value="free">
@@ -91,15 +93,18 @@
                     <h3>Create Account</h3>
                     <p>
                         <label for="user_email">Email: </label>
-                        <input type="text" id="user_email" name="user_email" placeholder="Email address">
+                        <input type="text" id="user_email" name="user_email" placeholder="Email address"><span class='error'>*</span>
                     </p>
                     <p>
                         <label for="user_password">Password: </label>
-                        <input type="text" id="user_password" name="user_password" placeholder="Enter password">
+                        <input type="password" id="user_password" name="user_password" placeholder="Enter password"><span class='error'>*</span>
                     </p>
-                    <input type="submit" name="submit" id="submit" value="Sign Up">
+                    <p>
+                        <label for="user_password_check">Confirm Password: </label>
+                        <input type="password" id="user_password_check" name="user_password_check" placeholder="Confirm Password"><span class='error'>*</span>
+                    </p>
+                    <input type="submit" name="submit" id="submit" value="Sign Up" onclick="return validateSignUpForm();">
                 </form>
-                <h3><a href="index.php">Go to home page</a></h3>
             </div>
         </div>
     </div>
@@ -109,8 +114,10 @@
     <div class="row row-padding row-black">
         <a href="volunteer.php">
             <div class="container">
-                <h2 class="intro-text">"Its so much more fun when you are involved, you get to meet everyone and enjoy the spirit of entertaining" - Nadia first time volunteer.</h2>
-                <h2>Help us and have fun!!</h2>
+                <div class="vollieCTA">
+                    <h2 class="intro-text">"Its so much more fun when you are involved, you get to meet everyone and enjoy the spirit of entertaining" - Nadia first time volunteer.</h2>
+                    <h2>Help us and have fun!!</h2>
+                </div>
             </div>
         </a>
     </div>
@@ -197,7 +204,7 @@
                     </li>
                     <li><img src="database/images/events/JCUlogo200.jpg" alt="James Cook University logo"/>
                     </li>
-                    <li><img src="database/images/events/TGOlogo300.jpg" alt="Townsville Guitar Ochestra"/>
+                    
                     </li>
                     <li><img src="database/images/events/KMEIAlogo.jpg" alt="Music Education Institute Of Australia"/>
                     </li>

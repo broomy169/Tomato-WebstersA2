@@ -24,9 +24,9 @@
             <ul>
                 <li><a href="index.php">Home</a>
                 </li>
-                <li class="active"><a href="bands.php">bands</a>
+                <li><a href="bands.php">bands</a>
                 </li>
-                <li><a href="events.php">Events</a>
+                <li class="active"><a href="events.php">Events</a>
                 </li>
                 <li><a href="message.php">Messages</a>
                 </li>
@@ -45,34 +45,25 @@
     </div>
     <!-- end div #header-->
 
-    <!-- START of artists list -->
+    <!-- START of usersAdd list -->
     <div class="row row-padding-large row-gray">
-        <div class="container bands">
-            <h1>Bands / Artists</h1>
-                <?php
+        <div class="container eventAdd">
+            <?php
                 $urlVar = 'database/';
-                include($urlVar . 'genre_list.php'); //displaying current genres is database
-                ?>
-
-            <ul>
-                <?php
-
-                $urlVar = 'database/';
-                include($urlVar . 'band_list.php'); //included file to pull and displays all artists/band information from sqlite
-                ?>
-            </ul>
-
+                include($urlVar . 'users_inc_manageUsers.php'); //included file to pull and displays all artists/band information from sqlite
+            ?>
         </div>
     </div>
-    <!-- END of artists list -->
+    <!-- END of usersAdd list -->
+    
     <!-- START guilt trip -->
     <div class="row row-padding row-black">
         <a href="volunteer.php">
             <div class="container">
-                <div class="vollieCTA">
-                    <h2 class="intro-text">"Its so much more fun when you are involved, you get to meet everyone and enjoy the spirit of entertaining" - Nadia first time volunteer.</h2>
-                    <h2>Help us and have fun!!</h2>
-                </div>
+                <h2 class="intro-text">
+                Not a single gig would ever get off the ground without the tireless efforts of volunteers.<br></h2>
+                <h2>Help us and have fun!!
+                </h2>
             </div>
         </a>
     </div>
@@ -81,7 +72,7 @@
     <div class="row row-padding-small row-dgray">
         <div class="container">
             <div class="col w-2col m-2col">
-                <a href="signUp.php.html">
+                <a href="signUpIn.html">
                     <div class="cta">
                         <div class="txtBox100x20">
                             <div class="row-fixedHeight">
@@ -117,7 +108,7 @@
                             </div>
                         </div>
                         <div class="imgBox90">
-                            <img  src="database/images/events/AVIVA-LANE500.jpg" alt="Dynamic event image">
+                            <img  src="database/images/events/AVIVA-LANE500.jpg" alt="Dynamic event image" >
                         </div>
                         <div class="txtBox100x30">
                             <div class="row-fixedHeight">
@@ -215,6 +206,8 @@
                     <li><img src="database/images/SiteImages/Qldlogo150169.jpg" alt="Queensland Government logo"/>
                     </li>
                     <li><img src="database/images/events/JCUlogo200.jpg" alt="James Cook University logo"/>
+                    </li>
+                    <li><img src="database/images/events/TGOlogo300.jpg" alt="Townsville Guitar Ochestra"/>
                     </li>
                     <li><img src="database/images/events/KMEIAlogo.jpg" alt="Music Education Institute Of Australia"/>
                     </li>

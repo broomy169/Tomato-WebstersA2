@@ -1,28 +1,31 @@
 <?php
 session_start();
+
 error_reporting(E_ALL);
 
 isset($urlVar) || $urlVar = "";
 include($urlVar . "database_connect.php");
 
+//code to check and redirecting back to same page
+$url = $_GET['url'];
+
+//setting up header link if using local machine server
+$check = "/Tomato-Webstersa2/";
+if ($url == $check."bands_addPage.php" || $url == $check."events_addPage.php" || $url == $check."message_addPage.php"
+            || $url == $check."users_addPage.php"){
+    $url = "../index.php";
+}
+
+//header setup for ditweb server
+if ($url == "/~tcmc03/bands_addPage.php" || $url == "/~tcmc03/events_addPage.php" || $url ==
+    "/~tcmc03/message_addPage.php" || $url == "/~tcmc03/users_addPage.php"){
+    $url = "/~tcmc03/index.php";
+}
+
+// could use session variable for logout message but wanted to try that way as well :)
+header("Location: $url?status=loggedOut");
 
 $_SESSION = array();
 session_destroy();
 
-header("Location: ../index.php");
-
 ?>
-<!doctype html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Log out - TCMC </title>
-    <style>
-        a {background-color: #b5ffb0; text-decoration: none; border: double #000000; padding: 4px;}
-        a:hover {background-color: #0eff39; border: solid #000000; }
-    </style>
-<body>
-<h3><a href="login_form.php">Return to Sign Up page</a></h3>
-
-</body>
-</html>

@@ -62,7 +62,8 @@
         <div class="container manageUserEvents">
             <?php
                 $urlVar = 'database/';
-                include($urlVar . 'message_manageList.php'); //included file to pull and displays all artists/band information from sqlite
+                include($urlVar . 'message_manageList.php'); //included file to pull and displays all artists/band
+                // information from sqlite
             ?>
         </div>
     </div>
@@ -70,7 +71,7 @@
     
     <!-- START guilt trip -->
     <div class="row row-padding row-black">
-        <a href="volunteer.php">
+        <a href="Volunteer.html">
             <div class="container">
                 <h2 class="intro-text">
                 Not a single gig would ever get off the ground without the tireless efforts of volunteers.<br></h2>

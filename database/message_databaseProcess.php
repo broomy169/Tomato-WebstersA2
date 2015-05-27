@@ -4,22 +4,15 @@ if (!isset($_SESSION)){
     session_start();
 }
 
-//if (!isset($_SESSION['user_email'])){
- //   header("Location: index.php");
-//}
+if (!isset($_SESSION['user_email'])){
+    header("Location: index.php");
+}
 
 isset($urlVar) || $urlVar = "";
 include($urlVar . "database_connect.php");
 
 $debugOn = true;
 ?>
-
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Messages - TCMC</title>
-</head>
 <style>
     #update {color: #cc0000}
     #info {margin: 5px; border: solid black; padding-left: 10px; padding-top: 10px;}
@@ -67,23 +60,53 @@ if ($_REQUEST['submit'] == "Add Message")
         echo "<div id='update'><h2>Inserted new record: $_REQUEST[message_title]</h2></div>";
     else
         echo "<div id='update'><h2>Not inserted</h2></div>";
-}
-else {
+} else if ($_REQUEST['submit'] == "Delete Entry") 
+{
+    $sql = "DELETE FROM Message WHERE message_id = '$_REQUEST[message_id]'";
+    //echo "<p>Query: " . $sql . "</p>\n<p><strong>";
+    if ($dbh->exec($sql))
+        echo "<div id='update'><h2>Deleted: $_REQUEST[message_title]</h2></div>";
+    else
+        echo "<div id='update'><h2>Not deleted</h2></div>";
+} else if ($_REQUEST['submit'] == "Update Information") 
+{
+
+    include_once("updateIcon.php");
+    include_once("updateImage.php");
+    $iconUrl = (string)$thumbFullName;
+    $imageUrl = (string)$newFullName;
+
+    //converting special characters to html code for storing in database correctly.
+	
+	$expDate = htmlspecialchars($_REQUEST['message_expDate']);
+	$title = htmlspecialchars($_REQUEST['message_title']);
+	$content = htmlspecialchars($_REQUEST['message_content']);
+	$link = htmlspecialchars($_REQUEST['message_link']);
+	$linkTitle = htmlspecialchars($_REQUEST['message_linkTitle']);
+	
+    $sql = "UPDATE Message SET message_expDate= '$_REQUEST[$expDate]', message_title = '$title', message_content ='$content', message_link = '$link', message_linkTitle = '$linkTitle' WHERE message_id = '$_REQUEST[message_id]'";
+    //echo "<p>Query: " . $sql . "</p>\n<p><strong>";
+
+    if ($dbh->exec($sql))
+        echo "<div id='update'><h2>Updated $_REQUEST[band_name] $record</h2></div>";
+    else
+        echo "<div id='update'><h2>Not updated</h2></div>";
+} else {
     echo "This page did not come from a valid form submission.<br />\n";
 }
 // Basic select and display all contents from table
 echo "<h2>Message Records in Database Currently</h2>\n";
 
-//$loggedInUserID = $_SESSION['user_id'];
+$loggedInUserID = $_SESSION['user_id'];
 
 // checking logged in user's access level and displaying information accordingly
-//if ($_SESSION['user_accessLevel'] == "full" || $_SESSION['user_accessLevel'] == "paid"){
+if ($_SESSION['user_accessLevel'] == "full" || $_SESSION['user_accessLevel'] == "paid"){
     $sql = "SELECT * FROM Message";
 
     // displaying messages that are only created by logged in user
-//} else if ($_SESSION['user_accessLevel'] == "free") {
- //   $sql = "SELECT * FROM Message WHERE Message.user_id = $loggedInUserID";
-//}
+} else if ($_SESSION['user_accessLevel'] == "free") {
+    $sql = "SELECT * FROM Message WHERE Message.user_id = $loggedInUserID";
+}
 
 
 //$sql = "SELECT * FROM Message";
@@ -120,4 +143,3 @@ $dbh = null;
 ?>
 <h3><a href="message_manageList.php">Return to Manage Message database</a></h3>
 </body>
-</html>

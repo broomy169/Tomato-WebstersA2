@@ -49,11 +49,55 @@
     </div>
     <!-- end div #header-->
 
-     <!-- START of call to actions  -->
+
+    <!-- START of  Sponsors -->
+    <div class="row row-padding-large row-gray">
+        <div class="container sponsors">
+            <div class="col w-4col m-2col">
+                <div class="box">
+                    <h1>Thanks for your sponsorship.</h1>
+                    <h2>The Music Centre receives vital support from the sponsors featured on this page</h2>
+                    <p>
+                        Our music concerts are well-publicised and well-attended and sponsors enjoy brand exposure throughout the Arts community. 
+                    </p>
+                    <br>
+                    <p>
+                        We welcome sponsorship or assistance in any form.
+                    </p>
+                </div>
+            </div>
+            <div class="col w-2col m-2col">
+
+                <h1>Townsville City Council</h1>
+                <img src="database/images/SiteImages/TCCcolour150193.gif">
+                
+                <p>
+                    <strong>The Council's Partnerships and Sponsorships scheme provides vital core funding</strong> which enables us to maintain the administrative base for all our other activities, and also provides the premises which house our office space. 
+                </p>
+                <br>
+                <p>
+                    The Council also assists with the performance venues for our concerts and workshops. 
+                </p>
+
+            </div>
+            <div class="col w-2col m-2col">
+                
+                <h1>Queensland Government</h1>
+                <img src="database/images/SiteImages/GCBF15091.png">
+                <p>
+                    The Gambling Community Benefit Fund has assisted us to obtain office equipment and sound and lighting equipment for our productions 
+                </p>
+
+
+            </div>
+        </div>
+    </div>
+    <!-- END of  Sopnsors -->
+    <!-- START of call to actions  -->
     <div class="row row-padding-small row-dgray">
         <div class="container">
             <div class="col w-2col m-2col">
-                <a href="signUpIn.html">
+                <a href="signUp.php.html">
                     <div class="cta">
                         <div class="txtBox100x20">
                             <div class="row-fixedHeight">
@@ -103,56 +147,14 @@
         </div>
     </div>
     <!-- END of call to actions  -->
-    <!-- START of  Sponsors -->
-    <div class="row row-padding-large row-gray">
-        <div class="container sponsors">
-            <div class="col w-4col m-2col">
-                <div class="box">
-                    <h1>Thanks for your sponsorship.</h1>
-                    <h2>The Music Centre receives vital support from the sponsors featured on this page</h2>
-                    <p>
-                        Our music concerts are well-publicised and well-attended and sponsors enjoy brand exposure throughout the Arts community. 
-                    </p>
-                    <br>
-                    <p>
-                        We welcome sponsorship or assistance in any form.
-                    </p>
-                </div>
-            </div>
-            <div class="col w-2col m-2col">
-
-                <h1>Townsville City Council</h1>
-                <img src="database/images/SiteImages/TCCcolour150193.gif">
-                
-                <p>
-                    <strong>The Council's Partnerships and Sponsorships scheme provides vital core funding</strong> which enables us to maintain the administrative base for all our other activities, and also provides the premises which house our office space. 
-                </p>
-                <br>
-                <p>
-                    The Council also assists with the performance venues for our concerts and workshops. 
-                </p>
-
-            </div>
-            <div class="col w-2col m-2col">
-                
-                <h1>Queensland Government</h1>
-                <img src="database/images/SiteImages/GCBF15091.png">
-                <p>
-                    The Gambling Community Benefit Fund has assisted us to obtain office equipment and sound and lighting equipment for our productions 
-                </p>
-
-
-            </div>
-        </div>
-    </div>
-    <!-- END of  Sopnsors -->
-
     <!-- START guilt trip -->
     <div class="row row-padding row-black">
         <a href="volunteer.php">
             <div class="container">
-                <h2 class="intro-text">"Its so much more fun when you are involved, you get to meet everyone and enjoy the spirit of entertaining" - Nadia first time volunteer.</h2>
-                <h2>Help us and have fun!!</h2>
+                <div class="vollieCTA">
+                    <h2 class="intro-text">"Its so much more fun when you are involved, you get to meet everyone and enjoy the spirit of entertaining" - Nadia first time volunteer.</h2>
+                    <h2>Help us and have fun!!</h2>
+                </div>
             </div>
         </a>
     </div>
@@ -239,7 +241,7 @@
                     </li>
                     <li><img src="database/images/events/JCUlogo200.jpg" alt="James Cook University logo"/>
                     </li>
-                    <li><img src="database/images/events/TGOlogo300.jpg" alt="Townsville Guitar Ochestra"/>
+                    
                     </li>
                     <li><img src="database/images/events/KMEIAlogo.jpg" alt="Music Education Institute Of Australia"/>
                     </li>

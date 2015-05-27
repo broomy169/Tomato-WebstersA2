@@ -3,20 +3,11 @@ if (!isset($_SESSION)){
     session_start();
 }
 if (!isset($_SESSION['user_email'])){
-    header("Location: index.php");
+    header("Location: ../index.php");
 }
 isset($urlVar) || $urlVar = "";
 include($urlVar . "database_connect.php");
 ?>
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Manage Messages - TCMC</title>
-    <link rel='stylesheet' href= 'band_manageListStyle.css' type='text/css'>
-    <script src="currentDate.js" type="text/javascript" ></script>
-</head>
-<body>
 <div id="pageWrapper">
 <h1>Manage Messages</h1>
 		<?php
@@ -32,7 +23,7 @@ include($urlVar . "database_connect.php");
         <p><label for="message_content">Message:- </label><textarea type="text" name="message_content" id="message_content" value=""></textarea>
         <p><label for="message_link">Link:- </label><input type="text" name="message_link" id="message_link" value=""></p>
         <p><label for="message_linkTitle">Link Title(Optional):- </label><input type="text" name="message_linkTitle" id="message_linkTitle" value=""></input></p>
-        <input type="submit" name="submit" id="submit" value="Add Message" onClick="return autoDate()">
+        <input type="submit" name="submit" id="submit" value="Add Message">
         <label><br/></label>
     </fieldset>
 </form>
@@ -67,13 +58,16 @@ include($urlVar . "database_connect.php");
             //single echo added for all html code
             echo "
             <form id='viewMessage' name='viewMessage$editTally' method='post' enctype='multipart/form-data' action='message_databaseProcess.php'>
+            <fieldset>
             <h4><label>Record ID: $row[message_id]</label></h4><input type='hidden' name='message_id' value='$row[message_id]' />
-            <h4><label>Create Date:</label></h4><input type='text' name='message_createDate' value='$row[message_createDate]' readonly/>
-            <h4><label>Expiry Date:</label></h4><input type='text' name='message_expDate' value='$row[message_expDate]' readonly/>
-            <h4><label>Title:</label></h4><input type='text' name='message_title' value='$row[message_title]' readonly/>
-            <h4><label>Content:</label></h4><input type='text' name='message_content' value='$row[message_content]' readonly/>
-            <h4><label>Link:</label></h4><input type='text' name='message_link' value='$row[message_link]' readonly/>
-            <h4><label>Link Title(Optional):</label></h4><input type='text' name='message_linkTitle' value='$row[message_linkTitle]' readonly/>
+            <label>Create Date:</label><input type='text' name='message_createDate' value='$row[message_createDate]' readonly/>
+            <label>Expiry Date:</label><input type='text' name='message_expDate' value='$row[message_expDate]'/>
+            <label>Title:</label><input type='text' name='message_title' value='$row[message_title]'/>
+            <label>Content:</label><input type='text' name='message_content' value='$row[message_content]'/>
+            <label>Link:</label><input type='text' name='message_link' value='$row[message_link]'/>
+            <label>Link Title(Optional):</label><input type='text' name='message_linkTitle' value='$row[message_linkTitle]'/>
+			<input type='submit' name='submit' value='Update Information' class='updateButton'/>
+			<input type='submit' name='submit' value='Delete Entry' class='deleteButton' />
             </fieldset>
             </form>
             \n"
@@ -85,5 +79,3 @@ include($urlVar . "database_connect.php");
         $dbh = null;
         ?>
 </div>
-</body>
-</html>

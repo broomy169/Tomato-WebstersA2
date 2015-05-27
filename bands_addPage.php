@@ -24,9 +24,9 @@
             <ul>
                 <li><a href="index.php">Home</a>
                 </li>
-                <li class="active"><a href="bands.php">bands</a>
+                <li><a href="bands.php">bands</a>
                 </li>
-                <li><a href="events.php">Events</a>
+                <li class="active"><a href="events.php">Events</a>
                 </li>
                 <li><a href="message.php">Messages</a>
                 </li>
@@ -44,14 +44,13 @@
 
     </div>
     <!-- end div #header-->
-
     
-    <!-- START of manageUserBands list -->
+    <!-- START of manageUserEvents list -->
     <div class="row row-padding-large row-gray">
         <div class="container manageUserBands">
             <?php
                 $urlVar = 'database/';
-                include($urlVar . 'bands_manageList.php'); //included file to pull and displays all artists/band information from sqlite
+                include($urlVar . 'band_inc_manageList.php'); //included file to pull and displays all artists/band information from sqlite
             ?>
         </div>
     </div>
@@ -61,19 +60,20 @@
     <div class="row row-padding row-black">
         <a href="volunteer.php">
             <div class="container">
-                <h2 class="intro-text">
-                Not a single gig would ever get off the ground without the tireless efforts of volunteers.<br></h2>
-                <h2>Help us and have fun!!
-                </h2>
+                <div class="vollieCTA">
+                    <h2 class="intro-text">"Its so much more fun when you are involved, you get to meet everyone and enjoy the spirit of entertaining" - Nadia first time volunteer.</h2>
+                    <h2>Help us and have fun!!</h2>
+                </div>
             </div>
         </a>
     </div>
     <!-- END guilt trip -->
+    
      <!-- START of call to actions  -->
     <div class="row row-padding-small row-dgray">
         <div class="container">
             <div class="col w-2col m-2col">
-                <a href="signUpIn.html">
+                <a href="signUp.php.html">
                     <div class="cta">
                         <div class="txtBox100x20">
                             <div class="row-fixedHeight">
@@ -207,8 +207,6 @@
                     <li><img src="database/images/SiteImages/Qldlogo150169.jpg" alt="Queensland Government logo"/>
                     </li>
                     <li><img src="database/images/events/JCUlogo200.jpg" alt="James Cook University logo"/>
-                    </li>
-                    <li><img src="database/images/events/TGOlogo300.jpg" alt="Townsville Guitar Ochestra"/>
                     </li>
                     <li><img src="database/images/events/KMEIAlogo.jpg" alt="Music Education Institute Of Australia"/>
                     </li>

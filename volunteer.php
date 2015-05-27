@@ -11,12 +11,14 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <link href='http://fonts.googleapis.com/css?family=Kameron:400,700' rel='stylesheet' type='text/css'>
     <!--[if lt IE 9]>
-        <script src="assets/js/respond.min.js"></script>
-    <![endif]-->
+    <script src="assets/js/respond.min.js"></script>
+<![endif]-->
 </head>
 
 <body>
     <div class="header">
+        <!-- start div navigation-->
+        
         <div class="navigation">
             <div class="float-Left">
                 <img src="database/images/SiteImages/TCMC98Neg.gif" alt="TCMC Logo" >
@@ -24,7 +26,7 @@
             <ul>
                 <li><a href="index.php">Home</a>
                 </li>
-                <li class="active"><a href="bands.php">bands</a>
+                <li><a href="bands.php">bands</a>
                 </li>
                 <li><a href="events.php">Events</a>
                 </li>
@@ -44,27 +46,22 @@
 
     </div>
     <!-- end div #header-->
+    
+    
+    <!--TODO: decribe registration benefits, and menbers benefits, paypal link-->
 
-    <!-- START of artists list -->
+    
+    <!-- START of  signup form -->
     <div class="row row-padding-large row-gray">
-        <div class="container bands">
-            <h1>Bands / Artists</h1>
-                <?php
-                $urlVar = 'database/';
-                include($urlVar . 'genre_list.php'); //displaying current genres is database
-                ?>
-
-            <ul>
-                <?php
-
-                $urlVar = 'database/';
-                include($urlVar . 'band_list.php'); //included file to pull and displays all artists/band information from sqlite
-                ?>
-            </ul>
-
+        <div class="container volunteer">
+            <div class="col w-2col m-2col"> 
+                <h1>Be a part of the action - Volunteer</h1>
+                <h2>Music in Townsville cannot survive without <strong>you!</strong></h2>
+            </div>
         </div>
     </div>
-    <!-- END of artists list -->
+    <!-- END of  signup form -->
+
     <!-- START guilt trip -->
     <div class="row row-padding row-black">
         <a href="volunteer.php">
@@ -77,63 +74,6 @@
         </a>
     </div>
     <!-- END guilt trip -->
-     <!-- START of call to actions  -->
-    <div class="row row-padding-small row-dgray">
-        <div class="container">
-            <div class="col w-2col m-2col">
-                <a href="signUp.php.html">
-                    <div class="cta">
-                        <div class="txtBox100x20">
-                            <div class="row-fixedHeight">
-                                <h1>SignIn</h1>
-                            </div>
-                        </div>
-                        <div class="imgBox90">
-                            <img src="database/images/musos/Celtic-Fyre-Wall-with-Fire8.jpg" >
-                        </div>
-                        <div class="txtBox100x30">
-                            <div class="row-fixedHeight">
-                                <h2>Members benefit!</h2>
-                                <p><strong>Enjoy</strong> the benefits of becoming a member.</p>
-
-                                <ul>
-                                    <li>Massive discounts on Tickets
-                                    </li>
-                                    <li>Keep up to date with gigs.
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
-            </div>
-            <div class="col w-2col m-2col">
-                <a href="events.php">
-                    <div class="cta">
-                        <div class="txtBox100x20">
-                            <div class="row-fixedHeight">
-                                <h1>Events</h1>
-                            </div>
-                        </div>
-                        <div class="imgBox90">
-                            <img  src="database/images/events/AVIVA-LANE500.jpg" alt="Dynamic event image">
-                        </div>
-                        <div class="txtBox100x30">
-                            <div class="row-fixedHeight">
-                                <h2>Friday 26 May</h2>
-                                <p>Aviva Lane - Get your tickets NOW</p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-    <!-- END of call to actions  -->
-    
-    
-    
     <!-- START minor call to action -->
     <div class="row row-padding-small row-gray">
         <div class="container cta-4x">
@@ -215,6 +155,8 @@
                     <li><img src="database/images/SiteImages/Qldlogo150169.jpg" alt="Queensland Government logo"/>
                     </li>
                     <li><img src="database/images/events/JCUlogo200.jpg" alt="James Cook University logo"/>
+                    </li>
+                    
                     </li>
                     <li><img src="database/images/events/KMEIAlogo.jpg" alt="Music Education Institute Of Australia"/>
                     </li>
