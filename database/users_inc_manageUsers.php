@@ -33,25 +33,35 @@ include($urlVar . "database_connect.php");
         //single echo added for all html code
 
         echo "
-        <form id='editRecord$tally' name='editRecord$tally' method='post' enctype='multipart/form-data' action='database/users_databaseProcess.php'>
-            <fieldset>
-                <input type='hidden' name='user_id' value='$row[user_id]' >
-                <label>User First Name: </label><input id='userFname' type='text' name='user_firstName' value='$row[user_firstName]'>
-                <label>User Last Name: </label><input id='userLname' type='text' name='user_lastName' value='$row[user_lastName]'>
-                <label>Phone: </label><input type='text' name='user_phone' value='$row[user_phone]' >
-                <label>After Hours Phone: </label><input type='text' name='user_phoneAfterHours' value='$row[user_phoneAfterHours]' >
-                <label>Mobile: </label><input type='text' name='user_mobile' value='$row[user_mobile]' >
-                <label>Email: </label><input type='text' name='user_email' value='$row[user_email]' >
-                <label>Password: </label><input type='text' name='user_password' value='$row[user_password]' >
-                <label>Access Level: </label><input type='text' name='user_accessLevel' value='$row[user_accessLevel]'>
-                <label>Address: </label><textarea type='text' name='user_address' value='$row[user_address]'>$row[user_address]</textarea>
-                <input type='submit' name='submit' value='Update Information' class='updateButton' onClick='return validateEditForm($tally);'>
-                <input type='submit' name='submit' value='Delete Entry' class='deleteButton' >
-            </fieldset>
-        </form>
-            \n"
+        <div class='col w-2col m-2col'>
+            <form id='editRecord$tally' name='editRecord$tally' method='post' enctype='multipart/form-data' action='database/users_databaseProcess.php'>
+                <fieldset>
+                    <input type='hidden' name='user_id' value='$row[user_id]' >
+                    <label>User First Name: </label><input id='userFname' type='text' name='user_firstName' value='$row[user_firstName]'>
+                    <label>User Last Name: </label><input id='userLname' type='text' name='user_lastName' value='$row[user_lastName]'>
+                    <label>Phone: </label><input type='text' name='user_phone' value='$row[user_phone]' >
+                    <label>After Hours Phone: </label><input type='text' name='user_phoneAfterHours' value='$row[user_phoneAfterHours]' >
+                    <label>Mobile: </label><input type='text' name='user_mobile' value='$row[user_mobile]' >
+                    <label>Email: </label><input type='text' name='user_email' value='$row[user_email]' >
+                    <label>Password: </label><input type='text' name='user_password' value='$row[user_password]' >
+                    <label>Access Level: </label><input type='text' name='user_accessLevel' value='$row[user_accessLevel]'>
+                    <label>Address: </label><textarea type='text' name='user_address' value='$row[user_address]'>$row[user_address]</textarea>
+                    <input type='submit' name='submit' value='Update Information' class='updateButton' onClick='return validateEditForm($tally);'>
+                    <input type='submit' name='submit' value='Delete Entry' class='deleteButton' >
+                </fieldset>
+            </form>
+        </div>
+        ";
+        // adds a clearblock on every second record to keep page alligned
+        if ($editTally % 2 == 0)
+        {
+            echo"
+                    <div class='clearblock'>
+                    </div>
+                ";
+        }
             //single echo ends here
-        ;?>
+        ?>
     <?php
     }
     // closing database connection here

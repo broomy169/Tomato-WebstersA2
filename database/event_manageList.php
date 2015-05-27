@@ -71,6 +71,14 @@ if (!isset($_SESSION['user_email'])){
 	  </div>
 
 	  ";
+        // adds a clearblock on every second record to keep page alligned
+        if ($editTally % 2 == 0)
+        {
+            echo"
+                    <div class='clearblock'>
+                    </div>
+                ";
+        }
 	  
     }
     // closing database connection here

@@ -73,6 +73,8 @@ include($urlVar . "database_connect.php");
         $editTally = 0;
         foreach ($dbh->query($sql) as $row){
             ++$editTally;
+            
+
 
             //single echo added for all html code
             echo "
@@ -92,9 +94,18 @@ include($urlVar . "database_connect.php");
             </form>
             \n
             </div>
-            "
+            ";
+            
+            // adds a clearblock on every second record to keep page alligned
+            if ($editTally % 2 == 0)
+            {
+                echo"
+                        <div class='clearblock'>
+                        </div>
+                    ";
+            }
             //single echo ends here
-            ;?>
+            ?>
         <?php
         }
         // closing database connection here
