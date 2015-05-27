@@ -330,7 +330,7 @@ row and text wide
 /*-------Bands ----------*/
 
 
-#clearBlock {
+.clearBlock {
     clear: both;
 }
 
