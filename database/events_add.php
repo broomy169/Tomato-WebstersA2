@@ -7,7 +7,7 @@
             <div class='col w-2col m-2col'>
                 <h1>Add Events</h1>
 
-                <form id='addEvent' name='addEvent' method='post' enctype='multipart/form-data' action='"; echo "$urlVar"; echo"'event_databaseProcess.php'>
+                <form id='addEvent' name='addEvent' method='post' enctype='multipart/form-data' action='database/event_databaseProcess.php'>
                     <fieldset>
                         <h2>Add new Event record:</h2>
                         <span class='error'>* required fields</span></p>
