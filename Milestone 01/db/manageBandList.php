@@ -43,8 +43,8 @@ include($urlVar . "inc_dbConnect.php");
         <p><label for="band_shortBio">Short Bio:- </label><textarea type="text" name="band_shortBio" id="band_shortBio"></textarea></p>
         <p><label for="band_longBio">Long Bio:- </label><textarea type="text" name="band_longBio" id="band_longBio"></textarea></p>
 
-        <p><label for="file">Upload Icon/Logo:</label><input type="file" name="iconfile" id="iconfile" value=""><span class="error">*</span></p></p>
-        <p><label for="file">Upload Image:</label><input type="file" name="imagefile" id="imagefile" value=""><span class="error">*</span></p></p>
+        <p><label for="file">Upload Icon/Logo:</label><input type="file" name="iconfile" id="iconfile" value=""><span class="error">*</span></p>
+        <p><label for="file">Upload Image:</label><input type="file" name="imagefile" id="imagefile" value=""><span class="error">*</span></p>
 
         <input type="submit" name="submit" id="submit" value="Add Entry" onClick="return validateAddForm();">
         <label><br></label>
@@ -94,12 +94,12 @@ include($urlVar . "inc_dbConnect.php");
             <p>
             <label for='file'>Upload Icon/Logo:</label>
             <input type='file' name='iconfile' >
-            <img src='$row[band_promoIcon]' width='100px'>
+            <img src='$row[band_promoIcon]' >
             </p>
             <p>
             <label for='file'>Upload Image:</label>
             <input type='file' name='imagefile'>
-            <img src='$row[band_promoPic]' width='100px'>
+            <img src='$row[band_promoPic]' >
             </p>
             <input type='submit' name='submit' value='Update Information' class='updateButton' onClick='return validateEditForm($editTally);'>
             <input type='submit' name='submit' value='Delete Entry' class='deleteButton' >

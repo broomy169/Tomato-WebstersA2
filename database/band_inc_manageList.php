@@ -72,9 +72,9 @@ include($urlVar . "database_connect.php");
 
 
     <?php
-    echo "<div class='col w-2col m-2col'>";
-    echo "<fieldset>\n";
-    echo "<h1>Current Band/Artists data/Information:</h1>\n";
+    
+
+        echo "<h1>Current Band/Artists data/Information:</h1>\n";
 
         // Displaying database information
 
@@ -82,49 +82,50 @@ include($urlVar . "database_connect.php");
         $result = $dbh->query($sql);
         $rows = $result->fetchall(PDO::FETCH_ASSOC);
         echo "<h3>" . 'There are total ' . count($rows) . ' records in Database' . "</h3>\n";
-
+        
         $editTally = 0;
         foreach ($dbh->query($sql) as $row){
             ++$editTally;
 
             //single echo added for all html code
             echo "
+            <div class='col w-2col m-2col'>
             <form id='editRecord' name='editRecord$editTally' method='post' enctype='multipart/form-data'
             action='database/band_inc_databaseProcess.php'>
-            <fieldset>
-            <h4><label>Record ID: $row[band_id]</label></h4>
-            <input type='hidden' name='band_id' value='$row[band_id]' >
-            <label>Band/Artist Name: </label><input type='text' name='band_name' value='$row[band_name]' >
-            <label for='band_genre'>Genre: </label>
-            <select name='band_genre' id='band_genre'>
-                <option>$row[band_genre]</option>
-                <option>Rock</option>
-                <option>Pop</option>
-                <option>Metal</option>
-                <option>Jazz</option>
-                <option>Classical</option>
-                <option>Country</option>
-                <option>Hip Hop</option>
-                <option>Rap</option>
-            </select>
-            <label>Phone: </label><input type='text' name='band_phone' value='$row[band_phone]' >
-            <label>Email: </label><input type='text' name='band_email' value='$row[band_email]' >
-            <label>Website: </label><input type='text' name='band_website' value='$row[band_website]' >
-            <label>Short Bio: </label><textarea type='text' name='band_shortBio' value='$row[band_shortBio]'>$row[band_shortBio]</textarea>
-            <label>Long Bio: </label><textarea type='text' name='band_longBio' value='$row[band_longBio]'>$row[band_longBio]</textarea>
-            <p>
-            <label for='file'>Upload Icon/Logo:</label>
-            <input type='file' name='iconfile' >
-            <img src='database/$row[band_promoIcon]' width='100px'>
-            </p>
-            <p>
-            <label for='file'>Upload Image:</label>
-            <input type='file' name='imagefile'>
-            <img src='database/$row[band_promoPic]' width='100px'>
-            </p>
-            <input type='submit' name='submit' value='Update Information' class='updateButton' onClick='return validateEditForm();'>
-            <input type='submit' name='submit' value='Delete Entry' class='deleteButton' >
-            </fieldset>
+                <fieldset>
+                    <h4><label>Record ID: $row[band_id]</label></h4>
+                    <input type='hidden' name='band_id' value='$row[band_id]' >
+                    <label>Band/Artist Name: </label><input type='text' name='band_name' value='$row[band_name]' >
+                    <label for='band_genre'>Genre: </label>
+                    <select name='band_genre' id='band_genre'>
+                        <option>$row[band_genre]</option>
+                        <option>Rock</option>
+                        <option>Pop</option>
+                        <option>Metal</option>
+                        <option>Jazz</option>
+                        <option>Classical</option>
+                        <option>Country</option>
+                        <option>Hip Hop</option>
+                        <option>Rap</option>
+                    </select>
+                    <label>Phone: </label><input type='text' name='band_phone' value='$row[band_phone]' >
+                    <label>Email: </label><input type='text' name='band_email' value='$row[band_email]' >
+                    <label>Website: </label><input type='text' name='band_website' value='$row[band_website]' >
+                    <label>Short Bio: </label><textarea type='text' name='band_shortBio' value='$row[band_shortBio]'>$row[band_shortBio]</textarea>
+                    <label>Long Bio: </label><textarea type='text' name='band_longBio' value='$row[band_longBio]'>$row[band_longBio]</textarea>
+                    <p>
+                    <label for='file'>Upload Icon/Logo:</label>
+                    <input type='file' name='iconfile' >
+                    <img src='database/$row[band_promoIcon]' alt='Band small image'>
+                    </p>
+                    <p>
+                    <label for='file'>Upload Image:</label>
+                    <input type='file' name='imagefile'>
+                    <img src='database/$row[band_promoPic]'  alt='Band large image'>
+                    </p>
+                    <input type='submit' name='submit' value='Update Information' class='updateButton' onClick='return validateEditForm();'>
+                    <input type='submit' name='submit' value='Delete Entry' class='deleteButton' >
+                </fieldset>
             </form>
             \n
             </div>"
