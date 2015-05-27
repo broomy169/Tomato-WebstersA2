@@ -24,7 +24,7 @@
             <ul>
                 <li><a href="index.php">Home</a>
                 </li>
-                <li class="active"><a href="bands.php">bands</a>
+                <li><a href="bands.php">bands</a>
                 </li>
                 <li><a href="events.php">Events</a>
                 </li>

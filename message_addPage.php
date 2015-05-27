@@ -28,7 +28,7 @@
                 </li>
                 <li><a href="events.php">Events</a>
                 </li>
-                <li class="active"><a href="message.php">Messages</a>
+                <li><a href="message.php">Messages</a>
                 </li>
                 <li><a href="about.php">About</a>
                 </li>
