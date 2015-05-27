@@ -52,7 +52,7 @@
             <div class="col w-1col m-1col">
 
                 <h2>The Townsville Community Music Centre celebrated its 30th year in 2013</h2>
-                <img src="database/images/SiteImages/30yearslogo336.png" alt="thirty years" >
+                <img src="assets/img/30anniversary02300.png" alt="thirty years" >
                 <!-- change image size-->
 
             </div>

@@ -81,7 +81,7 @@ include($urlVar . "database_connect.php");
             <div class='col w-2col m-2col'>
             <form id='viewMessage' name='viewMessage$editTally' method='post' enctype='multipart/form-data' action='database/message_databaseProcess.php'>
                 <fieldset>
-                    <h4><label>Record ID: $row[message_id]</label></h4><input type='hidden' name='message_id' value='$row[message_id]' >
+                    <h4>$row[message_title] by Insert message creator here!!!</h4><input type='hidden' name='message_id' value='$row[message_id]' >
                     <label>Create Date:</label><input type='text' name='message_createDate' value='$row[message_createDate]' readonly>
                     <label>Expiry Date:</label><input type='text' name='message_expDate' value='$row[message_expDate]'>
                     <label>Title:</label><input type='text' name='message_title' value='$row[message_title]'>
