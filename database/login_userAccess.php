@@ -31,9 +31,25 @@ if(isset($_SESSION['msg']) && isset($_SESSION['msgNumber'])){
 if (!isset($_SESSION['user_email'])){
     ?>
     <div class='row-right'>
+        <div class= 'navLoggedIn'>";
+                    <!-- showing login/login form and signup menu links-->
+            <a href='#' id='loginLink' onclick='run();'>Log In</a>
+            <div id='login'>
+                <form method="post" action="database/login_authenticationProcess.php" id="LogIn">
+                    <input type="text" name="user_email" id="user_email" placeholder="Email" autofocus>
+                    <input type="password" name="user_password" id="user_password" placeholder="Password">
+                    <input type="submit" name="signIn" id="signIn" value="logIn">
+                </form>
+            </div>
+            <a href='signUp.php'>Sign Up</a>
+        </div>
+        
+        <!--following if statements only displays messages under menu bar if there is any-->
+        
+        <div class='navMessage'>
         <?php
 
-        // following if statements only displays messages under menu bar if there is any
+        
 
         //following code displays invalid input (validation) login messages
         if(isset($_SESSION['msg']) && $msgNumber == 1) {
@@ -58,17 +74,7 @@ if (!isset($_SESSION['user_email'])){
             echo "</span>";
             unset($_SESSION['signUpMsg']);
         }?>
-
-        <!-- showing login/login form and signup menu links-->
-        <a href='#' id='loginLink' onclick='run();'>Log In</a>
-        <div id='login'>
-            <form method="post" action="database/login_authenticationProcess.php" id="LogIn">
-                <input type="text" name="user_email" id="user_email" placeholder="Email" autofocus>
-                <input type="password" name="user_password" id="user_password" placeholder="Password">
-                <input type="submit" name="signIn" id="signIn" value="logIn">
-            </form>
         </div>
-        <a href='signUp.php'>Sign Up</a>
     </div>
 
 <?php
@@ -77,16 +83,14 @@ if (!isset($_SESSION['user_email'])){
 } else {
     
     
-    //menu system variable for hihglighting current user menu item if any
+    //Start menu system variable for hihglighting current user menu item if any
 
     if (empty($_GET)) {
-    // no data passed by get
         $_SESSION['currentPage'] = 'None';
     } else {
         $_SESSION['currentPage'] = $_GET['pageName'];
     };
     
-    // echo "<h1>".$_SESSION['currentPage'] ."</h1>";
     $editBands = "<a href='bands_addPage.php?pageName=editBands' title='edit Messages'>+Bands </a>";
     $editMessages = "<a href='message_addPage.php?pageName=editMessages' title='Add Messages'>+Messages </a>";
     $editEvents = "<a href='events_addPage.php?pageName=editEvents' title='edit Messages'>+Events </a>";
@@ -104,22 +108,14 @@ if (!isset($_SESSION['user_email'])){
     } else if ($_SESSION['currentPage'] == 'editGenre'){
         $editGenre = "<a class='active' href='genre_addPage.php?pageName=editGenre' title='edit Messages'>+Genre </a>";
     }
+    
+    // end menu system//////////////////////////////////////////////////////////
 
     echo "<div class='row-right'>";
     echo "<div class= 'navLoggedIn'>";
 
     //if there is any message then displaying it here (while logged into the system area)
-    if (isset($_SESSION['no_access_msg'])) {
-        echo "<span>" . $_SESSION['no_access_msg'] . "</span>";
-        unset($_SESSION['no_access_msg']);
-    }
 
-    if (!empty($_SESSION['Edit'])){
-        echo "<span>";
-        echo $_SESSION['Edit'];
-        echo "</span>";
-        unset($_SESSION['Edit']);
-    }
     
     if ($_SESSION['user_accessLevel'] == "free"){
         echo $editMessages;
@@ -139,5 +135,21 @@ if (!isset($_SESSION['user_email'])){
 
     echo "<a href ='".$urlVar."logout.php?url=$url' title='Log out'>(Log out - ".$_SESSION['user_firstName'].")</a>";
     echo "</div>";
+    echo "<div class='navMessage'>";
+    
+    
+    if (isset($_SESSION['no_access_msg'])) {
+        echo "<span>" . $_SESSION['no_access_msg'] . "</span>";
+        unset($_SESSION['no_access_msg']);
+    }
+
+    if (!empty($_SESSION['Edit'])){
+        echo "<span>";
+        echo $_SESSION['Edit'];
+        echo "</span>";
+        unset($_SESSION['Edit']);
+    }
+    echo "</div>";
+        
     echo "</div>";
 }?>
