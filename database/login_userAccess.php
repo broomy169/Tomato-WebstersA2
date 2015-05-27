@@ -13,6 +13,9 @@ echo "<script src='database/login_showLogin.js' type='text/javascript'></script>
 $msg = "";
 $msgNumber = 0;
 
+
+
+
 //getting current page's url and sending it to logout page. So after logout it can redirect to same page user
 // was on before logout
 $url = $_SERVER["REQUEST_URI"];
@@ -72,11 +75,35 @@ if (!isset($_SESSION['user_email'])){
 // if user logged in following code will run and display logout as well as navigation bar depending on user's access
 // level.
 } else {
+    
+    
+    //menu system variable for hihglighting current user menu item if any
+
+    if (empty($_GET)) {
+    // no data passed by get
+        $_SESSION['currentPage'] = 'None';
+    } else {
+        $_SESSION['currentPage'] = $_GET['pageName'];
+    };
+    
+    // echo "<h1>".$_SESSION['currentPage'] ."</h1>";
     $editBands = "<a href='bands_addPage.php?pageName=editBands' title='edit Messages'>+Bands </a>";
-    $editMessages = "<a class='active' href='message_addPage.php?pageName=editMessages' title='Add Messages'>+Messages </a>";
+    $editMessages = "<a href='message_addPage.php?pageName=editMessages' title='Add Messages'>+Messages </a>";
     $editEvents = "<a href='events_addPage.php?pageName=editEvents' title='edit Messages'>+Events </a>";
     $editUsers = "<a href='users_addPage.php?pageName=editUsers' title='edit Messages'>+Members </a>";
     $editGenre = "<a href='genre_addPage.php?pageName=editGenre' title='edit Messages'>+Genre </a>";
+    
+    if ($_SESSION['currentPage'] == 'editBands'){
+        $editBands = "<a class='active' href='bands_addPage.php?pageName=editBands' title='edit Messages'>+Bands </a>";
+    } else if ($_SESSION['currentPage'] == 'editMessages'){
+        $editMessages = "<a class='active' href='message_addPage.php?pageName=editMessages' title='Add Messages'>+Messages </a>";
+    } else if ($_SESSION['currentPage'] == 'editEvents'){
+        $editEvents = "<a class='active' href='events_addPage.php?pageName=editEvents' title='edit Messages'>+Events </a>";
+    } else if ($_SESSION['currentPage'] == 'editUsers'){
+        $editUsers = "<a class='active' href='users_addPage.php?pageName=editUsers' title='edit Messages'>+Members </a>";
+    } else if ($_SESSION['currentPage'] == 'editGenre'){
+        $editGenre = "<a class='active' href='genre_addPage.php?pageName=editGenre' title='edit Messages'>+Genre </a>";
+    }
 
     echo "<div class='row-right'>";
     echo "<div class= 'navLoggedIn'>";

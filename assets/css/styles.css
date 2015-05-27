@@ -102,7 +102,8 @@ text
 }
 
 .navigation li a,
-.navigation li span {
+.navigation li span,
+.navLoggedIn a{
     padding: .1rem .5rem;
     margin: 0rem;
     text-decoration: none;
@@ -111,27 +112,20 @@ text
     letter-spacing: 1px;
     color: #FFF;
 }
+.navLoggedIn a{
+    font-size: 0.4rem;
+    padding: .1rem .2rem;
+}
 
 .navigation li:hover a,
 .navigation li.active a,
-.navigation li.active span {
+.navigation li.active span,
+.navLoggedIn a:hover,
+.navLoggedIn a.active,
+.navLoggedIn a.active span{
     background: #cc0000;
     border-radius: 7px;
     color: #FFF;
-}
-
-.navLoggedIn a:hover,
-.navLoggedIn a.active,
-.navLoggedIn a.active span {
-    background: #ebff00;
-    border-radius: 7px;
-    color: #000000;
-}
-
-
-
-.row-right span {
-    color: yellow;
 }
 
 .bands .bands-expanded {
@@ -174,9 +168,13 @@ row and text medium
         font-size: 1.33333rem;
     }
     .navigation li a,
-    .navigation li span {
-        font-size: .7rem;
+    .navigation li span,
+    .navLoggedIn a{
+        font-size: 0.7rem;
     }
+    .navLoggedIn a{
+    font-size: 0.6rem;
+}
     .bands .bands-expanded {
         text-align: left;
     }
@@ -207,9 +205,13 @@ row and text wide
         margin: 1rem 3rem;
     }
     .navigation li a,
-    .navigation li span {
+    .navigation li span,
+    .navLoggedIn a{
         font-size: 1.4rem;
     }
+    .navLoggedIn a{
+    font-size: 1rem;
+}
     .bands .bands-expanded {
         text-align: left;
     }
