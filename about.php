@@ -317,7 +317,7 @@
         <div class="sponsors">
             <div class="col">
                 <ul>
-                    <li><img src="assets/img/30anniversary02300.png.png"  alt="TCMC 30 years logo"/>
+                    <li><img src="assets/img/30anniversary02300.png"  alt="TCMC 30 years logo"/>
                     </li>
                     <li><img src="assets/img/TCCcolour150193.gif"  alt="city of Townsville logo"/>
                     </li>
@@ -325,7 +325,7 @@
                     </li>
                     <li><img src="assets/img/JCUlogo200.jpg" alt="James Cook University logo"/>
                     </li>
-                    <li><img src="database/images/events/TGOlogo300.jpg" alt="Townsville Guitar Ochestra"/>
+                    <li><img src="assets/img/TGOlogo300.jpg" alt="Townsville Guitar Ochestra"/>
                     </li>
                     <li><img src="assets/img/KMEIAlogo.jpg" alt="Music Education Institute Of Australia"/>
                     </li>
