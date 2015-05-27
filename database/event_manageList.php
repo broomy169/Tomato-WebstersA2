@@ -39,7 +39,7 @@ if (!isset($_SESSION['user_email'])){
 	  } else {
 		  echo "<h3>" . 'There are total ' . count($rows) . ' events editable by you' . "</h3>\n";
 	  }
-
+	  
   $editTally = 0;
   foreach ($dbh->query($sql) as $row){
 	  ++$editTally;
