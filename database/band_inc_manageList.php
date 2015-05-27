@@ -11,8 +11,8 @@ if (!isset($_SESSION['user_email'])){
 isset($urlVar) || $urlVar = "";
 include($urlVar . "database_connect.php");
 ?>
-<script src= 'band_validateAddForm.js' type='text/javascript'></script>
-<script src= 'band_validateEditForm.js' type='text/javascript'></script>
+<script src='database/band_validateAddForm.js' type='text/javascript'></script>
+<script src= 'database/band_validateEditForm.js' type='text/javascript'></script>
 <h1>Manage (Add/remove/update) Band and Artists</h1>
 <form id="addRecord" name="addRecord" method="post" enctype="multipart/form-data" action="database/band_inc_databaseProcess.php">
     <fieldset>
@@ -102,7 +102,7 @@ include($urlVar . "database_connect.php");
             <input type='file' name='imagefile'/>
             <img src='database/$row[band_promoPic]' width='100px'>
             </p>
-            <input type='submit' name='submit' value='Update Information' class='updateButton' onClick='return validateEditForm($editTally);'/>
+            <input type='submit' name='submit' value='Update Information' class='updateButton' onClick='return validateEditForm();'/>
             <input type='submit' name='submit' value='Delete Entry' class='deleteButton' />
             </fieldset>
             </form>

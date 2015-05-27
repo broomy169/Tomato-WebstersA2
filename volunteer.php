@@ -92,11 +92,14 @@
                         </li>
                         <li>0402 255 182
                         </li>
-                        <li>
-                            <a href="mailto:admin@townsvillemusic.org">Email Us:</a>
-                        </li>
                     </ul>
                 </a>
+                <ul>
+                    <li>
+                        <a href="mailto:admin@townsvillemusic.org">Email Us:</a>
+                    </li>
+                </ul>
+
 
             </div>
 
