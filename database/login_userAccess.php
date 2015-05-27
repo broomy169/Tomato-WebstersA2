@@ -73,7 +73,7 @@ if (!isset($_SESSION['user_email'])){
 // level.
 } else {
     $editBands = "<a href='bands_addPage.php?pageName=editBands' title='edit Messages'>+Bands </a>";
-    $editMessages = "<a href='message_addPage.php?pageName=editMessages' title='Add Messages'>+Messages </a>";
+    $editMessages = "<a class='active' href='message_addPage.php?pageName=editMessages' title='Add Messages'>+Messages </a>";
     $editEvents = "<a href='events_addPage.php?pageName=editEvents' title='edit Messages'>+Events </a>";
     $editUsers = "<a href='users_addPage.php?pageName=editUsers' title='edit Messages'>+Members </a>";
     $editGenre = "<a href='genre_addPage.php?pageName=editGenre' title='edit Messages'>+Genre </a>";
