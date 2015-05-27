@@ -38,9 +38,9 @@ if ($_REQUEST['submit'] == "Add Entry")
     //echo "<p>Query: " . $sql . "</p>\n<p><strong>";
 
     if ($dbh->exec($sql)) {
-        $_SESSION['bandEdit'] = "Band " . $_REQUEST[band_name] . " added successfully.";
+        $_SESSION['Edit'] = "Band " . $_REQUEST[band_name] . " added successfully.";
     } else {
-        $_SESSION['bandEdit'] = "Band " . $_REQUEST[band_name] . " not added.";
+        $_SESSION['Edit'] = "Band " . $_REQUEST[band_name] . " not added.";
     }
 }
 
@@ -49,9 +49,9 @@ else if ($_REQUEST['submit'] == "Delete Entry")
     $sql = "DELETE FROM Band WHERE band_id = '$_REQUEST[band_id]'";
     //echo "<p>Query: " . $sql . "</p>\n<p><strong>";
     if ($dbh->exec($sql))
-        $_SESSION['bandEdit'] = "Band " . $_REQUEST[band_name] . " deleted successfully.";
+        $_SESSION['Edit'] = "Band " . $_REQUEST[band_name] . " deleted successfully.";
     else
-        $_SESSION['bandEdit'] = "Band " . $_REQUEST[band_name] . ". not deleted";
+        $_SESSION['Edit'] = "Band " . $_REQUEST[band_name] . ". not deleted";
 }
 else if ($_REQUEST['submit'] == "Update Information") {
 
@@ -73,9 +73,9 @@ band_id = '$_REQUEST[band_id]'";
     //echo "<p>Query: " . $sql . "</p>\n<p><strong>";
 
     if ($dbh->exec($sql)) {
-        $_SESSION['bandEdit'] = "Band " . $_REQUEST[band_name] . " details successfully updated";
+        $_SESSION['Edit'] = "Band " . $_REQUEST[band_name] . " details successfully updated";
     } else {
-        $_SESSION['bandEdit'] = "Band " . $_REQUEST[band_name] . " details not updated";
+        $_SESSION['Edit'] = "Band " . $_REQUEST[band_name] . " details not updated";
     }
 }
 else {

@@ -10,19 +10,7 @@ if (!isset($_SESSION)){
 if (!isset($_SESSION['user_email'])){
     header("Location: index.php");
 }
-?>
-<style>
-    #update {color: #cc0000}
-    #info {margin: 5px; border: solid black; padding-left: 10px; padding-top: 10px;}
-    a {background-color: #b5ffb0; text-decoration: none; border: double #000000; padding: 4px;}
-    a:hover {background-color: #0eff39; border: solid #000000; }
-</style>
 
-<body>
-<h3><a href="../events_addPage.php">Return to Manage Event database</a></h3>
-<h1>Results</h1>
-
-<?php
 echo "<h2>Data</h2>";
 
 // execute the appropriate query based on which submit button (insert, delete or update) was clicked
@@ -46,24 +34,24 @@ if ($_REQUEST['submit'] == "Add Event")
     $priceConc = htmlspecialchars($_REQUEST['event_priceConc']);
 
 	$userID = $_SESSION['user_id'];
-	
 
-	
     $sql = "INSERT INTO Events (user_id, event_title, event_phone, event_date, event_venueName, event_venueLocation, event_shortBio, event_longBio, event_priceFull, event_priceConc, event_promoIcon, event_promoPic) VALUES ('$userID', '$title', '$phone', '$date', '$venueName', '$venueLocation', '$shortBio', '$longBio', '$priceFull', '$priceConc', '$iconUrl', '$imageUrl')";
     echo "<p>Query: " . $sql . "</p>\n<p><strong>";
 	
-    if ($dbh->exec($sql))
-        echo "<div id='update'><h2>Inserted new record: $_REQUEST[event_title]</h2></div>";
-    else
-        echo "<div id='update'><h2>Not inserted</h2></div>";
+    if ($dbh->exec($sql)) {
+        $_SESSION['Edit'] = "Event " . $_REQUEST['event_title'] . " successfully added";
+    } else {
+        $_SESSION['Edit'] = "Event " . $_REQUEST['event_title'] . " not added";
+    }
 } else if ($_REQUEST['submit'] == "Delete Entry") 
 {
     $sql = "DELETE FROM Events WHERE event_id = '$_REQUEST[event_id]'";
     //echo "<p>Query: " . $sql . "</p>\n<p><strong>";
-    if ($dbh->exec($sql))
-        echo "<div id='update'><h2>Deleted: $_REQUEST[event_title]</h2></div>";
-    else
-        echo "<div id='update'><h2>Not deleted</h2></div>";
+    if ($dbh->exec($sql)){
+        $_SESSION['Edit'] = "Event " . $_REQUEST['event_title'] . " successfully deleted";
+    } else {
+        $_SESSION['Edit'] = "Event " . $_REQUEST['event_title'] . " not deleted";
+    }
 } else if ($_REQUEST['submit'] == "Update Information") 
 {
 	include_once("updateIcon.php");
@@ -86,13 +74,17 @@ if ($_REQUEST['submit'] == "Add Event")
 	event_priceConc = '$priceConc', event_promoIcon = '$iconUrl', event_promoPic = '$imageUrl'  WHERE event_id = '$_REQUEST[event_id]'";
     //echo "<p>Query: " . $sql . "</p>\n<p><strong>";
 
-    if ($dbh->exec($sql))
-        echo "<div id='update'><h2>Updated $_REQUEST[event_title] $record</h2></div>";
-    else
-        echo "<div id='update'><h2>Not updated</h2></div>";
+    if ($dbh->exec($sql)) {
+        $_SESSION['Edit'] = "Event " . $_REQUEST['event_title'] . " successfully updated";
+    } else {
+        $_SESSION['Edit'] = "Event " . $_REQUEST['event_title'] . " not updated";
+    }
 } else {
-    echo "This page did not come from a valid form submission.<br />\n";
+    //echo "This page did not come from a valid form submission.<br />\n";
 }
+
+
+/*
 // Basic select and display all contents from table
 echo "<h2>Event Records in Database Currently</h2>\n";
 $sql = "SELECT * FROM Events ORDER BY event_date desc";
@@ -126,9 +118,8 @@ foreach ($dbh->query($sql) as $row)
     $record++;
     echo "\n</div>";
 }
-
+*/
 // close the database connection
+header("Location: ../events_addPage.php");
 $dbh = null;
 ?>
-<h3><a href="../events_addPage.php">Return to Manage Event database</a></h3>
-</body>
