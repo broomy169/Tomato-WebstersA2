@@ -19,7 +19,7 @@
     <div class="header">
         <div class="navigation">
             <div class="float-Left">
-                <img src="database/images/SiteImages/TCMC98Neg.gif" alt="TCMC Logo" >
+                <img src="assets/img/TCMC98Neg.gif" alt="TCMC Logo" >
             </div>
             <ul>
                 <li><a href="index.php">Home</a>
