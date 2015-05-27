@@ -18,7 +18,7 @@ include($urlVar . "database_connect.php");
     <fieldset>
         <h2>Add new Message record:</h2>
         <input type="hidden" name="message_createDate" id="message_createDate" value="<?php echo"$date";?>">
-        <p><label for="message_expDate">Message Expiry Date:- </label><input type="text" name="message_expDate" id="message_expDate" value="">     
+        <p><label for="message_expDate">Message Expiry Date:- </label><input type="text" name="message_expDate" id="message_expDate" placeholder="DD/MM/YYYY" value="">
         <p><label for="message_title">Title:- </label><input type="text" name="message_title" id="message_title" value="">
         <p><label for="message_content">Message:- </label><textarea type="text" name="message_content" id="message_content" value=""></textarea>
         <p><label for="message_link">Link:- </label><input type="text" name="message_link" id="message_link" value=""></p>

@@ -55,7 +55,7 @@ if (!isset($_SESSION)){
             echo "
                         <div class='col w-1col m-1col float-Left'>
                             <div class='imgBox90'>
-                                <img id='icon$blockTally' src='$iconUrl' alt='$row[band_name]' >
+                                <img id='icon$blockTally' src='$iconUrl' alt='icon of $row[band_name]' >
                             </div>
                         </div>";
         } 
@@ -104,7 +104,7 @@ if (!isset($_SESSION)){
         } 
         else {
             echo "      <div id='photo$blockTally' class='photo'>
-                            <img id='photo$blockTally' src='database/images/defaultTomatoLight.jpg'>
+                            <img id='photo$blockTally' src='database/images/defaultTomatoLight.jpg' alt='photo of $row[band_name]'>
                         </div>";
         }
                     
@@ -131,7 +131,7 @@ if (!isset($_SESSION)){
                         <!--</div>-->";
 
         echo "      </div>
-                    <div id='clearBlock'>
+                    <div class='clearBlock'>
                     </div>
                     
                     <!-- End of expanded view -->

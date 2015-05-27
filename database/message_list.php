@@ -63,7 +63,7 @@ if (!isset($_SESSION)){
                         <!--</div>-->";
 
         echo "      </div>
-                    <div id='clearBlock'>
+                    <div class='clearBlock'>
                     </div>
                     
                     <!-- End of expanded view -->

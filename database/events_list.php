@@ -118,7 +118,7 @@
             echo "      
                         <div class='col w-2col m-2col float-Right'>
                             <div class='imgBox90'>
-                                <img id='photo$blockTally' src='$imageUrl'>
+                                <img id='photo$blockTally' src='$imageUrl' alt='$row[event_title]'>
                             </div>
                         </div>
             ";
@@ -126,7 +126,7 @@
         else {
             echo "      
                         <div id='photo$blockTally' class='photo'>
-                            <img id='photo$blockTally' src='database/images/defaultTomatoLight.jpg'>
+                            <img id='photo$blockTally' src='database/images/defaultTomatoLight.jpg' alt='photo'>
                         </div>
             ";
         }
@@ -233,7 +233,7 @@
 
         echo "      
                     </div>
-                    <div id='clearBlock'>
+                    <div class='clearBlock'>
                     </div>
                     
                     <!-- End of expanded view -->
