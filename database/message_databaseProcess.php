@@ -75,7 +75,7 @@ if ($_REQUEST['submit'] == "Add Message")
         $_SESSION['Edit'] = "Message " . $_REQUEST['message_title'] . " not updated";
     }
 } else {
-    //echo "This page did not come from a valid form submission.<br />\n";
+    //echo "This page did not come from a valid form submission.<br >\n";
 }
 
 // close the database connection

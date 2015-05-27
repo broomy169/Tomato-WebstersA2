@@ -79,7 +79,7 @@ band_id = '$_REQUEST[band_id]'";
     }
 }
 else {
-    //echo "This page did not come from a valid form submission.<br />\n";
+    //echo "This page did not come from a valid form submission.<br >\n";
 }
 
 // close the database connection

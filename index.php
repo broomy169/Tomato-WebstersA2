@@ -110,11 +110,11 @@
 
                 <h1>About Us</h1>
                 <p>The Music Centre based in Townsville, North Qld, presents concerts and workshops throughout the year with a diverse range of genres including classical, jazz, folk, blues, world and contemporary music, featuring touring artists, locally-based professionals and emerging artists.</p>
-                <img src="assets/img/about-us/CivicFront300.jpg" alt="modernday music center building" />
+                <img src="assets/img/about-us/CivicFront300.jpg" alt="modernday music center building" >
 
             </div>
             <div class="col w-2col m-2col">
-                <img src="assets/img/about-us/TCCgcbfQN100px.png" alt="Gambling community benefit fund" />
+                <img src="assets/img/about-us/TCCgcbfQN100px.png" alt="Gambling community benefit fund" >
                 <h1>Contact Details</h1>
                 <p>Phone: 07 4724 2086</p>
                 <p>Mobile: 0402 255 182</p>
@@ -215,15 +215,15 @@
         <div class="sponsors">
             <div class="col">
                 <ul>
-                    <li><img src="assets/img/30anniversary02300.png"  alt="TCMC 30 years logo"/>
+                    <li><img src="assets/img/30anniversary02300.png"  alt="TCMC 30 years logo">
                     </li>
-                    <li><img src="assets/img/TCCcolour150193.gif"  alt="city of Townsville logo"/>
+                    <li><img src="assets/img/TCCcolour150193.gif"  alt="city of Townsville logo">
                     </li>
-                    <li><img src="assets/img/Qldlogo150169.jpg" alt="Queensland Government logo"/>
+                    <li><img src="assets/img/Qldlogo150169.jpg" alt="Queensland Government logo">
                     </li>
-                    <li><img src="assets/img/JCUlogo200.jpg" alt="James Cook University logo"/>
+                    <li><img src="assets/img/JCUlogo200.jpg" alt="James Cook University logo">
                     </li>
-                    <li><img src="assets/img/KMEIAlogo.jpg" alt="Music Education Institute Of Australia"/> 
+                    <li><img src="assets/img/KMEIAlogo.jpg" alt="Music Education Institute Of Australia"> 
                     </li>
                 </ul> 
             </div>      

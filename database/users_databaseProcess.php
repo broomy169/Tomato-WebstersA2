@@ -60,7 +60,7 @@ else if ($_REQUEST['submit'] == "Delete Entry")
 }
 
 else {
-    //echo "This page did not come from a valid form submission.<br />\n";
+    //echo "This page did not come from a valid form submission.<br >\n";
 }
 
 /* not displaying all users info anymore as information sent through session message
@@ -73,24 +73,24 @@ $resultCopy = $result;
 
 if ($debugOn) {
     $rows = $result->fetchall(PDO::FETCH_ASSOC);
-    echo "<h3>" . count($rows) . " records in Database." . "</h3><br />\n\n";
+    echo "<h3>" . count($rows) . " records in Database." . "</h3><br >\n\n";
     //print_r($rows);
     //echo "</pre>";
-    //echo "<br />\n";
+    //echo "<br >\n";
 }
 $record = 1;
 foreach ($dbh->query($sql) as $row)
 {
     echo "<div id='info'>";
-    print "<b>Record $record" . '<br />' . "</b>";
-    print "\tRecord ID: " . '<b>' . $row['user_id'] . '</b>' . "<br />";
-    print "\tName: " . '<b>' . $row['user_firstName'] . ' ' . $row['user_lastName']. '</b>' . "<br />";
-    print "\tEmail: " . '<b>' . $row['user_email'] . '</b>' . "<br />";
-    print "\tPhone: " . '<b>' . $row['user_phone'] . '</b>' . "<br />";
-    print "\tAfter Hours contact: " . '<b>' . $row['user_phoneAfterHours'] . '</b>' . "<br />";
-    print "\tMobile: " . '<b>' . $row['user_mobile'] . '</b>' . "<br />";
-    print "\tAccess Level: " . '<b>' . $row['user_accessLevel'] . '</b>' . "<br />";
-    print "\tAddress: " . '<b>' . $row['user_address'] . '</b>' . "<br />";
+    print "<b>Record $record" . '<br >' . "</b>";
+    print "\tRecord ID: " . '<b>' . $row['user_id'] . '</b>' . "<br >";
+    print "\tName: " . '<b>' . $row['user_firstName'] . ' ' . $row['user_lastName']. '</b>' . "<br >";
+    print "\tEmail: " . '<b>' . $row['user_email'] . '</b>' . "<br >";
+    print "\tPhone: " . '<b>' . $row['user_phone'] . '</b>' . "<br >";
+    print "\tAfter Hours contact: " . '<b>' . $row['user_phoneAfterHours'] . '</b>' . "<br >";
+    print "\tMobile: " . '<b>' . $row['user_mobile'] . '</b>' . "<br >";
+    print "\tAccess Level: " . '<b>' . $row['user_accessLevel'] . '</b>' . "<br >";
+    print "\tAddress: " . '<b>' . $row['user_address'] . '</b>' . "<br >";
     $record++;
     echo "\n</div>";
 }

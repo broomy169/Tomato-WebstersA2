@@ -142,7 +142,7 @@ class SimplePie_Misc
 		}
 		if ($element['self_closing'])
 		{
-			$full .= ' />';
+			$full .= ' >';
 		}
 		else
 		{

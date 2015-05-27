@@ -44,7 +44,7 @@ title='contact us on this phone number'>Phone: $row[band_phone]</p></li>\n
 
     echo "</div>\n";
     echo "</div>\n";
-    echo "<div id='clearBlock'><li>\n";
+    echo "<div class='clearBlock'><li>\n";
     echo "</div>\n";
     echo "</div>\n";
     $blockTally++;

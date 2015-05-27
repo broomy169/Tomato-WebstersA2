@@ -43,11 +43,11 @@ include($urlVar . "inc_dbConnect.php");
         <p><label for="band_shortBio">Short Bio:- </label><textarea type="text" name="band_shortBio" id="band_shortBio"></textarea></p>
         <p><label for="band_longBio">Long Bio:- </label><textarea type="text" name="band_longBio" id="band_longBio"></textarea></p>
 
-        <p><label for="file">Upload Icon/Logo:</label><input type="file" name="iconfile" id="iconfile" value=""/><span class="error">*</span></p></p>
-        <p><label for="file">Upload Image:</label><input type="file" name="imagefile" id="imagefile" value=""/><span class="error">*</span></p></p>
+        <p><label for="file">Upload Icon/Logo:</label><input type="file" name="iconfile" id="iconfile" value=""><span class="error">*</span></p></p>
+        <p><label for="file">Upload Image:</label><input type="file" name="imagefile" id="imagefile" value=""><span class="error">*</span></p></p>
 
         <input type="submit" name="submit" id="submit" value="Add Entry" onClick="return validateAddForm();">
-        <label><br/></label>
+        <label><br></label>
         <div id="box" title="Things to note">
         <label><p>Note:</p> </label>
         <p> - Individual upload for icon or photo not allowed. When adding or updating record, both photo and icon must be uploaded on same time. </p>
@@ -72,8 +72,8 @@ include($urlVar . "inc_dbConnect.php");
             echo "
             <form id='editRecord' name='editRecord$editTally' method='post' enctype='multipart/form-data' action='band_inc_databaseProcess.php'>
             <h4><label>Record ID: $row[band_id]</label></h4>
-            <input type='hidden' name='band_id' value='$row[band_id]' />
-            <label>Band/Artist Name: </label><input type='text' name='band_name' value='$row[band_name]' />
+            <input type='hidden' name='band_id' value='$row[band_id]' >
+            <label>Band/Artist Name: </label><input type='text' name='band_name' value='$row[band_name]' >
             <label for='band_genre'>Genre: </label>
             <select name='band_genre' id='band_genre'>
                 <option>$row[band_genre]</option>
@@ -86,24 +86,24 @@ include($urlVar . "inc_dbConnect.php");
                 <option value='Hip Hop'>Hip Hop</option>
                 <option value='Rap'>Rap</option>
             </select>
-            <label>Phone: </label><input type='text' name='band_phone' value='$row[band_phone]' />
-            <label>Email: </label><input type='text' name='band_email' value='$row[band_email]' />
-            <label>Website: </label><input type='text' name='band_website' value='$row[band_website]' />
+            <label>Phone: </label><input type='text' name='band_phone' value='$row[band_phone]' >
+            <label>Email: </label><input type='text' name='band_email' value='$row[band_email]' >
+            <label>Website: </label><input type='text' name='band_website' value='$row[band_website]' >
             <label>Short Bio: </label><textarea type='text' name='band_shortBio' value='$row[band_shortBio]'>$row[band_shortBio]</textarea>
             <label>Long Bio: </label><textarea type='text' name='band_longBio' value='$row[band_longBio]'>$row[band_longBio]</textarea>
             <p>
             <label for='file'>Upload Icon/Logo:</label>
-            <input type='file' name='iconfile' />
+            <input type='file' name='iconfile' >
             <img src='$row[band_promoIcon]' width='100px'>
             </p>
             <p>
             <label for='file'>Upload Image:</label>
-            <input type='file' name='imagefile'/>
+            <input type='file' name='imagefile'>
             <img src='$row[band_promoPic]' width='100px'>
             </p>
-            <input type='submit' name='submit' value='Update Information' class='updateButton' onClick='return validateEditForm($editTally);'/>
-            <input type='submit' name='submit' value='Delete Entry' class='deleteButton' />
-            <input type='submit' name='submit' value='X' class='deleteButton'/>
+            <input type='submit' name='submit' value='Update Information' class='updateButton' onClick='return validateEditForm($editTally);'>
+            <input type='submit' name='submit' value='Delete Entry' class='deleteButton' >
+            <input type='submit' name='submit' value='X' class='deleteButton'>
             </fieldset>
             </form>
             \n"

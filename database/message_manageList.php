@@ -24,7 +24,7 @@ include($urlVar . "database_connect.php");
         <p><label for="message_link">Link:- </label><input type="text" name="message_link" id="message_link" value=""></p>
         <p><label for="message_linkTitle">Link Title(Optional):- </label><input type="text" name="message_linkTitle" id="message_linkTitle" value=""></p>
         <input type="submit" name="submit" id="submit" value="Add Message">
-        <label><br/></label>
+        <label><br></label>
     </fieldset>
 </form>
 </div>
@@ -44,9 +44,9 @@ include($urlVar . "database_connect.php");
 </div>
 
     <?php
-    echo "<div class='col w-2col m-2col'>";
-    echo "<fieldset>\n";
-    echo "<h1>Current Messages:</h1>\n";
+    
+
+    
 
      //Displaying database information
     $loggedInUserID = $_SESSION['user_id'];
@@ -54,6 +54,7 @@ include($urlVar . "database_connect.php");
      //checking logged in user's access level and displaying information accordingly
     if ($_SESSION['user_accessLevel'] == "full" || $_SESSION['user_accessLevel'] == "paid"){
         $sql = "SELECT * FROM Message";
+        
 
      //displaying messages that are only created by logged in user
     } else if ($_SESSION['user_accessLevel'] == "free") {
@@ -62,6 +63,7 @@ include($urlVar . "database_connect.php");
         $result = $dbh->query($sql);
         $rows = $result->fetchall(PDO::FETCH_ASSOC);
 
+        echo "<h1>Current Messages:</h1>\n";
         if (count($rows) == 0) {
             echo "<h3>You haven't added any message yet.</h3>\n";
         } else {
@@ -74,22 +76,22 @@ include($urlVar . "database_connect.php");
 
             //single echo added for all html code
             echo "
+            <div class='col w-2col m-2col'>
             <form id='viewMessage' name='viewMessage$editTally' method='post' enctype='multipart/form-data' action='database/message_databaseProcess.php'>
-            <fieldset>
-            <h4><label>Record ID: $row[message_id]</label></h4><input type='hidden' name='message_id' value='$row[message_id]' />
-            <label>Create Date:</label><input type='text' name='message_createDate' value='$row[message_createDate]' readonly/>
-            <label>Expiry Date:</label><input type='text' name='message_expDate' value='$row[message_expDate]'/>
-            <label>Title:</label><input type='text' name='message_title' value='$row[message_title]'/>
-            <label>Content:</label><input type='text' name='message_content' value='$row[message_content]'/>
-            <label>Link:</label><input type='text' name='message_link' value='$row[message_link]'/>
-            <label>Link Title(Optional):</label><input type='text' name='message_linkTitle' value='$row[message_linkTitle]'/>
-			<input type='submit' name='submit' value='Update Information' class='updateButton'/>
-			<input type='submit' name='submit' value='Delete Entry' class='deleteButton' />
-            </fieldset>
+                <fieldset>
+                    <h4><label>Record ID: $row[message_id]</label></h4><input type='hidden' name='message_id' value='$row[message_id]' >
+                    <label>Create Date:</label><input type='text' name='message_createDate' value='$row[message_createDate]' readonly>
+                    <label>Expiry Date:</label><input type='text' name='message_expDate' value='$row[message_expDate]'>
+                    <label>Title:</label><input type='text' name='message_title' value='$row[message_title]'>
+                    <label>Content:</label><input type='text' name='message_content' value='$row[message_content]'>
+                    <label>Link:</label><input type='text' name='message_link' value='$row[message_link]'>
+                    <label>Link Title(Optional):</label><input type='text' name='message_linkTitle' value='$row[message_linkTitle]'>
+                    <input type='submit' name='submit' value='Update Information' class='updateButton'>
+                    <input type='submit' name='submit' value='Delete Entry' class='deleteButton' >
+                </fieldset>
             </form>
             \n
             </div>
-            <h1>mydiv above</h1>
             "
             //single echo ends here
             ;?>
@@ -98,4 +100,3 @@ include($urlVar . "database_connect.php");
         // closing database connection here
         $dbh = null;
         ?>
-</div>

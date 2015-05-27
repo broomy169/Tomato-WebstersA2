@@ -95,7 +95,7 @@ band_id = '$_REQUEST[band_id]'";
         echo "<div id='update'><h2>Not updated</h2></div>";
 }
 else {
-    echo "This page did not come from a valid form submission.<br />\n";
+    echo "This page did not come from a valid form submission.<br >\n";
 }
 echo "</strong></p>\n";
 
@@ -107,26 +107,26 @@ $resultCopy = $result;
 
 if ($debugOn) {
     $rows = $result->fetchall(PDO::FETCH_ASSOC);
-    echo "<h3>" . count($rows) . " records in Database." . "</h3><br />\n\n";
+    echo "<h3>" . count($rows) . " records in Database." . "</h3><br >\n\n";
     //print_r($rows);
     //echo "</pre>";
-    //echo "<br />\n";
+    //echo "<br >\n";
 }
 $record = 1;
 foreach ($dbh->query($sql) as $row)
 {
     echo "<div id='info'>";
-    print "<b>Record $record" . '<br />' . "</b>";
-    print "\tRecord ID: " . '<b>' . $row['band_id'] . '</b>' . "<br />";
-    print "\tName: " . '<b>' . $row['band_name'] . '</b>' . "<br />";
-    print "\tEmail: " . '<b>' . $row['band_email'] . '</b>' . "<br />";
-    print "\tPhone: " . '<b>' . $row['band_phone'] . '</b>' . "<br />";
-    print "\tWebsite: " . '<b>' . $row['band_website'] . '</b>' . "<br />";
-    print "\tShort Bio: " . '<b>' . $row['band_shortBio'] . '</b>' . "<br />";
-    print "\tlong Bio: " . '<b>' . $row['band_longBio'] . '</b>' . "<br />";
-    print "\tIcon path: " . '<b>' . $row['band_promoIcon'] . '</b>' . "<br />";
-    print "\tPicture path: " . '<b>' . $row['band_promoPic'] . '</b>' . "<br />";
-    print "\tGenre: " . '<b>' . $row['band_genre'] . '</b>' . "<br /><br />\n";
+    print "<b>Record $record" . '<br >' . "</b>";
+    print "\tRecord ID: " . '<b>' . $row['band_id'] . '</b>' . "<br >";
+    print "\tName: " . '<b>' . $row['band_name'] . '</b>' . "<br >";
+    print "\tEmail: " . '<b>' . $row['band_email'] . '</b>' . "<br >";
+    print "\tPhone: " . '<b>' . $row['band_phone'] . '</b>' . "<br >";
+    print "\tWebsite: " . '<b>' . $row['band_website'] . '</b>' . "<br >";
+    print "\tShort Bio: " . '<b>' . $row['band_shortBio'] . '</b>' . "<br >";
+    print "\tlong Bio: " . '<b>' . $row['band_longBio'] . '</b>' . "<br >";
+    print "\tIcon path: " . '<b>' . $row['band_promoIcon'] . '</b>' . "<br >";
+    print "\tPicture path: " . '<b>' . $row['band_promoPic'] . '</b>' . "<br >";
+    print "\tGenre: " . '<b>' . $row['band_genre'] . '</b>' . "<br ><br >\n";
     $record++;
     echo "\n</div>";
 }

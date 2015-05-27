@@ -56,7 +56,7 @@ else if ($_REQUEST['submit'] == "Delete Entry")
 }
 
 else {
-    //echo "This page did not come from a valid form submission.<br />\n";
+    //echo "This page did not come from a valid form submission.<br >\n";
 }
 
 // close the database connection

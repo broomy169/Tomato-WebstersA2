@@ -64,8 +64,8 @@ if (!isset($_SESSION['user_email'])){
 				  <label>Price Concession: </label><input type='text' name='event_priceConc' value='$row[event_priceConc]'>
 				  <p><label for='file'>Icon/Logo:</label><img src='$iconUrl'></p>
 				  <p><label for='file'>Image:</label><img src='$imageUrl'></p>
-				  <input type='submit' name='submit' value='Update Information' class='updateButton'/>
-				  <input type='submit' name='submit' value='Delete Entry' class='deleteButton' />
+				  <input type='submit' name='submit' value='Update Information' class='updateButton'>
+				  <input type='submit' name='submit' value='Delete Entry' class='deleteButton' >
 			  </fieldset>
 		  </form>
 	  </div>

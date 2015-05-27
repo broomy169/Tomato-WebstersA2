@@ -26,9 +26,9 @@
                 </li>
                 <li><a href="bands.php">bands</a>
                 </li>
-                <li class="active"><a href="events.php">Events</a>
+                <li><a href="events.php">Events</a>
                 </li>
-                <li><a href="message.php">Messages</a>
+                <li class="active"><a href="message.php">Messages</a>
                 </li>
                 <li><a href="about.php">About</a>
                 </li>
@@ -45,26 +45,17 @@
     </div>
     <!-- end div #header-->
 
-    <!-- START of eventAdd list
-    <div class="row row-padding-large row-gray">
-        <div class="container eventAdd">
-            <?php/*
-                $urlVar = 'database/';
-                include($urlVar . 'events_add.php'); //included file to pull and displays all artists/band information from sqlite
-                */
-            ?>
-        </div>
-    </div>
-   END of eventAdd list -->
     
     <!-- START of manageUserEvents list -->
     <div class="row row-padding-large row-gray">
         <div class="container manageUserEvents">
+            <!--Start PHP-->
             <?php
                 $urlVar = 'database/';
                 include($urlVar . 'message_manageList.php'); //included file to pull and displays all artists/band
                 // information from sqlite
             ?>
+            <!--End PHP-->
         </div>
     </div>
     <!-- END of manageUserEvents list -->
@@ -214,15 +205,15 @@
         <div class="sponsors">
             <div class="col">
                 <ul>
-                    <li><img src="assets/img/30anniversary02300.png"  alt="TCMC 30 years logo"/>
+                    <li><img src="assets/img/30anniversary02300.png"  alt="TCMC 30 years logo">
                     </li>
-                    <li><img src="assets/img/TCCcolour150193.gif"  alt="city of Townsville logo"/>
+                    <li><img src="assets/img/TCCcolour150193.gif"  alt="city of Townsville logo">
                     </li>
-                    <li><img src="assets/img/Qldlogo150169.jpg" alt="Queensland Government logo"/>
+                    <li><img src="assets/img/Qldlogo150169.jpg" alt="Queensland Government logo">
                     </li>
-                    <li><img src="assets/img/JCUlogo200.jpg" alt="James Cook University logo"/>
+                    <li><img src="assets/img/JCUlogo200.jpg" alt="James Cook University logo">
                     </li>
-                    <li><img src="assets/img/KMEIAlogo.jpg" alt="Music Education Institute Of Australia"/>
+                    <li><img src="assets/img/KMEIAlogo.jpg" alt="Music Education Institute Of Australia">
                     </li>
                 </ul> 
             </div>      

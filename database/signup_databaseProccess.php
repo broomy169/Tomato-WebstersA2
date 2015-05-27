@@ -26,7 +26,7 @@ user_email, user_password, user_accessLevel) VALUES ('$_REQUEST[user_firstName]'
 
 
 } else {
-    echo "This page did not come from a valid form submission.<br />\n";
+    echo "This page did not come from a valid form submission.<br >\n";
 }
 
 
@@ -39,10 +39,10 @@ $resultCopy = $result;
 
 if ($debugOn) {
     $rows = $result->fetchall(PDO::FETCH_ASSOC);
-    echo "<h3>" . count($rows) . " records in Database." . "</h3><br />\n\n";
+    echo "<h3>" . count($rows) . " records in Database." . "</h3><br >\n\n";
     //print_r($rows);
     //echo "</pre>";
-    //echo "<br />\n";
+    //echo "<br >\n";
 }
 */
 $dbh = null;

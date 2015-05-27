@@ -80,7 +80,7 @@ if ($_REQUEST['submit'] == "Add Event")
         $_SESSION['Edit'] = "Event " . $_REQUEST['event_title'] . " not updated";
     }
 } else {
-    //echo "This page did not come from a valid form submission.<br />\n";
+    //echo "This page did not come from a valid form submission.<br >\n";
 }
 
 
@@ -93,28 +93,28 @@ $resultCopy = $result;
 
 if ($debugOn) {
     $rows = $result->fetchall(PDO::FETCH_ASSOC);
-    echo "<h3>" . count($rows) . " records in Database." . "</h3><br />\n\n";
+    echo "<h3>" . count($rows) . " records in Database." . "</h3><br >\n\n";
 	//echo "<pre>";
 	//print_r($rows);
 	//echo "</pre>";
-    //echo "<br />\n";
+    //echo "<br >\n";
 }
 $record = 1;
 foreach ($dbh->query($sql) as $row)
 {
     echo "<div id='info'>";
-    print "<b>Record $record" . '<br />' . "</b>";
-    print "\tRecord ID: " . '<b>' . $row['event_id'] . '</b>' . "<br />";
-    print "\tName: " . '<b>' . $row['event_title'] . '</b>' . "<br />";
-    print "\tDate: " . '<b>' . $row['event_date'] . '</b>' . "<br />";
-    print "\tPhone: " . '<b>' . $row['event_phone'] . '</b>' . "<br />";
-    print "\tVenue Name: " . '<b>' . $row['event_venueName'] . '</b>' . "<br />";
-    print "\tVenue Location: " . '<b>' . $row['event_venueLocation'] . '</b>' . "<br />";
-    print "\tShort Bio: " . '<b>' . $row['event_shortBio'] . '</b>' . "<br />";
-    print "\tLong Bio: " . '<b>' . $row['event_longBio'] . '</b>' . "<br />";
-    print "\tPrice Full: " . '<b>' . $row['event_priceFull'] . '</b>' . "<br />";
-	print "\tPromo Icon: " . '<b>' . $row['event_promoIcon'] . '</b>' . "<br />";
-	print "\tPromo Pic: " . '<b>' . $row['event_promoPic'] . '</b>' . "<br />";	
+    print "<b>Record $record" . '<br >' . "</b>";
+    print "\tRecord ID: " . '<b>' . $row['event_id'] . '</b>' . "<br >";
+    print "\tName: " . '<b>' . $row['event_title'] . '</b>' . "<br >";
+    print "\tDate: " . '<b>' . $row['event_date'] . '</b>' . "<br >";
+    print "\tPhone: " . '<b>' . $row['event_phone'] . '</b>' . "<br >";
+    print "\tVenue Name: " . '<b>' . $row['event_venueName'] . '</b>' . "<br >";
+    print "\tVenue Location: " . '<b>' . $row['event_venueLocation'] . '</b>' . "<br >";
+    print "\tShort Bio: " . '<b>' . $row['event_shortBio'] . '</b>' . "<br >";
+    print "\tLong Bio: " . '<b>' . $row['event_longBio'] . '</b>' . "<br >";
+    print "\tPrice Full: " . '<b>' . $row['event_priceFull'] . '</b>' . "<br >";
+	print "\tPromo Icon: " . '<b>' . $row['event_promoIcon'] . '</b>' . "<br >";
+	print "\tPromo Pic: " . '<b>' . $row['event_promoPic'] . '</b>' . "<br >";	
     $record++;
     echo "\n</div>";
 }

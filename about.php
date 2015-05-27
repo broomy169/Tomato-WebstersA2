@@ -78,7 +78,7 @@
             <h1>A Brief History</h1>
             <h2>by Jean Dartnall</h2>
             <div class="col w-2col">
-                <img src="assets/img/about-us/old-music.jpg" width="500" height="237" alt="old music books" />
+                <img src="assets/img/about-us/old-music.jpg" width="500" height="237" alt="old music books" >
                 <ul>
                     <li>
                         <h2>1983</h2>
@@ -162,7 +162,7 @@
 
 
                 <a href="signUp.php">
-                    <img src="database/images/randomImages/Avivarandom1.jpg" width="199" height="197" alt="girl in red dress handing out tickets" />
+                    <img src="database/images/randomImages/Avivarandom1.jpg" width="199" height="197" alt="girl in red dress handing out tickets" >
                     <p>Do you want to be a part of our history?</p>
                 </a>
                 <br>
@@ -317,15 +317,15 @@
         <div class="sponsors">
             <div class="col">
                 <ul>
-                    <li><img src="assets/img/30anniversary02300.png"  alt="TCMC 30 years logo"/>
+                    <li><img src="assets/img/30anniversary02300.png"  alt="TCMC 30 years logo">
                     </li>
-                    <li><img src="assets/img/TCCcolour150193.gif"  alt="city of Townsville logo"/>
+                    <li><img src="assets/img/TCCcolour150193.gif"  alt="city of Townsville logo">
                     </li>
-                    <li><img src="assets/img/Qldlogo150169.jpg" alt="Queensland Government logo"/>
+                    <li><img src="assets/img/Qldlogo150169.jpg" alt="Queensland Government logo">
                     </li>
-                    <li><img src="assets/img/JCUlogo200.jpg" alt="James Cook University logo"/>
+                    <li><img src="assets/img/JCUlogo200.jpg" alt="James Cook University logo">
                     </li>
-                    <li><img src="assets/img/KMEIAlogo.jpg" alt="Music Education Institute Of Australia"/>
+                    <li><img src="assets/img/KMEIAlogo.jpg" alt="Music Education Institute Of Australia">
                     </li>
                 </ul> 
             </div>      

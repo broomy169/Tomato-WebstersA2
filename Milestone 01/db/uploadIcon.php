@@ -11,13 +11,13 @@ if ((($_FILES["iconfile"]["type"] == "image/gif")
 {
     // checking for any error code in the data
     if ($_FILES["iconfile"]["error"] > 0) {
-		echo "Error Code: " . $_FILES["iconfile"]["error"] . "<br />";
+		echo "Error Code: " . $_FILES["iconfile"]["error"] . "<br >";
 
     } else {
         // displaying image information
-		echo "Upload File Name: " . $_FILES["iconfile"]["name"] . "<br />\n";
-		echo "MIME Type: " . $_FILES["iconfile"]["type"] . "<br />\n";
-		echo "Size: " . round($_FILES["iconfile"]["size"] / 1024, 1) . " KB<br />\n";
+		echo "Upload File Name: " . $_FILES["iconfile"]["name"] . "<br >\n";
+		echo "MIME Type: " . $_FILES["iconfile"]["type"] . "<br >\n";
+		echo "Size: " . round($_FILES["iconfile"]["size"] / 1024, 1) . " KB<br >\n";
 		echo "Temp file location: " . $_FILES["iconfile"]["tmp_name"] . "</p>\n";
 
 		// checking if file with same name already exists in our destination directory
@@ -35,9 +35,9 @@ if ((($_FILES["iconfile"]["type"] == "image/gif")
             $thumbnailImage->saveToFile($thumbFullName);
             //setting permissions to image
             chmod($thumbFullName, 0644);
-            echo "Stored Icon as: $thumbFullName<br />\n";
+            echo "Stored Icon as: $thumbFullName<br >\n";
             $size = getimagesize($thumbFullName);
-            echo "<img src=\"$thumbFullName\" " . $size[3] . " /><br />\n";
+            echo "<img src=\"$thumbFullName\" " . $size[3] . " ><br >\n";
 		}
 	}
 } else {
