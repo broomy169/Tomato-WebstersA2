@@ -98,14 +98,15 @@ if (!isset($_SESSION['user_email'])){
         echo $editMessages;
 
     } else if ($_SESSION['user_accessLevel'] == "paid") {
-        echo $editMessages;
         echo $editBands;
+        echo $editMessages;
+        
 
     } else if ($_SESSION['user_accessLevel'] == "full"){
-        echo $editMessages;
         echo $editBands;
         echo $editGenre;
         echo $editEvents;
+        echo $editMessages;
         echo $editUsers;
     }
 
