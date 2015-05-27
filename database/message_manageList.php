@@ -8,7 +8,7 @@ if (!isset($_SESSION['user_email'])){
 isset($urlVar) || $urlVar = "";
 include($urlVar . "database_connect.php");
 ?>
-<div id="pageWrapper">
+<div class='col w-2col m-2col'>
 <h1>Manage Messages</h1>
 		<?php
 		date_default_timezone_set('Australia/Brisbane');
@@ -22,12 +22,29 @@ include($urlVar . "database_connect.php");
         <p><label for="message_title">Title:- </label><input type="text" name="message_title" id="message_title" value="">
         <p><label for="message_content">Message:- </label><textarea type="text" name="message_content" id="message_content" value=""></textarea>
         <p><label for="message_link">Link:- </label><input type="text" name="message_link" id="message_link" value=""></p>
-        <p><label for="message_linkTitle">Link Title(Optional):- </label><input type="text" name="message_linkTitle" id="message_linkTitle" value=""></input></p>
+        <p><label for="message_linkTitle">Link Title(Optional):- </label><input type="text" name="message_linkTitle" id="message_linkTitle" value=""></p>
         <input type="submit" name="submit" id="submit" value="Add Message">
         <label><br/></label>
     </fieldset>
 </form>
+</div>
+
+<div class='col w-2col m-2col'>
+    <h1>need to add info on how to correctly fill out form here.</h1>
+    <ul>
+        <li>Tip #1</li>
+        <li>Tip #2</li>
+        <li>Tip #3</li>
+        <li>Tip #4</li>
+        <li>Tip #N</li>
+    </ul>
+</div>
+
+<div class='clearBlock'>
+</div>
+
     <?php
+    echo "<div class='col w-2col m-2col'>";
     echo "<fieldset>\n";
     echo "<h1>Current Messages:</h1>\n";
 
@@ -70,7 +87,10 @@ include($urlVar . "database_connect.php");
 			<input type='submit' name='submit' value='Delete Entry' class='deleteButton' />
             </fieldset>
             </form>
-            \n"
+            \n
+            </div>
+            <h1>mydiv above</h1>
+            "
             //single echo ends here
             ;?>
         <?php

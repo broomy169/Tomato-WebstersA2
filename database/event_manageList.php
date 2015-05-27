@@ -47,7 +47,7 @@ if (!isset($_SESSION['user_email'])){
 
 	  //single echo added for all html code
 	  echo "
-	  <div>    
+	  <div class='col w-2col m-2col'>   
 		  <h1>Current Event Data/Information:</h1>
 		  <form id='eventRecord' name='eventRecord$editTally' method='post' enctype='multipart/form-data' action='database/event_databaseProcess.php'>
 			  <fieldset>
