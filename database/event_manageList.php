@@ -8,14 +8,12 @@ if (!isset($_SESSION)){
 if (!isset($_SESSION['user_email'])){
     header("Location: index.php");
 }
-
 	    //Displaying database information
     $loggedInUserID = $_SESSION['user_id'];
 
      //checking logged in user's access level and displaying information accordingly
         $sql = "SELECT * FROM Events ORDER BY event_date DESC";
-   
-    
+       
   $result = $dbh->query($sql);
   $rows = $result->fetchall();
   $iconUrl = "icon";

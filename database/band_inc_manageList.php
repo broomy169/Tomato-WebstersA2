@@ -13,21 +13,6 @@ include($urlVar . "database_connect.php");
 ?>
 <script src= 'band_validateAddForm.js' type='text/javascript'></script>
 <script src= 'band_validateEditForm.js' type='text/javascript'></script>
-<h1>Sort by Genre</h1>
-    <form id="band_sortGenre" name="band_sortGenre" method="post" action="database/band_sortGenre.php">
-    <center><select name="band_sortGenre" id="band_sortGenre">
-        <option value="Rock">Rock</option>
-        <option value="Pop">Pop</option>
-        <option value="Metal">Metal</option>
-        <option value="Jazz">Jazz</option>
-        <option value="Classical">Classical</option>
-        <option value="Country">Country</option>
-        <option value="Hip Hop">Hip Hop</option>
-        <option value="Rap">Rap</option>
-        </select></center>
-        <center><input type="submit" name="submit" id="submit" value="Sort Genre"></center>
-</form>
-
 <h1>Manage (Add/remove/update) Band and Artists</h1>
 <form id="addRecord" name="addRecord" method="post" enctype="multipart/form-data" action="database/band_inc_databaseProcess.php">
     <fieldset>
