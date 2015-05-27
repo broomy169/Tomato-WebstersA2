@@ -101,6 +101,7 @@ include($urlVar . "database_connect.php");
             {
                 echo"
                         <div class='clearblock'>
+                        <br>
                         </div>
                     ";
             }

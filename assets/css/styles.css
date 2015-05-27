@@ -128,8 +128,8 @@ text
     color: #FFF;
 }
 
-.navMessage {
-    color: #ffffff;
+.navMessage p{
+    color: #e2ff00;
 }
 
 .bands .bands-expanded {

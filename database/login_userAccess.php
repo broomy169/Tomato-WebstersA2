@@ -53,25 +53,23 @@ if (!isset($_SESSION['user_email'])){
 
         //following code displays invalid input (validation) login messages
         if(isset($_SESSION['msg']) && $msgNumber == 1) {
-            echo "<span>";
+            echo "<p>";
             echo $msg;
             echo "<style> #login { display: block;} #loginLink {display: none;} </style>";
             unset($_SESSION['msgNumber']);
             unset($_SESSION['msg']);
-            echo "</span>";
+            echo "</p>";
         }
 
         //log out message
         if(!empty($_GET['status'])){
-            echo "<span>";
-            echo "<div>You are successfully logged out.</div>";
-            echo "</span>";
+            echo "<p>You are successfully logged out.</p>";
         }
 
         if (!empty($_SESSION['signUpMsg'])){
-            echo "<span>";
+            echo "<p>";
             echo $_SESSION['signUpMsg'];
-            echo "</span>";
+            echo "</p>";
             unset($_SESSION['signUpMsg']);
         }?>
         </div>
@@ -139,14 +137,14 @@ if (!isset($_SESSION['user_email'])){
     
     
     if (isset($_SESSION['no_access_msg'])) {
-        echo "<span>" . $_SESSION['no_access_msg'] . "</span>";
+        echo "<p>" . $_SESSION['no_access_msg'] . "</p>";
         unset($_SESSION['no_access_msg']);
     }
 
     if (!empty($_SESSION['Edit'])){
-        echo "<span>";
+        echo "<p>";
         echo $_SESSION['Edit'];
-        echo "</span>";
+        echo "</p>";
         unset($_SESSION['Edit']);
     }
     echo "</div>";
