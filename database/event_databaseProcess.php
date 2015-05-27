@@ -19,7 +19,7 @@ if (!isset($_SESSION['user_email'])){
 </style>
 
 <body>
-<h3><a href="event_manageList.php">Return to Manage Event database</a></h3>
+<h3><a href="../events_addPage.php">Return to Manage Event database</a></h3>
 <h1>Results</h1>
 
 <?php
@@ -130,5 +130,5 @@ foreach ($dbh->query($sql) as $row)
 // close the database connection
 $dbh = null;
 ?>
-<h3><a href="event_manageList.php">Return to Manage Event database</a></h3>
+<h3><a href="../events_addPage.php">Return to Manage Event database</a></h3>
 </body>

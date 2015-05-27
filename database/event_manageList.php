@@ -12,7 +12,7 @@ if (!isset($_SESSION['user_email'])){
             <div class='col w-2col m-2col'>
                 <h1>Add Events</h1>
 
-                <form id='addEvent' name='addEvent' method='post' enctype='multipart/form-data' action='event_databaseProcess.php'>
+                <form id='addEvent' name='addEvent' method='post' enctype='multipart/form-data' action='database/event_databaseProcess.php'>
                     <fieldset>
                         <h2>Add new Event record:</h2>
                         <span class='error'>* required fields</span></p>
@@ -79,7 +79,7 @@ if (!isset($_SESSION['user_email'])){
 	  echo "
 	  <div class='col w-2col m-2col'>    
 		  <h1>Current Event Data/Information:</h1>
-		  <form id='eventRecord' name='eventRecord$editTally' method='post' enctype='multipart/form-data' action='event_databaseProcess.php'>
+		  <form id='eventRecord' name='eventRecord$editTally' method='post' enctype='multipart/form-data' action='database/event_databaseProcess.php'>
 			  <fieldset>
 				  <h4><label>Record ID: $row[event_id]</label></h4>
 				  <input type='hidden' name='event_id' value='$row[event_id]' >
