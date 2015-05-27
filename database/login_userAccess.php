@@ -101,6 +101,21 @@ if (!isset($_SESSION['user_email'])){
         unset($_SESSION['genreEdit']);
     }
 
+    if (!empty($_SESSION['bandEdit'])){
+        echo "<span>";
+        echo $_SESSION['bandEdit'];
+        echo "</span>";
+        unset($_SESSION['bandEdit']);
+    }
+
+    if (!empty($_SESSION['Edit'])){
+        echo "<span>";
+        echo $_SESSION['Edit'];
+        echo "</span>";
+        unset($_SESSION['Edit']);
+    }
+
+
     if ($_SESSION['user_accessLevel'] == "free"){
         echo $editMessages;
 
@@ -114,7 +129,6 @@ if (!isset($_SESSION['user_email'])){
         echo $editGenre;
         echo $editEvents;
         echo $editUsers;
-
     }
 
     echo "<a href ='".$urlVar."logout.php?url=$url' title='Log out'>(Log out - ".$_SESSION['user_firstName'].")</a>";

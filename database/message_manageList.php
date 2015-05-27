@@ -14,7 +14,7 @@ include($urlVar . "database_connect.php");
 		date_default_timezone_set('Australia/Brisbane');
         $date = date('d/m/y', time());
 		?>
-<form id="addMessage" name="addMessage" method="post" enctype="multipart/form-data" action="message_databaseProcess.php">
+<form id="addMessage" name="addMessage" method="post" enctype="multipart/form-data" action="database/message_databaseProcess.php">
     <fieldset>
         <h2>Add new Message record:</h2>
         <input type="hidden" name="message_createDate" id="message_createDate" value="<?php echo"$date";?>">
@@ -57,7 +57,7 @@ include($urlVar . "database_connect.php");
 
             //single echo added for all html code
             echo "
-            <form id='viewMessage' name='viewMessage$editTally' method='post' enctype='multipart/form-data' action='message_databaseProcess.php'>
+            <form id='viewMessage' name='viewMessage$editTally' method='post' enctype='multipart/form-data' action='database/message_databaseProcess.php'>
             <fieldset>
             <h4><label>Record ID: $row[message_id]</label></h4><input type='hidden' name='message_id' value='$row[message_id]' />
             <label>Create Date:</label><input type='text' name='message_createDate' value='$row[message_createDate]' readonly/>

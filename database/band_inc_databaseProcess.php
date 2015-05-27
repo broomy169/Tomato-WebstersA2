@@ -37,10 +37,11 @@ if ($_REQUEST['submit'] == "Add Entry")
     $sql = "INSERT INTO Band (band_name, band_email, band_phone, band_website, band_shortBio, band_longBio, band_genre, band_promoIcon, band_promoPic) VALUES ('$_REQUEST[band_name]', '$email', '$phone', '$website', '$shortBio', '$longBio', '$_REQUEST[band_genre]', '$iconUrl', '$imageUrl')";
     //echo "<p>Query: " . $sql . "</p>\n<p><strong>";
 
-    if ($dbh->exec($sql))
-        echo "<div id='update'><h2>Inserted new record: $_REQUEST[band_name]</h2></div>";
-    else
-        echo "<div id='update'><h2>Not inserted</h2></div>";
+    if ($dbh->exec($sql)) {
+        $_SESSION['bandEdit'] = "Band " . $_REQUEST[band_name] . " added successfully.";
+    } else {
+        $_SESSION['bandEdit'] = "Band " . $_REQUEST[band_name] . " not added.";
+    }
 }
 
 else if ($_REQUEST['submit'] == "Delete Entry")
@@ -48,12 +49,11 @@ else if ($_REQUEST['submit'] == "Delete Entry")
     $sql = "DELETE FROM Band WHERE band_id = '$_REQUEST[band_id]'";
     //echo "<p>Query: " . $sql . "</p>\n<p><strong>";
     if ($dbh->exec($sql))
-        echo "<div id='update'><h2>Deleted: $_REQUEST[band_name]</h2></div>";
+        $_SESSION['bandEdit'] = "Band " . $_REQUEST[band_name] . " deleted successfully.";
     else
-        echo "<div id='update'><h2>Not deleted</h2></div>";
+        $_SESSION['bandEdit'] = "Band " . $_REQUEST[band_name] . ". not deleted";
 }
-else if ($_REQUEST['submit'] == "Update Information")
-{
+else if ($_REQUEST['submit'] == "Update Information") {
 
     include_once("updateIcon.php");
     include_once("updateImage.php");
@@ -72,48 +72,18 @@ else if ($_REQUEST['submit'] == "Update Information")
 band_id = '$_REQUEST[band_id]'";
     //echo "<p>Query: " . $sql . "</p>\n<p><strong>";
 
-    if ($dbh->exec($sql))
-        echo "<div id='update'><h2>Updated $_REQUEST[band_name] $record</h2></div>";
-    else
-        echo "<div id='update'><h2>Not updated</h2></div>";
+    if ($dbh->exec($sql)) {
+        $_SESSION['bandEdit'] = "Band " . $_REQUEST[band_name] . " details successfully updated";
+    } else {
+        $_SESSION['bandEdit'] = "Band " . $_REQUEST[band_name] . " details not updated";
+    }
 }
 else {
-    echo "This page did not come from a valid form submission.<br />\n";
-}
-echo "</strong></p>\n";
-
-// Basic select and display all contents from table
-echo "<h2>Band Records in Database Currently</h2>\n";
-$sql = "SELECT * FROM Band";
-$result = $dbh->query($sql);
-$resultCopy = $result;
-
-if ($debugOn) {
-    $rows = $result->fetchall(PDO::FETCH_ASSOC);
-    echo "<h3>" . count($rows) . " records in Database." . "</h3><br />\n\n";
-    //print_r($rows);
-    //echo "</pre>";
-    //echo "<br />\n";
-}
-$record = 1;
-foreach ($dbh->query($sql) as $row)
-{
-    echo "<div id='info'>";
-    print "<b>Record $record" . '<br />' . "</b>";
-    print "\tRecord ID: " . '<b>' . $row['band_id'] . '</b>' . "<br />";
-    print "\tName: " . '<b>' . $row['band_name'] . '</b>' . "<br />";
-    print "\tEmail: " . '<b>' . $row['band_email'] . '</b>' . "<br />";
-    print "\tPhone: " . '<b>' . $row['band_phone'] . '</b>' . "<br />";
-    print "\tWebsite: " . '<b>' . $row['band_website'] . '</b>' . "<br />";
-    print "\tShort Bio: " . '<b>' . $row['band_shortBio'] . '</b>' . "<br />";
-    print "\tlong Bio: " . '<b>' . $row['band_longBio'] . '</b>' . "<br />";
-    print "\tIcon path: " . '<b>' . $row['band_promoIcon'] . '</b>' . "<br />";
-    print "\tPicture path: " . '<b>' . $row['band_promoPic'] . '</b>' . "<br />";
-    print "\tGenre: " . '<b>' . $row['band_genre'] . '</b>' . "<br /><br />\n";
-    $record++;
-    echo "\n</div>";
+    //echo "This page did not come from a valid form submission.<br />\n";
 }
 
 // close the database connection
+header("Location: ../bands_addPage.php");
 $dbh = null;
+
 ?>
