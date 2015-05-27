@@ -72,11 +72,11 @@ if (!isset($_SESSION['user_email'])){
 // if user logged in following code will run and display logout as well as navigation bar depending on user's access
 // level.
 } else {
-    $editBands = "<a href='bands_addPage.php' title='edit Messages'>+Bands </a>";
-    $editMessages = "<a href='message_addPage.php' title='Add Messages'>+Messages </a>";
-    $editEvents = "<a href='events_addPage.php' title='edit Messages'>+Events </a>";
-    $editUsers = "<a href='users_addPage.php' title='edit Messages'>+Members </a>";
-    $editGenre = "<a href='genre_addPage.php' title='edit Messages'>+Genre </a>";
+    $editBands = "<a href='bands_addPage.php?pageName=editBands' title='edit Messages'>+Bands </a>";
+    $editMessages = "<a href='message_addPage.php?pageName=editMessages' title='Add Messages'>+Messages </a>";
+    $editEvents = "<a href='events_addPage.php?pageName=editEvents' title='edit Messages'>+Events </a>";
+    $editUsers = "<a href='users_addPage.php?pageName=editUsers' title='edit Messages'>+Members </a>";
+    $editGenre = "<a href='genre_addPage.php?pageName=editGenre' title='edit Messages'>+Genre </a>";
 
     echo "<div class='row-right'>";
     echo "<div class= 'navLoggedIn'>";
