@@ -83,7 +83,7 @@
                             </div>
                         </div>
                         <div class="imgBox90">
-                            <img src="database/images/musos/Celtic-Fyre-Wall-with-Fire8.jpg" alt="Dynamic image from databse" >
+                            <img src="assets/img/Celtic-Fyre-Wall-with-Fire8.jpg" alt="Dynamic image from databse" >
                         </div>
                         <div class="txtBox100x30">
                             <div class="row-fixedHeight">
@@ -111,7 +111,7 @@
                             </div>
                         </div>
                         <div class="imgBox90">
-                            <img  src="database/images/events/AVIVA-LANE500.jpg" alt="Dynamic event image" >
+                            <img  src="assets/img/AVIVA-LANE500.jpg" alt="Dynamic event image" >
                         </div>
                         <div class="txtBox100x30">
                             <div class="row-fixedHeight">
