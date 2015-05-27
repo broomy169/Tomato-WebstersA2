@@ -69,7 +69,7 @@ $feed->handle_content_type();
     <div class="row row-padding-small row-dgray">
         <div class="container">
             <div class="col w-2col m-2col">
-                <a href="signUp.php.html">
+                <a href="signUp.php">
                     <div class="cta">
                         <div class="txtBox100x20">
                             <div class="row-fixedHeight">
