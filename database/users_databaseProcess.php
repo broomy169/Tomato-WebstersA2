@@ -33,11 +33,11 @@ user_phone = '$_REQUEST[user_phone]', user_phoneAfterHours = '$_REQUEST[user_pho
 
 
     if ($dbh->exec($sql)) {
-        $_SESSION['userEdit'] = "Member " . $_REQUEST[user_firstName]. " " . $_REQUEST[user_lastName] ."'s details
+        $_SESSION['Edit'] = "Member " . $_REQUEST[user_firstName]. " " . $_REQUEST[user_lastName] ."'s details
          successfully updated";
         //echo "<div id='update'><h2>Updated $_REQUEST[user_firstName] $_REQUEST[user_lastName] $record</h2></div>";
     } else {
-        $_SESSION['userEdit'] = "Member " . $_REQUEST[user_firstName] .  " " . $_REQUEST[user_lastName] . "'s details
+        $_SESSION['Edit'] = "Member " . $_REQUEST[user_firstName] .  " " . $_REQUEST[user_lastName] . "'s details
         Not updated. Back end issue,
         contact system/server administrator";
         //echo "<div id='update'><h2>Not updated</h2></div>";
@@ -49,11 +49,11 @@ else if ($_REQUEST['submit'] == "Delete Entry")
     $sql = "DELETE FROM Users WHERE user_id = $_REQUEST[user_id]";
     //echo "<p>Query: " . $sql . "</p>\n<p><strong>";
     if ($dbh->exec($sql)) {
-        $_SESSION['userEdit'] = "Member " . $_REQUEST[user_firstName]. " " . $_REQUEST[user_lastName] . "
+        $_SESSION['Edit'] = "Member " . $_REQUEST[user_firstName]. " " . $_REQUEST[user_lastName] . "
         successfully Deleted.";
         //echo "<div id='update'><h2>Deleted: $_REQUEST[band_name]</h2></div>";
     } else {
-        $_SESSION['userEdit'] = "Member " . $_REQUEST[user_firstName]. " " . $_REQUEST[user_lastName] . "
+        $_SESSION['Edit'] = "Member " . $_REQUEST[user_firstName]. " " . $_REQUEST[user_lastName] . "
         not Deleted. Please contact system/server admin";
         //echo "<div id='update'><h2>Not deleted</h2></div>";
     }
