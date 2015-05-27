@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3335b83b-8347-4055-980b-b7b3a36839f3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/users_access.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/users_inc_adminAccessManage.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/users_inc_freeAccessManage.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/users_inc_paidAccessManage.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/database.sqlite" afterPath="$PROJECT_DIR$/database/database.sqlite" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/band_list.php" afterPath="$PROJECT_DIR$/database/band_list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/band_validateEditForm.js" afterPath="$PROJECT_DIR$/database/band_validateEditForm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/events_list.php" afterPath="$PROJECT_DIR$/database/events_list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/message_list.php" afterPath="$PROJECT_DIR$/database/message_list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/message_manageList.php" afterPath="$PROJECT_DIR$/database/message_manageList.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Tomato-WebstersA2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,54 +27,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="band_validateEditForm.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="band_validateEditForm.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/database/band_validateEditForm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="676">
               <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="band_inc_manageList.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/band_inc_manageList.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-73.75" vertical-offset="0" max-vertical-offset="1965">
-              <caret line="118" column="7" selection-start-line="118" selection-start-column="7" selection-end-line="118" selection-end-column="7" />
-              <folding>
-                <marker date="1432718037000" expanded="true" signature="3091:3109" placeholder="SELECT * FRO..Band..." />
-                <marker date="1432718037000" expanded="true" signature="3567:5652" placeholder="..." />
-                <marker date="1432718037000" expanded="true" signature="3649:5632" placeholder="..." />
-                <marker date="1432718037000" expanded="true" signature="3998:4384" placeholder="..." />
-                <marker date="1432718037000" expanded="true" signature="4979:5170" placeholder="..." />
-                <marker date="1432718037000" expanded="true" signature="5186:5372" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="band_list.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/band_list.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.916667" vertical-offset="473" max-vertical-offset="2265">
-              <caret line="57" column="86" selection-start-line="57" selection-start-column="86" selection-end-line="57" selection-end-column="86" />
-              <folding>
-                <marker date="1432719083000" expanded="true" signature="576:594" placeholder="SELECT * FRO..band..." />
-                <marker date="1432719083000" expanded="true" signature="1093:1153" placeholder="SELECT * FRO..Band..." />
-                <marker date="1432719083000" expanded="true" signature="1645:1934" placeholder="..." />
-                <marker date="1432719083000" expanded="true" signature="1794:1934" placeholder="..." />
-                <marker date="1432719083000" expanded="true" signature="2146:2368" placeholder="..." />
-                <marker date="1432719083000" expanded="true" signature="2197:2337" placeholder="..." />
-                <marker date="1432719083000" expanded="true" signature="2455:2560" placeholder="..." />
-                <marker date="1432719083000" expanded="true" signature="2682:2727" placeholder="..." />
-                <marker date="1432719083000" expanded="true" signature="2868:3049" placeholder="..." />
-                <marker date="1432719083000" expanded="true" signature="3854:4048" placeholder="..." />
-                <marker date="1432719083000" expanded="true" signature="3905:4017" placeholder="..." />
-                <marker date="1432719083000" expanded="true" signature="4142:4247" placeholder="..." />
-                <marker date="1432719083000" expanded="true" signature="4142:4305" placeholder="..." />
-                <marker date="1432719083000" expanded="true" signature="5493:5520" placeholder="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -134,10 +82,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="message_manageList.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="message_manageList.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/message_manageList.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48312885" vertical-offset="0" max-vertical-offset="1350">
+            <state vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="1350">
               <caret line="20" column="156" selection-start-line="20" selection-start-column="156" selection-end-line="20" selection-end-column="156" />
               <folding>
                 <marker date="1432719329000" expanded="true" signature="1861:1882" placeholder="SELECT * FRO..Message..." />
@@ -701,52 +649,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/band_validateEditForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
-          <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/band_inc_manageList.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-73.75" vertical-offset="0" max-vertical-offset="1965">
-          <caret line="118" column="7" selection-start-line="118" selection-start-column="7" selection-end-line="118" selection-end-column="7" />
-          <folding>
-            <marker date="1432718037000" expanded="true" signature="3091:3109" placeholder="SELECT * FRO..Band..." />
-            <marker date="1432718037000" expanded="true" signature="3567:5652" placeholder="..." />
-            <marker date="1432718037000" expanded="true" signature="3649:5632" placeholder="..." />
-            <marker date="1432718037000" expanded="true" signature="3998:4384" placeholder="..." />
-            <marker date="1432718037000" expanded="true" signature="4979:5170" placeholder="..." />
-            <marker date="1432718037000" expanded="true" signature="5186:5372" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/band_list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.916667" vertical-offset="473" max-vertical-offset="2265">
-          <caret line="57" column="86" selection-start-line="57" selection-start-column="86" selection-end-line="57" selection-end-column="86" />
-          <folding>
-            <marker date="1432719083000" expanded="true" signature="576:594" placeholder="SELECT * FRO..band..." />
-            <marker date="1432719083000" expanded="true" signature="1093:1153" placeholder="SELECT * FRO..Band..." />
-            <marker date="1432719083000" expanded="true" signature="1645:1934" placeholder="..." />
-            <marker date="1432719083000" expanded="true" signature="1794:1934" placeholder="..." />
-            <marker date="1432719083000" expanded="true" signature="2146:2368" placeholder="..." />
-            <marker date="1432719083000" expanded="true" signature="2197:2337" placeholder="..." />
-            <marker date="1432719083000" expanded="true" signature="2455:2560" placeholder="..." />
-            <marker date="1432719083000" expanded="true" signature="2682:2727" placeholder="..." />
-            <marker date="1432719083000" expanded="true" signature="2868:3049" placeholder="..." />
-            <marker date="1432719083000" expanded="true" signature="3854:4048" placeholder="..." />
-            <marker date="1432719083000" expanded="true" signature="3905:4017" placeholder="..." />
-            <marker date="1432719083000" expanded="true" signature="4142:4247" placeholder="..." />
-            <marker date="1432719083000" expanded="true" signature="4142:4305" placeholder="..." />
-            <marker date="1432719083000" expanded="true" signature="5493:5520" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/events_list.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-22.166666" vertical-offset="3173" max-vertical-offset="3825">
@@ -790,7 +692,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/database/message_manageList.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48312885" vertical-offset="0" max-vertical-offset="1350">
+        <state vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="1350">
           <caret line="20" column="156" selection-start-line="20" selection-start-column="156" selection-end-line="20" selection-end-column="156" />
           <folding>
             <marker date="1432719329000" expanded="true" signature="1861:1882" placeholder="SELECT * FRO..Message..." />
@@ -798,6 +700,52 @@
             <marker date="1432719329000" expanded="true" signature="2731:3778" placeholder="..." />
             <marker date="1432719329000" expanded="true" signature="2754:3758" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/band_inc_manageList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9624413" vertical-offset="1260" max-vertical-offset="1965">
+          <caret line="118" column="7" selection-start-line="118" selection-start-column="7" selection-end-line="118" selection-end-column="7" />
+          <folding>
+            <marker date="1432718037000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Band..." />
+            <marker date="1432718037000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1432718037000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1432718037000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1432718037000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1432718037000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/band_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.21932516" vertical-offset="1013" max-vertical-offset="2265">
+          <caret line="57" column="86" selection-start-line="57" selection-start-column="86" selection-end-line="57" selection-end-column="86" />
+          <folding>
+            <marker date="1432719083000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..band..." />
+            <marker date="1432719083000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Band..." />
+            <marker date="1432719083000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1432719083000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1432719083000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1432719083000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1432719083000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1432719083000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1432719083000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1432719083000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1432719083000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1432719083000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1432719083000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1432719083000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/band_validateEditForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+          <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
