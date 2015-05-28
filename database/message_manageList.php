@@ -9,39 +9,41 @@ isset($urlVar) || $urlVar = "";
 include($urlVar . "database_connect.php");
 ?>
 <script src="database/message_validateAddForm.js" type="text/javascript"></script>
-<div class='col w-2col m-2col float-Left'>
-<h1>Add Messages</h1>
-		<?php
-		date_default_timezone_set('Australia/Brisbane');
-        $date = date('d/m/y', time());
-		?>
-<form id="addMessage" name="addMessage" method="post" enctype="multipart/form-data" action="database/message_databaseProcess.php">
-    <fieldset>
-        <h2>Add new Message record:</h2>
-        <input type="hidden" name="message_createDate" id="message_createDate" value="<?php echo"$date";?>">
-        <p><label for="message_expDate">Expiry Date:- </label><input type="text" name="message_expDate" id="message_expDate" placeholder="DD/MM/YYYY" value=""><span class="error">*</span>
-        <p><label for="message_title">Title:- </label><input type="text" name="message_title" id="message_title" value=""><span class="error">*</span>
-        <p><label for="message_content">Message:- </label><textarea type="text" name="message_content" id="message_content" value=""></textarea>
-        <p><label for="message_link">Link:- </label><input type="text" name="message_link" id="message_link" value=""><span class="error">*</span></p>
-        <p><label for="message_linkTitle">Link Title(Optional):- </label><input type="text" name="message_linkTitle" id="message_linkTitle" value=""></p>
-        <input type="submit" name="submit" id="submit" value="Add Message" onClick="return msgValidateAddForm()">
-        <label><br></label>
-    </fieldset>
-</form>
-</div>
+<div class="col">
+    <div class='col w-2col m-2col'>
+    <h1>Add Messages</h1>
+            <?php
+            date_default_timezone_set('Australia/Brisbane');
+            $date = date('d/m/y', time());
+            ?>
+    <form id="addMessage" name="addMessage" method="post" enctype="multipart/form-data" action="database/message_databaseProcess.php">
+        <fieldset>
+            <h2>Add new Message record:</h2>
+            <input type="hidden" name="message_createDate" id="message_createDate" value="<?php echo"$date";?>">
+            <p><label for="message_expDate">Expiry Date:- </label><input type="text" name="message_expDate" id="message_expDate" placeholder="DD/MM/YYYY" value=""><span class="error">*</span>
+            <p><label for="message_title">Title:- </label><input type="text" name="message_title" id="message_title" value=""><span class="error">*</span>
+            <p><label for="message_content">Message:- </label><textarea type="text" name="message_content" id="message_content" value=""></textarea>
+            <p><label for="message_link">Link:- </label><input type="text" name="message_link" id="message_link" value=""><span class="error">*</span></p>
+            <p><label for="message_linkTitle">Link Title(Optional):- </label><input type="text" name="message_linkTitle" id="message_linkTitle" value=""></p>
+            <input type="submit" name="submit" id="submit" value="Add Message" onClick="return msgValidateAddForm()">
+            <label><br></label>
+        </fieldset>
+    </form>
+    </div>
 
-<div class='col w-2col m-2col'>
-    <div class="formInfo">
-        <h1>How To Guide</h1>
-        <h2>Please read the tips below to help you complete the form.</h2>
-        <h3>* = <em>required field</em></h3>
-        <ul>
-            <li>Try to be as descriptive as possible.</li>
-            <li>Make sure you fill out the contact details correctly. You cant be booked for a gig if you cant be contacted. </li>
-            <li>Date is to be added as "dd/mm/yyy" i.e. 15/06/2015</li>
-            <li>Add your unformatted external link if you like.</li>
-            <li>You can come back at any time and edit this info, however get as much info on as possible.</li>
-        </ul>
+    <div class='col w-2col m-2col'>
+        <div class="formInfo">
+            <h1>How To Guide</h1>
+            <h2>Please read the tips below to help you complete the form.</h2>
+            <h3>* = <em>required field</em></h3>
+            <ul>
+                <li>Try to be as descriptive as possible.</li>
+                <li>Make sure you fill out the contact details correctly. You cant be booked for a gig if you cant be contacted. </li>
+                <li>Date is to be added as "dd/mm/yyy" i.e. 15/06/2015</li>
+                <li>Add your unformatted external link if you like.</li>
+                <li>You can come back at any time and edit this info, however get as much info on as possible.</li>
+            </ul>
+        </div>
     </div>
 </div>
 
