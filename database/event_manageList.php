@@ -47,6 +47,7 @@ if (!isset($_SESSION['user_email'])){
 
 	  //single echo added for all html code
 	  echo "
+      <script src='database/event_validateEditForm.js' type='text/javascript'></script>
 	  <div class='col'>  
         <div class='manageList box'>
 		  <h1>$row[event_title]</h1>
@@ -75,7 +76,7 @@ if (!isset($_SESSION['user_email'])){
 
                   
                   
-				  <input type='submit' name='submit' value='Update Information' class='updateButton'>
+				  <input type='submit' name='submit' value='Update Information' class='updateButton' onClick='return eveValidateEditForm();'>
 				  <input type='submit' name='submit' value='Delete Entry' class='deleteButton' >
 			  </fieldset>
 		  </form>
