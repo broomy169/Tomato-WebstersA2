@@ -9,7 +9,7 @@ isset($urlVar) || $urlVar = "";
 include($urlVar . "database_connect.php");
 ?>
 <script src="database/message_validateAddForm.js" type="text/javascript"></script>
-<div class='col w-2col m-2col'>
+<div class='col w-2col m-2col float-Left'>
 <h1>Add Messages</h1>
 		<?php
 		date_default_timezone_set('Australia/Brisbane');
@@ -81,7 +81,7 @@ include($urlVar . "database_connect.php");
             //single echo added for all html code
             echo "
             <div class='col'>
-                <div class='manageList'>
+                <div class='manageList box'>
                     <form id='viewMessage' name='viewMessage$editTally' method='post' enctype='multipart/form-data' action='database/message_databaseProcess.php'>
                         <fieldset>
                             <h4>$row[message_title] by Insert message creator here!!!</h4><input type='hidden' name='message_id' value='$row[message_id]' >

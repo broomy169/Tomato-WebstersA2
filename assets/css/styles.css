@@ -452,7 +452,7 @@ row and text wide
 /*--------------managedList---------------*/
 
 .manageList{
-    margin: 0 20% 0;
+    margin: 0 10% 0;
     
 }
 
@@ -479,6 +479,20 @@ form #submit, .updateButton {
     color: #000000;
     border: double;
     height: 35px;
+}
+
+.deleteButton {
+    color: #000000;
+    background-color: #ff5b54;
+    text-align: center;
+    border: double;
+    height: 35px;
+
+}
+
+.updateButton,
+.deleteButton {
+        width: 40%;
 }
 
 form #submit:hover, .updateButton:hover {
@@ -546,12 +560,13 @@ form textarea {
 
 /*------manageUserEvents------*/
 
-.manageUserEvents .deleteButton {
+.deleteButton {
     color: #000000;
     background-color: #ff5b54;
     text-align: center;
     border: double;
     height: 35px;
+    width: 40%
 }
 
 .manageUserEvents .deleteButton:hover {
