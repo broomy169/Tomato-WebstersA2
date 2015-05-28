@@ -12,7 +12,7 @@ isset($urlVar) || $urlVar = "";
 include($urlVar . "database_connect.php");
 ?>
 <script src='database/band_validateAddForm.js' type='text/javascript'></script>
-<script src= 'database/band_validateEditForm.js' type='text/javascript'></script>
+<script src='database/band_validateEditForm.js' type='text/javascript'></script>
 <div class='col w-2col m-2col'>
 <h1>Add Band</h1>
 <form id="addRecord" name="addRecord" method="post" enctype="multipart/form-data" action="database/band_inc_databaseProcess.php">
@@ -44,35 +44,29 @@ include($urlVar . "database_connect.php");
         <p><label for="file">Upload Icon/Logo:</label><input type="file" name="iconfile" id="iconfile" value=""><span class="error">*</span></p>
         <p><label for="file">Upload Image:</label><input type="file" name="imagefile" id="imagefile" value=""><span class="error">*</span></p>
         <input type="submit" name="submit" id="submit" value="Add Entry" onClick="return validateAddForm();">
-        <label><br></label>
-        <div id="box" title="Things to note">
-        <label><p>Note:</p> </label>
-            <p> - Individual upload for icon or photo not allowed.</p>
-            <p> When adding or updating record, both photo and icon must be uploaded on same time. </p>
+            </fieldset>
+        </form>
+    </div>
+
+
+    <div class='col w-2col m-2col'>
+        <div class="formInfo">
+            <h1>How To Guide</h1>
+            <h2>Please read the tips below to help you complete the form.</h2>
+            <h3>* = <em>required field</em></h3>
+            <ul>
+                <li>Try to be as descriptive as possible.</li>
+                <li>Make sure you fill out the contact details correctly. You cant be booked for a gig if you cant be contacted. </li>
+                <li>Short Bio is for a quick description. i.e. 2 sentences maximum.</li>
+                <li>Long Bio is a great place to list past gigs, style and influences.</li>
+                <li>Upload both a an Icon(Think small image) and a larger image to grab peoples attention.</li>
+                <li>You can come back at any time and edit this info, however get as much info on as possible.</li>
+
+            </ul>
         </div>
-    </fieldset>
-</form>
-</div>
-
-<div class='col w-2col m-2col'>
-    <div class="formInfo">
-        <h1>How To Guide</h1>
-        <h2>Please read the tips below to help you complete the form.</h2>
-        <h3>* = <em>required field</em></h3>
-        <ul>
-            <li>Try to be as descriptive as possible.</li>
-            <li>Make sure you fill out the contact details correctly. You cant be booked for a gig if you cant be contacted. </li>
-            <li>Short Bio is for a quick description. i.e. 2 sentences maximum.</li>
-            <li>Long Bio is a great place to list past gigs, style and influences.</li>
-            <li>Upload both a an Icon(Think small image) and a larger image to grab peoples attention.</li>
-            <li>You can come back at any time and edit this info, however get as much info on as possible.</li>
-
-        </ul>
     </div>
 </div>
 
-<div class='clearBlock'>
-</div>
 
 
     <?php
