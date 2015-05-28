@@ -41,7 +41,7 @@ rows
 /* row-colors */
 
 .row-white {
-    background: #fff;
+    background: rgba(255, 255, 255, 0.85);
     
 }
 .row-white a{
@@ -49,7 +49,7 @@ rows
 }
 
 .row-gray {
-    background: #dedede;
+    background: rgba(222, 222, 222, 0.84);
     color: black;
 }
 .row-gray * h3{
@@ -60,17 +60,17 @@ rows
 }
 
 .row-dgray {
-    background: #7b7b7b;
+    background: rgba(123, 123, 123, 0.85);
 }
 
 .row-redBlack {
-    background: #3e0000;
+    background: rgba(62, 0, 0, 0.85);
     color: #ddd;
 }
 
 
 .row-black {
-    background: #1e1e1e;
+    background: rgba(30, 30, 30, 0.85);
     color: #ddd;
 }
 
