@@ -75,7 +75,12 @@ include($urlVar . "database_connect.php");
             ++$editTally;
             
 
-
+            if ($editTally % 2 != 0)
+            {
+                echo"
+                        <div class='clearblock'>
+                    ";
+            }
             //single echo added for all html code
             echo "
             <div class='col w-2col m-2col'>
@@ -97,11 +102,9 @@ include($urlVar . "database_connect.php");
             ";
             
             // adds a clearblock on every second record to keep page alligned
-            if ($editTally % 2 == 0)
+            if ($editTally % 2 != 0)
             {
                 echo"
-                        <div class='clearblock'>
-                        <br>
                         </div>
                     ";
             }
