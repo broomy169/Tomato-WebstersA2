@@ -489,7 +489,7 @@ form input {
     /*display: table-cell;*/
     margin: 2px;
     padding: 2px;
-    width: 70%;
+    width: 60%;
     align-content: center;
 }
 
@@ -497,7 +497,7 @@ form textarea {
     /*display: table-cell;*/
     margin: 2px;
     padding: 2px;
-    width: 70%;
+    width: 60%;
     height: 60px;
 }
 
