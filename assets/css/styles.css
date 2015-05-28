@@ -526,6 +526,9 @@ form input {
     padding: 2px;
     width: 60%;
     align-content: center;
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
 }
 
 form textarea {
@@ -534,6 +537,9 @@ form textarea {
     padding: 2px;
     width: 60%;
     height: 60px;
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
 }
 
 .formInfo {

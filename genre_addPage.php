@@ -28,7 +28,6 @@
             </li>
             <li><a href="events.php">Events</a>
             </li>
-            </li>
             <li><a href="message.php">Messages</a>
             </li>
             <li><a href="about.php">About</a>
@@ -48,7 +47,7 @@
 
 <!-- START of manageUserEvents list -->
 <div class="row row-padding-large row-gray">
-    <div class="container manageUserBands">
+    <div class="container">
         <?php
         $urlVar = 'database/';
         include($urlVar . 'genre_manageList.php'); //included file to pull and displays all artists/band information

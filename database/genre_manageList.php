@@ -37,14 +37,18 @@ foreach ($dbh->query($sql) as $row){
 
     //single echo added for all html code
     echo "
-            <form id='editRecord' name='editRecord$editTally' method='post' enctype='multipart/form-data' action='database/genre_databaseProcess.php'>
-            <fieldset>
-            <label>Genre Name: </label><input type='text' name='genre_name' value='$row[genre_name]' >
-            <input type='hidden' name='genre_id' value='$row[genre_id]' >
-            <input type='submit' name='submit' value='Update Information' class='updateButton'>
-            <input type='submit' name='submit' value='Delete Entry' class='deleteButton' >
-            </fieldset>
-            </form>
+            <div class='col'>
+                <div class='manageList box'>
+                    <form id='editRecord' name='editRecord$editTally' method='post' enctype='multipart/form-data' action='database/genre_databaseProcess.php'>
+                        <fieldset>
+                            <label>Genre Name: </label><input type='text' name='genre_name' value='$row[genre_name]' >
+                            <input type='hidden' name='genre_id' value='$row[genre_id]' >
+                            <input type='submit' name='submit' value='Update Information' class='updateButton'>
+                            <input type='submit' name='submit' value='Delete Entry' class='deleteButton' >
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
             \n"
         //single echo ends here
     ;?>
