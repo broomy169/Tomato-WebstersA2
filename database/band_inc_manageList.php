@@ -10,6 +10,11 @@ if (!isset($_SESSION['user_email'])){
 
 isset($urlVar) || $urlVar = "";
 include($urlVar . "database_connect.php");
+
+$sql = "SELECT * FROM Genre";
+
+$genreArray = array();
+
 ?>
 <script src='database/band_validateAddForm.js' type='text/javascript'></script>
 <script src='database/band_validateEditForm.js' type='text/javascript'></script>
@@ -24,14 +29,16 @@ include($urlVar . "database_connect.php");
                 <label for="band_genre">Genre:- </label>
                 <select name="band_genre" id="band_genre">
                     <option value="emptygenre">Please choose genre...</option>
-                    <option value="Rock">Rock</option>
-                    <option value="Pop">Pop</option>
-                    <option value="Metal">Metal</option>
-                    <option value="Jazz">Jazz</option>
-                    <option value="Classical">Classical</option>
-                    <option value="Country">Country</option>
-                    <option value="Hip Hop">Hip Hop</option>
-                    <option value="Rap">Rap</option>
+
+                    <?php
+                    $tally = 0;
+                    foreach($dbh->query($sql) as $row){
+                        echo "<option value='".$row['genre_name']."'>".$row['genre_name']."</option>";
+                        $_SESSION['gen'][$tally] = $row['genre_name'];
+                        $tally++;
+
+                    }
+                    ?>
                 </select>
                 <span class="error">*</span>
             </p>
@@ -86,6 +93,7 @@ include($urlVar . "database_connect.php");
         foreach ($dbh->query($sql) as $row){
             ++$editTally;
 
+            $genr = $_SESSION['gen'][$editTally];
             //single echo added for all html code
             echo "
             <div class='col'>
