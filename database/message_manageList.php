@@ -88,7 +88,7 @@ include($urlVar . "database_connect.php");
                             <label>Create Date:</label><input type='text' name='message_createDate' value='$row[message_createDate]' readonly>
                             <label>Expiry Date:</label><input type='text' name='message_expDate' value='$row[message_expDate]'>
                             <label>Title:</label><input type='text' name='message_title' value='$row[message_title]'>
-                            <label>Content:</label><input type='textbox' name='message_content' value='$row[message_content]'>
+                            <label>Message:</label><textarea type='text' name='message_content' value='$row[message_content]'>$row[message_content]</textarea>
                             <label>Link:</label><input type='text' name='message_link' value='$row[message_link]'>
                             <label>Link Title(Optional):</label><input type='text' name='message_linkTitle' value='$row[message_linkTitle]'>
                             <input type='submit' name='submit' value='Update Information' class='updateButton'>
