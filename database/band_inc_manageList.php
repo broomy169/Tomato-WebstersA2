@@ -108,6 +108,7 @@ include($urlVar . "database_connect.php");
                         <option>Hip Hop</option>
                         <option>Rap</option>
                     </select>
+                    <br>
                     <label>Phone: </label><input type='text' name='band_phone' value='$row[band_phone]' >
                     <label>Email: </label><input type='text' name='band_email' value='$row[band_email]' >
                     <label>Website: </label><input type='text' name='band_website' value='$row[band_website]' >

@@ -4,6 +4,7 @@
 
     echo" 
 		<script src='database/event_validateAddForm.js' type='text/javascript'></script>
+        <div class='col'>
             <div class='col w-2col m-2col'>
                 <h1>Add Events</h1>
 
@@ -30,38 +31,28 @@
                     </fieldset>
                 </form>
             </div>
+                        
             <div class='col w-2col m-2col'>
-                <div class='addEventHelp'>
-                    <h1>Helpfull hints </h1>
+                <div class='formInfo'>
+                    <h1>How To Guide</h1>
+                    <h2>To <em>successfully</em> enter an event you will need to have entered a number of valid fields.</h2>
+                    <h3>* = <em>required field</em></h3>
+                    <ul>
+                        <li>These fields are required to make it easier for your potential audience to connect with your event</li>
+                        <li>Make sure you fill out the contact details correctly.</li>
+                        <li>By entering as much info as possible about your event you will <strong>attract more punters</strong>.</li>
+                        <li>Dont forget to <em>include,</em> images, <strong>both a large format and smaller format</strong> to promote your event, you will get little attention if you do not include the images.</li>
+                        <li>Short Bio is for a quick description. i.e. 2 sentences maximum.</li>
+                        <li>Long Bio is a great place to list past gigs, style and influences.</li>
+                        <li>Upload both a an Icon(Think small image) and a larger image to grab peoples attention.</li>
+                        <li>You can come back at any time and edit this info, however get as much info on as possible.</li>
 
-                    <h2>To <em>successfully</em> enter an event you will need to have entered a number of valid fields. </h2>
-
-                    <p>
-                        These fields are required to make it easier for your potential audience to connect with your event
-                    </p>
-                    <p>
-                        By entering as much info as possible about your event you will <strong>attract more punters</strong>.
-                    </p>
-                    <p>
-                        Dont forget to <em>include,</em> images, <strong>both a large format and smaller format</strong> to promote your event, you will get little attention if you do not include the images.
-                    </p>
-
-                    <p>
-                        large image size will be scaled to XXX by XXX pixels
-                    </p>
-
-                    <p>
-                        Icon image size will be scaled to XXX by XXX pixels
-                    </p>
-
-                    <p>
-                        if you run into trouble please do not hesitate to <a href='mailto:admin@townsvillemusic.org'>email us.</a>
-                    </p>
+                    </ul>
                 </div>
+            </div>
 
-            </div>
-            <div class='clearBlock'>
-            </div>
+
+        </div>
 
 
 

@@ -47,11 +47,12 @@ if (!isset($_SESSION['user_email'])){
 
 	  //single echo added for all html code
 	  echo "
-	  <div class='col w-2col m-2col'>   
-		  <h1>Current Event Data/Information:</h1>
+	  <div class='col'>  
+        <div class='manageList box'>
+		  <h1>$row[event_title]</h1>
+          <h2>$row[event_date]</h2>
 		  <form id='eventRecord' name='eventRecord$editTally' method='post' enctype='multipart/form-data' action='database/event_databaseProcess.php'>
 			  <fieldset>
-				  <h4><label>Record ID: $row[event_id]</label></h4>
 				  <input type='hidden' name='event_id' value='$row[event_id]' >
 				  <label>Event Name: </label><input type='text' name='event_title' value='$row[event_title]'>
 				  <label>Event Date: </label><input type='text' name='event_date' value='$row[event_date]'>
@@ -62,26 +63,31 @@ if (!isset($_SESSION['user_email'])){
 				  <label>Long Bio: </label><textarea type='text' name='event_longBio' value='$row[event_longBio]'>$row[event_longBio]</textarea>
 				  <label>Price Full: </label><input type='text' name='event_priceFull' value='$row[event_priceFull]'>
 				  <label>Price Concession: </label><input type='text' name='event_priceConc' value='$row[event_priceConc]'>
-				  <p><label for='file'>Icon/Logo:</label><img src='$iconUrl'></p>
-				  <p><label for='file'>Image:</label><img src='$imageUrl'></p>
+                    
+                    <label for='file'>Upload Icon/Logo:</label>
+                    <input type='file' name='iconfile' >
+                    <img src='$iconUrl' alt='Event small image'>
+                    <br>
+                    <label for='file'>Upload Image:</label>
+                    <input type='file' name='imagefile'>
+                    <img src='$imageUrl'  alt='Event large image'>
+                    <br>
+
+                  
+                  
 				  <input type='submit' name='submit' value='Update Information' class='updateButton'>
 				  <input type='submit' name='submit' value='Delete Entry' class='deleteButton' >
 			  </fieldset>
 		  </form>
+        </div>
 	  </div>
 
 	  ";
-        // adds a clearblock on every second record to keep page alligned
-        if ($editTally % 2 == 0)
-        {
-            echo"
-                    <div class='clearblock'>
-                    </div>
-                ";
-        }
-	  
-    }
+      
+  }
+
     // closing database connection here
     $dbh = null;
 
 ?>
+
