@@ -448,6 +448,16 @@ row and text wide
     margin: 2rem;
 }
 
+
+/*--------------managedList---------------*/
+
+.manageList{
+    margin: 0 20% 0;
+    
+}
+
+
+
 /*-------Forms Common--------*/
 form label {
     /*display: table-cell;*/
