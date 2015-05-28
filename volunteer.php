@@ -51,12 +51,30 @@
     <!--TODO: decribe registration benefits, and menbers benefits, paypal link-->
 
     
-    <!-- START of  signup form -->
+    <!-- START of  Vollie Form -->
     <div class="row row-padding-large row-gray">
         <div class="container volunteer">
             <div class="col w-1col m-1col"> 
                 <div class="row-black">
                     <img src="assets/img/TCMC98Neg.gif" alt="TCMC Logo" >
+                    
+                    <div class="imgBox90">
+                        <?php
+                            include("database/images_GenerateRandom.php");
+                        ?>
+                    </div>
+                    
+                    <div class="imgBox90">
+                        <?php
+                            include("database/images_GenerateRandom.php");
+                        ?>
+                    </div>
+                    <div class="imgBox90">
+                        <?php
+                            include("database/images_GenerateRandom.php");
+                        ?>
+                    </div>
+                    
                 </div>
             </div>
             <div class="col w-2col m-2col"> 
@@ -77,6 +95,33 @@
                 <p>Its not a Job!!!</p>
                 <p>Be a part of <strong>your</strong> community.</p>
                 <br>
+                <div class="volSignup box">
+                    <h1>Volunteer Now</h1>
+                    <h2>So what are you waiting for?</h2>
+                    <p>The TCMC is always on the lookout for skilled and unskilled(is there such a thing?) volunteers </p>
+                    <a href="mailto:admin@townsvillemusic.org">The best thing to do is send us an email with a quick description of your time and skills</a>
+                </div>
+            </div>
+            <div class="col w-1col m-1col"> 
+                <div class="row-black">
+                    <img src="assets/img/TCMC98Neg.gif" alt="TCMC Logo" >
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END of  Vollie email -->
+    
+        <!-- START of  signup form -->
+    <div class="row row-padding-large row-white">
+        <div class="container Membership">
+            <div class="col w-1col m-1col"> 
+                <div class="row-black">
+                    <img src="assets/img/TCMC98Neg.gif" alt="TCMC Logo" >
+                </div>
+            </div>
+            <div class="col w-2col m-2col"> 
+                <h1>Become a paid member and reap the rewards</h1>
+
                 <div class="volSignup box">
                     <h1>Volunteer Now</h1>
                     <h2>So what are you waiting for?</h2>
