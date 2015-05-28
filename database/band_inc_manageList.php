@@ -57,14 +57,18 @@ include($urlVar . "database_connect.php");
 </div>
 
 <div class='col w-2col m-2col'>
-    <h1>need to add info on how to correctly fill out form here.</h1>
-    <ul>
-        <li>Tip #1</li>
-        <li>Tip #2</li>
-        <li>Tip #3</li>
-        <li>Tip #4</li>
-        <li>Tip #N</li>
-    </ul>
+    <div class="formInfo">
+        <h1>How To Guide</h1>
+        <ul>
+            <li>Try to be as descriptive as possible.</li>
+            <li>Make sure you fill out the contact details correctly. You cant be booked for a gig if you cant be contacted. </li>
+            <li>Short Bio is for a quick description. i.e. 2 sentences maximum.</li>
+            <li>Long Bio is a great place to list past gigs, style and influences.</li>
+            <li>Upload both a an Icon(Think small image) and a larger image to grab peoples attention.</li>
+            <li>You can come back at any time and edit this info, however get as much info on as possible.</li>
+
+        </ul>
+    </div>
 </div>
 
 <div class='clearBlock'>
