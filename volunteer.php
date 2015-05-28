@@ -54,7 +54,12 @@
     <!-- START of  signup form -->
     <div class="row row-padding-large row-gray">
         <div class="container volunteer">
-            <div class="col w-4col m-4col"> 
+            <div class="col w-1col m-1col"> 
+                <div class="row-black">
+                    <img src="assets/img/TCMC98Neg.gif" alt="TCMC Logo" >
+                </div>
+            </div>
+            <div class="col w-2col m-2col"> 
                 <h1>Be a part of the action - Volunteer</h1>
                 <h2>Music in Townsville cannot survive without <strong>you!</strong></h2>
                 <h3>Volunteering is fun!</h3>
@@ -72,29 +77,22 @@
                 <p>Its not a Job!!!</p>
                 <p>Be a part of <strong>your</strong> community.</p>
                 <br>
-                <div class="volSignup">
+                <div class="volSignup box">
                     <h1>Volunteer Now</h1>
                     <h2>So what are you waiting for?</h2>
                     <p>The TCMC is always on the lookout for skilled and unskilled(is there such a thing?) volunteers </p>
                     <a href="mailto:admin@townsvillemusic.org">The best thing to do is send us an email with a quick description of your time and skills</a>
                 </div>
             </div>
+            <div class="col w-1col m-1col"> 
+                <div class="row-black">
+                    <img src="assets/img/TCMC98Neg.gif" alt="TCMC Logo" >
+                </div>
+            </div>
         </div>
     </div>
     <!-- END of  signup form -->
 
-    <!-- START guilt trip -->
-    <div class="row row-padding row-black">
-        <a href="volunteer.php">
-            <div class="container">
-                <div class="vollieCTA">
-                    <h2 class="intro-text">"Its so much more fun when you are involved, you get to meet everyone and enjoy the spirit of entertaining" - Nadia first time volunteer.</h2>
-                    <h2>Help us and have fun!!</h2>
-                </div>
-            </div>
-        </a>
-    </div>
-    <!-- END guilt trip -->
     <!-- START minor call to action -->
     <div class="row row-padding-small row-gray">
         <div class="container cta-4x">
