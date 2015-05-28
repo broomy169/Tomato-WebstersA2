@@ -28,7 +28,7 @@ if(isset($_SESSION['msg']) && isset($_SESSION['msgNumber'])){
 if (!isset($_SESSION['user_email'])){
     ?>
     <div class='row-right'>
-        <div class= 'navLoggedIn'>";
+        <div class= 'navLoggedIn'>
                     <!-- showing login/login form and signup menu links-->
             <a href='#' id='loginLink' onclick='run();'>Log In</a>
             <div id='login'>
