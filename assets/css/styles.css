@@ -459,6 +459,17 @@ row and text wide
 
 
 /*-------Forms Common--------*/
+form {
+    background: -webkit-gradient(linear, bottom, left 175px, from(#CCCCCC), to(#EEEEEE));
+    background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);  
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding:10px;
+    border: 1px solid #999;
+    border: inset 1px solid #333;
+}
+
 form label {
     /*display: table-cell;*/
     display:inline-block;
