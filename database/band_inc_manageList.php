@@ -127,7 +127,7 @@ include($urlVar . "database_connect.php");
                     <input type='file' name='imagefile'>
                     <img src='database/$row[band_promoPic]'  alt='Band large image'>
                     </p>
-                    <input type='submit' name='submit' value='Update Information' class='updateButton' onClick='return validateEditForm();'>
+                    <input type='submit' name='submit' value='Update Information' class='updateButton' onClick='return validateEditForm($editTally);'>
                     <input type='submit' name='submit' value='Delete Entry' class='deleteButton' >
                 </fieldset>
             </form>

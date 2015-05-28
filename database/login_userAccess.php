@@ -13,13 +13,10 @@ echo "<script src='database/login_showLogin.js' type='text/javascript'></script>
 $msg = "";
 $msgNumber = 0;
 
-
-
-
 //getting current page's url and sending it to logout page. So after logout it can redirect to same page user
 // was on before logout
 $url = $_SERVER["REQUEST_URI"];
-$_SESSION['url'] = $_SERVER["REQUEST_URI"];
+$_SESSION["url"] = $_SERVER["REQUEST_URI"];
 
 if(isset($_SESSION['msg']) && isset($_SESSION['msgNumber'])){
     $msg = $_SESSION['msg'];
@@ -48,8 +45,6 @@ if (!isset($_SESSION['user_email'])){
         
         <div class='navMessage'>
         <?php
-
-        
 
         //following code displays invalid input (validation) login messages
         if(isset($_SESSION['msg']) && $msgNumber == 1) {
@@ -121,7 +116,6 @@ if (!isset($_SESSION['user_email'])){
     } else if ($_SESSION['user_accessLevel'] == "paid") {
         echo $editBands;
         echo $editMessages;
-        
 
     } else if ($_SESSION['user_accessLevel'] == "full"){
         echo $editBands;

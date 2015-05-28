@@ -83,6 +83,7 @@ else {
 }
 
 // close the database connection
+
 header("Location: ../bands_addPage.php");
 $dbh = null;
 
