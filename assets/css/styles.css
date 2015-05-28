@@ -501,7 +501,21 @@ form textarea {
     height: 60px;
 }
 
+.formInfo {
+    margin: 0 2em 0;
+}
 
+.formInfo ul{
+    margin: 2em 0em 2em;
+    text-align: left;
+    
+}
+
+.formInfo li{
+    margin: 2em 0em 2em;
+    list-style-type: circle;
+    
+}
 
 /*------eventAdd--------*/
 

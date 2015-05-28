@@ -14,11 +14,9 @@ include($urlVar . "database_connect.php");
 <script src='database/band_validateAddForm.js' type='text/javascript'></script>
 <script src= 'database/band_validateEditForm.js' type='text/javascript'></script>
 <div class='col w-2col m-2col'>
-<h1>Manage (Add/remove/update) Band and Artists</h1>
+<h1>Add Band</h1>
 <form id="addRecord" name="addRecord" method="post" enctype="multipart/form-data" action="database/band_inc_databaseProcess.php">
     <fieldset>
-        <h2>Insert/Add new band/Artist record:</h2>
-        <p><span class="error">* required field</span></p>
         <p><label for="band_name">Band/Artist Name:- </label><input type="text" name="band_name" id="band_name" value="">
         <span class="error">*</span></p>
         <p>
@@ -59,6 +57,8 @@ include($urlVar . "database_connect.php");
 <div class='col w-2col m-2col'>
     <div class="formInfo">
         <h1>How To Guide</h1>
+        <h2>Please read the tips below to help you complete the form.</h2>
+        <h3>* = <em>required field</em></h3>
         <ul>
             <li>Try to be as descriptive as possible.</li>
             <li>Make sure you fill out the contact details correctly. You cant be booked for a gig if you cant be contacted. </li>
