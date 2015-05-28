@@ -47,5 +47,5 @@ if ($debugOn) {
 */
 $dbh = null;
 
-header("Location: ../signUp.php");
+header("Location: ../volunteer.php");
 ?>
