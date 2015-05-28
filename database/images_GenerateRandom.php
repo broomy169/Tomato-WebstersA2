@@ -40,4 +40,3 @@ $img = getRandomFromArray($imgList);
 
 
 ?> 
-<img src="<?php echo $path . $img ?>" alt="Random Image" />

@@ -64,17 +64,6 @@
                         ?>
                     </div>
                     
-                    <div class="imgBox90">
-                        <?php
-                            include("database/images_GenerateRandom.php");
-                        ?>
-                    </div>
-                    <div class="imgBox90">
-                        <?php
-                            include("database/images_GenerateRandom.php");
-                        ?>
-                    </div>
-                    
                 </div>
             </div>
             <div class="col w-2col m-2col"> 
@@ -105,6 +94,11 @@
             <div class="col w-1col m-1col"> 
                 <div class="row-black">
                     <img src="assets/img/TCMC98Neg.gif" alt="TCMC Logo" >
+                    <div class="imgBox90">
+                        <?php
+                            include("database/images_GenerateRandom.php");
+                        ?>
+                    </div>
                 </div>
             </div>
         </div>
@@ -117,21 +111,34 @@
             <div class="col w-1col m-1col"> 
                 <div class="row-black">
                     <img src="assets/img/TCMC98Neg.gif" alt="TCMC Logo" >
+                    <div class="imgBox90">
+                        <?php
+                            include("database/images_GenerateRandom.php");
+                        ?>
+                    </div>
                 </div>
             </div>
             <div class="col w-2col m-2col"> 
                 <h1>Become a paid member and reap the rewards</h1>
 
                 <div class="volSignup box">
-                    <h1>Volunteer Now</h1>
-                    <h2>So what are you waiting for?</h2>
-                    <p>The TCMC is always on the lookout for skilled and unskilled(is there such a thing?) volunteers </p>
-                    <a href="mailto:admin@townsvillemusic.org">The best thing to do is send us an email with a quick description of your time and skills</a>
+                    <h1>Become a financial member now.</h1>
+                    <h2>Member have benefits.</h2>
+                    <p>Up to 50% off event tickets. </p>
+                    <p>Notice of upcoming events. </p>
+                    <p>Create you oen band page. </p>
+                    <a href="mailto:admin@townsvillemusic.org">The best thing to do is send us an email us with your details</a>
                 </div>
             </div>
             <div class="col w-1col m-1col"> 
                 <div class="row-black">
                     <img src="assets/img/TCMC98Neg.gif" alt="TCMC Logo" >
+                    <div class="imgBox90">
+                        <?php
+                            include("database/images_GenerateRandom.php");
+                        ?>
+                        <img src="<?php echo $path . $img ?>" alt="Random Image" />
+                    </div>
                 </div>
             </div>
         </div>
