@@ -78,12 +78,14 @@ include($urlVar . "database_connect.php");
             if ($editTally % 2 != 0)
             {
                 echo"
-                        <div class='clearblock'>
+                        <div class='clearblockAdd'>
+                        <p>1</p>
+                        </div>
                     ";
             }
             //single echo added for all html code
             echo "
-            <div class='col w-2col m-2col'>
+            <div class='col w-2col m-2col float-Left'>
             <form id='viewMessage' name='viewMessage$editTally' method='post' enctype='multipart/form-data' action='database/message_databaseProcess.php'>
                 <fieldset>
                     <h4>$row[message_title] by Insert message creator here!!!</h4><input type='hidden' name='message_id' value='$row[message_id]' >

@@ -333,6 +333,12 @@ row and text wide
     clear: both;
 }
 
+.clearBlockAdd {
+    display: block;
+    clear: both;
+    padding:.1em 0;
+}
+
 .photo, 
 .info-more {
     display: none;
