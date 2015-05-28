@@ -54,9 +54,30 @@
     <!-- START of  signup form -->
     <div class="row row-padding-large row-gray">
         <div class="container volunteer">
-            <div class="col w-2col m-2col"> 
+            <div class="col w-4col m-4col"> 
                 <h1>Be a part of the action - Volunteer</h1>
                 <h2>Music in Townsville cannot survive without <strong>you!</strong></h2>
+                <h3>Volunteering is fun!</h3>
+                <p>If you enjoy music events why not try your hand at volunteering?</p>
+                <p>Most people find that volunteeriong is far more satisfying and rewarding than just goin to an event,</p>
+                <p>Not to mention you get in for free....</p>
+                <br>
+                <h3>Volunteering is rewarding!</h3>
+                <p>Participating haas many rewards. Who knows who you could meet?</p>
+                <p>Anyone interested in a career in the music / entertainment industry will pick up valuable skills when volunteering</p>
+                <p>Ever wondered what it would be like to be a sart of a spectaular even?</p>
+                <br>
+                <h3>You decide your level of commitment</h3>
+                <p>As a volunteer you are ultimately in control of your time commitments.</p>
+                <p>Its not a Job!!!</p>
+                <p>Be a part of <strong>your</strong> community.</p>
+                <br>
+                <div class="volSignup">
+                    <h1>Volunteer Now</h1>
+                    <h2>So what are you waiting for?</h2>
+                    <p>The TCMC is always on the lookout for skilled and unskilled(is there such a thing?) volunteers </p>
+                    <a href="mailto:admin@townsvillemusic.org">The best thing to do is send us an email with a quick description of your time and skills</a>
+                </div>
             </div>
         </div>
     </div>
