@@ -162,7 +162,7 @@
 
 
                 <a href="signUp.php">
-                    <img src="database/images/randomImages/Avivarandom1.jpg" width="199" height="197" alt="girl in red dress handing out tickets" >
+                    <img src="assets/img/about-us/Aviva-random1.jpg" width="199" height="197" alt="girl in red dress handing out tickets" >
                     <p>Do you want to be a part of our history?</p>
                 </a>
                 <br>

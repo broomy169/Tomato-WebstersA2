@@ -69,7 +69,7 @@
             <div class="col w-2col m-2col">
 
                 <h1>Townsville City Council</h1>
-                <img src="assets/img/TCCcolour150193.gif">
+                <img src="assets/img/TCCcolour150193.gif" alt="Townsville City Council Logo">
                 
                 <p>
                     <strong>The Council's Partnerships and Sponsorships scheme provides vital core funding</strong> which enables us to maintain the administrative base for all our other activities, and also provides the premises which house our office space. 
@@ -83,7 +83,7 @@
             <div class="col w-2col m-2col">
                 
                 <h1>Queensland Government</h1>
-                <img src="database/images/SiteImages/GCBF15091.png">
+                <img src="assets/img/Sponsors/GCBF15091.png" alt="Gambling community benefit fund logo">
                 <p>
                     The Gambling Community Benefit Fund has assisted us to obtain office equipment and sound and lighting equipment for our productions 
                 </p>
