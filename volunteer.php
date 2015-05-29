@@ -104,13 +104,12 @@
     </div>
     <!-- END of  Vollie email -->
     
-        <!-- START of  signup form -->
+    <!-- Start of  About-PAidMember -->
     <div class="row row-padding-large row-white">
-        <div class="container Membership">
+        <div class="container About-PaidMember">
             <div class="col w-1col m-1col"> 
                 <div class="row-black">
                     <img src="assets/img/TCMC98Neg.gif" alt="TCMC Logo" >
-
                 </div>
             </div>
             <div class="col w-2col m-2col"> 
@@ -122,20 +121,48 @@
                     <p>Up to 50% off event tickets. </p>
                     <p>Notice of upcoming events. </p>
                     <p>Create you oen band page. </p>
+                    <br>
                     <a href="mailto:admin@townsvillemusic.org">The best thing to do is send us an email us with your details</a>
+                    <br>
+                    
+                    <div class="col w-4col m-4col">
+                        <H3>To become a finincial member you can pay via paypal:</H3>
+                    
+                    
+                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                            <input type="hidden" name="cmd" value="_s-xclick" />
+                            <input type="hidden" name="hosted_button_id" value="GCRJ28AFLXURQ" />
+                            <input type="image" src="https://www.paypalobjects.com/en_AU/i/btn/btn_paynow_SM.gif" name="submit" alt="PayPal � The safer, easier way to pay online." />
+                            <img alt="" border="0" src="https://www.paypalobjects.com/en_AU/i/scr/pixel.gif" width="1" height="1" />
+                        </form>
+                    </div>
+                    
+                    
+                    <div class="col w-4col m-4col">
+                        <H3>Donations are all tax deductable</H3>
+                        
+                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                            <input type="hidden" name="cmd" value="_s-xclick" />
+                            <input type="hidden" name="hosted_button_id" value="67K2M93WVJM2L" />
+                            <input type="image" src="https://www.paypalobjects.com/en_AU/i/btn/btn_donate_SM.gif" name="submit" alt="PayPal � The safer, easier way to pay online." />
+                            <img alt="" border="0" src="https://www.paypalobjects.com/en_AU/i/scr/pixel.gif" width="1" height="1" />
+                        </form>
+                    </div>
+                    <h2>We also accept direct deposits.</h2>
+                    <a href="http://townsvillemusic.org.au/docs/Membership%20applic%20form%202015.doc">Email this form back to us once you have made you deposit</a>
+                    
+
+                        
                 </div>
             </div>
             <div class="col w-1col m-1col"> 
                 <div class="row-black">
                     <img src="assets/img/TCMC98Neg.gif" alt="TCMC Logo" >
-                    <div class="imgBox90">
-
-                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- END of  signup form -->
+    <!-- END of  About-PAidMember -->
 
     <!-- START minor call to action -->
     <div class="row row-padding-small row-gray">
