@@ -51,7 +51,8 @@ if (!isset($_SESSION)){
 							<p>Create Date: $row[message_createDate]<br>
 							Expiry Date: $row[message_expDate]</p>
                             <p>$row[message_content]</p>
-							<p>$row[message_linkTitle]: $row[message_link]</p>
+							$row[message_linkTitle]
+        					<a href='$row[message_link]'>$row[message_link]</a>
                             <ul>";
 							
         if(!((empty($row['event_phone'])) or ($row['event_phone'] == "none"))){
