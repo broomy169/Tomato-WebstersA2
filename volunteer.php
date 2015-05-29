@@ -110,9 +110,7 @@
             <div class="col w-1col m-1col"> 
                 <div class="row-black">
                     <img src="assets/img/TCMC98Neg.gif" alt="TCMC Logo" >
-                    <div class="imgBox90">
 
-                    </div>
                 </div>
             </div>
             <div class="col w-2col m-2col"> 

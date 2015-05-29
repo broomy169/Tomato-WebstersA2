@@ -66,7 +66,7 @@
 
                 <form id="signUp" name="signUp" action="database/signup_databaseProccess.php" method="post">
                     <h3>Personal Details: </h3>
-                    <span class='error'>* required fields</span></p>
+                    <span class='error'>* required fields</span>
                     <p>
                         <label for="user_firstName">First Name: </label>
                         <input type="text" id="user_firstName" name="user_firstName" autofocus><span class='error'>*</span>
