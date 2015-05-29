@@ -83,7 +83,9 @@
                             </div>
                         </div>
                         <div class="imgBox90">
-                            <img src="assets/img/Celtic-Fyre-Wall-with-Fire8.jpg" >
+                            <?php
+                                include("database/images_GenerateRandom.php");
+                            ?>
                         </div>
                         <div class="txtBox100x30">
                             <div class="row-fixedHeight">
