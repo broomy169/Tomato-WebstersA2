@@ -61,7 +61,9 @@
                             </div>
                         </div>
                         <div class="imgBox90">
-                            <img src="assets/img/Celtic-Fyre-Wall-with-Fire8.jpg" alt="Celtic Fyre" >
+                            <?php
+                                include("database/images_GenerateRandom.php");
+                            ?>
                         </div>
                         <div class="txtBox100x30">
                             <div class="row-fixedHeight">
@@ -126,6 +128,34 @@
         </div>
     </div>
     <!-- END of  About-Inro -->
+    <!-- Start of  About-PAidMember -->
+    <div class="row row-padding-large row-white">
+        <div class="container About-PaidMember">
+            <div class="col w-1col m-1col"> 
+                <div class="row-black">
+                    <img src="assets/img/TCMC98Neg.gif" alt="TCMC Logo" >
+                </div>
+            </div>
+            <div class="col w-2col m-2col"> 
+                <h1>Become a paid member and reap the rewards</h1>
+
+                <div class="volSignup box">
+                    <h1>Become a financial member now.</h1>
+                    <h2>Member have benefits.</h2>
+                    <p>Up to 50% off event tickets. </p>
+                    <p>Notice of upcoming events. </p>
+                    <p>Create you oen band page. </p>
+                    <a href="mailto:admin@townsvillemusic.org">The best thing to do is send us an email us with your details</a>
+                </div>
+            </div>
+            <div class="col w-1col m-1col"> 
+                <div class="row-black">
+                    <img src="assets/img/TCMC98Neg.gif" alt="TCMC Logo" >
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END of  About-PAidMember -->
 
     <!-- START guilt trip -->
     <div class="row row-padding row-black">

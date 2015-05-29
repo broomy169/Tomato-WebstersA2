@@ -62,6 +62,7 @@
                         <?php
                             include("database/images_GenerateRandom.php");
                         ?>
+
                     </div>
                     
                 </div>
@@ -95,9 +96,7 @@
                 <div class="row-black">
                     <img src="assets/img/TCMC98Neg.gif" alt="TCMC Logo" >
                     <div class="imgBox90">
-                        <?php
-                            include("database/images_GenerateRandom.php");
-                        ?>
+
                     </div>
                 </div>
             </div>
@@ -112,9 +111,7 @@
                 <div class="row-black">
                     <img src="assets/img/TCMC98Neg.gif" alt="TCMC Logo" >
                     <div class="imgBox90">
-                        <?php
-                            include("database/images_GenerateRandom.php");
-                        ?>
+
                     </div>
                 </div>
             </div>
@@ -134,10 +131,7 @@
                 <div class="row-black">
                     <img src="assets/img/TCMC98Neg.gif" alt="TCMC Logo" >
                     <div class="imgBox90">
-                        <?php
-                            include("database/images_GenerateRandom.php");
-                        ?>
-                        <img src="<?php echo $path . $img ?>" alt="Random Image" />
+
                     </div>
                 </div>
             </div>

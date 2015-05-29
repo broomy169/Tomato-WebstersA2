@@ -55,6 +55,11 @@
     <!-- START of  signup form -->
     <div class="row row-padding-large row-gray">
         <div class="container signUp">
+             <div class="col w-1col m-1col"> 
+                <div class="row-black">
+                    <img src="assets/img/TCMC98Neg.gif" alt="TCMC Logo" >
+                </div>
+            </div>
             <div class="col w-2col m-2col">
                 
                 <h1>Membership Registration Form</h1>
@@ -105,6 +110,11 @@
                     </p>
                     <input type="submit" name="submit" id="submit" value="Sign Up" onclick="return validateSignUpForm();">
                 </form>
+            </div>
+            <div class="col w-1col m-1col"> 
+                <div class="row-black">
+                    <img src="assets/img/TCMC98Neg.gif" alt="TCMC Logo" >
+                </div>
             </div>
         </div>
     </div>

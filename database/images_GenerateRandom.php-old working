@@ -36,9 +36,8 @@ function getRandomFromArray($ar) {
 // Obtain list of images from directory 
 $imgList = getImagesFromDir($root . $path);
 
-
-
 $img = getRandomFromArray($imgList);
+
 
 ?> 
 <img src="<?php echo $path . $img ?>" alt="Random Image" />
