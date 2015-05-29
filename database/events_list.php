@@ -36,7 +36,7 @@
             echo "
                         <div class='col w-1col m-1col float-Left'>
                             <div class='imgBox90'>
-                                <img id='icon$blockTally'src='$iconUrl' alt='$row[event_title]'>
+                                <img id='icon$blockTally' src='$iconUrl' alt='$row[event_title]'>
                             </div>
                         </div>
             ";

@@ -89,7 +89,11 @@
                             </div>
                         </div>
                         <div class="imgBox90">
-                            <img src="assets/img/Celtic-Fyre-Wall-with-Fire8.jpg" >
+                            <div class="imgBox90">
+                                <?php
+                                    include("database/images_GenerateRandom.php");
+                                ?>
+                            </div>
                         </div>
                         <div class="txtBox100x30">
                             <div class="row-fixedHeight">
@@ -231,7 +235,7 @@
         <div class="container">
             <p class="footer-text">
 
-                <br> Copyright © Tomato Websters 2015
+                Copyright © Tomato Websters 2015
             </p>
         </div>
     </div>
