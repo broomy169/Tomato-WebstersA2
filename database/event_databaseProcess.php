@@ -70,7 +70,7 @@ if ($_REQUEST['submit'] == "Add Event")
     $priceFull = htmlspecialchars($_REQUEST['event_priceFull']);
     $priceConc = htmlspecialchars($_REQUEST['event_priceConc']);
 
-    $sql = "UPDATE Events SET event_title = '$_REQUEST[$title]', event_phone = '$phone', event_date ='$date', event_venueName = '$venueName', event_venueLocation = '$venueLocation', event_shortBio = '$shortBio', event_longBio = '$_REQUEST[longBio]', event_priceFull = '$priceFull', 
+    $sql = "UPDATE Events SET event_title = '$title', event_phone = '$phone', event_date ='$date', event_venueName = '$venueName', event_venueLocation = '$venueLocation', event_shortBio = '$shortBio', event_longBio = '$_REQUEST[longBio]', event_priceFull = '$priceFull', 
 	event_priceConc = '$priceConc', event_promoIcon = '$iconUrl', event_promoPic = '$imageUrl'  WHERE event_id = '$_REQUEST[event_id]'";
     //echo "<p>Query: " . $sql . "</p>\n<p><strong>";
 
