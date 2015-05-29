@@ -41,4 +41,4 @@ $imgList = getImagesFromDir($root . $path);
 $img = getRandomFromArray($imgList);
 
 ?> 
-<img src="<?php echo $path . $img ?>" alt="Random Image" />
+<img src="<?php echo $path . $img ?>" alt="Random Image" >

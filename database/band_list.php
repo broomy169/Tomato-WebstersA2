@@ -98,7 +98,7 @@ if (!isset($_SESSION)){
         if (file_exists($imageUrl)){
             echo "      <div class='col w-2col m-2col float-Right'>
                             <div class='imgBox90'>
-                                <img id='photo$blockTally' src='$imageUrl' >
+                                <img id='photo$blockTally' src='$imageUrl' alt='photo of $row[band_name]'>
                             </div>
                         </div>";
         } 
